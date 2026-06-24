@@ -946,12 +946,14 @@ export const database = {
         },
       },
       impact: {
-        "01": {
-          "01": `${p}/ovani-sounds/Fire SFX/Fire Magic/Fire Impact A.ogg`,
-          "02": `${p}/ovani-sounds/Fire SFX/Fire Magic/Fire Impact B.ogg`,
-        },
-        "02": {
-          "01": `${p}/ovani-sounds/Fire SFX/Misc/Fire Punch.ogg`,
+        flame: {
+          "01": {
+            "01": `${p}/ovani-sounds/Fire SFX/Fire Magic/Fire Impact A.ogg`,
+            "02": `${p}/ovani-sounds/Fire SFX/Fire Magic/Fire Impact B.ogg`,
+          },
+          "02": {
+            "01": `${p}/ovani-sounds/Fire SFX/Misc/Fire Punch.ogg`,
+          },
         },
       },
       fireball: {
