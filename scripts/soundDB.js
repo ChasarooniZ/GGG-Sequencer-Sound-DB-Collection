@@ -1,4 +1,4 @@
-export const DB_PREFIX = "ggg";
+export const DB_PREFIX = "ggg-sfx";
 
 // Start from 01
 const p = "modules/ggg/assets/sounds";

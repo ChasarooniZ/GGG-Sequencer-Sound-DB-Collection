@@ -2,7 +2,7 @@ import { database as soundDb, DB_PREFIX as soundDbPrefix } from "./soundDB.js";
 //Code lovingly borrowed from PF2e Grphics
 Hooks.once("init", async function () {
   Hooks.once("sequencerReady", () => {
-    Sequencer.Database.registerEntries(soundDbPrefix, { sfx: soundDb });
+    Sequencer.Database.registerEntries(soundDbPrefix, soundDb);
     // Sequencer.Database.registerEntries(assetDbPrefix, videoDb);
   });
 

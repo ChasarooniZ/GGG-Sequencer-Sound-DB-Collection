@@ -1,3 +1,7 @@
+## 0.0.6
+
+- Included assets in release
+
 ## 0.0.5
 
 - Fixed issue causing DB not to show
