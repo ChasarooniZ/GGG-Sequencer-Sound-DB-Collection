@@ -91,11 +91,74 @@ export const database = {
         },
       },
     },
+    polearm: {
+      strike: {
+        "01": {
+          blade: {
+            "01": `${p}/ovani-sounds/Weaponry Melee Sound FX Pack Vol. 1/Polearm/Strike Wooden Blade 001.ogg`,
+            "02": `${p}/ovani-sounds/Weaponry Melee Sound FX Pack Vol. 1/Polearm/Strike Wooden Blade 002.ogg`,
+            "03": `${p}/ovani-sounds/Weaponry Melee Sound FX Pack Vol. 1/Polearm/Strike Wooden Blade 003.ogg`,
+            "04": `${p}/ovani-sounds/Weaponry Melee Sound FX Pack Vol. 1/Polearm/Strike Wooden Blade 004.ogg`,
+            "05": `${p}/ovani-sounds/Weaponry Melee Sound FX Pack Vol. 1/Polearm/Strike Wooden Blade 005.ogg`,
+          },
+          blunt: {
+            "01": `${p}/ovani-sounds/Weaponry Melee Sound FX Pack Vol. 1/Polearm/Strike Wooden Blunt 001.ogg`,
+            "02": `${p}/ovani-sounds/Weaponry Melee Sound FX Pack Vol. 1/Polearm/Strike Wooden Blunt 002.ogg`,
+            "03": `${p}/ovani-sounds/Weaponry Melee Sound FX Pack Vol. 1/Polearm/Strike Wooden Blunt 003.ogg`,
+            "04": `${p}/ovani-sounds/Weaponry Melee Sound FX Pack Vol. 1/Polearm/Strike Wooden Blunt 004.ogg`,
+            "05": `${p}/ovani-sounds/Weaponry Melee Sound FX Pack Vol. 1/Polearm/Strike Wooden Blunt 005.ogg`,
+          },
+          piece: {
+            "01": `${p}/ovani-sounds/Weaponry Melee Sound FX Pack Vol. 1/Polearm/Strike Wooden Pierce 001.ogg`,
+            "02": `${p}/ovani-sounds/Weaponry Melee Sound FX Pack Vol. 1/Polearm/Strike Wooden Pierce 002.ogg`,
+            "03": `${p}/ovani-sounds/Weaponry Melee Sound FX Pack Vol. 1/Polearm/Strike Wooden Pierce 003.ogg`,
+            "04": `${p}/ovani-sounds/Weaponry Melee Sound FX Pack Vol. 1/Polearm/Strike Wooden Pierce 004.ogg`,
+            "05": `${p}/ovani-sounds/Weaponry Melee Sound FX Pack Vol. 1/Polearm/Strike Wooden Pierce 005.ogg`,
+          },
+        },
+      },
+      block: {
+        "01": {
+          blade: {
+            "01": `${p}/ovani-sounds/Weaponry Melee Sound FX Pack Vol. 1/Polearm/Block Wooden Blade 001.ogg`,
+            "02": `${p}/ovani-sounds/Weaponry Melee Sound FX Pack Vol. 1/Polearm/Block Wooden Blade 002.ogg`,
+            "03": `${p}/ovani-sounds/Weaponry Melee Sound FX Pack Vol. 1/Polearm/Block Wooden Blade 003.ogg`,
+            "04": `${p}/ovani-sounds/Weaponry Melee Sound FX Pack Vol. 1/Polearm/Block Wooden Blade 004.ogg`,
+            "05": `${p}/ovani-sounds/Weaponry Melee Sound FX Pack Vol. 1/Polearm/Block Wooden Blade 005.ogg`,
+          },
+          blunt: {
+            "01": `${p}/ovani-sounds/Weaponry Melee Sound FX Pack Vol. 1/Polearm/Block Wooden Blunt 001.ogg`,
+            "02": `${p}/ovani-sounds/Weaponry Melee Sound FX Pack Vol. 1/Polearm/Block Wooden Blunt 002.ogg`,
+            "03": `${p}/ovani-sounds/Weaponry Melee Sound FX Pack Vol. 1/Polearm/Block Wooden Blunt 003.ogg`,
+            "04": `${p}/ovani-sounds/Weaponry Melee Sound FX Pack Vol. 1/Polearm/Block Wooden Blunt 004.ogg`,
+            "05": `${p}/ovani-sounds/Weaponry Melee Sound FX Pack Vol. 1/Polearm/Block Wooden Blunt 005.ogg`,
+          },
+          piece: {
+            "01": `${p}/ovani-sounds/Weaponry Melee Sound FX Pack Vol. 1/Polearm/Block Wooden Pierce 001.ogg`,
+            "02": `${p}/ovani-sounds/Weaponry Melee Sound FX Pack Vol. 1/Polearm/Block Wooden Pierce 002.ogg`,
+            "03": `${p}/ovani-sounds/Weaponry Melee Sound FX Pack Vol. 1/Polearm/Block Wooden Pierce 003.ogg`,
+            "04": `${p}/ovani-sounds/Weaponry Melee Sound FX Pack Vol. 1/Polearm/Block Wooden Pierce 004.ogg`,
+            "05": `${p}/ovani-sounds/Weaponry Melee Sound FX Pack Vol. 1/Polearm/Block Wooden Pierce 005.ogg`,
+          },
+        },
+      },
+      parry: {
+        "01": {
+          "01": `${p}/ovani-sounds/Weaponry Melee Sound FX Pack Vol. 1/Polearm/Parry Wooden 001.ogg`,
+          "02": `${p}/ovani-sounds/Weaponry Melee Sound FX Pack Vol. 1/Polearm/Parry Wooden 002.ogg`,
+          "03": `${p}/ovani-sounds/Weaponry Melee Sound FX Pack Vol. 1/Polearm/Parry Wooden 003.ogg`,
+          "04": `${p}/ovani-sounds/Weaponry Melee Sound FX Pack Vol. 1/Polearm/Parry Wooden 004.ogg`,
+          "05": `${p}/ovani-sounds/Weaponry Melee Sound FX Pack Vol. 1/Polearm/Parry Wooden 005.ogg`,
+        },
+      },
+    },
   },
   ranged: {},
   magic: {
     arcane: {},
     primal: {},
+    divine: {},
+    occult: {},
     acid: {},
     air: {},
     cold: {},
@@ -377,6 +440,15 @@ export const database = {
               "03": `${p}/ovani-sounds/Weaponry Melee Sound FX Pack Vol. 1/Blade/Sheathe Blade Thin 003.ogg`,
             },
           },
+          polearm: {
+            "01": {
+              blunt: {
+                "01": `${p}/ovani-sounds/Weaponry Melee Sound FX Pack Vol. 1/Polearm/Sheathe Wooden Blunt 001.ogg`,
+                "02": `${p}/ovani-sounds/Weaponry Melee Sound FX Pack Vol. 1/Polearm/Sheathe Wooden Blunt 002.ogg`,
+                "03": `${p}/ovani-sounds/Weaponry Melee Sound FX Pack Vol. 1/Polearm/Sheathe Wooden Blunt 003.ogg`,
+              },
+            },
+          },
         },
         unsheathe: {
           greatsword: {
@@ -412,6 +484,31 @@ export const database = {
               "02": `${p}/ovani-sounds/Weaponry Melee Sound FX Pack Vol. 1/Blade/Unsheathe Blade Thin 002.ogg`,
               "03": `${p}/ovani-sounds/Weaponry Melee Sound FX Pack Vol. 1/Blade/Unsheathe Blade Thin 003.ogg`,
               "04": `${p}/ovani-sounds/Weaponry Melee Sound FX Pack Vol. 1/Blade/Unsheathe Blade Thin 004.ogg`,
+            },
+          },
+          polearm: {
+            "01": {
+              blade: {
+                "01": `${p}/ovani-sounds/Weaponry Melee Sound FX Pack Vol. 1/Polearm/Unsheathe Wooden Blade 001.ogg`,
+                "02": `${p}/ovani-sounds/Weaponry Melee Sound FX Pack Vol. 1/Polearm/Unsheathe Wooden Blade 002.ogg`,
+                "03": `${p}/ovani-sounds/Weaponry Melee Sound FX Pack Vol. 1/Polearm/Unsheathe Wooden Blade 003.ogg`,
+                "04": `${p}/ovani-sounds/Weaponry Melee Sound FX Pack Vol. 1/Polearm/Unsheathe Wooden Blade 004.ogg`,
+                "05": `${p}/ovani-sounds/Weaponry Melee Sound FX Pack Vol. 1/Polearm/Unsheathe Wooden Blade 005.ogg`,
+              },
+              blunt: {
+                "01": `${p}/ovani-sounds/Weaponry Melee Sound FX Pack Vol. 1/Polearm/Unsheathe Wooden Blunt 001.ogg`,
+                "02": `${p}/ovani-sounds/Weaponry Melee Sound FX Pack Vol. 1/Polearm/Unsheathe Wooden Blunt 002.ogg`,
+                "03": `${p}/ovani-sounds/Weaponry Melee Sound FX Pack Vol. 1/Polearm/Unsheathe Wooden Blunt 003.ogg`,
+                "04": `${p}/ovani-sounds/Weaponry Melee Sound FX Pack Vol. 1/Polearm/Unsheathe Wooden Blunt 004.ogg`,
+                "05": `${p}/ovani-sounds/Weaponry Melee Sound FX Pack Vol. 1/Polearm/Unsheathe Wooden Blunt 005.ogg`,
+              },
+              piece: {
+                "01": `${p}/ovani-sounds/Weaponry Melee Sound FX Pack Vol. 1/Polearm/Unsheathe Wooden Pierce 001.ogg`,
+                "02": `${p}/ovani-sounds/Weaponry Melee Sound FX Pack Vol. 1/Polearm/Unsheathe Wooden Pierce 002.ogg`,
+                "03": `${p}/ovani-sounds/Weaponry Melee Sound FX Pack Vol. 1/Polearm/Unsheathe Wooden Pierce 003.ogg`,
+                "04": `${p}/ovani-sounds/Weaponry Melee Sound FX Pack Vol. 1/Polearm/Unsheathe Wooden Pierce 004.ogg`,
+                "05": `${p}/ovani-sounds/Weaponry Melee Sound FX Pack Vol. 1/Polearm/Unsheathe Wooden Pierce 005.ogg`,
+              },
             },
           },
         },

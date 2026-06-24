@@ -2,7 +2,7 @@
 
 - **New**
   - `Ovani SFX`
-    - `Weapon Melee`
+    - `Weapon Melee Vol. 1`
 
 ## 0.0.2
 
