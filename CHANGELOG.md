@@ -1,3 +1,11 @@
+## 0.0.9
+
+- **New**
+  - `Ovani SFX`
+    - `Motions & Impact Vol. 2`
+- **Updated**
+  - Fixed `firearm` being under ranged
+
 ## 0.0.8
 
 - **New**
