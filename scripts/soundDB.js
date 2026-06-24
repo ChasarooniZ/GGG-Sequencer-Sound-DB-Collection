@@ -3,11 +3,96 @@ export const DB_PREFIX = "ggg";
 // Start from 01
 const p = "modules/ggg/assets/sounds";
 export const database = {
-  strikes: {
-    generic: {},
-    weapons: { melee: {}, ranged: {} },
-    natural: {},
+  melee: {
+    blade: {
+      strike: {
+        greatsword: {
+          "01": {
+            "01": `${p}/ovani-sounds/Weaponry Melee Sound FX Pack Vol. 1/Blade/Strike Blade Large 001.ogg`,
+            "02": `${p}/ovani-sounds/Weaponry Melee Sound FX Pack Vol. 1/Blade/Strike Blade Large 002.ogg`,
+            "03": `${p}/ovani-sounds/Weaponry Melee Sound FX Pack Vol. 1/Blade/Strike Blade Large 003.ogg`,
+            "04": `${p}/ovani-sounds/Weaponry Melee Sound FX Pack Vol. 1/Blade/Strike Blade Large 004.ogg`,
+            "05": `${p}/ovani-sounds/Weaponry Melee Sound FX Pack Vol. 1/Blade/Strike Blade Large 005.ogg`,
+          },
+        },
+        shortsword: {
+          "01": {
+            "01": `${p}/ovani-sounds/Weaponry Melee Sound FX Pack Vol. 1/Blade/Strike Blade Medium 001.ogg`,
+            "02": `${p}/ovani-sounds/Weaponry Melee Sound FX Pack Vol. 1/Blade/Strike Blade Medium 002.ogg`,
+            "03": `${p}/ovani-sounds/Weaponry Melee Sound FX Pack Vol. 1/Blade/Strike Blade Medium 003.ogg`,
+            "04": `${p}/ovani-sounds/Weaponry Melee Sound FX Pack Vol. 1/Blade/Strike Blade Medium 004.ogg`,
+            "05": `${p}/ovani-sounds/Weaponry Melee Sound FX Pack Vol. 1/Blade/Strike Blade Medium 005.ogg`,
+          },
+        },
+        dagger: {
+          "01": {
+            "01": `${p}/ovani-sounds/Weaponry Melee Sound FX Pack Vol. 1/Blade/Strike Blade Small 001.ogg`,
+            "02": `${p}/ovani-sounds/Weaponry Melee Sound FX Pack Vol. 1/Blade/Strike Blade Small 002.ogg`,
+            "03": `${p}/ovani-sounds/Weaponry Melee Sound FX Pack Vol. 1/Blade/Strike Blade Small 003.ogg`,
+            "04": `${p}/ovani-sounds/Weaponry Melee Sound FX Pack Vol. 1/Blade/Strike Blade Small 004.ogg`,
+            "05": `${p}/ovani-sounds/Weaponry Melee Sound FX Pack Vol. 1/Blade/Strike Blade Small 005.ogg`,
+          },
+        },
+        rapier: {
+          "01": {
+            "01": `${p}/ovani-sounds/Weaponry Melee Sound FX Pack Vol. 1/Blade/Strike Blade Thin 001.ogg`,
+            "02": `${p}/ovani-sounds/Weaponry Melee Sound FX Pack Vol. 1/Blade/Strike Blade Thin 002.ogg`,
+            "03": `${p}/ovani-sounds/Weaponry Melee Sound FX Pack Vol. 1/Blade/Strike Blade Thin 003.ogg`,
+            "04": `${p}/ovani-sounds/Weaponry Melee Sound FX Pack Vol. 1/Blade/Strike Blade Thin 004.ogg`,
+            "05": `${p}/ovani-sounds/Weaponry Melee Sound FX Pack Vol. 1/Blade/Strike Blade Thin 005.ogg`,
+          },
+        },
+      },
+      block: {
+        greatsword: {
+          "01": {
+            "01": `${p}/ovani-sounds/Weaponry Melee Sound FX Pack Vol. 1/Blade/Block Blade Large 001.ogg`,
+            "02": `${p}/ovani-sounds/Weaponry Melee Sound FX Pack Vol. 1/Blade/Block Blade Large 002.ogg`,
+            "03": `${p}/ovani-sounds/Weaponry Melee Sound FX Pack Vol. 1/Blade/Block Blade Large 003.ogg`,
+            "04": `${p}/ovani-sounds/Weaponry Melee Sound FX Pack Vol. 1/Blade/Block Blade Large 004.ogg`,
+            "05": `${p}/ovani-sounds/Weaponry Melee Sound FX Pack Vol. 1/Blade/Block Blade Large 005.ogg`,
+          },
+        },
+        shortsword: {
+          "01": {
+            "01": `${p}/ovani-sounds/Weaponry Melee Sound FX Pack Vol. 1/Blade/Block Blade Medium 001.ogg`,
+            "02": `${p}/ovani-sounds/Weaponry Melee Sound FX Pack Vol. 1/Blade/Block Blade Medium 002.ogg`,
+            "03": `${p}/ovani-sounds/Weaponry Melee Sound FX Pack Vol. 1/Blade/Block Blade Medium 003.ogg`,
+            "04": `${p}/ovani-sounds/Weaponry Melee Sound FX Pack Vol. 1/Blade/Block Blade Medium 004.ogg`,
+            "05": `${p}/ovani-sounds/Weaponry Melee Sound FX Pack Vol. 1/Blade/Block Blade Medium 005.ogg`,
+          },
+        },
+        dagger: {
+          "01": {
+            "01": `${p}/ovani-sounds/Weaponry Melee Sound FX Pack Vol. 1/Blade/Block Blade Small 001.ogg`,
+            "02": `${p}/ovani-sounds/Weaponry Melee Sound FX Pack Vol. 1/Blade/Block Blade Small 002.ogg`,
+            "03": `${p}/ovani-sounds/Weaponry Melee Sound FX Pack Vol. 1/Blade/Block Blade Small 003.ogg`,
+            "04": `${p}/ovani-sounds/Weaponry Melee Sound FX Pack Vol. 1/Blade/Block Blade Small 004.ogg`,
+            "05": `${p}/ovani-sounds/Weaponry Melee Sound FX Pack Vol. 1/Blade/Block Blade Small 005.ogg`,
+          },
+        },
+        rapier: {
+          "01": {
+            "01": `${p}/ovani-sounds/Weaponry Melee Sound FX Pack Vol. 1/Blade/Block Blade Thin 001.ogg`,
+            "02": `${p}/ovani-sounds/Weaponry Melee Sound FX Pack Vol. 1/Blade/Block Blade Thin 002.ogg`,
+            "03": `${p}/ovani-sounds/Weaponry Melee Sound FX Pack Vol. 1/Blade/Block Blade Thin 003.ogg`,
+            "04": `${p}/ovani-sounds/Weaponry Melee Sound FX Pack Vol. 1/Blade/Block Blade Thin 004.ogg`,
+            "05": `${p}/ovani-sounds/Weaponry Melee Sound FX Pack Vol. 1/Blade/Block Blade Thin 005.ogg`,
+          },
+        },
+      },
+      parry: {
+        "01": {
+          "01": `${p}/ovani-sounds/Weaponry Melee Sound FX Pack Vol. 1/Blade/Parry Blade 001.ogg`,
+          "02": `${p}/ovani-sounds/Weaponry Melee Sound FX Pack Vol. 1/Blade/Parry Blade 002.ogg`,
+          "03": `${p}/ovani-sounds/Weaponry Melee Sound FX Pack Vol. 1/Blade/Parry Blade 003.ogg`,
+          "04": `${p}/ovani-sounds/Weaponry Melee Sound FX Pack Vol. 1/Blade/Parry Blade 004.ogg`,
+          "05": `${p}/ovani-sounds/Weaponry Melee Sound FX Pack Vol. 1/Blade/Parry Blade 005.ogg`,
+        },
+      },
+    },
   },
+  ranged: {},
   magic: {
     arcane: {},
     primal: {},
@@ -260,7 +345,79 @@ export const database = {
     void: {},
     water: {},
   },
-  equipment: {},
+  equipment: {
+    weapons: {
+      blade: {
+        sheathe: {
+          greatsword: {
+            "01": {
+              "01": `${p}/ovani-sounds/Weaponry Melee Sound FX Pack Vol. 1/Blade/Sheathe Blade Large 001.ogg`,
+              "02": `${p}/ovani-sounds/Weaponry Melee Sound FX Pack Vol. 1/Blade/Sheathe Blade Large 002.ogg`,
+              "03": `${p}/ovani-sounds/Weaponry Melee Sound FX Pack Vol. 1/Blade/Sheathe Blade Large 003.ogg`,
+            },
+          },
+          shortsword: {
+            "01": {
+              "01": `${p}/ovani-sounds/Weaponry Melee Sound FX Pack Vol. 1/Blade/Sheathe Blade Medium 001.ogg`,
+              "02": `${p}/ovani-sounds/Weaponry Melee Sound FX Pack Vol. 1/Blade/Sheathe Blade Medium 002.ogg`,
+              "03": `${p}/ovani-sounds/Weaponry Melee Sound FX Pack Vol. 1/Blade/Sheathe Blade Medium 003.ogg`,
+            },
+          },
+          dagger: {
+            "01": {
+              "01": `${p}/ovani-sounds/Weaponry Melee Sound FX Pack Vol. 1/Blade/Sheathe Blade Small 001.ogg`,
+              "02": `${p}/ovani-sounds/Weaponry Melee Sound FX Pack Vol. 1/Blade/Sheathe Blade Small 002.ogg`,
+              "03": `${p}/ovani-sounds/Weaponry Melee Sound FX Pack Vol. 1/Blade/Sheathe Blade Small 003.ogg`,
+            },
+          },
+          rapier: {
+            "01": {
+              "01": `${p}/ovani-sounds/Weaponry Melee Sound FX Pack Vol. 1/Blade/Sheathe Blade Thin 001.ogg`,
+              "02": `${p}/ovani-sounds/Weaponry Melee Sound FX Pack Vol. 1/Blade/Sheathe Blade Thin 002.ogg`,
+              "03": `${p}/ovani-sounds/Weaponry Melee Sound FX Pack Vol. 1/Blade/Sheathe Blade Thin 003.ogg`,
+            },
+          },
+        },
+        unsheathe: {
+          greatsword: {
+            "01": {
+              "01": `${p}/ovani-sounds/Weaponry Melee Sound FX Pack Vol. 1/Blade/Unsheathe Blade Large 001.ogg`,
+              "02": `${p}/ovani-sounds/Weaponry Melee Sound FX Pack Vol. 1/Blade/Unsheathe Blade Large 002.ogg`,
+              "03": `${p}/ovani-sounds/Weaponry Melee Sound FX Pack Vol. 1/Blade/Unsheathe Blade Large 003.ogg`,
+              "04": `${p}/ovani-sounds/Weaponry Melee Sound FX Pack Vol. 1/Blade/Unsheathe Blade Large 004.ogg`,
+              "05": `${p}/ovani-sounds/Weaponry Melee Sound FX Pack Vol. 1/Blade/Unsheathe Blade Large 005.ogg`,
+            },
+          },
+          shortsword: {
+            "01": {
+              "01": `${p}/ovani-sounds/Weaponry Melee Sound FX Pack Vol. 1/Blade/Unsheathe Blade Medium 001.ogg`,
+              "02": `${p}/ovani-sounds/Weaponry Melee Sound FX Pack Vol. 1/Blade/Unsheathe Blade Medium 002.ogg`,
+              "03": `${p}/ovani-sounds/Weaponry Melee Sound FX Pack Vol. 1/Blade/Unsheathe Blade Medium 003.ogg`,
+              "04": `${p}/ovani-sounds/Weaponry Melee Sound FX Pack Vol. 1/Blade/Unsheathe Blade Medium 004.ogg`,
+              "05": `${p}/ovani-sounds/Weaponry Melee Sound FX Pack Vol. 1/Blade/Unsheathe Blade Medium 005.ogg`,
+            },
+          },
+          dagger: {
+            "01": {
+              "01": `${p}/ovani-sounds/Weaponry Melee Sound FX Pack Vol. 1/Blade/Unsheathe Blade Small 001.ogg`,
+              "02": `${p}/ovani-sounds/Weaponry Melee Sound FX Pack Vol. 1/Blade/Unsheathe Blade Small 002.ogg`,
+              "03": `${p}/ovani-sounds/Weaponry Melee Sound FX Pack Vol. 1/Blade/Unsheathe Blade Small 003.ogg`,
+              "04": `${p}/ovani-sounds/Weaponry Melee Sound FX Pack Vol. 1/Blade/Unsheathe Blade Small 004.ogg`,
+              "05": `${p}/ovani-sounds/Weaponry Melee Sound FX Pack Vol. 1/Blade/Unsheathe Blade Small 005.ogg`,
+            },
+          },
+          rapier: {
+            "01": {
+              "01": `${p}/ovani-sounds/Weaponry Melee Sound FX Pack Vol. 1/Blade/Unsheathe Blade Thin 001.ogg`,
+              "02": `${p}/ovani-sounds/Weaponry Melee Sound FX Pack Vol. 1/Blade/Unsheathe Blade Thin 002.ogg`,
+              "03": `${p}/ovani-sounds/Weaponry Melee Sound FX Pack Vol. 1/Blade/Unsheathe Blade Thin 003.ogg`,
+              "04": `${p}/ovani-sounds/Weaponry Melee Sound FX Pack Vol. 1/Blade/Unsheathe Blade Thin 004.ogg`,
+            },
+          },
+        },
+      },
+    },
+  },
   tasks: {
     crafting: {},
     cooking: {},
