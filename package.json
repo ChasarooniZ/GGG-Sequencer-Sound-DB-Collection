@@ -1,0 +1,23 @@
+{
+  "name": "pf2e-trigger-animations-pack",
+  "version": "0.1.0",
+  "description": "",
+  "scripts": {
+    "build": "node build.mjs",
+    "watch": "node build.mjs --watch",
+    "link": "node link.mjs",
+    "test": "npm run test:assets",
+    "test:assets": "npm run test:assets:exist && npm run test:assets:format",
+    "test:assets:exist": "node ./macros/exist.js",
+    "test:assets:format": "node ./macros/format.js"
+  },
+  "type": "module",
+  "author": "Chasarooni",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "@actions/core": "^1.11.1",
+    "@foundryvtt/foundryvtt-cli": "^1.0.3",
+    "@types/prompts": "^2.4.9",
+    "prompts": "^2.4.2"
+  }
+}
