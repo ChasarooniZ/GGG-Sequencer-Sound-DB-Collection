@@ -203,6 +203,18 @@ export const database = {
         },
       },
     },
+    torch: {
+      "01": {
+        "01": `${p}/ovani-sounds/Fire SFX/Torch/Intense Torch A.ogg`,
+        "02": `${p}/ovani-sounds/Fire SFX/Torch/Intense Torch B.ogg`,
+      },
+      "02": {
+        "01": `${p}/ovani-sounds/Fire SFX/Torch/Intense Torch Swoosh A.ogg`,
+        "02": `${p}/ovani-sounds/Fire SFX/Torch/Intense Torch Swoosh B.ogg`,
+        "03": `${p}/ovani-sounds/Fire SFX/Torch/Intense Torch Swoosh C.ogg`,
+        "04": `${p}/ovani-sounds/Fire SFX/Torch/Intense Torch Swoosh D.ogg`,
+      },
+    },
     whip: {
       strike: {
         "01": {
@@ -211,6 +223,14 @@ export const database = {
           "03": `${p}/ovani-sounds/Wild West Sound FX Pack Vol. 1/Weapons/Old Timey Whip C.ogg`,
           "04": `${p}/ovani-sounds/Wild West Sound FX Pack Vol. 1/Weapons/Old Timey Whip D.ogg`,
           "05": `${p}/ovani-sounds/Wild West Sound FX Pack Vol. 1/Weapons/Old Timey Whip E.ogg`,
+        },
+        "02": {
+          "01": `${p}/ovani-sounds/Fire SFX/Fire Movement/Fire Whip A.ogg`,
+          "02": `${p}/ovani-sounds/Fire SFX/Fire Movement/Fire Whip B.ogg`,
+          "03": `${p}/ovani-sounds/Fire SFX/Fire Movement/Fire Whip C.ogg`,
+        },
+        "03": {
+          "01": `${p}/ovani-sounds/Fire SFX/Fire Movement/Fire Double Whip.ogg`,
         },
       },
     },
@@ -476,7 +496,144 @@ export const database = {
         },
       },
     },
-    fire: {},
+    fire: {
+      cast: {
+        generic: {
+          "01": {
+            "01": `${p}/ovani-sounds/Fire SFX/Fire Magic/Fire Spell A.ogg`,
+            "02": `${p}/ovani-sounds/Fire SFX/Fire Magic/Fire Spell B.ogg`,
+          },
+          "02": {
+            "01": `${p}/ovani-sounds/Fire SFX/Fire Magic/Fire Cast Only A.ogg`,
+            "02": `${p}/ovani-sounds/Fire SFX/Fire Magic/Fire Cast Only B.ogg`,
+          },
+        },
+        tail: {
+          "01": {
+            "01": `${p}/ovani-sounds/Fire SFX/Fire Magic/Fire Cast and Tail A.ogg`,
+            "02": `${p}/ovani-sounds/Fire SFX/Fire Magic/Fire Cast and Tail B.ogg`,
+          },
+        },
+        hit: {
+          "01": {
+            "01": `${p}/ovani-sounds/Fire SFX/Fire Magic/Fire Cast Then Hit A.ogg`,
+            "02": `${p}/ovani-sounds/Fire SFX/Fire Magic/Fire Cast Then Hit B.ogg`,
+            "03": `${p}/ovani-sounds/Fire SFX/Fire Magic/Fire Cast Then Hit C.ogg`,
+          },
+        },
+        rapid: {
+          "01": {
+            "01": `${p}/ovani-sounds/Fire SFX/Fire Magic/Fire Rapid Fire.ogg`,
+          },
+        },
+        torch: {
+          "01": {
+            "01": `${p}/ovani-sounds/Fire SFX/Fire Tools/Blow Torch On_Off.ogg`,
+          },
+        },
+      },
+      aura: {
+        "01": {
+          "01": `${p}/ovani-sounds/Fire SFX/Fire Magic/Fire Aura.ogg`,
+        },
+      },
+      impact: {
+        "01": {
+          "01": `${p}/ovani-sounds/Fire SFX/Fire Magic/Fire Impact A.ogg`,
+          "02": `${p}/ovani-sounds/Fire SFX/Fire Magic/Fire Impact B.ogg`,
+        },
+        "02": {
+          "01": `${p}/ovani-sounds/Fire SFX/Misc/Fire Punch.ogg`,
+        },
+      },
+      burst: {
+        "01": {
+          "01": `${p}/ovani-sounds/Fire SFX/Fire Movement/Fiery Burst Long Tail A.ogg`,
+          "02": `${p}/ovani-sounds/Fire SFX/Fire Movement/Fiery Burst Long Tail B.ogg`,
+          "03": `${p}/ovani-sounds/Fire SFX/Fire Movement/Fiery Burst Long Tail C.ogg`,
+        },
+      },
+      buff: {
+        "03": {
+          "01": `${p}/ovani-sounds/Fire SFX/Misc/Flame Short Low End A.ogg`,
+          "02": `${p}/ovani-sounds/Fire SFX/Misc/Flame Short Low End B.ogg`,
+        },
+      },
+      movement: {
+        circle: {
+          "01": {
+            "01": `${p}/ovani-sounds/Fire SFX/Fire Movement/Fire Circle Around.ogg`,
+          },
+        },
+        whoosh: {
+          "01": {
+            "01": `${p}/ovani-sounds/Fire SFX/Fire Movement/Fire Quick Whoosh L to R.ogg`,
+            "02": `${p}/ovani-sounds/Fire SFX/Fire Movement/Fire Quick Whoosh R to L.ogg`,
+          },
+          "02": {
+            "01": `${p}/ovani-sounds/Fire SFX/Fire Movement/Fire Low Movement A.ogg`,
+            "02": `${p}/ovani-sounds/Fire SFX/Fire Movement/Fire Low Movement B.ogg`,
+          },
+        },
+        bolt: {
+          "03": {
+            "01": `${p}/ovani-sounds/Fire SFX/Fire Tools/Blow Torch Move Quick.ogg`,
+          },
+        },
+      },
+      torch: {
+        "01": {
+          "01": `${p}/ovani-sounds/Fire SFX/Fire Tools/Blow Torch Intense A.ogg`,
+          "02": `${p}/ovani-sounds/Fire SFX/Fire Tools/Blow Torch Intense B.ogg`,
+        },
+        "02": {
+          "01": `${p}/ovani-sounds/Fire SFX/Fire Tools/Blow Torch Long Intense.ogg`,
+        },
+        "03": {
+          "01": `${p}/ovani-sounds/Fire SFX/Fire Tools/Blow Torch Movement A.ogg`,
+          "02": `${p}/ovani-sounds/Fire SFX/Fire Tools/Blow Torch Movement C.ogg`,
+        },
+        "04": {
+          "01": `${p}/ovani-sounds/Fire SFX/Fire Tools/Blow Torch Off Intense.ogg`,
+        },
+      },
+      summon: {
+        "01": {
+          long: {
+            "01": `${p}/ovani-sounds/Fire SFX/Fire Magic/Monster Fire Long A.ogg`,
+            "02": `${p}/ovani-sounds/Fire SFX/Fire Magic/Monster Fire Long B.ogg`,
+          },
+          medium: {
+            "01": `${p}/ovani-sounds/Fire SFX/Fire Magic/Monster Fire Medium A.ogg`,
+            "02": `${p}/ovani-sounds/Fire SFX/Fire Magic/Monster Fire Medium B.ogg`,
+          },
+          short: {
+            "01": `${p}/ovani-sounds/Fire SFX/Fire Magic/Monster Fire Short A.ogg`,
+          },
+        },
+      },
+      extinguish: {
+        "01": {
+          "01": `${p}/ovani-sounds/Fire SFX/Misc/Psssht Fwhoooofft.ogg`,
+        },
+      },
+      cursed: {
+        "01": {
+          "01": `${p}/ovani-sounds/Fire SFX/Big Fire/Ethereal Flame A.ogg`,
+          "02": `${p}/ovani-sounds/Fire SFX/Big Fire/Ethereal Flame B.ogg`,
+          "03": `${p}/ovani-sounds/Fire SFX/Big Fire/Ethereal Flame C.ogg`,
+          "04": `${p}/ovani-sounds/Fire SFX/Big Fire/Ethereal Flame D.ogg`,
+          "05": `${p}/ovani-sounds/Fire SFX/Big Fire/Ethereal Flame E.ogg`,
+        },
+      },
+      rain: {
+        loop: {
+          "01": {
+            "01": `${p}/ovani-sounds/Fire SFX/Misc/Rain On Fire Loop.ogg`,
+          },
+        },
+      },
+    },
     mental: {},
     sonic: {},
     vitality: {},
@@ -687,6 +844,17 @@ export const database = {
       },
     },
     misc: {
+      flint_and_steel: {
+        "01": {
+          "01": `${p}/ovani-sounds/Fire SFX/Flint/Sharp Flint Spark A.ogg`,
+          "02": `${p}/ovani-sounds/Fire SFX/Flint/Sharp Flint Spark B.ogg`,
+          "03": `${p}/ovani-sounds/Fire SFX/Flint/Sharp Flint Spark C.ogg`,
+        },
+        "02": {
+          "01": `${p}/ovani-sounds/Fire SFX/Flint/Sharp Success Flint A.ogg`,
+          "02": `${p}/ovani-sounds/Fire SFX/Flint/Sharp Success Flint B.ogg`,
+        },
+      },
       lasso: {
         swinging: {
           "01": {
@@ -704,6 +872,14 @@ export const database = {
             "03": `${p}/ovani-sounds/Wild West Sound FX Pack Vol. 1/Weapons/Lasso Throw C.ogg`,
             "04": `${p}/ovani-sounds/Wild West Sound FX Pack Vol. 1/Weapons/Lasso Throw D.ogg`,
             "05": `${p}/ovani-sounds/Wild West Sound FX Pack Vol. 1/Weapons/Lasso Throw E.ogg`,
+          },
+        },
+      },
+      torch: {
+        light: {
+          "01": {
+            "01": `${p}/ovani-sounds/Fire SFX/Torch/Torch Light B.ogg`,
+            "02": `${p}/ovani-sounds/Fire SFX/Torch/Torch Light C.ogg`,
           },
         },
       },

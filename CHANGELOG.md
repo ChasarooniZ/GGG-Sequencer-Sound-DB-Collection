@@ -1,3 +1,9 @@
+## 0.0.7
+
+- **New**
+  - `Ovani SFX`
+    - `Fire SFX`
+
 ## 0.0.6
 
 - Included assets in release
