@@ -203,6 +203,30 @@ export const database = {
         },
       },
     },
+    whip: {
+      strike: {
+        "01": {
+          "01": `${p}/ovani-sounds/Wild West Sound FX Pack Vol. 1/Weapons/Old Timey Whip A.ogg`,
+          "02": `${p}/ovani-sounds/Wild West Sound FX Pack Vol. 1/Weapons/Old Timey Whip B.ogg`,
+          "03": `${p}/ovani-sounds/Wild West Sound FX Pack Vol. 1/Weapons/Old Timey Whip C.ogg`,
+          "04": `${p}/ovani-sounds/Wild West Sound FX Pack Vol. 1/Weapons/Old Timey Whip D.ogg`,
+          "05": `${p}/ovani-sounds/Wild West Sound FX Pack Vol. 1/Weapons/Old Timey Whip E.ogg`,
+        },
+      },
+    },
+    firearm: {
+      old_timey: {
+        strike: {
+          "01": {
+            "01": `${p}/ovani-sounds/Wild West Sound FX Pack Vol. 1/Weapons/Old Timey Gunshot A.ogg`,
+            "02": `${p}/ovani-sounds/Wild West Sound FX Pack Vol. 1/Weapons/Old Timey Gunshot B.ogg`,
+            "03": `${p}/ovani-sounds/Wild West Sound FX Pack Vol. 1/Weapons/Old Timey Gunshot C.ogg`,
+            "04": `${p}/ovani-sounds/Wild West Sound FX Pack Vol. 1/Weapons/Old Timey Gunshot D.ogg`,
+            "05": `${p}/ovani-sounds/Wild West Sound FX Pack Vol. 1/Weapons/Old Timey Gunshot E.ogg`,
+          },
+        },
+      },
+    },
   },
   ranged: {},
   magic: {
@@ -604,12 +628,140 @@ export const database = {
           },
         },
       },
+      firearm: {
+        pistol: {
+          draw: {
+            "01": {
+              "01": `${p}/ovani-sounds/Wild West Sound FX Pack Vol. 1/Weapons/Pistol Spin Draw A.ogg`,
+              "02": `${p}/ovani-sounds/Wild West Sound FX Pack Vol. 1/Weapons/Pistol Spin Draw B.ogg`,
+              "03": `${p}/ovani-sounds/Wild West Sound FX Pack Vol. 1/Weapons/Pistol Spin Draw C.ogg`,
+              "04": `${p}/ovani-sounds/Wild West Sound FX Pack Vol. 1/Weapons/Pistol Spin Draw D.ogg`,
+              "05": `${p}/ovani-sounds/Wild West Sound FX Pack Vol. 1/Weapons/Pistol Spin Draw E.ogg`,
+            },
+          },
+          spin: {
+            spin: {
+              "01": {
+                "01": `${p}/ovani-sounds/Wild West Sound FX Pack Vol. 1/Weapons/Pistol Spin A.ogg`,
+                "02": `${p}/ovani-sounds/Wild West Sound FX Pack Vol. 1/Weapons/Pistol Spin B.ogg`,
+                "03": `${p}/ovani-sounds/Wild West Sound FX Pack Vol. 1/Weapons/Pistol Spin C.ogg`,
+                "04": `${p}/ovani-sounds/Wild West Sound FX Pack Vol. 1/Weapons/Pistol Spin D.ogg`,
+                "05": `${p}/ovani-sounds/Wild West Sound FX Pack Vol. 1/Weapons/Pistol Spin E.ogg`,
+              },
+            },
+          },
+        },
+        revolver: {
+          load: {
+            "01": {
+              "01": `${p}/ovani-sounds/Wild West Sound FX Pack Vol. 1/Weapons/Revolver Cylinder Load F.ogg`,
+              "02": `${p}/ovani-sounds/Wild West Sound FX Pack Vol. 1/Weapons/Revolver Cylinder Load E.ogg`,
+              "03": `${p}/ovani-sounds/Wild West Sound FX Pack Vol. 1/Weapons/Revolver Cylinder Load D.ogg`,
+              "04": `${p}/ovani-sounds/Wild West Sound FX Pack Vol. 1/Weapons/Revolver Cylinder Load C.ogg`,
+              "05": `${p}/ovani-sounds/Wild West Sound FX Pack Vol. 1/Weapons/Revolver Cylinder Load B.ogg`,
+              "06": `${p}/ovani-sounds/Wild West Sound FX Pack Vol. 1/Weapons/Revolver Cylinder Load A.ogg`,
+            },
+          },
+          close: {
+            "01": {
+              "01": `${p}/ovani-sounds/Wild West Sound FX Pack Vol. 1/Weapons/Revolver Cylinder Close A.ogg`,
+              "02": `${p}/ovani-sounds/Wild West Sound FX Pack Vol. 1/Weapons/Revolver Cylinder Close B.ogg`,
+              "03": `${p}/ovani-sounds/Wild West Sound FX Pack Vol. 1/Weapons/Revolver Cylinder Close C.ogg`,
+              "04": `${p}/ovani-sounds/Wild West Sound FX Pack Vol. 1/Weapons/Revolver Cylinder Close D.ogg`,
+              "05": `${p}/ovani-sounds/Wild West Sound FX Pack Vol. 1/Weapons/Revolver Cylinder Close E.ogg`,
+            },
+          },
+        },
+      },
+    },
+    consumables: {
+      bombs: {
+        dynamite: {
+          fuse: {
+            "01": {
+              "01": `${p}/ovani-sounds/Wild West Sound FX Pack Vol. 1/Weapons/Dynamite Fuse A.ogg`,
+              "02": `${p}/ovani-sounds/Wild West Sound FX Pack Vol. 1/Weapons/Dynamite Fuse B.ogg`,
+            },
+          },
+        },
+      },
+    },
+    misc: {
+      lasso: {
+        swinging: {
+          "01": {
+            "01": `${p}/ovani-sounds/Wild West Sound FX Pack Vol. 1/Weapons/Lasso Swinging A.ogg`,
+            "02": `${p}/ovani-sounds/Wild West Sound FX Pack Vol. 1/Weapons/Lasso Swinging B.ogg`,
+            "03": `${p}/ovani-sounds/Wild West Sound FX Pack Vol. 1/Weapons/Lasso Swinging C.ogg`,
+            "04": `${p}/ovani-sounds/Wild West Sound FX Pack Vol. 1/Weapons/Lasso Swinging D.ogg`,
+            "05": `${p}/ovani-sounds/Wild West Sound FX Pack Vol. 1/Weapons/Lasso Swinging E.ogg`,
+          },
+        },
+        throw: {
+          "01": {
+            "01": `${p}/ovani-sounds/Wild West Sound FX Pack Vol. 1/Weapons/Lasso Throw A.ogg`,
+            "02": `${p}/ovani-sounds/Wild West Sound FX Pack Vol. 1/Weapons/Lasso Throw B.ogg`,
+            "03": `${p}/ovani-sounds/Wild West Sound FX Pack Vol. 1/Weapons/Lasso Throw C.ogg`,
+            "04": `${p}/ovani-sounds/Wild West Sound FX Pack Vol. 1/Weapons/Lasso Throw D.ogg`,
+            "05": `${p}/ovani-sounds/Wild West Sound FX Pack Vol. 1/Weapons/Lasso Throw E.ogg`,
+          },
+        },
+      },
     },
   },
   tasks: {
-    crafting: {},
+    crafting: {
+      acquiring_materials: {
+        leather: {
+          "01": {
+            "01": `${p}/ovani-sounds/Wild West Sound FX Pack Vol. 1/Weapons/Skinning Animal A.ogg`,
+          },
+        },
+      },
+      whetstone: {
+        sharpen: {
+          "01": {
+            "01": `${p}/ovani-sounds/Wild West Sound FX Pack Vol. 1/Weapons/Blade Sharpen Whetstone A.ogg`,
+            "02": `${p}/ovani-sounds/Wild West Sound FX Pack Vol. 1/Weapons/Blade Sharpen Whetstone B.ogg`,
+            "03": `${p}/ovani-sounds/Wild West Sound FX Pack Vol. 1/Weapons/Blade Sharpen Whetstone C.ogg`,
+            "04": `${p}/ovani-sounds/Wild West Sound FX Pack Vol. 1/Weapons/Blade Sharpen Whetstone D.ogg`,
+            "05": `${p}/ovani-sounds/Wild West Sound FX Pack Vol. 1/Weapons/Blade Sharpen Whetstone E.ogg`,
+          },
+          "02": {
+            "01": `${p}/ovani-sounds/Wild West Sound FX Pack Vol. 1/Weapons/Blade Sharpen Whetstone Fast A.ogg`,
+            "02": `${p}/ovani-sounds/Wild West Sound FX Pack Vol. 1/Weapons/Blade Sharpen Whetstone Fast B.ogg`,
+            "03": `${p}/ovani-sounds/Wild West Sound FX Pack Vol. 1/Weapons/Blade Sharpen Whetstone Fast C.ogg`,
+            "04": `${p}/ovani-sounds/Wild West Sound FX Pack Vol. 1/Weapons/Blade Sharpen Whetstone Fast D.ogg`,
+            "05": `${p}/ovani-sounds/Wild West Sound FX Pack Vol. 1/Weapons/Blade Sharpen Whetstone Fast E.ogg`,
+          },
+        },
+      },
+    },
     cooking: {},
   },
+  abilities: {
+    gunslinger: {
+      guitar: {
+        "01": {
+          "01": `${p}/ovani-sounds/Wild West Sound FX Pack Vol. 1/Instrumentation/Stinger Guitar Danger A.ogg`,
+          "02": `${p}/ovani-sounds/Wild West Sound FX Pack Vol. 1/Instrumentation/Stinger Guitar Danger B.ogg`,
+          "03": `${p}/ovani-sounds/Wild West Sound FX Pack Vol. 1/Instrumentation/Stinger Guitar Danger C.ogg`,
+          "04": `${p}/ovani-sounds/Wild West Sound FX Pack Vol. 1/Instrumentation/Stinger Guitar Danger D.ogg`,
+          "05": `${p}/ovani-sounds/Wild West Sound FX Pack Vol. 1/Instrumentation/Stinger Guitar Danger E.ogg`,
+        },
+      },
+      whistle: {
+        "01": {
+          "01": `${p}/ovani-sounds/Wild West Sound FX Pack Vol. 1/Outlaws/Duel Start Whistle A.ogg`,
+          "02": `${p}/ovani-sounds/Wild West Sound FX Pack Vol. 1/Outlaws/Duel Start Whistle B.ogg`,
+          "03": `${p}/ovani-sounds/Wild West Sound FX Pack Vol. 1/Outlaws/Duel Start Whistle C.ogg`,
+          "04": `${p}/ovani-sounds/Wild West Sound FX Pack Vol. 1/Outlaws/Duel Start Whistle D.ogg`,
+          "05": `${p}/ovani-sounds/Wild West Sound FX Pack Vol. 1/Outlaws/Duel Start Whistle E.ogg`,
+        },
+      },
+    },
+  },
+  scifi: {},
   misc: {
     critical: {},
     critical_miss: {},

@@ -1,3 +1,11 @@
+## 0.0.4
+
+- **New**
+  - `Ovani SFX`
+    - `Wild West Vol. 1`
+- **Updated**
+  - Fixed an issue with out of the box sfx
+
 ## 0.0.3
 
 - **New**
