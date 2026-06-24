@@ -251,11 +251,145 @@ export const database = {
   ranged: {},
   magic: {
     arcane: {},
-    primal: {},
+    primal: {
+      cast: {
+        generic: {
+          "03": {
+            "01": `${p}/ovani-sounds/Magic/Nature/Animorphic Bond.ogg`,
+          },
+          "04": {
+            "01": `${p}/ovani-sounds/Magic/Nature/Summon Bramble Trap.ogg`,
+          },
+        },
+        summon: {
+          "01": {
+            "01": `${p}/ovani-sounds/Magic/Nature/Summon Sapling.ogg`,
+          },
+        },
+      },
+      strike: {
+        vine: {
+          "01": {
+            "01": `${p}/ovani-sounds/Magic/Nature/Whip Vine A.ogg`,
+            "02": `${p}/ovani-sounds/Magic/Nature/Whip Vine B.ogg`,
+            "03": `${p}/ovani-sounds/Magic/Nature/Whip Vine C.ogg`,
+          },
+        },
+        moonbeam: {
+          "01": {
+            "01": `${p}/ovani-sounds/Magic/Nature/Moon Beam.ogg`,
+          },
+        },
+        sunbeam: {
+          "01": {
+            "01": `${p}/ovani-sounds/Magic/Nature/Sun Beam.ogg`,
+          },
+        },
+      },
+      buff: {
+        barkskin: {
+          "01": {
+            "01": `${p}/ovani-sounds/Magic/Nature/Barkskin.ogg`,
+          },
+        },
+        thorns: {
+          "02": {
+            "01": `${p}/ovani-sounds/Magic/Nature/Thorn Shield.ogg`,
+          },
+        },
+      },
+      burst: {
+        bramble: {
+          "01": {
+            "01": `${p}/ovani-sounds/Magic/Nature/Bramble Burst.ogg`,
+          },
+        },
+        bulb: {
+          "01": {
+            plant: `${p}/ovani-sounds/Magic/Nature/Bulb Burst Plant.ogg`,
+            splat: `${p}/ovani-sounds/Magic/Nature/Bulb Burst.ogg`,
+          },
+        },
+      },
+      healing: {
+        "01": {
+          "01": `${p}/ovani-sounds/Magic/Nature/Natural Healing.ogg`,
+        },
+      },
+      growth: {
+        "01": {
+          "01": `${p}/ovani-sounds/Magic/Nature/Verdant Growth.ogg`,
+        },
+        "02": {
+          "01": `${p}/ovani-sounds/Magic/Nature/Root Snare.ogg`,
+        },
+      },
+    },
     divine: {},
     occult: {},
     acid: {},
-    air: {},
+    air: {
+      blade: {
+        "01": {
+          cast: {
+            "01": `${p}/ovani-sounds/Magic/Air/Aero Blade Cast A.ogg`,
+            "02": `${p}/ovani-sounds/Magic/Air/Aero Blade Cast B.ogg`,
+            "03": `${p}/ovani-sounds/Magic/Air/Aero Blade Cast C.ogg`,
+          },
+          loop: {
+            "01": `${p}/ovani-sounds/Magic/Air/Aero Blade Trail Loop.ogg`,
+          },
+          impact: {
+            "01": `${p}/ovani-sounds/Magic/Air/Aero Blade Impact A.ogg`,
+            "02": `${p}/ovani-sounds/Magic/Air/Aero Blade Impact B.ogg`,
+            "03": `${p}/ovani-sounds/Magic/Air/Aero Blade Impact C.ogg`,
+          },
+        },
+        "02": {
+          cast: {
+            "01": `${p}/ovani-sounds/Magic/Air/Cyclone Blade Cast A.ogg`,
+            "02": `${p}/ovani-sounds/Magic/Air/Cyclone Blade Cast B.ogg`,
+            "03": `${p}/ovani-sounds/Magic/Air/Cyclone Blade Cast C.ogg`,
+          },
+          loop: {
+            "01": `${p}/ovani-sounds/Magic/Air/Cyclone Blade Trail Loop.ogg`,
+          },
+          impact: {
+            "01": `${p}/ovani-sounds/Magic/Air/Cyclone Blade Impact A.ogg`,
+            "02": `${p}/ovani-sounds/Magic/Air/Cyclone Blade Impact B.ogg`,
+            "03": `${p}/ovani-sounds/Magic/Air/Cyclone Blade Impact C.ogg`,
+          },
+        },
+      },
+      movement: {
+        teleportation: {
+          "01": {
+            in: `${p}/ovani-sounds/Magic/Air/Aeroportation In.ogg`,
+            out: `${p}/ovani-sounds/Magic/Air/Aeroportation Out.ogg`,
+          },
+        },
+      },
+      surge: {
+        "01": {
+          "01": `${p}/ovani-sounds/Magic/Air/Sky Surge.ogg`,
+          "02": `${p}/ovani-sounds/Magic/Air/Whirlwind Gust.ogg`,
+          "03": `${p}/ovani-sounds/Magic/Air/Zephyrs Embrace.ogg`,
+        },
+      },
+      mist: {
+        "01": {
+          "01": `${p}/ovani-sounds/Magic/Air/Mistform.ogg`,
+        },
+      },
+      misc: {
+        echo: {
+          "01": {
+            cast: `${p}/ovani-sounds/Magic/Air/Echoing Gust Cast.ogg`,
+            impact: `${p}/ovani-sounds/Magic/Air/Echoing Gust Impact.ogg`,
+          },
+        },
+      },
+    },
     cold: {},
     earth: {
       ranged: {
@@ -638,7 +772,20 @@ export const database = {
     sonic: {},
     vitality: {},
     void: {},
-    water: {},
+    water: {
+      rain: {
+        summon: {
+          "01": {
+            "01": `${p}/ovani-sounds/Magic/Nature/Summon Rain Cast.ogg`,
+          },
+        },
+        loop: {
+          "01": {
+            "01": `${p}/ovani-sounds/Magic/Nature/Summon Rain Loop.ogg`,
+          },
+        },
+      },
+    },
   },
   equipment: {
     weapons: {
