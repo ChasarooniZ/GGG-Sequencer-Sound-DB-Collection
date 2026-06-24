@@ -1,3 +1,7 @@
+## 0.0.5
+
+- Fixed issue causing DB not to show
+
 ## 0.0.4
 
 - **New**
