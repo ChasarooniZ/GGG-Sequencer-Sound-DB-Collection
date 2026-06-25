@@ -303,6 +303,16 @@ export const database = {
           },
         },
       },
+      surge: {
+        crystals: {
+          "04": {
+            "01": `${p}/ovani-sounds/Motion and Impacts Sound FX Pack Vol. 2/Riser/Riser Chains 001.ogg`,
+            "02": `${p}/ovani-sounds/Motion and Impacts Sound FX Pack Vol. 2/Riser/Riser Chains 002.ogg`,
+            "03": `${p}/ovani-sounds/Motion and Impacts Sound FX Pack Vol. 2/Riser/Riser Chains 003.ogg`,
+            "04": `${p}/ovani-sounds/Motion and Impacts Sound FX Pack Vol. 2/Riser/Riser Chains 004.ogg`,
+          },
+        },
+      },
     },
     primal: {
       cast: {
@@ -444,6 +454,15 @@ export const database = {
             "01": `${p}/ovani-sounds/Magic/Light/Consecrate.ogg`,
           },
         },
+        sanctuary: {
+          "01": {
+            "01": `${p}/ovani-sounds/Motion and Impacts Sound FX Pack Vol. 2/Riser/Riser Sanctuary 001.ogg`,
+            "02": `${p}/ovani-sounds/Motion and Impacts Sound FX Pack Vol. 2/Riser/Riser Sanctuary 002.ogg`,
+            "03": `${p}/ovani-sounds/Motion and Impacts Sound FX Pack Vol. 2/Riser/Riser Sanctuary 003.ogg`,
+            "04": `${p}/ovani-sounds/Motion and Impacts Sound FX Pack Vol. 2/Riser/Riser Sanctuary 004.ogg`,
+            "05": `${p}/ovani-sounds/Motion and Impacts Sound FX Pack Vol. 2/Riser/Riser Sanctuary 005.ogg`,
+          },
+        },
       },
     },
     occult: {
@@ -491,6 +510,14 @@ export const database = {
               "04": `${p}/ovani-sounds/Motion and Impacts Sound FX Pack Vol. 2/Whoosh/Whoosh Gravity Anchor 004.ogg`,
             },
           },
+          shimmer: {
+            "03": {
+              "01": `${p}/ovani-sounds/Motion and Impacts Sound FX Pack Vol. 2/Riser/Riser Crystal 001.ogg`,
+              "02": `${p}/ovani-sounds/Motion and Impacts Sound FX Pack Vol. 2/Riser/Riser Crystal 002.ogg`,
+              "03": `${p}/ovani-sounds/Motion and Impacts Sound FX Pack Vol. 2/Riser/Riser Crystal 003.ogg`,
+              "04": `${p}/ovani-sounds/Motion and Impacts Sound FX Pack Vol. 2/Riser/Riser Crystal 004.ogg`,
+            },
+          },
         },
       },
       bolt: {
@@ -516,10 +543,34 @@ export const database = {
           shock: `${p}/ovani-sounds/Magic/Dark/Dread Wave.ogg`,
           shatter: `${p}/ovani-sounds/Magic/Dark/Soul Shatter.ogg`,
         },
+        "02": {
+          "01": `${p}/ovani-sounds/Motion and Impacts Sound FX Pack Vol. 2/Riser/Riser Space Oddity 001.ogg`,
+          "02": `${p}/ovani-sounds/Motion and Impacts Sound FX Pack Vol. 2/Riser/Riser Space Oddity 002.ogg`,
+          "03": `${p}/ovani-sounds/Motion and Impacts Sound FX Pack Vol. 2/Riser/Riser Space Oddity 003.ogg`,
+          "04": `${p}/ovani-sounds/Motion and Impacts Sound FX Pack Vol. 2/Riser/Riser Space Oddity 004.ogg`,
+          "05": `${p}/ovani-sounds/Motion and Impacts Sound FX Pack Vol. 2/Riser/Riser Space Oddity 005.ogg`,
+        },
+      },
+      surge: {
+        "01": {
+          "01": `${p}/ovani-sounds/Motion and Impacts Sound FX Pack Vol. 2/Riser/Riser Mist Horror 001.ogg`,
+          "02": `${p}/ovani-sounds/Motion and Impacts Sound FX Pack Vol. 2/Riser/Riser Mist Horror 002.ogg`,
+          "03": `${p}/ovani-sounds/Motion and Impacts Sound FX Pack Vol. 2/Riser/Riser Mist Horror 003.ogg`,
+        },
       },
       siphon: {
         "01": {
           "01": `${p}/ovani-sounds/Magic/Dark/Soul Siphon.ogg`,
+        },
+      },
+      buff: {
+        ghostly: {
+          "01": {
+            "01": `${p}/ovani-sounds/Motion and Impacts Sound FX Pack Vol. 2/Riser/Riser Cold Charm 001.ogg`,
+            "02": `${p}/ovani-sounds/Motion and Impacts Sound FX Pack Vol. 2/Riser/Riser Cold Charm 002.ogg`,
+            "03": `${p}/ovani-sounds/Motion and Impacts Sound FX Pack Vol. 2/Riser/Riser Cold Charm 003.ogg`,
+            "04": `${p}/ovani-sounds/Motion and Impacts Sound FX Pack Vol. 2/Riser/Riser Cold Charm 004.ogg`,
+          },
         },
       },
       curse: {
@@ -617,6 +668,12 @@ export const database = {
           "01": `${p}/ovani-sounds/Motion and Impacts Sound FX Pack Vol. 2/Whoosh/Whoosh Metal Wind 001.ogg`,
           "02": `${p}/ovani-sounds/Motion and Impacts Sound FX Pack Vol. 2/Whoosh/Whoosh Metal Wind 002.ogg`,
           "03": `${p}/ovani-sounds/Motion and Impacts Sound FX Pack Vol. 2/Whoosh/Whoosh Metal Wind 003.ogg`,
+        },
+        "06": {
+          "01": `${p}/ovani-sounds/Motion and Impacts Sound FX Pack Vol. 2/Riser/Riser Wind 001.ogg`,
+          "02": `${p}/ovani-sounds/Motion and Impacts Sound FX Pack Vol. 2/Riser/Riser Wind 002.ogg`,
+          "03": `${p}/ovani-sounds/Motion and Impacts Sound FX Pack Vol. 2/Riser/Riser Wind 003.ogg`,
+          "04": `${p}/ovani-sounds/Motion and Impacts Sound FX Pack Vol. 2/Riser/Riser Wind 004.ogg`,
         },
       },
       mist: {
@@ -782,6 +839,13 @@ export const database = {
           "03": `${p}/ovani-sounds/Earth/Stones/Medium Stones Drag C.ogg`,
           "04": `${p}/ovani-sounds/Earth/Stones/Medium Stones Drag D.ogg`,
           "05": `${p}/ovani-sounds/Earth/Stones/Medium Stones Drag E.ogg`,
+        },
+        "03": {
+          "01": `${p}/ovani-sounds/Motion and Impacts Sound FX Pack Vol. 2/Riser/Riser Stone Plate 001.ogg`,
+          "02": `${p}/ovani-sounds/Motion and Impacts Sound FX Pack Vol. 2/Riser/Riser Stone Plate 002.ogg`,
+          "03": `${p}/ovani-sounds/Motion and Impacts Sound FX Pack Vol. 2/Riser/Riser Stone Plate 003.ogg`,
+          "04": `${p}/ovani-sounds/Motion and Impacts Sound FX Pack Vol. 2/Riser/Riser Stone Plate 004.ogg`,
+          "05": `${p}/ovani-sounds/Motion and Impacts Sound FX Pack Vol. 2/Riser/Riser Stone Plate 005.ogg`,
         },
       },
       earthquake: {
@@ -1404,6 +1468,38 @@ export const database = {
     },
     mental: {},
     sonic: {
+      choir: {
+        neutraL: {
+          "01": {
+            "01": `${p}/ovani-sounds/Motion and Impacts Sound FX Pack Vol. 2/Riser/Riser Choir 001.ogg`,
+            "02": `${p}/ovani-sounds/Motion and Impacts Sound FX Pack Vol. 2/Riser/Riser Choir 002.ogg`,
+          },
+          "02": {
+            "01": `${p}/ovani-sounds/Motion and Impacts Sound FX Pack Vol. 2/Riser/Riser Choir Tail 001.ogg`,
+            "02": `${p}/ovani-sounds/Motion and Impacts Sound FX Pack Vol. 2/Riser/Riser Choir Tail 002.ogg`,
+            "03": `${p}/ovani-sounds/Motion and Impacts Sound FX Pack Vol. 2/Riser/Riser Choir Tail 003.ogg`,
+          },
+        },
+      },
+      drums: {
+        surge: {
+          "01": {
+            "01": `${p}/ovani-sounds/Motion and Impacts Sound FX Pack Vol. 2/Riser/Riser Anvil Drums 001.ogg`,
+            "02": `${p}/ovani-sounds/Motion and Impacts Sound FX Pack Vol. 2/Riser/Riser Anvil Drums 002.ogg`,
+            "03": `${p}/ovani-sounds/Motion and Impacts Sound FX Pack Vol. 2/Riser/Riser Anvil Drums 003.ogg`,
+          },
+        },
+      },
+      harp: {
+        surge: {
+          "01": {
+            "01": `${p}/ovani-sounds/Motion and Impacts Sound FX Pack Vol. 2/Riser/Riser Magic Harp 001.ogg`,
+            "02": `${p}/ovani-sounds/Motion and Impacts Sound FX Pack Vol. 2/Riser/Riser Magic Harp 002.ogg`,
+            "03": `${p}/ovani-sounds/Motion and Impacts Sound FX Pack Vol. 2/Riser/Riser Magic Harp 003.ogg`,
+            "04": `${p}/ovani-sounds/Motion and Impacts Sound FX Pack Vol. 2/Riser/Riser Magic Harp 004.ogg`,
+          },
+        },
+      },
       roar: {
         "05": {
           "01": `${p}/ovani-sounds/Motion and Impacts Sound FX Pack Vol. 2/Whoosh/Whoosh Roar 001.ogg`,
@@ -1538,6 +1634,16 @@ export const database = {
             "04": `${p}/ovani-sounds/Motion and Impacts Sound FX Pack Vol. 2/Whoosh/Whoosh Glass 004.ogg`,
             "05": `${p}/ovani-sounds/Motion and Impacts Sound FX Pack Vol. 2/Whoosh/Whoosh Glass 005.ogg`,
           },
+        },
+      },
+    },
+    time: {
+      reverse: {
+        "01": {
+          "01": `${p}/ovani-sounds/Motion and Impacts Sound FX Pack Vol. 2/Riser/Riser Tenet 001.ogg`,
+          "02": `${p}/ovani-sounds/Motion and Impacts Sound FX Pack Vol. 2/Riser/Riser Tenet 002.ogg`,
+          "03": `${p}/ovani-sounds/Motion and Impacts Sound FX Pack Vol. 2/Riser/Riser Tenet 003.ogg`,
+          "04": `${p}/ovani-sounds/Motion and Impacts Sound FX Pack Vol. 2/Riser/Riser Tenet 004.ogg`,
         },
       },
     },
@@ -1859,7 +1965,16 @@ export const database = {
       },
     },
   },
-  scifi: {},
+  scifi: {
+    teleportation: {
+      "01": {
+        "01": `${p}/ovani-sounds/Motion and Impacts Sound FX Pack Vol. 2/Riser/Riser Jump Pad 001.ogg`,
+        "02": `${p}/ovani-sounds/Motion and Impacts Sound FX Pack Vol. 2/Riser/Riser Jump Pad 002.ogg`,
+        "03": `${p}/ovani-sounds/Motion and Impacts Sound FX Pack Vol. 2/Riser/Riser Jump Pad 003.ogg`,
+        "04": `${p}/ovani-sounds/Motion and Impacts Sound FX Pack Vol. 2/Riser/Riser Jump Pad 004.ogg`,
+      },
+    },
+  },
   misc: {
     critical: {},
     critical_miss: {},
