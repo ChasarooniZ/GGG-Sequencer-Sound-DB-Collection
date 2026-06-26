@@ -1,8 +1,10 @@
-## 0.0.11
+## Unreleased
 
 - **New**
   - `Ovani SFX`
     - `Modular Magic Vol. 1`
+
+## 0.0.11
 
 ## 0.0.10
 
