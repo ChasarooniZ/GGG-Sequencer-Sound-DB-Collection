@@ -921,6 +921,24 @@ export const database = {
         },
       },
       impact: {
+        generic: {
+          "01": {
+            normal: {
+              "01": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Earth/Earth Impact A.ogg`,
+              "02": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Earth/Earth Impact B.ogg`,
+              "03": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Earth/Earth Impact C.ogg`,
+              "04": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Earth/Earth Impact D.ogg`,
+              "05": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Earth/Earth Impact E.ogg`,
+              "06": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Earth/Earth Impact F.ogg`,
+              "07": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Earth/Earth Impact G.ogg`,
+            },
+            muffled: {
+              "01": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Earth/Earth Impact Muffled A.ogg`,
+              "02": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Earth/Earth Impact Muffled B.ogg`,
+              "03": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Earth/Earth Impact Muffled C.ogg`,
+            },
+          },
+        },
         stone: {
           "01": {
             "01": `${p}/ovani-sounds/Earth/Magic/Impact A.ogg`,
@@ -954,6 +972,30 @@ export const database = {
           },
         },
       },
+      tail: {
+        "01": {
+          short: {
+            "01": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Earth/Earth Tail A.ogg`,
+            "02": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Earth/Earth Tail B.ogg`,
+            "03": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Earth/Earth Tail C.ogg`,
+            "04": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Earth/Earth Tail D.ogg`,
+            "05": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Earth/Earth Tail E.ogg`,
+            "06": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Earth/Earth Tail F.ogg`,
+            "07": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Earth/Earth Tail G.ogg`,
+            "08": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Earth/Earth Tail H.ogg`,
+            "09": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Earth/Earth Tail I.ogg`,
+          },
+          long: {
+            "01": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Earth/Earth Tail Long A.ogg`,
+            "02": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Earth/Earth Tail Long B.ogg`,
+            "03": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Earth/Earth Tail Long C.ogg`,
+            "04": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Earth/Earth Tail Long D.ogg`,
+            "05": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Earth/Earth Tail Long E.ogg`,
+            "06": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Earth/Earth Tail Long F.ogg`,
+            "07": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Earth/Earth Tail Long G.ogg`,
+          },
+        },
+      },
       movement: {
         meld: {
           "01": {
@@ -964,6 +1006,42 @@ export const database = {
           "01": {
             "01": `${p}/ovani-sounds/Magic/Earth/Quake Step.ogg`,
           },
+        },
+        whoosh: {
+          "01": {
+            "01": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Earth/Earth Whoosh A.ogg`,
+            "02": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Earth/Earth Whoosh B.ogg`,
+            "03": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Earth/Earth Whoosh C.ogg`,
+            "04": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Earth/Earth Whoosh D.ogg`,
+            "05": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Earth/Earth Whoosh E.ogg`,
+            "06": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Earth/Earth Whoosh F.ogg`,
+            "07": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Earth/Earth Whoosh G.ogg`,
+          },
+        },
+      },
+      rise: {
+        "01": {
+          "01": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Earth/Earth Rise A.ogg`,
+          "02": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Earth/Earth Rise B.ogg`,
+          "03": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Earth/Earth Rise C.ogg`,
+          "04": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Earth/Earth Rise D.ogg`,
+          "05": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Earth/Earth Rise E.ogg`,
+        },
+        "02": {
+          "01": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Earth/Earth Rise Steady A.ogg`,
+          "02": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Earth/Earth Rise Steady B.ogg`,
+          "03": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Earth/Earth Rise Steady C.ogg`,
+        },
+        "03": {
+          "01": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Earth/Earth Rise Saddle.ogg`,
+        },
+      },
+      loop: {
+        "01": {
+          "01": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Earth/Loops/Earth Loop Layer A.ogg`,
+          "02": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Earth/Loops/Earth Loop Layer B.ogg`,
+          "03": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Earth/Loops/Earth Loop Layer C.ogg`,
+          "04": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Earth/Loops/Earth Loop Layer D.ogg`,
         },
       },
       crumble: {

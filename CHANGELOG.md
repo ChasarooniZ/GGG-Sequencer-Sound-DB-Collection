@@ -1,9 +1,14 @@
+## 0.0.11
+
+- **New**
+  - `Ovani SFX`
+    - `Modular Magic Vol. 1`
+
 ## 0.0.10
 
 - **New**
   - `Ovani SFX`
     - `Foley Impacts Vol. 1`
-      - 
 
 ## 0.0.9
 
