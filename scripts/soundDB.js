@@ -233,6 +233,156 @@ export const database = {
         "04": `${p}/ovani-sounds/Fire SFX/Torch/Intense Torch Swoosh D.ogg`,
       },
     },
+    unarmed: {
+      fist: {
+        strike: {
+          "01": {
+            medium: {
+              "01": `${p}/ovani-sounds/Foley Impacts Vol. 1/Punches/Punch Medium A.ogg`,
+              "02": `${p}/ovani-sounds/Foley Impacts Vol. 1/Punches/Punch Medium B.ogg`,
+              "03": `${p}/ovani-sounds/Foley Impacts Vol. 1/Punches/Punch Medium C.ogg`,
+            },
+            heavy: {
+              "01": `${p}/ovani-sounds/Foley Impacts Vol. 1/Punches/Punch Heavy A.ogg`,
+              "02": `${p}/ovani-sounds/Foley Impacts Vol. 1/Punches/Punch Heavy B.ogg`,
+              "03": `${p}/ovani-sounds/Foley Impacts Vol. 1/Punches/Punch Heavy C.ogg`,
+            },
+            light: {
+              "01": `${p}/ovani-sounds/Foley Impacts Vol. 1/Punches/Punch Light A.ogg`,
+              "02": `${p}/ovani-sounds/Foley Impacts Vol. 1/Punches/Punch Light B.ogg`,
+              "03": `${p}/ovani-sounds/Foley Impacts Vol. 1/Punches/Punch Light C.ogg`,
+            },
+          },
+          "02": {
+            "01": `${p}/ovani-sounds/Foley Impacts Vol. 1/Beefy Impacts/Beefy Short Punch A (1).ogg`,
+            "02": `${p}/ovani-sounds/Foley Impacts Vol. 1/Beefy Impacts/Beefy Short Punch B (1).ogg`,
+            "03": `${p}/ovani-sounds/Foley Impacts Vol. 1/Beefy Impacts/Beefy Short Punch C (1).ogg`,
+          },
+          "03": {
+            "01": `${p}/ovani-sounds/Foley Impacts Vol. 1/Beefy Impacts/Beefy Punch A.ogg`,
+            "02": `${p}/ovani-sounds/Foley Impacts Vol. 1/Beefy Impacts/Beefy Punch B.ogg`,
+          },
+          "04": {
+            "01": `${p}/ovani-sounds/Foley Impacts Vol. 1/Beefy Impacts/Beefy Big Punch A.ogg`,
+            "02": `${p}/ovani-sounds/Foley Impacts Vol. 1/Beefy Impacts/Beefy Big Punch B.ogg`,
+            "03": `${p}/ovani-sounds/Foley Impacts Vol. 1/Beefy Impacts/Beefy Big Punch C.ogg`,
+          },
+        },
+        miss: {
+          "01": {
+            "01": `${p}/ovani-sounds/Foley Impacts Vol. 1/Beefy Impacts/Beefy Miss A.ogg`,
+            "02": `${p}/ovani-sounds/Foley Impacts Vol. 1/Beefy Impacts/Beefy Miss B.ogg`,
+          },
+        },
+      },
+      elbow: {
+        strike: {
+          "01": {
+            medium: {
+              "01": `${p}/ovani-sounds/Foley Impacts Vol. 1/Elbow Hits/Elbow Hit Medium A.ogg`,
+              "02": `${p}/ovani-sounds/Foley Impacts Vol. 1/Elbow Hits/Elbow Hit Medium B.ogg`,
+              "03": `${p}/ovani-sounds/Foley Impacts Vol. 1/Elbow Hits/Elbow Hit Medium C.ogg`,
+            },
+            heavy: {
+              "01": `${p}/ovani-sounds/Foley Impacts Vol. 1/Elbow Hits/Elbow Hit Heavy A.ogg`,
+              "02": `${p}/ovani-sounds/Foley Impacts Vol. 1/Elbow Hits/Elbow Hit Heavy B.ogg`,
+              "03": `${p}/ovani-sounds/Foley Impacts Vol. 1/Elbow Hits/Elbow Hit Heavy C.ogg`,
+            },
+            light: {
+              "01": `${p}/ovani-sounds/Foley Impacts Vol. 1/Elbow Hits/Elbow Hit Light A.ogg`,
+              "02": `${p}/ovani-sounds/Foley Impacts Vol. 1/Elbow Hits/Elbow Hit Light B.ogg`,
+              "03": `${p}/ovani-sounds/Foley Impacts Vol. 1/Elbow Hits/Elbow Hit Light C.ogg`,
+            },
+          },
+        },
+      },
+      kick: {
+        strike: {
+          "01": {
+            medium: {
+              "01": `${p}/ovani-sounds/Foley Impacts Vol. 1/Kicks/Kick Medium A.ogg`,
+              "02": `${p}/ovani-sounds/Foley Impacts Vol. 1/Kicks/Kick Medium B.ogg`,
+              "03": `${p}/ovani-sounds/Foley Impacts Vol. 1/Kicks/Kick Medium C.ogg`,
+            },
+            heavy: {
+              "01": `${p}/ovani-sounds/Foley Impacts Vol. 1/Kicks/Kick Heavy A.ogg`,
+              "02": `${p}/ovani-sounds/Foley Impacts Vol. 1/Kicks/Kick Heavy B.ogg`,
+              "03": `${p}/ovani-sounds/Foley Impacts Vol. 1/Kicks/Kick Heavy C.ogg`,
+            },
+            light: {
+              "01": `${p}/ovani-sounds/Foley Impacts Vol. 1/Kicks/Kick Light A.ogg`,
+              "02": `${p}/ovani-sounds/Foley Impacts Vol. 1/Kicks/Kick Light B.ogg`,
+              "03": `${p}/ovani-sounds/Foley Impacts Vol. 1/Kicks/Kick Light C.ogg`,
+            },
+          },
+          "02": {
+            "01": `${p}/ovani-sounds/Foley Impacts Vol. 1/Kicks/Kick Swing A.ogg`,
+            "02": `${p}/ovani-sounds/Foley Impacts Vol. 1/Kicks/Kick Swing B.ogg`,
+            "03": `${p}/ovani-sounds/Foley Impacts Vol. 1/Kicks/Kick Swing C.ogg`,
+            "04": `${p}/ovani-sounds/Foley Impacts Vol. 1/Kicks/Kick Swing D.ogg`,
+            "05": `${p}/ovani-sounds/Foley Impacts Vol. 1/Kicks/Kick Swing E.ogg`,
+            "06": `${p}/ovani-sounds/Foley Impacts Vol. 1/Kicks/Kick Swing F.ogg`,
+          },
+          "03": {
+            short: {
+              "01": `${p}/ovani-sounds/Foley Impacts Vol. 1/Beefy Impacts/Beefy Short Kick A.ogg`,
+              "02": `${p}/ovani-sounds/Foley Impacts Vol. 1/Beefy Impacts/Beefy Short Kick B.ogg`,
+            },
+            long: {
+              "01": `${p}/ovani-sounds/Foley Impacts Vol. 1/Beefy Impacts/Beefy Kick A.ogg`,
+              "02": `${p}/ovani-sounds/Foley Impacts Vol. 1/Beefy Impacts/Beefy Kick B.ogg`,
+            },
+          },
+        },
+      },
+      knee: {
+        strike: {
+          "01": {
+            medium: {
+              "01": `${p}/ovani-sounds/Foley Impacts Vol. 1/Knee Hits/Knee Hit Medium A.ogg`,
+              "02": `${p}/ovani-sounds/Foley Impacts Vol. 1/Knee Hits/Knee Hit Medium B.ogg`,
+              "03": `${p}/ovani-sounds/Foley Impacts Vol. 1/Knee Hits/Knee Hit Medium C.ogg`,
+            },
+            heavy: {
+              "01": `${p}/ovani-sounds/Foley Impacts Vol. 1/Knee Hits/Knee Hit Heavy A.ogg`,
+              "02": `${p}/ovani-sounds/Foley Impacts Vol. 1/Knee Hits/Knee Hit Heavy B.ogg`,
+              "03": `${p}/ovani-sounds/Foley Impacts Vol. 1/Knee Hits/Knee Hit Heavy C.ogg`,
+            },
+            light: {
+              "01": `${p}/ovani-sounds/Foley Impacts Vol. 1/Knee Hits/Knee Hit Light A.ogg`,
+              "02": `${p}/ovani-sounds/Foley Impacts Vol. 1/Knee Hits/Knee Hit Light B.ogg`,
+              "03": `${p}/ovani-sounds/Foley Impacts Vol. 1/Knee Hits/Knee Hit Light C.ogg`,
+            },
+          },
+          "02": {
+            "01": `${p}/ovani-sounds/Foley Impacts Vol. 1/Knee Hits/Knee Hit Belt A.ogg`,
+            "02": `${p}/ovani-sounds/Foley Impacts Vol. 1/Knee Hits/Knee Hit Belt B.ogg`,
+            "03": `${p}/ovani-sounds/Foley Impacts Vol. 1/Knee Hits/Knee Hit Belt C.ogg`,
+          },
+        },
+      },
+      slap: {
+        strike: {
+          "01": {
+            medium: {
+              "01": `${p}/ovani-sounds/Foley Impacts Vol. 1/Slaps/Slap Medium A.ogg`,
+              "02": `${p}/ovani-sounds/Foley Impacts Vol. 1/Slaps/Slap Medium B.ogg`,
+              "03": `${p}/ovani-sounds/Foley Impacts Vol. 1/Slaps/Slap Medium C.ogg`,
+            },
+            heavy: {
+              "01": `${p}/ovani-sounds/Foley Impacts Vol. 1/Slaps/Slap Heavy A.ogg`,
+              "02": `${p}/ovani-sounds/Foley Impacts Vol. 1/Slaps/Slap Heavy B.ogg`,
+              "03": `${p}/ovani-sounds/Foley Impacts Vol. 1/Slaps/Slap Heavy C.ogg`,
+            },
+            light: {
+              "01": `${p}/ovani-sounds/Foley Impacts Vol. 1/Slaps/Slap Light A.ogg`,
+              "02": `${p}/ovani-sounds/Foley Impacts Vol. 1/Slaps/Slap Light B.ogg`,
+              "03": `${p}/ovani-sounds/Foley Impacts Vol. 1/Slaps/Slap Light C.ogg`,
+            },
+          },
+        },
+      },
+    },
     whip: {
       strike: {
         "01": {
@@ -1962,6 +2112,165 @@ export const database = {
           "04": `${p}/ovani-sounds/Wild West Sound FX Pack Vol. 1/Outlaws/Duel Start Whistle D.ogg`,
           "05": `${p}/ovani-sounds/Wild West Sound FX Pack Vol. 1/Outlaws/Duel Start Whistle E.ogg`,
         },
+      },
+    },
+  },
+  impact: {
+    fall: {
+      generic: {
+        "01": {
+          "01": `${p}/ovani-sounds/Foley Impacts Vol. 1/Falls/Fall A.ogg`,
+          "02": `${p}/ovani-sounds/Foley Impacts Vol. 1/Falls/Fall B.ogg`,
+          "03": `${p}/ovani-sounds/Foley Impacts Vol. 1/Falls/Fall C.ogg`,
+        },
+      },
+      boxes: {
+        "01": {
+          "01": `${p}/ovani-sounds/Foley Impacts Vol. 1/Falls/Fall Plastic and Boxes A.ogg`,
+          "02": `${p}/ovani-sounds/Foley Impacts Vol. 1/Falls/Fall Plastic and Boxes B.ogg`,
+        },
+      },
+      carpet: {
+        "01": {
+          "01": `${p}/ovani-sounds/Foley Impacts Vol. 1/Falls/Fall Carpet A.ogg`,
+          "02": `${p}/ovani-sounds/Foley Impacts Vol. 1/Falls/Fall Carpet B.ogg`,
+          "03": `${p}/ovani-sounds/Foley Impacts Vol. 1/Falls/Fall Carpet C.ogg`,
+          "04": `${p}/ovani-sounds/Foley Impacts Vol. 1/Falls/Fall Carpet D.ogg`,
+          "05": `${p}/ovani-sounds/Foley Impacts Vol. 1/Falls/Fall Carpet E.ogg`,
+          "06": `${p}/ovani-sounds/Foley Impacts Vol. 1/Falls/Fall Carpet F.ogg`,
+        },
+      },
+      chair: {
+        "01": {
+          "01": `${p}/ovani-sounds/Foley Impacts Vol. 1/Falls/Fall Chair A.ogg`,
+          "02": `${p}/ovani-sounds/Foley Impacts Vol. 1/Falls/Fall Chair B.ogg`,
+          "03": `${p}/ovani-sounds/Foley Impacts Vol. 1/Falls/Fall Chair C.ogg`,
+        },
+      },
+      concrete: {
+        "01": {
+          "01": `${p}/ovani-sounds/Foley Impacts Vol. 1/Falls/Fall Concrete A.ogg`,
+          "02": `${p}/ovani-sounds/Foley Impacts Vol. 1/Falls/Fall Concrete B.ogg`,
+        },
+      },
+      grass: {
+        "01": {
+          "01": `${p}/ovani-sounds/Foley Impacts Vol. 1/Falls/Fall Grass A.ogg`,
+          "02": `${p}/ovani-sounds/Foley Impacts Vol. 1/Falls/Fall Grass B.ogg`,
+        },
+      },
+      metal: {
+        "01": {
+          "01": `${p}/ovani-sounds/Foley Impacts Vol. 1/Falls/Fall Metal A.ogg`,
+          "02": `${p}/ovani-sounds/Foley Impacts Vol. 1/Falls/Fall Metal B.ogg`,
+          "03": `${p}/ovani-sounds/Foley Impacts Vol. 1/Falls/Fall Metal C.ogg`,
+        },
+      },
+      sand: {
+        "01": {
+          "01": `${p}/ovani-sounds/Foley Impacts Vol. 1/Falls/Fall Sand A.ogg`,
+          "02": `${p}/ovani-sounds/Foley Impacts Vol. 1/Falls/Fall Sand B.ogg`,
+        },
+      },
+      wood: {
+        "01": {
+          "01": `${p}/ovani-sounds/Foley Impacts Vol. 1/Falls/Fall Wood A.ogg`,
+          "02": `${p}/ovani-sounds/Foley Impacts Vol. 1/Falls/Fall Wood B.ogg`,
+          "03": `${p}/ovani-sounds/Foley Impacts Vol. 1/Falls/Fall Wood C.ogg`,
+        },
+      },
+      slip: {
+        "01": {
+          "01": `${p}/ovani-sounds/Foley Impacts Vol. 1/Falls/Slip Fall A.ogg`,
+          "02": `${p}/ovani-sounds/Foley Impacts Vol. 1/Falls/Slip Fall B.ogg`,
+        },
+      },
+    },
+    flesh: {
+      "01": {
+        "01": `${p}/ovani-sounds/Foley Impacts Vol. 1/Flesh Hits/Flesh Hit A.ogg`,
+        "02": `${p}/ovani-sounds/Foley Impacts Vol. 1/Flesh Hits/Flesh Hit B.ogg`,
+        "03": `${p}/ovani-sounds/Foley Impacts Vol. 1/Flesh Hits/Flesh Hit C.ogg`,
+      },
+    },
+    wood: {
+      "01": {
+        "01": `${p}/ovani-sounds/Foley Impacts Vol. 1/Beefy Impacts/Beefy Wood.ogg`,
+      },
+    },
+  },
+  actions: {
+    drop_object: {
+      heavy: {
+        "01": {
+          "01": `${p}/ovani-sounds/Foley Impacts Vol. 1/Beefy Impacts/Beefy Object Drop.ogg`,
+        },
+      },
+    },
+    grab: {
+      clothes: {
+        "01": {
+          "01": `${p}/ovani-sounds/Foley Impacts Vol. 1/Grab/Grab Cloth Low A.ogg`,
+          "02": `${p}/ovani-sounds/Foley Impacts Vol. 1/Grab/Grab Cloth Low B.ogg`,
+          "03": `${p}/ovani-sounds/Foley Impacts Vol. 1/Grab/Grab Cloth Low C.ogg`,
+          "04": `${p}/ovani-sounds/Foley Impacts Vol. 1/Grab/Grab Cloth Low D.ogg`,
+        },
+        "02": {
+          "01": `${p}/ovani-sounds/Foley Impacts Vol. 1/Grab/Grab Cloth High A.ogg`,
+          "02": `${p}/ovani-sounds/Foley Impacts Vol. 1/Grab/Grab Cloth High B.ogg`,
+          "03": `${p}/ovani-sounds/Foley Impacts Vol. 1/Grab/Grab Cloth High C.ogg`,
+          "04": `${p}/ovani-sounds/Foley Impacts Vol. 1/Grab/Grab Cloth High D.ogg`,
+        },
+        "03": {
+          "01": `${p}/ovani-sounds/Foley Impacts Vol. 1/Grab/Grab Nylon A.ogg`,
+          "02": `${p}/ovani-sounds/Foley Impacts Vol. 1/Grab/Grab Nylon B.ogg`,
+          "03": `${p}/ovani-sounds/Foley Impacts Vol. 1/Grab/Grab Nylon C.ogg`,
+          "04": `${p}/ovani-sounds/Foley Impacts Vol. 1/Grab/Grab Nylon D.ogg`,
+        },
+      },
+      flesh: {
+        "01": {
+          "01": `${p}/ovani-sounds/Foley Impacts Vol. 1/Grab/Grab Skin A.ogg`,
+          "02": `${p}/ovani-sounds/Foley Impacts Vol. 1/Grab/Grab Skin B.ogg`,
+          "03": `${p}/ovani-sounds/Foley Impacts Vol. 1/Grab/Grab Skin C.ogg`,
+        },
+      },
+    },
+    handshake: {
+      "01": {
+        "01": `${p}/ovani-sounds/Foley Impacts Vol. 1/Misc/Handshake A.ogg`,
+        "02": `${p}/ovani-sounds/Foley Impacts Vol. 1/Misc/Handshake B.ogg`,
+        "03": `${p}/ovani-sounds/Foley Impacts Vol. 1/Misc/Handshake C.ogg`,
+        "04": `${p}/ovani-sounds/Foley Impacts Vol. 1/Misc/Handshake D.ogg`,
+      },
+    },
+    high_five: {
+      "01": {
+        "01": `${p}/ovani-sounds/Foley Impacts Vol. 1/Misc/High Five A.ogg`,
+        "02": `${p}/ovani-sounds/Foley Impacts Vol. 1/Misc/High Five B.ogg`,
+        "03": `${p}/ovani-sounds/Foley Impacts Vol. 1/Misc/High Five C.ogg`,
+        "04": `${p}/ovani-sounds/Foley Impacts Vol. 1/Misc/High Five D.ogg`,
+      },
+    },
+    slam: {
+      "01": {
+        "01": `${p}/ovani-sounds/Foley Impacts Vol. 1/Beefy Impacts/Beefy Slam A.ogg`,
+        "02": `${p}/ovani-sounds/Foley Impacts Vol. 1/Beefy Impacts/Beefy Slam B.ogg`,
+      },
+    },
+    snap: {
+      "01": {
+        "01": `${p}/ovani-sounds/Foley Impacts Vol. 1/Misc/Finger Snap A.ogg`,
+        "02": `${p}/ovani-sounds/Foley Impacts Vol. 1/Misc/Finger Snap B.ogg`,
+        "03": `${p}/ovani-sounds/Foley Impacts Vol. 1/Misc/Finger Snap C.ogg`,
+        "04": `${p}/ovani-sounds/Foley Impacts Vol. 1/Misc/Finger Snap D.ogg`,
+      },
+    },
+  },
+  movement: {
+    slide: {
+      "01": {
+        "01": `${p}/ovani-sounds/Foley Impacts Vol. 1/Beefy Impacts/Beefy Fall Slide.ogg`,
       },
     },
   },

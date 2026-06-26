@@ -1,3 +1,10 @@
+## 0.0.10
+
+- **New**
+  - `Ovani SFX`
+    - `Foley Impacts Vol. 1`
+      - 
+
 ## 0.0.9
 
 - **New**
