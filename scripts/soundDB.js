@@ -548,8 +548,67 @@ export const database = {
             "03": `${p}/ovani-sounds/Magic/Light/Light Bolt Cast C.ogg`,
           },
         },
+        bells: {
+          "01": {
+            "01": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Holy/Holy Tail A.ogg`,
+            "02": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Holy/Holy Tail B.ogg`,
+            "03": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Holy/Holy Tail C.ogg`,
+            "04": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Holy/Holy Tail D.ogg`,
+            "05": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Holy/Holy Tail E.ogg`,
+            "06": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Holy/Holy Tail F.ogg`,
+            "07": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Holy/Holy Tail G.ogg`,
+          },
+          "02": {
+            "01": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Holy/Holy Tail Gong A.ogg`,
+            "02": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Holy/Holy Tail Gong B.ogg`,
+            "03": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Holy/Holy Tail Gong C.ogg`,
+            "04": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Holy/Holy Tail Gong D.ogg`,
+          },
+          "03": {
+            long: {
+              "01": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Holy/Holy Tail Long A.ogg`,
+              "02": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Holy/Holy Tail Long B.ogg`,
+              "03": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Holy/Holy Rise Long.ogg`,
+            },
+            short: {
+              "01": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Holy/Holy Tail Short A.ogg`,
+              "02": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Holy/Holy Tail Short B.ogg`,
+            },
+          },
+          "04": {
+            saddle: {
+              "01": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Holy/Holy Rise Saddle A.ogg`,
+              "02": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Holy/Holy Rise Saddle B.ogg`,
+              "03": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Holy/Holy Rise Saddle C.ogg`,
+              "04": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Holy/Holy Rise Saddle D.ogg`,
+            },
+            short: {
+              "01": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Holy/Holy Rise Short A.ogg`,
+              "02": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Holy/Holy Rise Short B.ogg`,
+            },
+            steady: {
+              "01": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Holy/Holy Rise Steady A.ogg`,
+              "02": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Holy/Holy Rise Steady B.ogg`,
+              "03": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Holy/Holy Rise Steady C.ogg`,
+            },
+          },
+        },
       },
       impact: {
+        bells: {
+          "01": {
+            "01": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Holy/Holy Impact A.ogg`,
+            "02": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Holy/Holy Impact B.ogg`,
+            "03": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Holy/Holy Impact C.ogg`,
+            "04": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Holy/Holy Impact D.ogg`,
+            "05": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Holy/Holy Impact E.ogg`,
+            "06": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Holy/Holy Impact F.ogg`,
+            "07": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Holy/Holy Impact G.ogg`,
+            "08": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Holy/Holy Impact H.ogg`,
+            "09": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Holy/Holy Impact I.ogg`,
+            10: `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Holy/Holy Impact J.ogg`,
+          },
+        },
         bolt: {
           "01": {
             "01": `${p}/ovani-sounds/Magic/Light/Light Bolt Impact A.ogg`,
@@ -577,6 +636,14 @@ export const database = {
         bolt: {
           "01": {
             trail: `${p}/ovani-sounds/Magic/Light/Light Bolt Trail Loop.ogg`,
+          },
+        },
+        bells: {
+          "01": {
+            "01": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Holy/Loops/Holy Loop Layer A.ogg`,
+            "02": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Holy/Loops/Holy Loop Layer B.ogg`,
+            "03": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Holy/Loops/Holy Loop Layer C.ogg`,
+            "04": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Holy/Loops/Holy Loop Layer D.ogg`,
           },
         },
       },
@@ -611,6 +678,11 @@ export const database = {
             "03": `${p}/ovani-sounds/Motion and Impacts Sound FX Pack Vol. 2/Riser/Riser Sanctuary 003.ogg`,
             "04": `${p}/ovani-sounds/Motion and Impacts Sound FX Pack Vol. 2/Riser/Riser Sanctuary 004.ogg`,
             "05": `${p}/ovani-sounds/Motion and Impacts Sound FX Pack Vol. 2/Riser/Riser Sanctuary 005.ogg`,
+          },
+        },
+        shield: {
+          "01": {
+            "01": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Holy/Holy Tail Shield.ogg`,
           },
         },
       },
