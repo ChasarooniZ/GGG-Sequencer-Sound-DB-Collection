@@ -1696,6 +1696,11 @@ export const database = {
           },
         },
       },
+      loop: {
+        "01": {
+          "01": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Water/Loops/Water Loop Layer C.ogg`,
+        },
+      },
       ice_lance: {
         "01": {
           cast: {
@@ -1744,6 +1749,14 @@ export const database = {
         },
         "02": {
           "01": `${p}/ovani-sounds/Magic/Ice/Frost Nova.ogg`,
+        },
+      },
+      movement: {
+        dash: {
+          "01": {
+            "01": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Water/Water Whoosh D.ogg`,
+            "02": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Water/Water Whoosh H.ogg`,
+          },
         },
       },
       buff: {
@@ -1810,13 +1823,65 @@ export const database = {
       },
     },
     water: {
+      cast: {
+        wave: {
+          "01": {
+            "01": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Water/Water Tail Long A.ogg`,
+            "02": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Water/Water Tail Long B.ogg`,
+            "03": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Water/Water Tail Long C.ogg`,
+            "04": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Water/Water Tail Long D.ogg`,
+          },
+          "02": {
+            "01": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Water/Water Tail A.ogg`,
+            "02": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Water/Water Tail B.ogg`,
+            "03": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Water/Water Tail C.ogg`,
+          },
+          "03": {
+            "01": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Water/Water Rise Steady A.ogg`,
+            "02": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Water/Water Rise Steady B.ogg`,
+          },
+          "04": {
+            "01": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Water/Water Rise A.ogg`,
+            "02": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Water/Water Rise B.ogg`,
+            "03": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Water/Water Rise C.ogg`,
+            "04": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Water/Water Rise D.ogg`,
+          },
+        },
+        blade: {
+          "01": {
+            "01": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Water/Water Tail Blades A.ogg`,
+            "02": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Water/Water Tail Blades C.ogg`,
+          },
+        },
+        beam: {
+          "01": {
+            "01": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Water/Water Rise High.ogg`,
+          },
+        },
+      },
       impact: {
+        generic: {
+          "01": {
+            "01": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Water/Water Impact A.ogg`,
+            "02": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Water/Water Impact D.ogg`,
+            "03": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Water/Water Impact E.ogg`,
+            "04": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Water/Water Impact F.ogg`,
+            "05": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Water/Water Impact H.ogg`,
+            "06": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Water/Water Impact I.ogg`,
+            "07": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Water/Water Impact J.ogg`,
+          },
+        },
         bubble: {
           "01": {
             "01": `${p}/ovani-sounds/Motion and Impacts Sound FX Pack Vol. 2/Impacts/Impact Bubble 001.ogg`,
             "02": `${p}/ovani-sounds/Motion and Impacts Sound FX Pack Vol. 2/Impacts/Impact Bubble 002.ogg`,
             "03": `${p}/ovani-sounds/Motion and Impacts Sound FX Pack Vol. 2/Impacts/Impact Bubble 003.ogg`,
             "04": `${p}/ovani-sounds/Motion and Impacts Sound FX Pack Vol. 2/Impacts/Impact Bubble 004.ogg`,
+          },
+          "02": {
+            "01": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Water/Water Impact B.ogg`,
+            "02": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Water/Water Impact C.ogg`,
+            "03": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Water/Water Impact G.ogg`,
           },
         },
       },
@@ -1873,10 +1938,37 @@ export const database = {
           },
         },
       },
-      surge: {
-        tides: {
+      loop: {
+        "02": {
+          "01": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Water/Loops/Water Loop Layer A.ogg`,
+          "02": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Water/Loops/Water Loop Layer D.ogg`,
+          "03": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Water/Loops/Water Loop Layer E.ogg`,
+        },
+        "03": {
+          bubble: `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Water/Loops/Water Loop Layer B.ogg`,
+        },
+      },
+      movement: {
+        surge: {
+          tides: {
+            "01": {
+              "01": `${p}/ovani-sounds/Magic/Water/Tidal Surge.ogg`,
+            },
+          },
+          underwater: {
+            "01": {
+              "01": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Water/Water Rise Whoosh.ogg`,
+            },
+          },
+        },
+        dash: {
           "01": {
-            "01": `${p}/ovani-sounds/Magic/Water/Tidal Surge.ogg`,
+            "01": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Water/Water Whoosh A.ogg`,
+            "02": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Water/Water Whoosh B.ogg`,
+            "03": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Water/Water Whoosh C.ogg`,
+            "04": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Water/Water Whoosh E.ogg`,
+            "05": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Water/Water Whoosh F.ogg`,
+            "06": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Water/Water Whoosh G.ogg`,
           },
         },
       },
