@@ -1,10 +1,12 @@
 ## Unreleased
 
+## 0.0.11
+
 - **New**
   - `Ovani SFX`
     - `Modular Magic Vol. 1`
-
-## 0.0.11
+  - `SoundFlakes`
+    - `Diablo Wrath - Weapon`
 
 ## 0.0.10
 

@@ -4,6 +4,14 @@ export const DB_PREFIX = "ggg-sfx";
 const p = "modules/ggg/assets/sounds";
 export const database = {
   melee: {
+    axe: {
+      throw: {
+        "01": {
+          throw: `${p}/SoundFlakes/diablo-wrath/weapon/axe-throwing.ogg`,
+          "spin-hit": `${p}/SoundFlakes/diablo-wrath/weapon/axe-throwing-hitting-flesh.ogg`,
+        },
+      },
+    },
     blade: {
       strike: {
         greatsword: {
@@ -99,13 +107,22 @@ export const database = {
           "05": `${p}/ovani-sounds/Weaponry Melee Sound FX Pack Vol. 1/Blade/Parry Blade 005.ogg`,
         },
       },
-      thrown: {
+      throw: {
         "01": {
           "01": `${p}/ovani-sounds/Motion and Impacts Sound FX Pack Vol. 2/Whoosh/Whoosh Bamboo 001.ogg`,
           "02": `${p}/ovani-sounds/Motion and Impacts Sound FX Pack Vol. 2/Whoosh/Whoosh Bamboo 002.ogg`,
           "03": `${p}/ovani-sounds/Motion and Impacts Sound FX Pack Vol. 2/Whoosh/Whoosh Bamboo 003.ogg`,
           "04": `${p}/ovani-sounds/Motion and Impacts Sound FX Pack Vol. 2/Whoosh/Whoosh Bamboo 004.ogg`,
           "05": `${p}/ovani-sounds/Motion and Impacts Sound FX Pack Vol. 2/Whoosh/Whoosh Bamboo 005.ogg`,
+        },
+
+        "02": {
+          "01": `${p}/SoundFlakes/diablo-wrath/weapon/tyrael-sword-throw-swoosh-02.ogg`,
+        },
+      },
+      spin: {
+        "01": {
+          "through-flesh": `${p}/SoundFlakes/diablo-wrath/weapon/sword-out-of-flesh.ogg`,
         },
       },
     },
@@ -127,6 +144,14 @@ export const database = {
             "03": `${p}/ovani-sounds/Weaponry Melee Sound FX Pack Vol. 1/Blunt/Strike Blunt Large 003.ogg`,
             "04": `${p}/ovani-sounds/Weaponry Melee Sound FX Pack Vol. 1/Blunt/Strike Blunt Large 004.ogg`,
             "05": `${p}/ovani-sounds/Weaponry Melee Sound FX Pack Vol. 1/Blunt/Strike Blunt Large 005.ogg`,
+          },
+        },
+        flail: {
+          "01": {
+            "01": `${p}/SoundFlakes/diablo-wrath/weapon/bludgeon-throwing.ogg`,
+          },
+          "02": {
+            "01": `${p}/SoundFlakes/diablo-wrath/weapon/shield-breaking-with-bludgeon.ogg`,
           },
         },
       },
@@ -159,6 +184,13 @@ export const database = {
           "05": `${p}/ovani-sounds/Weaponry Melee Sound FX Pack Vol. 1/Blunt/Parry Blunt 005.ogg`,
         },
       },
+      throw: {
+        chain: {
+          "01": {
+            "01": `${p}/SoundFlakes/diablo-wrath/weapon/bludgeon-chain-fly.ogg`,
+          },
+        },
+      },
     },
     polearm: {
       strike: {
@@ -177,13 +209,23 @@ export const database = {
             "04": `${p}/ovani-sounds/Weaponry Melee Sound FX Pack Vol. 1/Polearm/Strike Wooden Blunt 004.ogg`,
             "05": `${p}/ovani-sounds/Weaponry Melee Sound FX Pack Vol. 1/Polearm/Strike Wooden Blunt 005.ogg`,
           },
-          piece: {
+          pierce: {
             "01": `${p}/ovani-sounds/Weaponry Melee Sound FX Pack Vol. 1/Polearm/Strike Wooden Pierce 001.ogg`,
             "02": `${p}/ovani-sounds/Weaponry Melee Sound FX Pack Vol. 1/Polearm/Strike Wooden Pierce 002.ogg`,
             "03": `${p}/ovani-sounds/Weaponry Melee Sound FX Pack Vol. 1/Polearm/Strike Wooden Pierce 003.ogg`,
             "04": `${p}/ovani-sounds/Weaponry Melee Sound FX Pack Vol. 1/Polearm/Strike Wooden Pierce 004.ogg`,
             "05": `${p}/ovani-sounds/Weaponry Melee Sound FX Pack Vol. 1/Polearm/Strike Wooden Pierce 005.ogg`,
           },
+        },
+        "02": {
+          "01": `${p}/SoundFlakes/diablo-wrath/weapon/imperius-spear-hit-01.ogg`,
+          "02": `${p}/SoundFlakes/diablo-wrath/weapon/imperius-spear-hit-02.ogg`,
+          "03": `${p}/SoundFlakes/diablo-wrath/weapon/imperius-spear-hit-03.ogg`,
+          "04": `${p}/SoundFlakes/diablo-wrath/weapon/imperius-spear-hit-04.ogg`,
+          "05": `${p}/SoundFlakes/diablo-wrath/weapon/imperius-spear-hit-05.ogg`,
+        },
+        "05": {
+          magical: `${p}/SoundFlakes/diablo-wrath/weapon/imperius-spear-hit-the-giant.ogg`,
         },
       },
       block: {
@@ -202,7 +244,7 @@ export const database = {
             "04": `${p}/ovani-sounds/Weaponry Melee Sound FX Pack Vol. 1/Polearm/Block Wooden Blunt 004.ogg`,
             "05": `${p}/ovani-sounds/Weaponry Melee Sound FX Pack Vol. 1/Polearm/Block Wooden Blunt 005.ogg`,
           },
-          piece: {
+          pierce: {
             "01": `${p}/ovani-sounds/Weaponry Melee Sound FX Pack Vol. 1/Polearm/Block Wooden Pierce 001.ogg`,
             "02": `${p}/ovani-sounds/Weaponry Melee Sound FX Pack Vol. 1/Polearm/Block Wooden Pierce 002.ogg`,
             "03": `${p}/ovani-sounds/Weaponry Melee Sound FX Pack Vol. 1/Polearm/Block Wooden Pierce 003.ogg`,
@@ -218,6 +260,14 @@ export const database = {
           "03": `${p}/ovani-sounds/Weaponry Melee Sound FX Pack Vol. 1/Polearm/Parry Wooden 003.ogg`,
           "04": `${p}/ovani-sounds/Weaponry Melee Sound FX Pack Vol. 1/Polearm/Parry Wooden 004.ogg`,
           "05": `${p}/ovani-sounds/Weaponry Melee Sound FX Pack Vol. 1/Polearm/Parry Wooden 005.ogg`,
+        },
+      },
+      hit: {
+        "01": {
+          "01": `${p}/SoundFlakes/diablo-wrath/weapon/malthael-weapon-hit.ogg`,
+        },
+        "02": {
+          pierce: `${p}/SoundFlakes/diablo-wrath/weapon/spear-impale-flesh-hit.ogg`,
         },
       },
     },
@@ -266,6 +316,9 @@ export const database = {
             "01": `${p}/ovani-sounds/Foley Impacts Vol. 1/Beefy Impacts/Beefy Big Punch A.ogg`,
             "02": `${p}/ovani-sounds/Foley Impacts Vol. 1/Beefy Impacts/Beefy Big Punch B.ogg`,
             "03": `${p}/ovani-sounds/Foley Impacts Vol. 1/Beefy Impacts/Beefy Big Punch C.ogg`,
+          },
+          "05": {
+            "01": `${p}/SoundFlakes/diablo-wrath/weapon/imperius-face-punch.ogg`,
           },
         },
         miss: {
@@ -1068,6 +1121,11 @@ export const database = {
           },
         },
       },
+      strike: {
+        "01": {
+          "01": `${p}/SoundFlakes/diablo-wrath/weapon/tyrael-sword-breaks-the-stone-door.ogg`,
+        },
+      },
       movement: {
         meld: {
           "01": {
@@ -1421,10 +1479,37 @@ export const database = {
             "02": `${p}/ovani-sounds/Fire SFX/Fire Magic/Fire Cast Only B.ogg`,
           },
         },
-        tail: {
+        throw: {
           "01": {
             "01": `${p}/ovani-sounds/Fire SFX/Fire Magic/Fire Cast and Tail A.ogg`,
             "02": `${p}/ovani-sounds/Fire SFX/Fire Magic/Fire Cast and Tail B.ogg`,
+          },
+          "02": {
+            "01": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Fire/Fire Tail A.ogg`,
+            "02": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Fire/Fire Tail B.ogg`,
+            "03": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Fire/Fire Tail C.ogg`,
+            "04": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Fire/Fire Tail D.ogg`,
+            "05": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Fire/Fire Tail Crackling.ogg`,
+          },
+          "03": {
+            "01": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Fire/Fire Tail Hiss A.ogg`,
+            "02": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Fire/Fire Tail Hiss B.ogg`,
+            "03": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Fire/Fire Tail Hiss C.ogg`,
+          },
+          "04": {
+            slow: {
+              "01": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Fire/Fire Tail Long A.ogg`,
+              "02": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Fire/Fire Tail Long B.ogg`,
+              "03": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Fire/Fire Tail Long C.ogg`,
+              "04": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Fire/Fire Tail Long D.ogg`,
+              "05": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Fire/Fire Tail Phase.ogg`,
+            },
+          },
+          "05": {
+            "01": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Fire/Fire Tail Whip A.ogg`,
+            "02": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Fire/Fire Tail Whip B.ogg`,
+            "03": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Fire/Fire Tail Whip C.ogg`,
+            "04": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Fire/Fire Tail Whip D.ogg`,
           },
         },
         hit: {
@@ -1474,6 +1559,20 @@ export const database = {
         },
       },
       impact: {
+        generic: {
+          "01": {
+            "01": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Fire/Fire Impact A.ogg`,
+            "02": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Fire/Fire Impact B.ogg`,
+            "03": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Fire/Fire Impact E.ogg`,
+          },
+          "02": {
+            "01": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Fire/Fire Impact Short A.ogg`,
+            "02": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Fire/Fire Impact Short B.ogg`,
+            "03": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Fire/Fire Impact Short C.ogg`,
+            "04": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Fire/Fire Impact Short D.ogg`,
+            "05": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Fire/Fire Impact Short E.ogg`,
+          },
+        },
         flame: {
           "01": {
             "01": `${p}/ovani-sounds/Fire SFX/Fire Magic/Fire Impact A.ogg`,
@@ -1496,6 +1595,12 @@ export const database = {
             "03": `${p}/ovani-sounds/Motion and Impacts Sound FX Pack Vol. 2/Impacts/Impact Fire Start 003.ogg`,
             "04": `${p}/ovani-sounds/Motion and Impacts Sound FX Pack Vol. 2/Impacts/Impact Fire Start 004.ogg`,
             "05": `${p}/ovani-sounds/Motion and Impacts Sound FX Pack Vol. 2/Impacts/Impact Fire Start 005.ogg`,
+          },
+        },
+        extinguish: {
+          "01": {
+            "01": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Fire/Fire Impact C.ogg`,
+            "02": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Fire/Fire Impact D.ogg`,
           },
         },
       },
@@ -1549,6 +1654,14 @@ export const database = {
         },
       },
       burst: {
+        generic: {
+          "01": {
+            small: {
+              "01": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Fire/Fire Rise Strike A.ogg`,
+              "02": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Fire/Fire Rise Strike B.ogg`,
+            },
+          },
+        },
         flames: {
           "01": {
             "01": `${p}/ovani-sounds/Fire SFX/Fire Movement/Fiery Burst Long Tail A.ogg`,
@@ -1565,11 +1678,35 @@ export const database = {
           },
         },
       },
+      loop: {
+        storm: {
+          "01": {
+            "01": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Fire/Loops/Fire Loop Layer A.ogg`,
+            "02": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Fire/Loops/Fire Loop Layer B.ogg`,
+            "03": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Fire/Loops/Fire Loop Layer C.ogg`,
+            "04": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Fire/Loops/Fire Loop Layer E.ogg`,
+            "05": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Fire/Loops/Fire Loop Layer F.ogg`,
+          },
+          "02": {
+            spin: `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Fire/Loops/Fire Loop Layer D.ogg`,
+          },
+        },
+      },
+      burn: {
+        "03": {
+          "01": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Fire/Fire Rise Long A.ogg`,
+          "02": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Fire/Fire Rise Long B.ogg`,
+        },
+      },
       buff: {
         generic: {
           "03": {
             "01": `${p}/ovani-sounds/Fire SFX/Misc/Flame Short Low End A.ogg`,
             "02": `${p}/ovani-sounds/Fire SFX/Misc/Flame Short Low End B.ogg`,
+          },
+          "04": {
+            "01": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Fire/Fire Rise Tear A.ogg`,
+            "02": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Fire/Fire Rise Tear B.ogg`,
           },
         },
         armor: {
@@ -1592,6 +1729,31 @@ export const database = {
           "02": {
             "01": `${p}/ovani-sounds/Fire SFX/Fire Movement/Fire Low Movement A.ogg`,
             "02": `${p}/ovani-sounds/Fire SFX/Fire Movement/Fire Low Movement B.ogg`,
+          },
+        },
+        dash: {
+          "01": {
+            leaving: {
+              "01": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Fire/Fire Whoosh A.ogg`,
+              "02": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Fire/Fire Whoosh B.ogg`,
+              "03": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Fire/Fire Whoosh C.ogg`,
+            },
+            returning: {
+              "01": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Fire/Fire Whoosh D.ogg`,
+              "02": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Fire/Fire Whoosh F.ogg`,
+              "03": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Fire/Fire Whoosh G.ogg`,
+              "04": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Fire/Fire Whoosh H.ogg`,
+            },
+            maxspeed: {
+              "01": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Fire/Fire Whoosh E.ogg`,
+            },
+          },
+          "04": {
+            "01": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Fire/Fire Rise Whoosh A.ogg`,
+            "02": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Fire/Fire Rise Whoosh B.ogg`,
+            "03": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Fire/Fire Rise Whoosh C.ogg`,
+            "04": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Fire/Fire Rise Whoosh D.ogg`,
+            "05": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Fire/Fire Rise Whoosh E.ogg`,
           },
         },
         bolt: {
@@ -2039,6 +2201,13 @@ export const database = {
         },
       },
     },
+    counter: {
+      counterspell: {
+        "01": {
+          "01": `${p}/SoundFlakes/diablo-wrath/weapon/tyrael-spellbreaking.ogg`,
+        },
+      },
+    },
     misc: {},
   },
   equipment: {
@@ -2176,7 +2345,7 @@ export const database = {
               "04": `${p}/ovani-sounds/Weaponry Melee Sound FX Pack Vol. 1/Polearm/Unsheathe Wooden Blunt 004.ogg`,
               "05": `${p}/ovani-sounds/Weaponry Melee Sound FX Pack Vol. 1/Polearm/Unsheathe Wooden Blunt 005.ogg`,
             },
-            piece: {
+            pierce: {
               "01": `${p}/ovani-sounds/Weaponry Melee Sound FX Pack Vol. 1/Polearm/Unsheathe Wooden Pierce 001.ogg`,
               "02": `${p}/ovani-sounds/Weaponry Melee Sound FX Pack Vol. 1/Polearm/Unsheathe Wooden Pierce 002.ogg`,
               "03": `${p}/ovani-sounds/Weaponry Melee Sound FX Pack Vol. 1/Polearm/Unsheathe Wooden Pierce 003.ogg`,
@@ -2356,6 +2525,22 @@ export const database = {
         },
       },
     },
+    swashbuckler: {
+      finisher: {
+        generic: {
+          "01": {
+            "01": `${p}/SoundFlakes/diablo-wrath/weapon/imperius-last-hit.ogg`,
+          },
+        },
+        bleeding: {
+          "01": {
+            "01": `${p}/SoundFlakes/diablo-wrath/weapon/tyrael-sword-impale-flesh-05.ogg`,
+            "02": `${p}/SoundFlakes/diablo-wrath/weapon/tyrael-sword-out-of-flesh-06.ogg`,
+            "03": `${p}/SoundFlakes/diablo-wrath/weapon/tyrael-sword-slice-flesh-02.ogg`,
+          },
+        },
+      },
+    },
   },
   impact: {
     fall: {
@@ -2407,6 +2592,9 @@ export const database = {
           "02": `${p}/ovani-sounds/Foley Impacts Vol. 1/Falls/Fall Metal B.ogg`,
           "03": `${p}/ovani-sounds/Foley Impacts Vol. 1/Falls/Fall Metal C.ogg`,
         },
+        "02": {
+          "01": `${p}/SoundFlakes/diablo-wrath/weapon/axe-hitting-metal.ogg`,
+        },
       },
       sand: {
         "01": {
@@ -2433,6 +2621,11 @@ export const database = {
         "01": `${p}/ovani-sounds/Foley Impacts Vol. 1/Flesh Hits/Flesh Hit A.ogg`,
         "02": `${p}/ovani-sounds/Foley Impacts Vol. 1/Flesh Hits/Flesh Hit B.ogg`,
         "03": `${p}/ovani-sounds/Foley Impacts Vol. 1/Flesh Hits/Flesh Hit C.ogg`,
+      },
+      "02": {
+        "01": `${p}/SoundFlakes/diablo-wrath/weapon/tyrael-sword-hit-flesh-01.ogg`,
+        "02": `${p}/SoundFlakes/diablo-wrath/weapon/tyrael-sword-hit-flesh-02.ogg`,
+        "03": `${p}/SoundFlakes/diablo-wrath/weapon/tyrael-sword-hit-flesh-03.ogg`,
       },
     },
     wood: {
@@ -2527,7 +2720,34 @@ export const database = {
     },
   },
   misc: {
-    critical: {},
-    critical_miss: {},
+    critical: {
+      melee: {
+        "01": {
+          "01": `${p}/SoundFlakes/diablo-wrath/weapon/etherael-attack-01.ogg`,
+          "02": `${p}/SoundFlakes/diablo-wrath/weapon/etherael-attack-02.ogg`,
+          "03": `${p}/SoundFlakes/diablo-wrath/weapon/etherael-attack-03.ogg`,
+          "04": `${p}/SoundFlakes/diablo-wrath/weapon/etherael-attack-04.ogg`,
+        },
+      },
+    },
+    critical_miss: {
+      melee: {
+        "01": {
+          "01": `${p}/SoundFlakes/diablo-wrath/weapon/tyrael-sword-swoosh-01.ogg`,
+          "02": `${p}/SoundFlakes/diablo-wrath/weapon/tyrael-sword-swoosh-02.ogg`,
+          "03": `${p}/SoundFlakes/diablo-wrath/weapon/tyrael-sword-swoosh-03.ogg`,
+          "04": `${p}/SoundFlakes/diablo-wrath/weapon/tyrael-sword-swoosh-04.ogg`,
+          "05": `${p}/SoundFlakes/diablo-wrath/weapon/tyrael-sword-swoosh-05.ogg`,
+        },
+        "02": {
+          "01": `${p}/SoundFlakes/diablo-wrath/weapon/giant-demon-sword-swoosh.ogg`,
+        },
+      },
+      thrown: {
+        "01": {
+          "01": `${p}/SoundFlakes/diablo-wrath/weapon/imperius-spear-whoosh.ogg`,
+        },
+      },
+    },
   },
 };
