@@ -14,7 +14,7 @@ export const database = {
     },
     blade: {
       strike: {
-        generic: {
+        general: {
           "02": {
             "01": `${p}/TomMusic/FreeFantasySFX/Attacks/Sword Attacks Hits and Blocks/Sword Attack 1.ogg`,
             "02": `${p}/TomMusic/FreeFantasySFX/Attacks/Sword Attacks Hits and Blocks/Sword Attack 2.ogg`,
@@ -159,6 +159,14 @@ export const database = {
           },
           "02": {
             "01": `${p}/SoundFlakes/diablo-wrath/weapon/shield-breaking-with-bludgeon.ogg`,
+          },
+          "03": {
+            "01": `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Whooshes/Flail Whoosh A.ogg`,
+            "02": `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Whooshes/Flail Whoosh B.ogg`,
+            "03": `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Whooshes/Flail Whoosh C.ogg`,
+            "04": `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Whooshes/Flail Whoosh D.ogg`,
+            "05": `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Whooshes/Flail Whoosh E.ogg`,
+            "06": `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Whooshes/Flail Whoosh F.ogg`,
           },
         },
       },
@@ -470,11 +478,85 @@ export const database = {
   ranged: {
     bow: {
       strike: {
-        generic: {
+        general: {
           "01": {
             "01": `${p}/TomMusic/FreeFantasySFX/Attacks/Bow Attacks Hits and Blocks/Bow Attack 1.ogg`,
             "02": `${p}/TomMusic/FreeFantasySFX/Attacks/Bow Attacks Hits and Blocks/Bow Attack 2.ogg`,
           },
+        },
+      },
+    },
+    crossbow: {
+      strike: {
+        "01": {
+          "01": `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Weapons/Crossbow Shot A.ogg`,
+          "02": `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Weapons/Crossbow Shot B.ogg`,
+          "03": `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Weapons/Crossbow Shot C.ogg`,
+          "04": `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Weapons/Crossbow Shot D.ogg`,
+        },
+      },
+    },
+    balista: {
+      strike: {
+        "01": {
+          "01": `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Weapons/Ballista Shoot A.ogg`,
+          "02": `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Weapons/Ballista Shoot B.ogg`,
+          "03": `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Weapons/Ballista Shoot C.ogg`,
+          "04": `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Weapons/Ballista Shoot D.ogg`,
+        },
+      },
+    },
+    bomb: {
+      acid: {
+        "01": {
+          "01": `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Weapons/Pot Acid.ogg`,
+        },
+      },
+      blood: {
+        "01": {
+          "01": `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Weapons/Pot Blood.ogg`,
+        },
+      },
+      explosion: {
+        "01": {
+          "01": `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Weapons/Pot Explosion.ogg`,
+        },
+      },
+      electricity: {
+        "01": {
+          "01": `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Weapons/Pot Lightning.ogg`,
+        },
+      },
+      fire: {
+        "01": {
+          "01": `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Weapons/Pot Fire.ogg`,
+        },
+      },
+      holy_water: {
+        "01": {
+          "01": `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Weapons/Pot Holy Water.ogg`,
+        },
+      },
+      ice: {
+        "01": {
+          "01": `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Weapons/Pot Ice.ogg`,
+        },
+      },
+      poison: {
+        "01": {
+          "01": `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Weapons/Pot Poison.ogg`,
+        },
+      },
+      water: {
+        "01": {
+          "01": `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Weapons/Pot Water.ogg`,
+        },
+      },
+      break: {
+        "01": {
+          "01": `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Weapons/Pot Break A.ogg`,
+          "02": `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Weapons/Pot Break B.ogg`,
+          "03": `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Weapons/Pot Break C.ogg`,
         },
       },
     },
@@ -492,14 +574,50 @@ export const database = {
       },
     },
     thrown: {
+      general: {
+        "01": {
+          "01": `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Whooshes/General Throw A.ogg`,
+          "02": `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Whooshes/General Throw B.ogg`,
+          "03": `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Whooshes/General Throw C.ogg`,
+        },
+      },
       blade: {
-        whoosh: {
+        general: {
           "01": {
             "01": `${p}/ovani-sounds/Motion and Impacts Sound FX Pack Vol. 2/Whoosh/Whoosh Blade 001.ogg`,
             "02": `${p}/ovani-sounds/Motion and Impacts Sound FX Pack Vol. 2/Whoosh/Whoosh Blade 002.ogg`,
             "03": `${p}/ovani-sounds/Motion and Impacts Sound FX Pack Vol. 2/Whoosh/Whoosh Blade 003.ogg`,
             "04": `${p}/ovani-sounds/Motion and Impacts Sound FX Pack Vol. 2/Whoosh/Whoosh Blade 004.ogg`,
             "05": `${p}/ovani-sounds/Motion and Impacts Sound FX Pack Vol. 2/Whoosh/Whoosh Blade 005.ogg`,
+          },
+
+          "02": {
+            "01": `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Whooshes/Large Blade Whoosh A.ogg`,
+            "02": `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Whooshes/Large Blade Whoosh B.ogg`,
+            "03": `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Whooshes/Large Blade Whoosh C.ogg`,
+            "04": `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Whooshes/Large Blade Whoosh D.ogg`,
+            "05": `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Whooshes/Large Blade Whoosh E.ogg`,
+          },
+        },
+        knife: {
+          "01": {
+            "01": `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Whooshes/Small Blade Whoosh A.ogg`,
+            "02": `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Whooshes/Small Blade Whoosh B.ogg`,
+            "03": `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Whooshes/Small Blade Whoosh C.ogg`,
+            "04": `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Whooshes/Small Blade Whoosh D.ogg`,
+            "05": `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Whooshes/Small Blade Whoosh E.ogg`,
+          },
+        },
+      },
+      blunt: {
+        whoosh: {
+          "01": {
+            "01": `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Whooshes/Blunt Whoosh A.ogg`,
+            "02": `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Whooshes/Blunt Whoosh B.ogg`,
+            "03": `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Whooshes/Blunt Whoosh C.ogg`,
+            "04": `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Whooshes/Blunt Whoosh D.ogg`,
+            "05": `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Whooshes/Blunt Whoosh E.ogg`,
+            "06": `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Whooshes/Blunt Whoosh F.ogg`,
           },
         },
       },
@@ -513,10 +631,28 @@ export const database = {
           },
         },
       },
+      spear: {
+        whoosh: {
+          "01": {
+            "01": `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Whooshes/Spear Whoosh A.ogg`,
+            "02": `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Whooshes/Spear Whoosh B.ogg`,
+            "03": `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Whooshes/Spear Whoosh C.ogg`,
+            "04": `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Whooshes/Spear Whoosh D.ogg`,
+            "05": `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Whooshes/Spear Whoosh E.ogg`,
+            "06": `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Whooshes/Spear Whoosh F.ogg`,
+          },
+        },
+      },
     },
   },
   magic: {
     arcane: {
+      cast: {
+        "01": {
+          "01": `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Items & Misc/Item Use A.ogg`,
+          "02": `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Items & Misc/Item Use B.ogg`,
+        },
+      },
       impact: {
         blast: {
           "01": {
@@ -537,10 +673,23 @@ export const database = {
           },
         },
       },
+      buff: {
+        "01": {
+          "01": `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Items & Misc/Equip Amulet A.ogg`,
+          "02": `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Items & Misc/Equip Amulet B.ogg`,
+          "03": `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Items & Misc/Equip Amulet C.ogg`,
+          "04": `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Items & Misc/Equip Amulet D.ogg`,
+        },
+        "02": {
+          "01": `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Items & Misc/Equip Charm A.ogg`,
+          "02": `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Items & Misc/Equip Charm B.ogg`,
+          "03": `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Items & Misc/Equip Charm C.ogg`,
+        },
+      },
     },
     primal: {
       cast: {
-        generic: {
+        general: {
           "03": {
             "01": `${p}/ovani-sounds/Magic/Nature/Animorphic Bond.ogg`,
           },
@@ -763,14 +912,14 @@ export const database = {
     },
     occult: {
       cast: {
-        generic: {
+        general: {
           "03": {
             "01": `${p}/ovani-sounds/Magic/Dark/Necrotic Touch.ogg`,
           },
         },
       },
       impact: {
-        generic: {
+        general: {
           "01": {
             "01": `${p}/ovani-sounds/Motion and Impacts Sound FX Pack Vol. 2/Impacts/Impact Moor 001.ogg`,
             "02": `${p}/ovani-sounds/Motion and Impacts Sound FX Pack Vol. 2/Impacts/Impact Moor 002.ogg`,
@@ -1077,7 +1226,7 @@ export const database = {
         },
       },
       impact: {
-        generic: {
+        general: {
           "01": {
             normal: {
               "01": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Earth/Earth Impact A.ogg`,
@@ -1504,7 +1653,7 @@ export const database = {
     },
     fire: {
       cast: {
-        generic: {
+        general: {
           "01": {
             "01": `${p}/ovani-sounds/Fire SFX/Fire Magic/Fire Spell A.ogg`,
             "02": `${p}/ovani-sounds/Fire SFX/Fire Magic/Fire Spell B.ogg`,
@@ -1585,7 +1734,7 @@ export const database = {
         },
       },
       surge: {
-        generic: {
+        general: {
           "03": {
             "01": `${p}/ovani-sounds/Motion and Impacts Sound FX Pack Vol. 2/Whoosh/Whoosh Reactor 001.ogg`,
             "02": `${p}/ovani-sounds/Motion and Impacts Sound FX Pack Vol. 2/Whoosh/Whoosh Reactor 002.ogg`,
@@ -1605,7 +1754,7 @@ export const database = {
         },
       },
       impact: {
-        generic: {
+        general: {
           "01": {
             "01": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Fire/Fire Impact A.ogg`,
             "02": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Fire/Fire Impact B.ogg`,
@@ -1700,7 +1849,7 @@ export const database = {
         },
       },
       burst: {
-        generic: {
+        general: {
           "01": {
             small: {
               "01": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Fire/Fire Rise Strike A.ogg`,
@@ -1745,7 +1894,7 @@ export const database = {
         },
       },
       buff: {
-        generic: {
+        general: {
           "01": {
             "01": `${p}/TomMusic/FreeFantasySFX/Spells/Firebuff 1.ogg`,
             "02": `${p}/TomMusic/FreeFantasySFX/Spells/Firebuff 2.ogg`,
@@ -2102,7 +2251,7 @@ export const database = {
         },
       },
       impact: {
-        generic: {
+        general: {
           "01": {
             "01": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Water/Water Impact A.ogg`,
             "02": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Water/Water Impact D.ogg`,
@@ -2260,7 +2409,7 @@ export const database = {
         },
       },
       whoosh: {
-        generic: {
+        general: {
           "01": {
             "01": `${p}/ovani-sounds/Motion and Impacts Sound FX Pack Vol. 2/Whoosh/Whoosh Glass 001.ogg`,
             "02": `${p}/ovani-sounds/Motion and Impacts Sound FX Pack Vol. 2/Whoosh/Whoosh Glass 002.ogg`,
@@ -2292,9 +2441,16 @@ export const database = {
   },
   equipment: {
     weapons: {
+      axe: {
+        equip: {
+          "01": {
+            "01": `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Weapons/Equip Axe.ogg`,
+          },
+        },
+      },
       blade: {
-        sheath: {
-          generic: {
+        sheathe: {
+          general: {
             "01": {
               "01": `${p}/TomMusic/FreeFantasySFX/Attacks/Sword Attacks Hits and Blocks/Sword Sheath 1.ogg`,
               "02": `${p}/TomMusic/FreeFantasySFX/Attacks/Sword Attacks Hits and Blocks/Sword Sheath 2.ogg`,
@@ -2313,12 +2469,21 @@ export const database = {
               "02": `${p}/ovani-sounds/Weaponry Melee Sound FX Pack Vol. 1/Blade/Sheathe Blade Medium 002.ogg`,
               "03": `${p}/ovani-sounds/Weaponry Melee Sound FX Pack Vol. 1/Blade/Sheathe Blade Medium 003.ogg`,
             },
+            "02": {
+              "01": `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Weapons/Sword Sheathe A.ogg`,
+              "02": `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Weapons/Sword Sheathe B.ogg`,
+              "03": `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Weapons/Sword Sheathe C.ogg`,
+            },
           },
           dagger: {
             "01": {
               "01": `${p}/ovani-sounds/Weaponry Melee Sound FX Pack Vol. 1/Blade/Sheathe Blade Small 001.ogg`,
               "02": `${p}/ovani-sounds/Weaponry Melee Sound FX Pack Vol. 1/Blade/Sheathe Blade Small 002.ogg`,
               "03": `${p}/ovani-sounds/Weaponry Melee Sound FX Pack Vol. 1/Blade/Sheathe Blade Small 003.ogg`,
+            },
+            "02": {
+              "01": `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Weapons/Knife Sheathe A.ogg`,
+              "02": `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Weapons/Knife Sheathe B.ogg`,
             },
           },
           rapier: {
@@ -2329,8 +2494,8 @@ export const database = {
             },
           },
         },
-        unsheath: {
-          generic: {
+        unsheathe: {
+          general: {
             "01": {
               "01": `${p}/TomMusic/FreeFantasySFX/Attacks/Sword Attacks Hits and Blocks/Sword Unsheath 1.ogg`,
               "02": `${p}/TomMusic/FreeFantasySFX/Attacks/Sword Attacks Hits and Blocks/Sword Unsheath 2.ogg`,
@@ -2353,6 +2518,13 @@ export const database = {
               "04": `${p}/ovani-sounds/Weaponry Melee Sound FX Pack Vol. 1/Blade/Unsheathe Blade Medium 004.ogg`,
               "05": `${p}/ovani-sounds/Weaponry Melee Sound FX Pack Vol. 1/Blade/Unsheathe Blade Medium 005.ogg`,
             },
+
+            "02": {
+              "01": `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Weapons/Sword Draw A.ogg`,
+              "02": `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Weapons/Sword Draw B.ogg`,
+              "03": `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Weapons/Sword Draw C.ogg`,
+              "04": `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Weapons/Sword Draw D.ogg`,
+            },
           },
           dagger: {
             "01": {
@@ -2361,6 +2533,10 @@ export const database = {
               "03": `${p}/ovani-sounds/Weaponry Melee Sound FX Pack Vol. 1/Blade/Unsheathe Blade Small 003.ogg`,
               "04": `${p}/ovani-sounds/Weaponry Melee Sound FX Pack Vol. 1/Blade/Unsheathe Blade Small 004.ogg`,
               "05": `${p}/ovani-sounds/Weaponry Melee Sound FX Pack Vol. 1/Blade/Unsheathe Blade Small 005.ogg`,
+            },
+
+            "02": {
+              "01": `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Weapons/Knife Draw.ogg`,
             },
           },
           rapier: {
@@ -2372,9 +2548,26 @@ export const database = {
             },
           },
         },
+        equip: {
+          general: {
+            "01": {
+              "01": `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Weapons/Equip General Weapon C.ogg`,
+            },
+          },
+          dagger: {
+            "01": {
+              "01": `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Weapons/Equip Dagger.ogg`,
+            },
+          },
+          sword: {
+            "01": {
+              "01": `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Weapons/Equip Sword.ogg`,
+            },
+          },
+        },
       },
       bludgeoning: {
-        sheath: {
+        sheathe: {
           "one-hand": {
             "01": {
               "01": `${p}/ovani-sounds/Weaponry Melee Sound FX Pack Vol. 1/Blunt/Sheathe Blunt Small 001.ogg`,
@@ -2390,7 +2583,7 @@ export const database = {
             },
           },
         },
-        unsheath: {
+        unsheathe: {
           "one-hand": {
             "01": {
               "01": `${p}/ovani-sounds/Weaponry Melee Sound FX Pack Vol. 1/Blunt/Unsheathe Blunt Medium 001.ogg`,
@@ -2410,21 +2603,51 @@ export const database = {
             },
           },
         },
+        equip: {
+          general: {
+            "01": {
+              "01": `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Weapons/Equip General Weapon A.ogg`,
+            },
+          },
+          flail: {
+            "01": {
+              "01": `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Weapons/Equip Flail.ogg`,
+            },
+          },
+        },
       },
       bow: {
-        sheath: {
+        sheathe: {
           "01": {
             "01": `${p}/TomMusic/FreeFantasySFX/Attacks/Bow Attacks Hits and Blocks/Bow Put Away 1.ogg`,
           },
         },
-        unsheath: {
+        unsheathe: {
           "01": {
             "01": `${p}/TomMusic/FreeFantasySFX/Attacks/Bow Attacks Hits and Blocks/Bow Take Out 1.ogg`,
           },
         },
+        equip: {
+          "01": {
+            wood: `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Weapons/Equip General Weapon B.ogg`,
+          },
+        },
+      },
+      crossbow: {
+        load: {
+          "01": {
+            "01": `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Weapons/Crossbow Load A.ogg`,
+            "02": `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Weapons/Crossbow Load B.ogg`,
+          },
+        },
+        equip: {
+          "01": {
+            "01": `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Weapons/Equip Crossbow.ogg`,
+          },
+        },
       },
       polearm: {
-        sheath: {
+        sheathe: {
           "01": {
             blunt: {
               "01": `${p}/ovani-sounds/Weaponry Melee Sound FX Pack Vol. 1/Polearm/Sheathe Wooden Blunt 001.ogg`,
@@ -2433,7 +2656,7 @@ export const database = {
             },
           },
         },
-        unsheath: {
+        unsheathe: {
           "01": {
             blade: {
               "01": `${p}/ovani-sounds/Weaponry Melee Sound FX Pack Vol. 1/Polearm/Unsheathe Wooden Blade 001.ogg`,
@@ -2505,6 +2728,39 @@ export const database = {
         },
       },
     },
+    armor: {
+      armor: {
+        equip: {
+          "01": {
+            "01": `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Armor/Equip Armor.ogg`,
+          },
+        },
+      },
+      helmet: {
+        equip: {
+          "01": {
+            "01": `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Armor/Equip Helmet A.ogg`,
+            "02": `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Armor/Equip Helmet B.ogg`,
+          },
+        },
+      },
+      shield: {
+        equip: {
+          "01": {
+            "01": `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Armor/Equip Shield A.ogg`,
+            "02": `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Armor/Equip Shield B.ogg`,
+          },
+        },
+        impact: {
+          "01": {
+            "01": `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Armor/Shield Impact A.ogg`,
+            "02": `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Armor/Shield Impact B.ogg`,
+            "03": `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Armor/Shield Impact C.ogg`,
+            "04": `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Armor/Shield Impact D.ogg`,
+          },
+        },
+      },
+    },
     consumables: {
       bombs: {
         dynamite: {
@@ -2516,8 +2772,47 @@ export const database = {
           },
         },
       },
+      potions: {
+        open: {
+          "01": {
+            "01": `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Items & Misc/Potion Open A.ogg`,
+            "02": `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Items & Misc/Potion Open B.ogg`,
+          },
+          drink: {
+            "01": {
+              "01": `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Items & Misc/Potion Drink A.ogg`,
+              "02": `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Items & Misc/Potion Drink B.ogg`,
+              "03": `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Items & Misc/Potion Drink C.ogg`,
+            },
+          },
+          equip: {
+            "01": {
+              "01": `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Items & Misc/Potion Equip A.ogg`,
+              "02": `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Items & Misc/Potion Equip B.ogg`,
+              "03": `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Items & Misc/Potion Equip C.ogg`,
+            },
+          },
+          handle: {
+            "01": {
+              "01": `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Items & Misc/Potion Handle A.ogg`,
+              "02": `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Items & Misc/Potion Handle B.ogg`,
+              "03": `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Items & Misc/Potion Handle C.ogg`,
+            },
+          },
+        },
+      },
     },
     misc: {
+      misc: {
+        unequip: {
+          "01": {
+            narrow: `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Items & Misc/Unequip Item A.ogg`,
+            item: `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Items & Misc/Unequip Item B.ogg`,
+            arrow: `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Items & Misc/Unequip Item C.ogg`,
+            jewelry: `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Items & Misc/Unequip Item D.ogg`,
+          },
+        },
+      },
       chest: {
         open: {
           "01": {
@@ -2566,6 +2861,11 @@ export const database = {
       lock: {
         unlock: {
           "02": {
+            "01": `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Items & Misc/Lockbox Unlock A.ogg`,
+            "02": `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Items & Misc/Lockbox Unlock B.ogg`,
+            "03": `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Items & Misc/Lockbox Unlock C.ogg`,
+          },
+          "03": {
             "01": `${p}/TomMusic/FreeFantasySFX/Doors Gates and Chests/Lock Unlock.ogg`,
           },
         },
@@ -2607,6 +2907,36 @@ export const database = {
           },
         },
       },
+      blacksmithing: {
+        hammer: {
+          "01": {
+            "01": `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Items & Misc/Black Smith Hammer A.ogg`,
+            "02": `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Items & Misc/Black Smith Hammer B.ogg`,
+            "03": `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Items & Misc/Black Smith Hammer C.ogg`,
+            "04": `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Items & Misc/Black Smith Hammer D.ogg`,
+            "05": `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Items & Misc/Black Smith Hammer E.ogg`,
+          },
+        },
+        tool: {
+          "01": {
+            "01": `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Items & Misc/Black Smith Tool A.ogg`,
+            "02": `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Items & Misc/Black Smith Tool B.ogg`,
+            "03": `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Items & Misc/Black Smith Tool C.ogg`,
+            "04": `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Items & Misc/Black Smith Tool D.ogg`,
+            "05": `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Items & Misc/Black Smith Tool E.ogg`,
+          },
+        },
+      },
+      carpentry: {
+        hammer: {
+          "01": {
+            "01": `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Items & Misc/Carpenter Hammer A.ogg`,
+            "02": `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Items & Misc/Carpenter Hammer B.ogg`,
+            "03": `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Items & Misc/Carpenter Hammer C.ogg`,
+            "04": `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Items & Misc/Carpenter Hammer D.ogg`,
+          },
+        },
+      },
       whetstone: {
         sharpen: {
           "01": {
@@ -2639,6 +2969,20 @@ export const database = {
     },
   },
   abilities: {
+    commander: {
+      war_horn: {
+        "01": {
+          "01": `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Items & Misc/Warhorn B.ogg`,
+          "02": `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Items & Misc/Warhorn C.ogg`,
+          "03": `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Items & Misc/Warhorn D.ogg`,
+        },
+        "02": {
+          "01": `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Items & Misc/Warhorn A.ogg`,
+          "02": `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Items & Misc/Warhorn A Delay.ogg`,
+          "03": `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Items & Misc/Warhorn E.ogg`,
+        },
+      },
+    },
     gunslinger: {
       guitar: {
         "01": {
@@ -2661,7 +3005,7 @@ export const database = {
     },
     swashbuckler: {
       finisher: {
-        generic: {
+        general: {
           "01": {
             "01": `${p}/SoundFlakes/diablo-wrath/weapon/imperius-last-hit.ogg`,
           },
@@ -2673,6 +3017,15 @@ export const database = {
             "03": `${p}/SoundFlakes/diablo-wrath/weapon/tyrael-sword-slice-flesh-02.ogg`,
           },
         },
+      },
+    },
+    buff: {
+      "01": {
+        fire: `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Weapons/Weapon Power Up Fire.ogg`,
+        ice: `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Weapons/Weapon Power Up Ice.ogg`,
+        electricity: `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Weapons/Weapon Power Up Lightning.ogg`,
+        poison: `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Weapons/Weapon Power Up Poison.ogg`,
+        misc: `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Weapons/Weapon Power Up.ogg`,
       },
     },
   },
@@ -2703,7 +3056,7 @@ export const database = {
       },
     },
     fall: {
-      generic: {
+      general: {
         "01": {
           "01": `${p}/ovani-sounds/Foley Impacts Vol. 1/Falls/Fall A.ogg`,
           "02": `${p}/ovani-sounds/Foley Impacts Vol. 1/Falls/Fall B.ogg`,
@@ -2793,7 +3146,7 @@ export const database = {
         "03": `${p}/TomMusic/FreeFantasySFX/Attacks/Sword Attacks Hits and Blocks/Sword Impact Hit 3.ogg`,
       },
     },
-    generic: {
+    general: {
       "01": {
         "01": `${p}/TomMusic/FreeFantasySFX/Spells/Spell Impact 1.ogg`,
         "02": `${p}/TomMusic/FreeFantasySFX/Spells/Spell Impact 2.ogg`,
@@ -2871,6 +3224,15 @@ export const database = {
         "02": `${p}/ovani-sounds/Foley Impacts Vol. 1/Misc/Finger Snap B.ogg`,
         "03": `${p}/ovani-sounds/Foley Impacts Vol. 1/Misc/Finger Snap C.ogg`,
         "04": `${p}/ovani-sounds/Foley Impacts Vol. 1/Misc/Finger Snap D.ogg`,
+      },
+    },
+    sneak: {
+      bush: {
+        "01": {
+          "01": `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Items & Misc/Bush Rustle Short A.ogg`,
+          "02": `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Items & Misc/Bush Rustle Short B.ogg`,
+          "03": `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Items & Misc/Bush Rustle Short C.ogg`,
+        },
       },
     },
   },

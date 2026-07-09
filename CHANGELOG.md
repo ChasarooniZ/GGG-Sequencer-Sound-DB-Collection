@@ -1,5 +1,11 @@
 ## Unreleased
 
+## 0.0.13
+
+- **New**
+  - `Ovani SFX`
+    - `Medieval Fantasy Sound FX Pack Vol. 2`
+
 ## 0.0.12
 
 - **New**
