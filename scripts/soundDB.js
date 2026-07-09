@@ -2778,26 +2778,26 @@ export const database = {
             "01": `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Items & Misc/Potion Open A.ogg`,
             "02": `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Items & Misc/Potion Open B.ogg`,
           },
-          drink: {
-            "01": {
-              "01": `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Items & Misc/Potion Drink A.ogg`,
-              "02": `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Items & Misc/Potion Drink B.ogg`,
-              "03": `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Items & Misc/Potion Drink C.ogg`,
-            },
+        },
+        drink: {
+          "01": {
+            "01": `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Items & Misc/Potion Drink A.ogg`,
+            "02": `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Items & Misc/Potion Drink B.ogg`,
+            "03": `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Items & Misc/Potion Drink C.ogg`,
           },
-          equip: {
-            "01": {
-              "01": `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Items & Misc/Potion Equip A.ogg`,
-              "02": `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Items & Misc/Potion Equip B.ogg`,
-              "03": `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Items & Misc/Potion Equip C.ogg`,
-            },
+        },
+        equip: {
+          "01": {
+            "01": `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Items & Misc/Potion Equip A.ogg`,
+            "02": `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Items & Misc/Potion Equip B.ogg`,
+            "03": `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Items & Misc/Potion Equip C.ogg`,
           },
-          handle: {
-            "01": {
-              "01": `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Items & Misc/Potion Handle A.ogg`,
-              "02": `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Items & Misc/Potion Handle B.ogg`,
-              "03": `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Items & Misc/Potion Handle C.ogg`,
-            },
+        },
+        handle: {
+          "01": {
+            "01": `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Items & Misc/Potion Handle A.ogg`,
+            "02": `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Items & Misc/Potion Handle B.ogg`,
+            "03": `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Items & Misc/Potion Handle C.ogg`,
           },
         },
       },
