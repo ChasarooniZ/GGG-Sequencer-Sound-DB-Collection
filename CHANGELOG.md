@@ -1,5 +1,11 @@
 ## Unreleased
 
+## 0.0.12
+
+- **New**
+  - `TomMusic`
+    - `Free Fantasy SFX`
+
 ## 0.0.11
 
 - **New**

@@ -14,6 +14,13 @@ export const database = {
     },
     blade: {
       strike: {
+        generic: {
+          "02": {
+            "01": `${p}/TomMusic/FreeFantasySFX/Attacks/Sword Attacks Hits and Blocks/Sword Attack 1.ogg`,
+            "02": `${p}/TomMusic/FreeFantasySFX/Attacks/Sword Attacks Hits and Blocks/Sword Attack 2.ogg`,
+            "03": `${p}/TomMusic/FreeFantasySFX/Attacks/Sword Attacks Hits and Blocks/Sword Attack 3.ogg`,
+          },
+        },
         greatsword: {
           "01": {
             "01": `${p}/ovani-sounds/Weaponry Melee Sound FX Pack Vol. 1/Blade/Strike Blade Large 001.ogg`,
@@ -282,6 +289,10 @@ export const database = {
         "03": `${p}/ovani-sounds/Fire SFX/Torch/Intense Torch Swoosh C.ogg`,
         "04": `${p}/ovani-sounds/Fire SFX/Torch/Intense Torch Swoosh D.ogg`,
       },
+      "03": {
+        "01": `${p}/TomMusic/FreeFantasySFX/Torch/Torch Attack Strike 1.ogg`,
+        "02": `${p}/TomMusic/FreeFantasySFX/Torch/Torch Attack Strike 2.ogg`,
+      },
     },
     unarmed: {
       fist: {
@@ -457,6 +468,16 @@ export const database = {
     },
   },
   ranged: {
+    bow: {
+      strike: {
+        generic: {
+          "01": {
+            "01": `${p}/TomMusic/FreeFantasySFX/Attacks/Bow Attacks Hits and Blocks/Bow Attack 1.ogg`,
+            "02": `${p}/TomMusic/FreeFantasySFX/Attacks/Bow Attacks Hits and Blocks/Bow Attack 2.ogg`,
+          },
+        },
+      },
+    },
     firearm: {
       old_timey: {
         strike: {
@@ -974,6 +995,12 @@ export const database = {
         },
       },
       ranged: {
+        barrage: {
+          "01": {
+            "01": `${p}/TomMusic/FreeFantasySFX/Spells/Rock Meteor Swarm 1.ogg`,
+            "02": `${p}/TomMusic/FreeFantasySFX/Spells/Rock Meteor Swarm 2.ogg`,
+          },
+        },
         boulder: {
           "01": {
             cast: {
@@ -1018,6 +1045,10 @@ export const database = {
               "02": `${p}/ovani-sounds/Magic/Earth/Rock Throw Impact B.ogg`,
               "03": `${p}/ovani-sounds/Magic/Earth/Rock Throw Impact C.ogg`,
             },
+          },
+          "04": {
+            "01": `${p}/TomMusic/FreeFantasySFX/Spells/Rock Meteor Throw 1.ogg`,
+            "02": `${p}/TomMusic/FreeFantasySFX/Spells/Rock Meteor Throw 2.ogg`,
           },
         },
         stone: {
@@ -1273,6 +1304,10 @@ export const database = {
           "01": {
             "01": `${p}/ovani-sounds/Magic/Earth/Stone Wall.ogg`,
           },
+          "02": {
+            "01": `${p}/TomMusic/FreeFantasySFX/Spells/Rock Wall 1.ogg`,
+            "02": `${p}/TomMusic/FreeFantasySFX/Spells/Rock Wall 2.ogg`,
+          },
         },
       },
       pulse: {
@@ -1478,6 +1513,11 @@ export const database = {
             "01": `${p}/ovani-sounds/Fire SFX/Fire Magic/Fire Cast Only A.ogg`,
             "02": `${p}/ovani-sounds/Fire SFX/Fire Magic/Fire Cast Only B.ogg`,
           },
+          "03": {
+            "01": `${p}/TomMusic/FreeFantasySFX/Spells/Fireball 1.ogg`,
+            "02": `${p}/TomMusic/FreeFantasySFX/Spells/Fireball 2.ogg`,
+            "03": `${p}/TomMusic/FreeFantasySFX/Spells/Fireball 3.ogg`,
+          },
         },
         throw: {
           "01": {
@@ -1550,6 +1590,12 @@ export const database = {
             "01": `${p}/ovani-sounds/Motion and Impacts Sound FX Pack Vol. 2/Whoosh/Whoosh Reactor 001.ogg`,
             "02": `${p}/ovani-sounds/Motion and Impacts Sound FX Pack Vol. 2/Whoosh/Whoosh Reactor 002.ogg`,
             "03": `${p}/ovani-sounds/Motion and Impacts Sound FX Pack Vol. 2/Whoosh/Whoosh Reactor 003.ogg`,
+          },
+        },
+        flames: {
+          "01": {
+            "01": `${p}/TomMusic/FreeFantasySFX/Spells/Firespray 1.ogg`,
+            "02": `${p}/TomMusic/FreeFantasySFX/Spells/Firespray 2.ogg`,
           },
         },
       },
@@ -1700,6 +1746,10 @@ export const database = {
       },
       buff: {
         generic: {
+          "01": {
+            "01": `${p}/TomMusic/FreeFantasySFX/Spells/Firebuff 1.ogg`,
+            "02": `${p}/TomMusic/FreeFantasySFX/Spells/Firebuff 2.ogg`,
+          },
           "03": {
             "01": `${p}/ovani-sounds/Fire SFX/Misc/Flame Short Low End A.ogg`,
             "02": `${p}/ovani-sounds/Fire SFX/Misc/Flame Short Low End B.ogg`,
@@ -1851,9 +1901,19 @@ export const database = {
       cast: {},
       strike: {
         icycle: {
+          single: {
+            "01": {
+              "01": `${p}/TomMusic/FreeFantasySFX/Spells/Ice Throw 1.ogg`,
+              "02": `${p}/TomMusic/FreeFantasySFX/Spells/Ice Throw 2.ogg`,
+            },
+          },
           multiple: {
             "01": {
               "01": `${p}/ovani-sounds/Magic/Ice/Icicle Barrage.ogg`,
+            },
+            "02": {
+              "01": `${p}/TomMusic/FreeFantasySFX/Spells/Ice Barrage 1.ogg`,
+              "02": `${p}/TomMusic/FreeFantasySFX/Spells/Ice Barrage 2.ogg`,
             },
           },
         },
@@ -1904,6 +1964,10 @@ export const database = {
         "02": {
           "01": `${p}/ovani-sounds/Magic/Ice/Frozen Echo.ogg`,
         },
+        "03": {
+          "01": `${p}/TomMusic/FreeFantasySFX/Spells/Ice Freeze 1.ogg`,
+          "02": `${p}/TomMusic/FreeFantasySFX/Spells/Ice Freeze 2.ogg`,
+        },
       },
       gale: {
         "01": {
@@ -1937,6 +2001,12 @@ export const database = {
         column: {
           "01": {
             "01": `${p}/ovani-sounds/Magic/Ice/Crystal Column.ogg`,
+          },
+        },
+        wall: {
+          "01": {
+            "01": `${p}/TomMusic/FreeFantasySFX/Spells/Ice Wall 1.ogg`,
+            "02": `${p}/TomMusic/FreeFantasySFX/Spells/Ice Wall 2.ogg`,
           },
         },
       },
@@ -2008,6 +2078,10 @@ export const database = {
             "03": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Water/Water Rise C.ogg`,
             "04": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Water/Water Rise D.ogg`,
           },
+          "05": {
+            "01": `${p}/TomMusic/FreeFantasySFX/Spells/Wave Attack 1.ogg`,
+            "02": `${p}/TomMusic/FreeFantasySFX/Spells/Wave Attack 2.ogg`,
+          },
         },
         blade: {
           "01": {
@@ -2018,6 +2092,12 @@ export const database = {
         beam: {
           "01": {
             "01": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Water/Water Rise High.ogg`,
+          },
+        },
+        spray: {
+          "01": {
+            "01": `${p}/TomMusic/FreeFantasySFX/Spells/Waterspray 1.ogg`,
+            "02": `${p}/TomMusic/FreeFantasySFX/Spells/Waterspray 2.ogg`,
           },
         },
       },
@@ -2213,7 +2293,13 @@ export const database = {
   equipment: {
     weapons: {
       blade: {
-        sheathe: {
+        sheath: {
+          generic: {
+            "01": {
+              "01": `${p}/TomMusic/FreeFantasySFX/Attacks/Sword Attacks Hits and Blocks/Sword Sheath 1.ogg`,
+              "02": `${p}/TomMusic/FreeFantasySFX/Attacks/Sword Attacks Hits and Blocks/Sword Sheath 2.ogg`,
+            },
+          },
           greatsword: {
             "01": {
               "01": `${p}/ovani-sounds/Weaponry Melee Sound FX Pack Vol. 1/Blade/Sheathe Blade Large 001.ogg`,
@@ -2243,7 +2329,13 @@ export const database = {
             },
           },
         },
-        unsheathe: {
+        unsheath: {
+          generic: {
+            "01": {
+              "01": `${p}/TomMusic/FreeFantasySFX/Attacks/Sword Attacks Hits and Blocks/Sword Unsheath 1.ogg`,
+              "02": `${p}/TomMusic/FreeFantasySFX/Attacks/Sword Attacks Hits and Blocks/Sword Unsheath 2.ogg`,
+            },
+          },
           greatsword: {
             "01": {
               "01": `${p}/ovani-sounds/Weaponry Melee Sound FX Pack Vol. 1/Blade/Unsheathe Blade Large 001.ogg`,
@@ -2298,7 +2390,7 @@ export const database = {
             },
           },
         },
-        unsheathe: {
+        unsheath: {
           "one-hand": {
             "01": {
               "01": `${p}/ovani-sounds/Weaponry Melee Sound FX Pack Vol. 1/Blunt/Unsheathe Blunt Medium 001.ogg`,
@@ -2319,8 +2411,20 @@ export const database = {
           },
         },
       },
+      bow: {
+        sheath: {
+          "01": {
+            "01": `${p}/TomMusic/FreeFantasySFX/Attacks/Bow Attacks Hits and Blocks/Bow Put Away 1.ogg`,
+          },
+        },
+        unsheath: {
+          "01": {
+            "01": `${p}/TomMusic/FreeFantasySFX/Attacks/Bow Attacks Hits and Blocks/Bow Take Out 1.ogg`,
+          },
+        },
+      },
       polearm: {
-        sheathe: {
+        sheath: {
           "01": {
             blunt: {
               "01": `${p}/ovani-sounds/Weaponry Melee Sound FX Pack Vol. 1/Polearm/Sheathe Wooden Blunt 001.ogg`,
@@ -2329,7 +2433,7 @@ export const database = {
             },
           },
         },
-        unsheathe: {
+        unsheath: {
           "01": {
             blade: {
               "01": `${p}/ovani-sounds/Weaponry Melee Sound FX Pack Vol. 1/Polearm/Unsheathe Wooden Blade 001.ogg`,
@@ -2414,6 +2518,20 @@ export const database = {
       },
     },
     misc: {
+      chest: {
+        open: {
+          "01": {
+            "01": `${p}/TomMusic/FreeFantasySFX/Doors Gates and Chests/Chest Open 1.ogg`,
+            "02": `${p}/TomMusic/FreeFantasySFX/Doors Gates and Chests/Chest Open 2.ogg`,
+          },
+        },
+        close: {
+          "01": {
+            "01": `${p}/TomMusic/FreeFantasySFX/Doors Gates and Chests/Chest Close 1.ogg`,
+            "02": `${p}/TomMusic/FreeFantasySFX/Doors Gates and Chests/Chest Close 2.ogg`,
+          },
+        },
+      },
       flint_and_steel: {
         "01": {
           "01": `${p}/ovani-sounds/Fire SFX/Flint/Sharp Flint Spark A.ogg`,
@@ -2445,6 +2563,13 @@ export const database = {
           },
         },
       },
+      lock: {
+        unlock: {
+          "02": {
+            "01": `${p}/TomMusic/FreeFantasySFX/Doors Gates and Chests/Lock Unlock.ogg`,
+          },
+        },
+      },
       paper: {
         throw: {
           "01": {
@@ -2459,6 +2584,15 @@ export const database = {
           "01": {
             "01": `${p}/ovani-sounds/Fire SFX/Torch/Torch Light B.ogg`,
             "02": `${p}/ovani-sounds/Fire SFX/Torch/Torch Light C.ogg`,
+          },
+          "02": {
+            "01": `${p}/TomMusic/FreeFantasySFX/Torch/Light Torch 1.ogg`,
+            "02": `${p}/TomMusic/FreeFantasySFX/Torch/Light Torch 2.ogg`,
+          },
+        },
+        loop: {
+          "01": {
+            "01": `${p}/TomMusic/FreeFantasySFX/Torch/Torch Loop.ogg`,
           },
         },
       },
@@ -2543,6 +2677,31 @@ export const database = {
     },
   },
   impact: {
+    arrow: {
+      blocked: {
+        "01": {
+          "01": `${p}/TomMusic/FreeFantasySFX/Attacks/Bow Attacks Hits and Blocks/Bow Blocked 1.ogg`,
+          "02": `${p}/TomMusic/FreeFantasySFX/Attacks/Bow Attacks Hits and Blocks/Bow Blocked 2.ogg`,
+          "03": `${p}/TomMusic/FreeFantasySFX/Attacks/Bow Attacks Hits and Blocks/Bow Blocked 3.ogg`,
+        },
+      },
+      hit: {
+        "01": {
+          "01": `${p}/TomMusic/FreeFantasySFX/Attacks/Bow Attacks Hits and Blocks/Bow Impact Hit 1.ogg`,
+          "02": `${p}/TomMusic/FreeFantasySFX/Attacks/Bow Attacks Hits and Blocks/Bow Impact Hit 2.ogg`,
+          "03": `${p}/TomMusic/FreeFantasySFX/Attacks/Bow Attacks Hits and Blocks/Bow Impact Hit 3.ogg`,
+        },
+      },
+    },
+    blade: {
+      blocked: {
+        "03": {
+          "01": `${p}/TomMusic/FreeFantasySFX/Attacks/Sword Attacks Hits and Blocks/Sword Blocked 1.ogg`,
+          "02": `${p}/TomMusic/FreeFantasySFX/Attacks/Sword Attacks Hits and Blocks/Sword Blocked 2.ogg`,
+          "03": `${p}/TomMusic/FreeFantasySFX/Attacks/Sword Attacks Hits and Blocks/Sword Blocked 3.ogg`,
+        },
+      },
+    },
     fall: {
       generic: {
         "01": {
@@ -2626,6 +2785,19 @@ export const database = {
         "01": `${p}/SoundFlakes/diablo-wrath/weapon/tyrael-sword-hit-flesh-01.ogg`,
         "02": `${p}/SoundFlakes/diablo-wrath/weapon/tyrael-sword-hit-flesh-02.ogg`,
         "03": `${p}/SoundFlakes/diablo-wrath/weapon/tyrael-sword-hit-flesh-03.ogg`,
+      },
+
+      "03": {
+        "01": `${p}/TomMusic/FreeFantasySFX/Attacks/Sword Attacks Hits and Blocks/Sword Impact Hit 1.ogg`,
+        "02": `${p}/TomMusic/FreeFantasySFX/Attacks/Sword Attacks Hits and Blocks/Sword Impact Hit 2.ogg`,
+        "03": `${p}/TomMusic/FreeFantasySFX/Attacks/Sword Attacks Hits and Blocks/Sword Impact Hit 3.ogg`,
+      },
+    },
+    generic: {
+      "01": {
+        "01": `${p}/TomMusic/FreeFantasySFX/Spells/Spell Impact 1.ogg`,
+        "02": `${p}/TomMusic/FreeFantasySFX/Spells/Spell Impact 2.ogg`,
+        "03": `${p}/TomMusic/FreeFantasySFX/Spells/Spell Impact 3.ogg`,
       },
     },
     wood: {
