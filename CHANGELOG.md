@@ -1,5 +1,11 @@
 ## Unreleased
 
+## 0.0.15
+
+- **New**
+  - `Ovani SFX`
+    - `Weekly Wav SFX`
+
 ## 0.0.14
 
 - **New**

@@ -644,6 +644,15 @@ export const database = {
         },
       },
     },
+    scifi: {
+      blaster: {
+        strike: {
+          "03": {
+            "01": `${p}/ovani-sounds/_Free Weekly WAVs/Echo Blaster.ogg`,
+          },
+        },
+      },
+    },
   },
   magic: {
     arcane: {
@@ -658,6 +667,9 @@ export const database = {
             "02": `${p}/ovani-sounds/Player Status SFX/General/Abstract Reward 002.ogg`,
             "03": `${p}/ovani-sounds/Player Status SFX/General/Abstract Reward 003.ogg`,
             "04": `${p}/ovani-sounds/Player Status SFX/General/Abstract Reward 004.ogg`,
+          },
+          "03": {
+            "01": `${p}/ovani-sounds/_Free Weekly WAVs/Arcade Spell.ogg`,
           },
           "04": {
             "01": `${p}/ovani-sounds/Player Status SFX/General/Abstract Change 001.ogg`,
@@ -684,6 +696,11 @@ export const database = {
             "02": `${p}/ovani-sounds/Motion and Impacts Sound FX Pack Vol. 2/Riser/Riser Chains 002.ogg`,
             "03": `${p}/ovani-sounds/Motion and Impacts Sound FX Pack Vol. 2/Riser/Riser Chains 003.ogg`,
             "04": `${p}/ovani-sounds/Motion and Impacts Sound FX Pack Vol. 2/Riser/Riser Chains 004.ogg`,
+          },
+        },
+        long: {
+          "03": {
+            "01": `${p}/ovani-sounds/_Free Weekly WAVs/Discovery Jingle.ogg`,
           },
         },
       },
@@ -985,6 +1002,16 @@ export const database = {
             "02": `${p}/ovani-sounds/Player Status SFX/Musical/Musical Fear 002.ogg`,
             "03": `${p}/ovani-sounds/Player Status SFX/Musical/Musical Fear 003.ogg`,
             "04": `${p}/ovani-sounds/Player Status SFX/Musical/Musical Fear 004.ogg`,
+          },
+        },
+        laughter: {
+          "01": {
+            "01": `${p}/ovani-sounds/_Free Weekly WAVs/Mad Maiden Stinger.ogg`,
+          },
+        },
+        countdown: {
+          "01": {
+            "01": `${p}/ovani-sounds/_Free Weekly WAVs/Spooky Countdown.ogg`,
           },
         },
       },
@@ -1577,6 +1604,11 @@ export const database = {
           "02": {
             "01": `${p}/TomMusic/FreeFantasySFX/Spells/Rock Wall 1.ogg`,
             "02": `${p}/TomMusic/FreeFantasySFX/Spells/Rock Wall 2.ogg`,
+          },
+        },
+        tunnel: {
+          "01": {
+            "01": `${p}/ovani-sounds/_Free Weekly WAVs/Secret Tunnel.ogg`,
           },
         },
       },
@@ -3019,6 +3051,13 @@ export const database = {
           },
         },
       },
+      clock: {
+        ring: {
+          "01": {
+            "01": `${p}/ovani-sounds/_Free Weekly WAVs/Steampunk Grandfather Clock Melody.ogg`,
+          },
+        },
+      },
       flint_and_steel: {
         "01": {
           "01": `${p}/ovani-sounds/Fire SFX/Flint/Sharp Flint Spark A.ogg`,
@@ -3199,6 +3238,13 @@ export const database = {
         },
       },
     },
+    fighter: {
+      flurry: {
+        "01": {
+          "01": `${p}/ovani-sounds/_Free Weekly WAVs/1000 Sword Jutsu.ogg`,
+        },
+      },
+    },
     gunslinger: {
       guitar: {
         "01": {
@@ -3232,6 +3278,13 @@ export const database = {
             "02": `${p}/SoundFlakes/diablo-wrath/weapon/tyrael-sword-out-of-flesh-06.ogg`,
             "03": `${p}/SoundFlakes/diablo-wrath/weapon/tyrael-sword-slice-flesh-02.ogg`,
           },
+        },
+      },
+    },
+    misc: {
+      whip: {
+        "01": {
+          "01": `${p}/ovani-sounds/_Free Weekly WAVs/Ability Shield.ogg`,
         },
       },
     },
@@ -3374,6 +3427,13 @@ export const database = {
         "01": `${p}/ovani-sounds/Foley Impacts Vol. 1/Beefy Impacts/Beefy Wood.ogg`,
       },
     },
+    scifi: {
+      digital: {
+        "01": {
+          "01": `${p}/ovani-sounds/_Free Weekly WAVs/Cool Digital Impact.ogg`,
+        },
+      },
+    },
   },
   actions: {
     movement: {
@@ -3467,6 +3527,13 @@ export const database = {
     },
   },
   scifi: {
+    throw: {
+      energy: {
+        "03": {
+          "01": `${p}/ovani-sounds/_Free Weekly WAVs/Guitar Hit.ogg`,
+        },
+      },
+    },
     teleportation: {
       "01": {
         "01": `${p}/ovani-sounds/Motion and Impacts Sound FX Pack Vol. 2/Riser/Riser Jump Pad 001.ogg`,
