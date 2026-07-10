@@ -648,9 +648,23 @@ export const database = {
   magic: {
     arcane: {
       cast: {
-        "01": {
-          "01": `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Items & Misc/Item Use A.ogg`,
-          "02": `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Items & Misc/Item Use B.ogg`,
+        general: {
+          "01": {
+            "01": `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Items & Misc/Item Use A.ogg`,
+            "02": `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Items & Misc/Item Use B.ogg`,
+          },
+          "02": {
+            "01": `${p}/ovani-sounds/Player Status SFX/General/Abstract Reward 001.ogg`,
+            "02": `${p}/ovani-sounds/Player Status SFX/General/Abstract Reward 002.ogg`,
+            "03": `${p}/ovani-sounds/Player Status SFX/General/Abstract Reward 003.ogg`,
+            "04": `${p}/ovani-sounds/Player Status SFX/General/Abstract Reward 004.ogg`,
+          },
+          "04": {
+            "01": `${p}/ovani-sounds/Player Status SFX/General/Abstract Change 001.ogg`,
+            "02": `${p}/ovani-sounds/Player Status SFX/General/Abstract Change 002.ogg`,
+            "03": `${p}/ovani-sounds/Player Status SFX/General/Abstract Change 003.ogg`,
+            "04": `${p}/ovani-sounds/Player Status SFX/General/Abstract Change 004.ogg`,
+          },
         },
       },
       impact: {
@@ -673,17 +687,43 @@ export const database = {
           },
         },
       },
-      buff: {
-        "01": {
-          "01": `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Items & Misc/Equip Amulet A.ogg`,
-          "02": `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Items & Misc/Equip Amulet B.ogg`,
-          "03": `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Items & Misc/Equip Amulet C.ogg`,
-          "04": `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Items & Misc/Equip Amulet D.ogg`,
+      light: {
+        general: {
+          "01": {
+            "01": `${p}/ovani-sounds/Player Status SFX/Musical/Musical Light 001.ogg`,
+            "02": `${p}/ovani-sounds/Player Status SFX/Musical/Musical Light 002.ogg`,
+            "03": `${p}/ovani-sounds/Player Status SFX/Musical/Musical Light 003.ogg`,
+            "04": `${p}/ovani-sounds/Player Status SFX/Musical/Musical Light 004.ogg`,
+          },
         },
-        "02": {
-          "01": `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Items & Misc/Equip Charm A.ogg`,
-          "02": `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Items & Misc/Equip Charm B.ogg`,
-          "03": `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Items & Misc/Equip Charm C.ogg`,
+        revealing: {
+          "01": {
+            "01": `${p}/ovani-sounds/Player Status SFX/Fantasy/Fantasy Fairy Dust 001.ogg`,
+            "02": `${p}/ovani-sounds/Player Status SFX/Fantasy/Fantasy Fairy Dust 002.ogg`,
+            "03": `${p}/ovani-sounds/Player Status SFX/Fantasy/Fantasy Fairy Dust 003.ogg`,
+            "04": `${p}/ovani-sounds/Player Status SFX/Fantasy/Fantasy Fairy Dust 004.ogg`,
+          },
+        },
+      },
+      buff: {
+        general: {
+          "01": {
+            "01": `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Items & Misc/Equip Amulet A.ogg`,
+            "02": `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Items & Misc/Equip Amulet B.ogg`,
+            "03": `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Items & Misc/Equip Amulet C.ogg`,
+            "04": `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Items & Misc/Equip Amulet D.ogg`,
+          },
+          "02": {
+            "01": `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Items & Misc/Equip Charm A.ogg`,
+            "02": `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Items & Misc/Equip Charm B.ogg`,
+            "03": `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Items & Misc/Equip Charm C.ogg`,
+          },
+          "03": {
+            "01": `${p}/ovani-sounds/Player Status SFX/Fantasy/Fantasy Elven Charm 001.ogg`,
+            "02": `${p}/ovani-sounds/Player Status SFX/Fantasy/Fantasy Elven Charm 002.ogg`,
+            "03": `${p}/ovani-sounds/Player Status SFX/Fantasy/Fantasy Elven Charm 003.ogg`,
+            "04": `${p}/ovani-sounds/Player Status SFX/Fantasy/Fantasy Elven Charm 004.ogg`,
+          },
         },
       },
     },
@@ -875,6 +915,14 @@ export const database = {
           "01": `${p}/ovani-sounds/Magic/Light/Holy Nova.ogg`,
         },
       },
+      healing: {
+        "01": {
+          "01": `${p}/ovani-sounds/Player Status SFX/Musical/Musical Heal 001.ogg`,
+          "02": `${p}/ovani-sounds/Player Status SFX/Musical/Musical Heal 002.ogg`,
+          "03": `${p}/ovani-sounds/Player Status SFX/Musical/Musical Heal 003.ogg`,
+          "04": `${p}/ovani-sounds/Player Status SFX/Musical/Musical Heal 004.ogg`,
+        },
+      },
       light: {
         "01": {
           "01": `${p}/ovani-sounds/Magic/Light/Illuminate.ogg`,
@@ -887,6 +935,14 @@ export const database = {
         ward: {
           "01": {
             "01": `${p}/ovani-sounds/Magic/Light/Holy Ward.ogg`,
+          },
+        },
+        bless: {
+          "01": {
+            "01": `${p}/ovani-sounds/Player Status SFX/Musical/Musical Bless 001.ogg`,
+            "02": `${p}/ovani-sounds/Player Status SFX/Musical/Musical Bless 002.ogg`,
+            "03": `${p}/ovani-sounds/Player Status SFX/Musical/Musical Bless 003.ogg`,
+            "04": `${p}/ovani-sounds/Player Status SFX/Musical/Musical Bless 004.ogg`,
           },
         },
         consecrate: {
@@ -913,8 +969,22 @@ export const database = {
     occult: {
       cast: {
         general: {
+          "02": {
+            "01": `${p}/ovani-sounds/Player Status SFX/General/Abstract Decision 001.ogg`,
+            "02": `${p}/ovani-sounds/Player Status SFX/General/Abstract Decision 002.ogg`,
+            "03": `${p}/ovani-sounds/Player Status SFX/General/Abstract Decision 003.ogg`,
+            "04": `${p}/ovani-sounds/Player Status SFX/General/Abstract Decision 004.ogg`,
+          },
           "03": {
             "01": `${p}/ovani-sounds/Magic/Dark/Necrotic Touch.ogg`,
+          },
+        },
+        fear: {
+          "02": {
+            "01": `${p}/ovani-sounds/Player Status SFX/Musical/Musical Fear 001.ogg`,
+            "02": `${p}/ovani-sounds/Player Status SFX/Musical/Musical Fear 002.ogg`,
+            "03": `${p}/ovani-sounds/Player Status SFX/Musical/Musical Fear 003.ogg`,
+            "04": `${p}/ovani-sounds/Player Status SFX/Musical/Musical Fear 004.ogg`,
           },
         },
       },
@@ -997,10 +1067,20 @@ export const database = {
         },
       },
       surge: {
-        "01": {
-          "01": `${p}/ovani-sounds/Motion and Impacts Sound FX Pack Vol. 2/Riser/Riser Mist Horror 001.ogg`,
-          "02": `${p}/ovani-sounds/Motion and Impacts Sound FX Pack Vol. 2/Riser/Riser Mist Horror 002.ogg`,
-          "03": `${p}/ovani-sounds/Motion and Impacts Sound FX Pack Vol. 2/Riser/Riser Mist Horror 003.ogg`,
+        general: {
+          "01": {
+            "01": `${p}/ovani-sounds/Motion and Impacts Sound FX Pack Vol. 2/Riser/Riser Mist Horror 001.ogg`,
+            "02": `${p}/ovani-sounds/Motion and Impacts Sound FX Pack Vol. 2/Riser/Riser Mist Horror 002.ogg`,
+            "03": `${p}/ovani-sounds/Motion and Impacts Sound FX Pack Vol. 2/Riser/Riser Mist Horror 003.ogg`,
+          },
+        },
+        long: {
+          "01": {
+            "01": `${p}/ovani-sounds/Player Status SFX/Musical/Musical Suspense 001.ogg`,
+            "02": `${p}/ovani-sounds/Player Status SFX/Musical/Musical Suspense 002.ogg`,
+            "03": `${p}/ovani-sounds/Player Status SFX/Musical/Musical Suspense 003.ogg`,
+            "04": `${p}/ovani-sounds/Player Status SFX/Musical/Musical Suspense 004.ogg`,
+          },
         },
       },
       siphon: {
@@ -1019,11 +1099,52 @@ export const database = {
         },
       },
       curse: {
-        "01": {
-          "01": `${p}/ovani-sounds/Magic/Dark/Nightshade Curse.ogg`,
+        general: {
+          "01": {
+            "01": `${p}/ovani-sounds/Magic/Dark/Nightshade Curse.ogg`,
+          },
+          "02": {
+            "01": `${p}/ovani-sounds/Magic/Dark/Horrify.ogg`,
+          },
+          "03": {
+            "01": `${p}/ovani-sounds/Player Status SFX/Fantasy/Fantasy Dark Castle 001.ogg`,
+            "02": `${p}/ovani-sounds/Player Status SFX/Fantasy/Fantasy Dark Castle 002.ogg`,
+            "03": `${p}/ovani-sounds/Player Status SFX/Fantasy/Fantasy Dark Castle 003.ogg`,
+            "04": `${p}/ovani-sounds/Player Status SFX/Fantasy/Fantasy Dark Castle 004.ogg`,
+          },
         },
-        "02": {
-          "01": `${p}/ovani-sounds/Magic/Dark/Horrify.ogg`,
+
+        confused: {
+          "01": {
+            "01": `${p}/ovani-sounds/Player Status SFX/Ailments/Ailments Confuse 001.ogg`,
+            "02": `${p}/ovani-sounds/Player Status SFX/Ailments/Ailments Confuse 002.ogg`,
+            "03": `${p}/ovani-sounds/Player Status SFX/Ailments/Ailments Confuse 003.ogg`,
+            "04": `${p}/ovani-sounds/Player Status SFX/Ailments/Ailments Confuse 004.ogg`,
+          },
+        },
+        hypnotize: {
+          "01": {
+            "01": `${p}/ovani-sounds/Player Status SFX/Ailments/Ailments Hypnotize 001.ogg`,
+            "02": `${p}/ovani-sounds/Player Status SFX/Ailments/Ailments Hypnotize 002.ogg`,
+            "03": `${p}/ovani-sounds/Player Status SFX/Ailments/Ailments Hypnotize 003.ogg`,
+            "04": `${p}/ovani-sounds/Player Status SFX/Ailments/Ailments Hypnotize 004.ogg`,
+          },
+        },
+        restrained: {
+          "01": {
+            "01": `${p}/ovani-sounds/Player Status SFX/Ailments/Ailments Hold 001.ogg`,
+            "02": `${p}/ovani-sounds/Player Status SFX/Ailments/Ailments Hold 002.ogg`,
+            "03": `${p}/ovani-sounds/Player Status SFX/Ailments/Ailments Hold 003.ogg`,
+            "04": `${p}/ovani-sounds/Player Status SFX/Ailments/Ailments Hold 004.ogg`,
+          },
+        },
+        stun: {
+          "01": {
+            "01": `${p}/ovani-sounds/Player Status SFX/Ailments/Ailments Stun 001.ogg`,
+            "02": `${p}/ovani-sounds/Player Status SFX/Ailments/Ailments Stun 002.ogg`,
+            "03": `${p}/ovani-sounds/Player Status SFX/Ailments/Ailments Stun 003.ogg`,
+            "04": `${p}/ovani-sounds/Player Status SFX/Ailments/Ailments Stun 004.ogg`,
+          },
         },
       },
     },
@@ -2117,6 +2238,12 @@ export const database = {
           "01": `${p}/TomMusic/FreeFantasySFX/Spells/Ice Freeze 1.ogg`,
           "02": `${p}/TomMusic/FreeFantasySFX/Spells/Ice Freeze 2.ogg`,
         },
+        "04": {
+          "01": `${p}/ovani-sounds/Player Status SFX/Ailments/Ailments Freeze 001.ogg`,
+          "02": `${p}/ovani-sounds/Player Status SFX/Ailments/Ailments Freeze 002.ogg`,
+          "03": `${p}/ovani-sounds/Player Status SFX/Ailments/Ailments Freeze 003.ogg`,
+          "04": `${p}/ovani-sounds/Player Status SFX/Ailments/Ailments Freeze 004.ogg`,
+        },
       },
       gale: {
         "01": {
@@ -2247,6 +2374,14 @@ export const database = {
           "01": {
             "01": `${p}/TomMusic/FreeFantasySFX/Spells/Waterspray 1.ogg`,
             "02": `${p}/TomMusic/FreeFantasySFX/Spells/Waterspray 2.ogg`,
+          },
+        },
+        bubble: {
+          "01": {
+            "01": `${p}/ovani-sounds/Player Status SFX/Ailments/Ailments Poison 001.ogg`,
+            "02": `${p}/ovani-sounds/Player Status SFX/Ailments/Ailments Poison 002.ogg`,
+            "03": `${p}/ovani-sounds/Player Status SFX/Ailments/Ailments Poison 003.ogg`,
+            "04": `${p}/ovani-sounds/Player Status SFX/Ailments/Ailments Poison 004.ogg`,
           },
         },
       },
@@ -2429,6 +2564,15 @@ export const database = {
           "04": `${p}/ovani-sounds/Motion and Impacts Sound FX Pack Vol. 2/Riser/Riser Tenet 004.ogg`,
         },
       },
+
+      slow: {
+        "01": {
+          "01": `${p}/ovani-sounds/Player Status SFX/Ailments/Ailments Slow 001.ogg`,
+          "02": `${p}/ovani-sounds/Player Status SFX/Ailments/Ailments Slow 002.ogg`,
+          "03": `${p}/ovani-sounds/Player Status SFX/Ailments/Ailments Slow 003.ogg`,
+          "04": `${p}/ovani-sounds/Player Status SFX/Ailments/Ailments Slow 004.ogg`,
+        },
+      },
     },
     counter: {
       counterspell: {
@@ -2436,8 +2580,56 @@ export const database = {
           "01": `${p}/SoundFlakes/diablo-wrath/weapon/tyrael-spellbreaking.ogg`,
         },
       },
+      dispel: {
+        "01": {
+          "01": `${p}/ovani-sounds/Player Status SFX/Fantasy/Fantasy Dispel 001.ogg`,
+          "02": `${p}/ovani-sounds/Player Status SFX/Fantasy/Fantasy Dispel 002.ogg`,
+          "03": `${p}/ovani-sounds/Player Status SFX/Fantasy/Fantasy Dispel 003.ogg`,
+          "04": `${p}/ovani-sounds/Player Status SFX/Fantasy/Fantasy Dispel 004.ogg`,
+        },
+      },
     },
-    misc: {},
+    healing: {
+      regen: {
+        "01": {
+          "01": `${p}/ovani-sounds/Player Status SFX/Ailments/Ailments Regen 001.ogg`,
+          "02": `${p}/ovani-sounds/Player Status SFX/Ailments/Ailments Regen 002.ogg`,
+        },
+        "02": {
+          "01": `${p}/ovani-sounds/Player Status SFX/Ailments/Ailments Regen 003.ogg`,
+          "02": `${p}/ovani-sounds/Player Status SFX/Ailments/Ailments Regen 004.ogg`,
+        },
+      },
+    },
+    misc: {
+      debuffs: {
+        hunger: {
+          "01": {
+            "01": `${p}/ovani-sounds/Player Status SFX/Ailments/Ailment Hunger 001.ogg`,
+            "02": `${p}/ovani-sounds/Player Status SFX/Ailments/Ailment Hunger 002.ogg`,
+            "03": `${p}/ovani-sounds/Player Status SFX/Ailments/Ailment Hunger 003.ogg`,
+            "04": `${p}/ovani-sounds/Player Status SFX/Ailments/Ailment Hunger 004.ogg`,
+          },
+        },
+        bleed: {
+          "01": {
+            "01": `${p}/ovani-sounds/Player Status SFX/Ailments/Ailments Bleed 001.ogg`,
+            "02": `${p}/ovani-sounds/Player Status SFX/Ailments/Ailments Bleed 002.ogg`,
+            "03": `${p}/ovani-sounds/Player Status SFX/Ailments/Ailments Bleed 003.ogg`,
+            "04": `${p}/ovani-sounds/Player Status SFX/Ailments/Ailments Bleed 004.ogg`,
+          },
+        },
+        grease: {
+          "01": {
+            "01": `${p}/ovani-sounds/Player Status SFX/Ailments/Ailments Grease 001.ogg`,
+            "02": `${p}/ovani-sounds/Player Status SFX/Ailments/Ailments Grease 002.ogg`,
+            "03": `${p}/ovani-sounds/Player Status SFX/Ailments/Ailments Grease 003.ogg`,
+            "04": `${p}/ovani-sounds/Player Status SFX/Ailments/Ailments Grease 004.ogg`,
+            "05": `${p}/ovani-sounds/Player Status SFX/Ailments/Ailments Grease 005.ogg`,
+          },
+        },
+      },
+    },
   },
   equipment: {
     weapons: {
@@ -2957,13 +3149,37 @@ export const database = {
       },
     },
     cooking: {},
+    medicine: {
+      heartbeat: {
+        "01": {
+          slow: `${p}/ovani-sounds/Player Status SFX/General/Low HP Heartbeat Slow Loop.ogg`,
+          fast: `${p}/ovani-sounds/Player Status SFX/General/Low HP Heartbeat Fast Loop.ogg`,
+          middle: `${p}/ovani-sounds/Player Status SFX/General/Low HP Heartbeat Mid Loop.ogg`,
+        },
+      },
+    },
     stealth: {
       spotted: {
         "01": {
+          "01": `${p}/ovani-sounds/Player Status SFX/Musical/Musical Detected 001.ogg`,
+          "02": `${p}/ovani-sounds/Player Status SFX/Musical/Musical Detected 002.ogg`,
+          "03": `${p}/ovani-sounds/Player Status SFX/Musical/Musical Detected 003.ogg`,
+          "04": `${p}/ovani-sounds/Player Status SFX/Musical/Musical Detected 004.ogg`,
+        },
+        "02": {
           "01": `${p}/ovani-sounds/Motion and Impacts Sound FX Pack Vol. 2/Impacts/Impact Heavy Tom 001.ogg`,
           "02": `${p}/ovani-sounds/Motion and Impacts Sound FX Pack Vol. 2/Impacts/Impact Heavy Tom 002.ogg`,
           "03": `${p}/ovani-sounds/Motion and Impacts Sound FX Pack Vol. 2/Impacts/Impact Heavy Tom 003.ogg`,
           "04": `${p}/ovani-sounds/Motion and Impacts Sound FX Pack Vol. 2/Impacts/Impact Heavy Tom 004.ogg`,
+        },
+      },
+      sneak: {
+        bush: {
+          "01": {
+            "01": `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Items & Misc/Bush Rustle Short A.ogg`,
+            "02": `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Items & Misc/Bush Rustle Short B.ogg`,
+            "03": `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Items & Misc/Bush Rustle Short C.ogg`,
+          },
         },
       },
     },
@@ -3160,6 +3376,22 @@ export const database = {
     },
   },
   actions: {
+    movement: {
+      dash: {
+        "02": {
+          "01": `${p}/ovani-sounds/Player Status SFX/General/Abstract Dash 001.ogg`,
+          "02": `${p}/ovani-sounds/Player Status SFX/General/Abstract Dash 002.ogg`,
+          "03": `${p}/ovani-sounds/Player Status SFX/General/Abstract Dash 003.ogg`,
+          "04": `${p}/ovani-sounds/Player Status SFX/General/Abstract Dash 004.ogg`,
+        },
+        "03": {
+          "01": `${p}/ovani-sounds/Player Status SFX/General/Abstract Move 001.ogg`,
+          "02": `${p}/ovani-sounds/Player Status SFX/General/Abstract Move 002.ogg`,
+          "03": `${p}/ovani-sounds/Player Status SFX/General/Abstract Move 003.ogg`,
+          "04": `${p}/ovani-sounds/Player Status SFX/General/Abstract Move 004.ogg`,
+        },
+      },
+    },
     drop_object: {
       heavy: {
         "01": {
@@ -3226,15 +3458,6 @@ export const database = {
         "04": `${p}/ovani-sounds/Foley Impacts Vol. 1/Misc/Finger Snap D.ogg`,
       },
     },
-    sneak: {
-      bush: {
-        "01": {
-          "01": `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Items & Misc/Bush Rustle Short A.ogg`,
-          "02": `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Items & Misc/Bush Rustle Short B.ogg`,
-          "03": `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Items & Misc/Bush Rustle Short C.ogg`,
-        },
-      },
-    },
   },
   movement: {
     slide: {
@@ -3250,6 +3473,68 @@ export const database = {
         "02": `${p}/ovani-sounds/Motion and Impacts Sound FX Pack Vol. 2/Riser/Riser Jump Pad 002.ogg`,
         "03": `${p}/ovani-sounds/Motion and Impacts Sound FX Pack Vol. 2/Riser/Riser Jump Pad 003.ogg`,
         "04": `${p}/ovani-sounds/Motion and Impacts Sound FX Pack Vol. 2/Riser/Riser Jump Pad 004.ogg`,
+      },
+    },
+    equipment: {
+      general: {
+        device: {
+          use: {
+            "01": {
+              "01": `${p}/ovani-sounds/Player Status SFX/Sci-Fi/Sci-Fi Device Use 001.ogg`,
+              "02": `${p}/ovani-sounds/Player Status SFX/Sci-Fi/Sci-Fi Device Use 002.ogg`,
+              "03": `${p}/ovani-sounds/Player Status SFX/Sci-Fi/Sci-Fi Device Use 003.ogg`,
+              "04": `${p}/ovani-sounds/Player Status SFX/Sci-Fi/Sci-Fi Device Use 004.ogg`,
+            },
+          },
+        },
+        meter_refill: {
+          "01": {
+            "01": `${p}/ovani-sounds/Player Status SFX/Sci-Fi/Sci-Fi Meters Refill 001.ogg`,
+            "02": `${p}/ovani-sounds/Player Status SFX/Sci-Fi/Sci-Fi Meters Refill 002.ogg`,
+            "03": `${p}/ovani-sounds/Player Status SFX/Sci-Fi/Sci-Fi Meters Refill 003.ogg`,
+            "04": `${p}/ovani-sounds/Player Status SFX/Sci-Fi/Sci-Fi Meters Refill 004.ogg`,
+          },
+        },
+      },
+      power_up: {
+        "01": {
+          "01": `${p}/ovani-sounds/Player Status SFX/Sci-Fi/Sci-Fi Power Up-001.ogg`,
+          "02": `${p}/ovani-sounds/Player Status SFX/Sci-Fi/Sci-Fi Power Up-002.ogg`,
+          "03": `${p}/ovani-sounds/Player Status SFX/Sci-Fi/Sci-Fi Power Up-003.ogg`,
+          "04": `${p}/ovani-sounds/Player Status SFX/Sci-Fi/Sci-Fi Power Up-004.ogg`,
+        },
+      },
+      ready: {
+        "02": {
+          "01": `${p}/ovani-sounds/Player Status SFX/Sci-Fi/Sci-Fi Ready To Fly 001.ogg`,
+          "02": `${p}/ovani-sounds/Player Status SFX/Sci-Fi/Sci-Fi Ready To Fly 002.ogg`,
+          "03": `${p}/ovani-sounds/Player Status SFX/Sci-Fi/Sci-Fi Ready To Fly 003.ogg`,
+          "04": `${p}/ovani-sounds/Player Status SFX/Sci-Fi/Sci-Fi Ready To Fly 004.ogg`,
+        },
+      },
+    },
+    armor: {
+      shield: {
+        overshield: {
+          "03": {
+            "01": `${p}/ovani-sounds/Player Status SFX/Sci-Fi/Sci-Fi Overshield 001.ogg`,
+            "02": `${p}/ovani-sounds/Player Status SFX/Sci-Fi/Sci-Fi Overshield 002.ogg`,
+            "03": `${p}/ovani-sounds/Player Status SFX/Sci-Fi/Sci-Fi Overshield 003.ogg`,
+            "04": `${p}/ovani-sounds/Player Status SFX/Sci-Fi/Sci-Fi Overshield 004.ogg`,
+          },
+        },
+      },
+      consumables: {
+        healing: {
+          stimpack: {
+            "01": {
+              "01": `${p}/ovani-sounds/Player Status SFX/General/Stimpack 001.ogg`,
+              "02": `${p}/ovani-sounds/Player Status SFX/General/Stimpack 002.ogg`,
+              "03": `${p}/ovani-sounds/Player Status SFX/General/Stimpack 003.ogg`,
+              "04": `${p}/ovani-sounds/Player Status SFX/General/Stimpack 004.ogg`,
+            },
+          },
+        },
       },
     },
   },
