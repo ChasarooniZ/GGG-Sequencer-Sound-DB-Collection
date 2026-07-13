@@ -678,6 +678,67 @@ export const database = {
             "04": `${p}/ovani-sounds/Player Status SFX/General/Abstract Change 004.ogg`,
           },
         },
+        arrow: {
+          "01": {
+            "01": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Offensive Spells/Energy Arrow 001.ogg`,
+            "02": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Offensive Spells/Energy Arrow 002.ogg`,
+            "03": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Offensive Spells/Energy Arrow 003.ogg`,
+            "04": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Offensive Spells/Energy Arrow 004.ogg`,
+            "05": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Offensive Spells/Energy Arrow 005.ogg`,
+            "06": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Offensive Spells/Energy Arrow 006.ogg`,
+            "07": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Offensive Spells/Energy Arrow 007.ogg`,
+          },
+        },
+        astral: {
+          "01": {
+            "01": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Arcane Spells/Astral Flare 001.ogg`,
+            "02": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Arcane Spells/Astral Flare 002.ogg`,
+            "03": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Arcane Spells/Astral Flare 003.ogg`,
+            "04": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Arcane Spells/Astral Flare 004.ogg`,
+            "05": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Arcane Spells/Astral Flare 005.ogg`,
+            "06": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Arcane Spells/Astral Flare 006.ogg`,
+            "07": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Arcane Spells/Astral Flare 007.ogg`,
+          },
+          "02": {
+            "01": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Arcane Spells/Mana Surge 001.ogg`,
+            "02": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Arcane Spells/Mana Surge 002.ogg`,
+            "03": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Arcane Spells/Mana Surge 003.ogg`,
+            "04": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Arcane Spells/Mana Surge 004.ogg`,
+            "05": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Arcane Spells/Mana Surge 005.ogg`,
+            "06": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Arcane Spells/Mana Surge 006.ogg`,
+          },
+        },
+        missiles: {
+          "01": {
+            "01": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Offensive Spells/Arcane Missiles 001.ogg`,
+            "02": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Offensive Spells/Arcane Missiles 002.ogg`,
+            "03": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Offensive Spells/Arcane Missiles 003.ogg`,
+            "04": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Offensive Spells/Arcane Missiles 004.ogg`,
+            "05": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Offensive Spells/Arcane Missiles 005.ogg`,
+            "06": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Offensive Spells/Arcane Missiles 006.ogg`,
+            "07": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Offensive Spells/Arcane Missiles 007.ogg`,
+          },
+          "02": {
+            "01": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Offensive Spells/Force Barrage 001.ogg`,
+            "02": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Offensive Spells/Force Barrage 002.ogg`,
+            "03": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Offensive Spells/Force Barrage 003.ogg`,
+            "04": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Offensive Spells/Force Barrage 004.ogg`,
+            "05": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Offensive Spells/Force Barrage 005.ogg`,
+            "06": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Offensive Spells/Force Barrage 006.ogg`,
+            "07": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Offensive Spells/Force Barrage 007.ogg`,
+          },
+        },
+        ripple: {
+          "01": {
+            "01": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Arcane Spells/Arcane Ripple 001.ogg`,
+            "02": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Arcane Spells/Arcane Ripple 002.ogg`,
+            "03": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Arcane Spells/Arcane Ripple 003.ogg`,
+            "04": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Arcane Spells/Arcane Ripple 004.ogg`,
+            "05": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Arcane Spells/Arcane Ripple 005.ogg`,
+            "06": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Arcane Spells/Arcane Ripple 006.ogg`,
+            "07": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Arcane Spells/Arcane Ripple 007.ogg`,
+          },
+        },
       },
       impact: {
         blast: {
@@ -696,6 +757,27 @@ export const database = {
             "02": `${p}/ovani-sounds/Motion and Impacts Sound FX Pack Vol. 2/Riser/Riser Chains 002.ogg`,
             "03": `${p}/ovani-sounds/Motion and Impacts Sound FX Pack Vol. 2/Riser/Riser Chains 003.ogg`,
             "04": `${p}/ovani-sounds/Motion and Impacts Sound FX Pack Vol. 2/Riser/Riser Chains 004.ogg`,
+          },
+        },
+        ethereal: {
+          "01": {
+            "01": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Arcane Spells/Aetherial Pulse 001.ogg`,
+            "02": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Arcane Spells/Aetherial Pulse 002.ogg`,
+            "03": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Arcane Spells/Aetherial Pulse 003.ogg`,
+            "04": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Arcane Spells/Aetherial Pulse 004.ogg`,
+            "05": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Arcane Spells/Aetherial Pulse 005.ogg`,
+            "06": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Arcane Spells/Aetherial Pulse 006.ogg`,
+          },
+        },
+        wave: {
+          "01": {
+            "01": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Arcane Spells/Mystic Vortex 001.ogg`,
+            "02": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Arcane Spells/Mystic Vortex 002.ogg`,
+            "03": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Arcane Spells/Mystic Vortex 003.ogg`,
+            "04": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Arcane Spells/Mystic Vortex 004.ogg`,
+            "05": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Arcane Spells/Mystic Vortex 005.ogg`,
+            "06": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Arcane Spells/Mystic Vortex 006.ogg`,
+            "07": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Arcane Spells/Mystic Vortex 007.ogg`,
           },
         },
         long: {
@@ -740,6 +822,19 @@ export const database = {
             "02": `${p}/ovani-sounds/Player Status SFX/Fantasy/Fantasy Elven Charm 002.ogg`,
             "03": `${p}/ovani-sounds/Player Status SFX/Fantasy/Fantasy Elven Charm 003.ogg`,
             "04": `${p}/ovani-sounds/Player Status SFX/Fantasy/Fantasy Elven Charm 004.ogg`,
+          },
+        },
+      },
+      curse: {
+        glyph: {
+          "01": {
+            "01": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Arcane Spells/Glyphic Resonance 001.ogg`,
+            "02": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Arcane Spells/Glyphic Resonance 002.ogg`,
+            "03": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Arcane Spells/Glyphic Resonance 003.ogg`,
+            "04": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Arcane Spells/Glyphic Resonance 004.ogg`,
+            "05": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Arcane Spells/Glyphic Resonance 005.ogg`,
+            "06": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Arcane Spells/Glyphic Resonance 006.ogg`,
+            "07": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Arcane Spells/Glyphic Resonance 007.ogg`,
           },
         },
       },
@@ -821,11 +916,32 @@ export const database = {
     },
     divine: {
       cast: {
+        general: {
+          "01": {
+            "01": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Divine Magic/Celestial Choir 001.ogg`,
+            "02": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Divine Magic/Celestial Choir 002.ogg`,
+            "03": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Divine Magic/Celestial Choir 003.ogg`,
+            "04": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Divine Magic/Celestial Choir 004.ogg`,
+            "05": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Divine Magic/Celestial Choir 005.ogg`,
+          },
+          "02": {
+            "01": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Divine Magic/Celestial Choir 006.ogg`,
+          },
+        },
         bolt: {
           "01": {
             "01": `${p}/ovani-sounds/Magic/Light/Light Bolt Cast A.ogg`,
             "02": `${p}/ovani-sounds/Magic/Light/Light Bolt Cast B.ogg`,
             "03": `${p}/ovani-sounds/Magic/Light/Light Bolt Cast C.ogg`,
+          },
+        },
+        beam: {
+          "01": {
+            "01": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Divine Magic/Hallowed Beam 001.ogg`,
+            "02": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Divine Magic/Hallowed Beam 002.ogg`,
+            "03": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Divine Magic/Hallowed Beam 003.ogg`,
+            "04": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Divine Magic/Hallowed Beam 004.ogg`,
+            "05": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Divine Magic/Hallowed Beam 005.ogg`,
           },
         },
         bells: {
@@ -871,6 +987,17 @@ export const database = {
               "02": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Holy/Holy Rise Steady B.ogg`,
               "03": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Holy/Holy Rise Steady C.ogg`,
             },
+          },
+        },
+        smite: {
+          "01": {
+            "01": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Divine Magic/Smite 001.ogg`,
+            "02": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Divine Magic/Smite 002.ogg`,
+            "03": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Divine Magic/Smite 003.ogg`,
+            "04": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Divine Magic/Smite 004.ogg`,
+            "05": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Divine Magic/Smite 005.ogg`,
+            "06": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Divine Magic/Smite 006.ogg`,
+            "07": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Divine Magic/Smite 007.ogg`,
           },
         },
       },
@@ -939,6 +1066,17 @@ export const database = {
           "03": `${p}/ovani-sounds/Player Status SFX/Musical/Musical Heal 003.ogg`,
           "04": `${p}/ovani-sounds/Player Status SFX/Musical/Musical Heal 004.ogg`,
         },
+        "02": {
+          mass_healing: {
+            "01": {
+              "01": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Divine Magic/Mass Heal 001.ogg`,
+              "02": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Divine Magic/Mass Heal 002.ogg`,
+              "03": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Divine Magic/Mass Heal 003.ogg`,
+              "04": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Divine Magic/Mass Heal 004.ogg`,
+              "05": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Divine Magic/Mass Heal 005.ogg`,
+            },
+          },
+        },
       },
       light: {
         "01": {
@@ -975,6 +1113,13 @@ export const database = {
             "04": `${p}/ovani-sounds/Motion and Impacts Sound FX Pack Vol. 2/Riser/Riser Sanctuary 004.ogg`,
             "05": `${p}/ovani-sounds/Motion and Impacts Sound FX Pack Vol. 2/Riser/Riser Sanctuary 005.ogg`,
           },
+          "02": {
+            "01": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Divine Magic/Grace Whisper 001.ogg`,
+            "02": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Divine Magic/Grace Whisper 002.ogg`,
+            "03": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Divine Magic/Grace Whisper 003.ogg`,
+            "04": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Divine Magic/Grace Whisper 004.ogg`,
+            "05": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Divine Magic/Grace Whisper 005.ogg`,
+          },
         },
         shield: {
           "01": {
@@ -986,6 +1131,15 @@ export const database = {
     occult: {
       cast: {
         general: {
+          "01": {
+            "01": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Dark Magic/Dread Surge 001.ogg`,
+            "02": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Dark Magic/Dread Surge 002.ogg`,
+            "03": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Dark Magic/Dread Surge 003.ogg`,
+            "04": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Dark Magic/Dread Surge 004.ogg`,
+            "05": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Dark Magic/Dread Surge 005.ogg`,
+            "06": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Dark Magic/Dread Surge 006.ogg`,
+            "07": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Dark Magic/Dread Surge 007.ogg`,
+          },
           "02": {
             "01": `${p}/ovani-sounds/Player Status SFX/General/Abstract Decision 001.ogg`,
             "02": `${p}/ovani-sounds/Player Status SFX/General/Abstract Decision 002.ogg`,
@@ -996,6 +1150,32 @@ export const database = {
             "01": `${p}/ovani-sounds/Magic/Dark/Necrotic Touch.ogg`,
           },
         },
+        beam: {
+          "01": {
+            "01": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Dark Magic/Shadow Wail 001.ogg`,
+            "02": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Dark Magic/Shadow Wail 002.ogg`,
+            "03": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Dark Magic/Shadow Wail 004.ogg`,
+            "06": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Dark Magic/Shadow Wail 007.ogg`,
+          },
+          "02": {
+            "01": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Dark Magic/Shadow Wail 003.ogg`,
+            "02": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Dark Magic/Shadow Wail 005.ogg`,
+          },
+          "03": {
+            "01": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Dark Magic/Shadow Wail 006.ogg`,
+          },
+        },
+        blast: {
+          "01": {
+            "01": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Offensive Spells/Oblivion Strike 001.ogg`,
+            "02": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Offensive Spells/Oblivion Strike 002.ogg`,
+            "03": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Offensive Spells/Oblivion Strike 003.ogg`,
+            "04": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Offensive Spells/Oblivion Strike 004.ogg`,
+            "05": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Offensive Spells/Oblivion Strike 005.ogg`,
+            "06": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Offensive Spells/Oblivion Strike 006.ogg`,
+            "07": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Offensive Spells/Oblivion Strike 007.ogg`,
+          },
+        },
         fear: {
           "02": {
             "01": `${p}/ovani-sounds/Player Status SFX/Musical/Musical Fear 001.ogg`,
@@ -1004,9 +1184,30 @@ export const database = {
             "04": `${p}/ovani-sounds/Player Status SFX/Musical/Musical Fear 004.ogg`,
           },
         },
+        ghostly: {
+          "01": {
+            "01": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Dark Magic/Grave Whisper 001.ogg`,
+            "02": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Dark Magic/Grave Whisper 002.ogg`,
+            "03": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Dark Magic/Grave Whisper 003.ogg`,
+            "04": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Dark Magic/Grave Whisper 004.ogg`,
+            "05": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Dark Magic/Grave Whisper 005.ogg`,
+            "06": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Dark Magic/Grave Whisper 006.ogg`,
+          },
+        },
         laughter: {
           "01": {
             "01": `${p}/ovani-sounds/_Free Weekly WAVs/Mad Maiden Stinger.ogg`,
+          },
+        },
+        shatter: {
+          "01": {
+            "01": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Dark Magic/Ebon Shatter 001.ogg`,
+            "02": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Dark Magic/Ebon Shatter 002.ogg`,
+            "03": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Dark Magic/Ebon Shatter 003.ogg`,
+            "04": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Dark Magic/Ebon Shatter 004.ogg`,
+            "05": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Dark Magic/Ebon Shatter 005.ogg`,
+            "06": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Dark Magic/Ebon Shatter 006.ogg`,
+            "07": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Dark Magic/Ebon Shatter 007.ogg`,
           },
         },
         countdown: {
@@ -1138,6 +1339,17 @@ export const database = {
             "02": `${p}/ovani-sounds/Player Status SFX/Fantasy/Fantasy Dark Castle 002.ogg`,
             "03": `${p}/ovani-sounds/Player Status SFX/Fantasy/Fantasy Dark Castle 003.ogg`,
             "04": `${p}/ovani-sounds/Player Status SFX/Fantasy/Fantasy Dark Castle 004.ogg`,
+          },
+          "04": {
+            "01": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Dark Magic/Blight Curse 004.ogg`,
+          },
+          "05": {
+            "01": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Dark Magic/Blight Curse 001.ogg`,
+            "02": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Dark Magic/Blight Curse 002.ogg`,
+            "03": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Dark Magic/Blight Curse 003.ogg`,
+            "04": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Dark Magic/Blight Curse 005.ogg`,
+            "05": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Dark Magic/Blight Curse 006.ogg`,
+            "06": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Dark Magic/Blight Curse 007.ogg`,
           },
         },
 
@@ -1777,6 +1989,17 @@ export const database = {
             "01": `${p}/ovani-sounds/Magic/Shock/Thunderous Boom.ogg`,
           },
         },
+        crash: {
+          "01": {
+            "01": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Offensive Spells/Thunderstrike Crash 001.ogg`,
+            "02": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Offensive Spells/Thunderstrike Crash 002.ogg`,
+            "03": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Offensive Spells/Thunderstrike Crash 003.ogg`,
+            "04": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Offensive Spells/Thunderstrike Crash 004.ogg`,
+            "05": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Offensive Spells/Thunderstrike Crash 005.ogg`,
+            "06": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Offensive Spells/Thunderstrike Crash 006.ogg`,
+            "07": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Offensive Spells/Thunderstrike Crash 007.ogg`,
+          },
+        },
         burst: {
           "01": {
             "01": `${p}/ovani-sounds/Motion and Impacts Sound FX Pack Vol. 2/Impacts/Impact Electroheart 001.ogg`,
@@ -2361,6 +2584,16 @@ export const database = {
           "04": `${p}/ovani-sounds/Motion and Impacts Sound FX Pack Vol. 2/Whoosh/Whoosh Roar 004.ogg`,
         },
       },
+      slam: {
+        "01": {
+          "01": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Offensive Spells/Shockwave Slam 001.ogg`,
+          "02": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Offensive Spells/Shockwave Slam 002.ogg`,
+          "03": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Offensive Spells/Shockwave Slam 003.ogg`,
+          "04": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Offensive Spells/Shockwave Slam 004.ogg`,
+          "05": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Offensive Spells/Shockwave Slam 005.ogg`,
+          "06": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Offensive Spells/Shockwave Slam 006.ogg`,
+        },
+      },
     },
     water: {
       cast: {
@@ -2400,6 +2633,40 @@ export const database = {
         beam: {
           "01": {
             "01": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Water/Water Rise High.ogg`,
+          },
+        },
+        current: {
+          "01": {
+            "01": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Water Magic/Current Pulse 001.ogg`,
+            "02": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Water Magic/Current Pulse 002.ogg`,
+            "03": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Water Magic/Current Pulse 003.ogg`,
+            "04": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Water Magic/Current Pulse 004.ogg`,
+            "05": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Water Magic/Current Pulse 005.ogg`,
+            "06": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Water Magic/Current Pulse 006.ogg`,
+            "07": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Water Magic/Current Pulse 007.ogg`,
+          },
+        },
+        geyser: {
+          "01": {
+            "01": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Water Magic/Geyser Burst 001.ogg`,
+            "02": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Water Magic/Geyser Burst 002.ogg`,
+            "03": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Water Magic/Geyser Burst 003.ogg`,
+            "04": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Water Magic/Geyser Burst 004.ogg`,
+            "05": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Water Magic/Geyser Burst 005.ogg`,
+            "06": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Water Magic/Geyser Burst 006.ogg`,
+            "07": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Water Magic/Geyser Burst 007.ogg`,
+            "08": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Water Magic/Geyser Burst 008.ogg`,
+          },
+        },
+        maelstrom: {
+          "01": {
+            "01": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Water Magic/Maelstrom Roar 001.ogg`,
+            "02": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Water Magic/Maelstrom Roar 002.ogg`,
+            "03": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Water Magic/Maelstrom Roar 003.ogg`,
+            "04": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Water Magic/Maelstrom Roar 004.ogg`,
+            "05": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Water Magic/Maelstrom Roar 005.ogg`,
+            "06": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Water Magic/Maelstrom Roar 006.ogg`,
+            "07": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Water Magic/Maelstrom Roar 007.ogg`,
           },
         },
         spray: {
@@ -2512,6 +2779,15 @@ export const database = {
             "01": {
               "01": `${p}/ovani-sounds/Magic/Water/Tidal Surge.ogg`,
             },
+
+            "02": {
+              "01": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Water Magic/Tidal Rush 001.ogg`,
+              "02": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Water Magic/Tidal Rush 002.ogg`,
+              "03": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Water Magic/Tidal Rush 003.ogg`,
+              "04": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Water Magic/Tidal Rush 004.ogg`,
+              "05": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Water Magic/Tidal Rush 005.ogg`,
+              "06": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Water Magic/Tidal Rush 006.ogg`,
+            },
           },
           underwater: {
             "01": {
@@ -2542,6 +2818,26 @@ export const database = {
         bubble: {
           "01": {
             "01": `${p}/ovani-sounds/Magic/Water/Bubble Prison.ogg`,
+          },
+        },
+        geyser: {
+          "01": {
+            "01": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Water Magic/Geyser Shackle 001.ogg`,
+            "02": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Water Magic/Geyser Shackle 002.ogg`,
+            "03": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Water Magic/Geyser Shackle 003.ogg`,
+            "04": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Water Magic/Geyser Shackle 004.ogg`,
+            "05": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Water Magic/Geyser Shackle 005.ogg`,
+          },
+        },
+      },
+      buff: {
+        wave: {
+          "01": {
+            "01": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Water Magic/Wavecrash Echo 001.ogg`,
+            "02": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Water Magic/Wavecrash Echo 002.ogg`,
+            "03": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Water Magic/Wavecrash Echo 003.ogg`,
+            "04": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Water Magic/Wavecrash Echo 004.ogg`,
+            "05": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Water Magic/Wavecrash Echo 005.ogg`,
           },
         },
       },
