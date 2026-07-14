@@ -1,6 +1,6 @@
 {
   "id": "ggg",
-  "title": "GGG: Sequencer SoundFX Database",
+  "title": "GGG: Sequencer Sound DB Collection",
   "description": "Assets for sfx and then editing and mapping to a sequencer DB",
   "version": "#{VERSION}#",
   "library": "false",
