@@ -1,5 +1,16 @@
 ## Unreleased
 
+## 0.0.16
+
+- **New**
+  - `Ovani SFX`
+    - `Modern Magic Sound FX Pack Vol. 1`
+    - `Crowd SFX`
+      - Just the `Clap` and `Laugh` sfx
+  - `Soniss`
+    - `GDC2024`
+    - `GDC2026`
+
 ## 0.0.15
 
 - **New**

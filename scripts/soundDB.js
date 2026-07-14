@@ -11,10 +11,24 @@ export const database = {
           "spin-hit": `${p}/SoundFlakes/diablo-wrath/weapon/axe-throwing-hitting-flesh.ogg`,
         },
       },
+      slash: {
+        flesh: {
+          "01": {
+            "01": `${p}/Soniss/GDC2024/Justsoundeffects/Axe Flesh Hit 1.ogg`,
+            "02": `${p}/Soniss/GDC2024/Justsoundeffects/Axe Flesh Hit 2.ogg`,
+            "03": `${p}/Soniss/GDC2024/Justsoundeffects/Axe Flesh Hit 3.ogg`,
+            "04": `${p}/Soniss/GDC2024/Justsoundeffects/Axe Flesh Hit 4.ogg`,
+            "05": `${p}/Soniss/GDC2024/Justsoundeffects/Axe Flesh Hit 5.ogg`,
+          },
+        },
+      },
     },
     blade: {
       strike: {
         general: {
+          "01": {
+            "01": `${p}/Soniss/GDC2026/David Dumais Audio/Blade Swing.ogg`,
+          },
           "02": {
             "01": `${p}/TomMusic/FreeFantasySFX/Attacks/Sword Attacks Hits and Blocks/Sword Attack 1.ogg`,
             "02": `${p}/TomMusic/FreeFantasySFX/Attacks/Sword Attacks Hits and Blocks/Sword Attack 2.ogg`,
@@ -151,6 +165,11 @@ export const database = {
             "03": `${p}/ovani-sounds/Weaponry Melee Sound FX Pack Vol. 1/Blunt/Strike Blunt Large 003.ogg`,
             "04": `${p}/ovani-sounds/Weaponry Melee Sound FX Pack Vol. 1/Blunt/Strike Blunt Large 004.ogg`,
             "05": `${p}/ovani-sounds/Weaponry Melee Sound FX Pack Vol. 1/Blunt/Strike Blunt Large 005.ogg`,
+          },
+        },
+        general: {
+          "01": {
+            metal_hit: `${p}/Soniss/GDC2026/David Dumais Audio/Swing Metal Hit.ogg`,
           },
         },
         flail: {
@@ -339,6 +358,31 @@ export const database = {
           "05": {
             "01": `${p}/SoundFlakes/diablo-wrath/weapon/imperius-face-punch.ogg`,
           },
+          "06": {
+            hit: {
+              "01": `${p}/Soniss/GDC2026/David Dumais Audio/Punch Hit-1.ogg`,
+              "02": `${p}/Soniss/GDC2026/David Dumais Audio/Punch Hit-2.ogg`,
+              "03": `${p}/Soniss/GDC2026/David Dumais Audio/Punch Hit-3.ogg`,
+              "04": `${p}/Soniss/GDC2026/David Dumais Audio/Punch Hit-4.ogg`,
+              "05": `${p}/Soniss/GDC2026/David Dumais Audio/Punch Hit-5.ogg`,
+              "06": `${p}/Soniss/GDC2026/David Dumais Audio/Punch Hit-6.ogg`,
+              "07": `${p}/Soniss/GDC2026/David Dumais Audio/Punch Hit-7.ogg`,
+              "08": `${p}/Soniss/GDC2026/David Dumais Audio/Punch Hit-8.ogg`,
+              "09": `${p}/Soniss/GDC2026/David Dumais Audio/Punch Hit-9.ogg`,
+              10: `${p}/Soniss/GDC2026/David Dumais Audio/Punch Hit-10.ogg`,
+              11: `${p}/Soniss/GDC2026/David Dumais Audio/Punch Hit-11.ogg`,
+              12: `${p}/Soniss/GDC2026/David Dumais Audio/Punch Hit-12.ogg`,
+              13: `${p}/Soniss/GDC2026/David Dumais Audio/Punch Hit-13.ogg`,
+              14: `${p}/Soniss/GDC2026/David Dumais Audio/Punch Hit-14.ogg`,
+              15: `${p}/Soniss/GDC2026/David Dumais Audio/Punch Hit-15.ogg`,
+              16: `${p}/Soniss/GDC2026/David Dumais Audio/Punch Hit-16.ogg`,
+              17: `${p}/Soniss/GDC2026/David Dumais Audio/Punch Hit-17.ogg`,
+              18: `${p}/Soniss/GDC2026/David Dumais Audio/Punch Hit-18.ogg`,
+              19: `${p}/Soniss/GDC2026/David Dumais Audio/Punch Hit-19.ogg`,
+              20: `${p}/Soniss/GDC2026/David Dumais Audio/Punch Hit-20.ogg`,
+              21: `${p}/Soniss/GDC2026/David Dumais Audio/Punch Hit-21.ogg`,
+            },
+          },
         },
         miss: {
           "01": {
@@ -472,6 +516,9 @@ export const database = {
         "03": {
           "01": `${p}/ovani-sounds/Fire SFX/Fire Movement/Fire Double Whip.ogg`,
         },
+        "04": {
+          "01": `${p}/Soniss/GDC2026/David Dumais Audio/Whip Snap.ogg`,
+        },
       },
     },
   },
@@ -572,6 +619,32 @@ export const database = {
           },
         },
       },
+      flare_gun: {
+        strike: {
+          "01": {
+            "01": `${p}/Soniss/GDC2024/BluezoneCorp/Steampunk Flare.ogg`,
+          },
+        },
+      },
+      rifle: {
+        strike: {
+          steampunk: {
+            "01": {
+              "01": `${p}/Soniss/GDC2024/BluezoneCorp/Steampunk Gun Shot.ogg`,
+            },
+          },
+        },
+      },
+      sniper: {
+        "01": {
+          "01": `${p}/Soniss/GDC2024/PolePosition/Lynx 50 - 4m - 1.ogg`,
+          "02": `${p}/Soniss/GDC2024/PolePosition/Lynx 50 - 4m - 2.ogg`,
+          "03": `${p}/Soniss/GDC2024/PolePosition/Lynx 50 - 4m - 3.ogg`,
+          "04": `${p}/Soniss/GDC2024/PolePosition/Lynx 50 - 4m - 4.ogg`,
+          "05": `${p}/Soniss/GDC2024/PolePosition/Lynx 50 - 4m - 5.ogg`,
+          "06": `${p}/Soniss/GDC2024/PolePosition/Lynx 50 - 4m - 6.ogg`,
+        },
+      },
     },
     thrown: {
       general: {
@@ -590,7 +663,6 @@ export const database = {
             "04": `${p}/ovani-sounds/Motion and Impacts Sound FX Pack Vol. 2/Whoosh/Whoosh Blade 004.ogg`,
             "05": `${p}/ovani-sounds/Motion and Impacts Sound FX Pack Vol. 2/Whoosh/Whoosh Blade 005.ogg`,
           },
-
           "02": {
             "01": `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Whooshes/Large Blade Whoosh A.ogg`,
             "02": `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Whooshes/Large Blade Whoosh B.ogg`,
@@ -644,11 +716,33 @@ export const database = {
         },
       },
     },
+    cannon: {
+      strike: {
+        "01": {
+          "01": `${p}/Soniss/GDC2024/BluezoneCorp/Steampunk Cannon Shot.ogg`,
+        },
+      },
+    },
     scifi: {
       blaster: {
         strike: {
+          "02": {
+            "01": `${p}/Soniss/GDC2024/BluezoneCorp/Sci-Fi Gun Shot.ogg`,
+          },
           "03": {
             "01": `${p}/ovani-sounds/_Free Weekly WAVs/Echo Blaster.ogg`,
+          },
+        },
+      },
+      laser: {
+        "04": {
+          "01": `${p}/Soniss/GDC2024/DoexStudio/Laser_Beam_004.ogg`,
+        },
+      },
+      cannon: {
+        strike: {
+          "02": {
+            "01": `${p}/Soniss/GDC2024/BluezoneCorp/Sci-Fi Cannon Shot.ogg`,
           },
         },
       },
@@ -706,6 +800,11 @@ export const database = {
             "04": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Arcane Spells/Mana Surge 004.ogg`,
             "05": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Arcane Spells/Mana Surge 005.ogg`,
             "06": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Arcane Spells/Mana Surge 006.ogg`,
+          },
+        },
+        crystal: {
+          "02": {
+            "01": `${p}/Soniss/GDC2026/Epic Stock Media/Glass Surge.ogg`,
           },
         },
         missiles: {
@@ -927,6 +1026,9 @@ export const database = {
           "02": {
             "01": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Divine Magic/Celestial Choir 006.ogg`,
           },
+          "03": {
+            "01": `${p}/Soniss/GDC2026/Epic Stock Media/Light Power Up.ogg`,
+          },
         },
         bolt: {
           "01": {
@@ -987,6 +1089,9 @@ export const database = {
               "02": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Holy/Holy Rise Steady B.ogg`,
               "03": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Holy/Holy Rise Steady C.ogg`,
             },
+          },
+          "05": {
+            "01": `${p}/Soniss/GDC2026/Ivo Vicic/Church Bells.ogg`,
           },
         },
         smite: {
@@ -1149,6 +1254,13 @@ export const database = {
           "03": {
             "01": `${p}/ovani-sounds/Magic/Dark/Necrotic Touch.ogg`,
           },
+          "04": {
+            "01": `${p}/Soniss/GDC2026/Epic Stock Media/Alien Swell.ogg`,
+          },
+          "05": {
+            "01": `${p}/Soniss/GDC2026/InMotionAudio/Evil Ring.ogg`,
+            "02": `${p}/Soniss/GDC2026/InMotionAudio/Evil Bong.ogg`,
+          },
         },
         beam: {
           "01": {
@@ -1223,6 +1335,13 @@ export const database = {
             "02": `${p}/ovani-sounds/Motion and Impacts Sound FX Pack Vol. 2/Impacts/Impact Moor 002.ogg`,
             "03": `${p}/ovani-sounds/Motion and Impacts Sound FX Pack Vol. 2/Impacts/Impact Moor 003.ogg`,
             "04": `${p}/ovani-sounds/Motion and Impacts Sound FX Pack Vol. 2/Impacts/Impact Moor 004.ogg`,
+          },
+          "02": {
+            "01": `${p}/Soniss/GDC2024/BluezoneCorp/Impact Boom.ogg`,
+            "02": `${p}/Soniss/GDC2024/BluezoneCorp/Impact Braam.ogg`,
+          },
+          "03": {
+            "01": `${p}/Soniss/GDC2024/Jake Fielding/Boom - Cinematic Horn.ogg`,
           },
         },
         metal: {
@@ -2043,6 +2162,9 @@ export const database = {
             "02": `${p}/TomMusic/FreeFantasySFX/Spells/Fireball 2.ogg`,
             "03": `${p}/TomMusic/FreeFantasySFX/Spells/Fireball 3.ogg`,
           },
+          "04": {
+            "01": `${p}/Soniss/GDC2026/Epic Stock Media/Fire Whoosh.ogg`,
+          },
         },
         throw: {
           "01": {
@@ -2246,6 +2368,11 @@ export const database = {
         lava: {
           "01": {
             "01": `${p}/ovani-sounds/Magic/Fire/Lava Burst.ogg`,
+          },
+        },
+        nuke: {
+          "01": {
+            "01": `${p}/Soniss/GDC2024/David Dumais/Nuke.ogg`,
           },
         },
       },
@@ -2597,6 +2724,11 @@ export const database = {
     },
     water: {
       cast: {
+        general: {
+          "06": {
+            "01": `${p}/Soniss/GDC2024/BluezoneCorp/Water Swoosh.ogg`,
+          },
+        },
         wave: {
           "01": {
             "01": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Water/Water Tail Long A.ogg`,
@@ -2683,6 +2815,13 @@ export const database = {
             "04": `${p}/ovani-sounds/Player Status SFX/Ailments/Ailments Poison 004.ogg`,
           },
         },
+        time: {
+          reverse: {
+            "01": {
+              "01": `${p}/Soniss/GDC2024/BluezoneCorp/Water Glitch.ogg`,
+            },
+          },
+        },
       },
       impact: {
         general: {
@@ -2707,6 +2846,16 @@ export const database = {
             "01": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Water/Water Impact B.ogg`,
             "02": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Water/Water Impact C.ogg`,
             "03": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Water/Water Impact G.ogg`,
+          },
+        },
+        fill: {
+          "01": {
+            "01": `${p}/Soniss/GDC2024/BluezoneCorp/Water Impact.ogg`,
+          },
+        },
+        submerge: {
+          "01": {
+            "01": `${p}/Soniss/GDC2026/Epic Stock Media/Submerge.ogg`,
           },
         },
       },
@@ -2840,6 +2989,11 @@ export const database = {
             "05": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Water Magic/Wavecrash Echo 005.ogg`,
           },
         },
+        bubble: {
+          "01": {
+            "01": `${p}/Soniss/GDC2026/Cinematic Sound Design/Cartoon Bubbles Short.ogg`,
+          },
+        },
       },
     },
     metal: {
@@ -2954,6 +3108,13 @@ export const database = {
             "03": `${p}/ovani-sounds/Player Status SFX/Ailments/Ailments Grease 003.ogg`,
             "04": `${p}/ovani-sounds/Player Status SFX/Ailments/Ailments Grease 004.ogg`,
             "05": `${p}/ovani-sounds/Player Status SFX/Ailments/Ailments Grease 005.ogg`,
+          },
+        },
+      },
+      fairy: {
+        twinkle: {
+          "01": {
+            "01": `${p}/Soniss/GDC2026/Cinematic Sound Design/Button Arp Twinkle.ogg`,
           },
         },
       },
@@ -3246,6 +3407,22 @@ export const database = {
             },
           },
         },
+        rifle: {
+          reload: {
+            "02": {
+              "01": `${p}/Soniss/GDC2024/BluezoneCorp/Steampunk Gun Reload.ogg`,
+            },
+          },
+        },
+      },
+      scifi: {
+        blaster: {
+          reload: {
+            "02": {
+              "01": `${p}/Soniss/GDC2024/BluezoneCorp/Sci-Fi Gun Reload.ogg`,
+            },
+          },
+        },
       },
     },
     armor: {
@@ -3278,6 +3455,15 @@ export const database = {
             "03": `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Armor/Shield Impact C.ogg`,
             "04": `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Armor/Shield Impact D.ogg`,
           },
+          "02": {
+            metal: {
+              "01": `${p}/Soniss/GDC2024/Justsoundeffects/Metal Shield Block 1.ogg`,
+              "02": `${p}/Soniss/GDC2024/Justsoundeffects/Metal Shield Block 2.ogg`,
+              "03": `${p}/Soniss/GDC2024/Justsoundeffects/Metal Shield Block 3.ogg`,
+              "04": `${p}/Soniss/GDC2024/Justsoundeffects/Metal Shield Block 4.ogg`,
+              "05": `${p}/Soniss/GDC2024/Justsoundeffects/Metal Shield Block 5.ogg`,
+            },
+          },
         },
       },
     },
@@ -3297,6 +3483,9 @@ export const database = {
           "01": {
             "01": `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Items & Misc/Potion Open A.ogg`,
             "02": `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Items & Misc/Potion Open B.ogg`,
+          },
+          "02": {
+            "01": `${p}/Soniss/GDC2024/Eiravaein Works/flask_bottle.ogg`,
           },
         },
         drink: {
@@ -3320,6 +3509,13 @@ export const database = {
             "03": `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Items & Misc/Potion Handle C.ogg`,
           },
         },
+        effects: {
+          light: {
+            "01": {
+              "01": `${p}/Soniss/GDC2026/Epic Stock Media/Light Potion.ogg`,
+            },
+          },
+        },
       },
     },
     misc: {
@@ -3330,6 +3526,20 @@ export const database = {
             item: `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Items & Misc/Unequip Item B.ogg`,
             arrow: `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Items & Misc/Unequip Item C.ogg`,
             jewelry: `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Items & Misc/Unequip Item D.ogg`,
+          },
+        },
+      },
+      bag: {
+        open: {
+          "01": {
+            "01": `${p}/Soniss/GDC2026/Epic Stock Media/Bag Open.ogg`,
+          },
+        },
+      },
+      canteen: {
+        drink: {
+          "01": {
+            "01": `${p}/Soniss/GDC2024/Eiravaein Works/flask_canteen.ogg`,
           },
         },
       },
@@ -3532,6 +3742,9 @@ export const database = {
           "02": `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Items & Misc/Warhorn A Delay.ogg`,
           "03": `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Items & Misc/Warhorn E.ogg`,
         },
+        "03": {
+          "01": `${p}/Soniss/GDC2024/Jake Fielding/Bram - Cinematic Horn.ogg`,
+        },
       },
     },
     fighter: {
@@ -3558,6 +3771,25 @@ export const database = {
           "03": `${p}/ovani-sounds/Wild West Sound FX Pack Vol. 1/Outlaws/Duel Start Whistle C.ogg`,
           "04": `${p}/ovani-sounds/Wild West Sound FX Pack Vol. 1/Outlaws/Duel Start Whistle D.ogg`,
           "05": `${p}/ovani-sounds/Wild West Sound FX Pack Vol. 1/Outlaws/Duel Start Whistle E.ogg`,
+        },
+      },
+    },
+    monk: {
+      qi_blast: {
+        "01": {
+          "01": `${p}/Soniss/GDC2026/Epic Stock Media/Blast.ogg`,
+        },
+      },
+      touch_of_death: {
+        "01": {
+          "01": `${p}/Soniss/GDC2026/Epic Stock Media/Light Punch.ogg`,
+        },
+      },
+    },
+    rogue: {
+      sneak_attack: {
+        "01": {
+          "01": `${p}/Soniss/GDC2026/Epic Stock Media/Sneak Attack.ogg`,
         },
       },
     },
@@ -3609,6 +3841,9 @@ export const database = {
           "02": `${p}/TomMusic/FreeFantasySFX/Attacks/Bow Attacks Hits and Blocks/Bow Impact Hit 2.ogg`,
           "03": `${p}/TomMusic/FreeFantasySFX/Attacks/Bow Attacks Hits and Blocks/Bow Impact Hit 3.ogg`,
         },
+        "02": {
+          "01": `${p}/Soniss/GDC2026/Cinematic Sound Design/Arrow Hit Rattle.ogg`,
+        },
       },
     },
     blade: {
@@ -3618,6 +3853,11 @@ export const database = {
           "02": `${p}/TomMusic/FreeFantasySFX/Attacks/Sword Attacks Hits and Blocks/Sword Blocked 2.ogg`,
           "03": `${p}/TomMusic/FreeFantasySFX/Attacks/Sword Attacks Hits and Blocks/Sword Blocked 3.ogg`,
         },
+      },
+    },
+    debris: {
+      "01": {
+        "01": `${p}/Soniss/GDC2026/Cinematic Sound Design/Woosh Debris.ogg`,
       },
     },
     fall: {
@@ -3711,11 +3951,26 @@ export const database = {
         "03": `${p}/TomMusic/FreeFantasySFX/Attacks/Sword Attacks Hits and Blocks/Sword Impact Hit 3.ogg`,
       },
     },
+    explosion: {
+      general: {
+        "01": {
+          "01": `${p}/Soniss/GDC2024/David Dumais/Realistic_Explosion.ogg`,
+        },
+      },
+    },
     general: {
       "01": {
         "01": `${p}/TomMusic/FreeFantasySFX/Spells/Spell Impact 1.ogg`,
         "02": `${p}/TomMusic/FreeFantasySFX/Spells/Spell Impact 2.ogg`,
         "03": `${p}/TomMusic/FreeFantasySFX/Spells/Spell Impact 3.ogg`,
+      },
+    },
+    spell: {
+      "01": {
+        "01": `${p}/Soniss/GDC2026/Cinematic Sound Design/Transition Frantic Shaker Snap.ogg`,
+      },
+      "02": {
+        "01": `${p}/Soniss/GDC2026/Cinematic Sound Design/Impact Cut Sweep.ogg`,
       },
     },
     wood: {
@@ -3746,6 +4001,16 @@ export const database = {
           "03": `${p}/ovani-sounds/Player Status SFX/General/Abstract Move 003.ogg`,
           "04": `${p}/ovani-sounds/Player Status SFX/General/Abstract Move 004.ogg`,
         },
+      },
+    },
+    cheer: {
+      "01": {
+        "01": `${p}/ovani-sounds/Crowd Sound FX Pack/Non-Verbal/Inspired Cheering.ogg`,
+      },
+    },
+    laugh: {
+      "01": {
+        "01": `${p}/ovani-sounds/Crowd Sound FX Pack/Non-Verbal/Laugh B.ogg`,
       },
     },
     drop_object: {
@@ -3839,24 +4104,34 @@ export const database = {
       },
     },
     equipment: {
-      general: {
-        device: {
-          use: {
-            "01": {
-              "01": `${p}/ovani-sounds/Player Status SFX/Sci-Fi/Sci-Fi Device Use 001.ogg`,
-              "02": `${p}/ovani-sounds/Player Status SFX/Sci-Fi/Sci-Fi Device Use 002.ogg`,
-              "03": `${p}/ovani-sounds/Player Status SFX/Sci-Fi/Sci-Fi Device Use 003.ogg`,
-              "04": `${p}/ovani-sounds/Player Status SFX/Sci-Fi/Sci-Fi Device Use 004.ogg`,
-            },
+      device: {
+        use: {
+          "01": {
+            "01": `${p}/ovani-sounds/Player Status SFX/Sci-Fi/Sci-Fi Device Use 001.ogg`,
+            "02": `${p}/ovani-sounds/Player Status SFX/Sci-Fi/Sci-Fi Device Use 002.ogg`,
+            "03": `${p}/ovani-sounds/Player Status SFX/Sci-Fi/Sci-Fi Device Use 003.ogg`,
+            "04": `${p}/ovani-sounds/Player Status SFX/Sci-Fi/Sci-Fi Device Use 004.ogg`,
+          },
+          "02": {
+            "01": `${p}/Soniss/GDC2024/BluezoneCorp/Alien Interface 2.ogg`,
+            "02": `${p}/Soniss/GDC2024/BluezoneCorp/Alien Interface 3.ogg`,
+            "03": `${p}/Soniss/GDC2024/BluezoneCorp/Alien Interface 4.ogg`,
           },
         },
-        meter_refill: {
+      },
+      scanner: {
+        general: {
           "01": {
-            "01": `${p}/ovani-sounds/Player Status SFX/Sci-Fi/Sci-Fi Meters Refill 001.ogg`,
-            "02": `${p}/ovani-sounds/Player Status SFX/Sci-Fi/Sci-Fi Meters Refill 002.ogg`,
-            "03": `${p}/ovani-sounds/Player Status SFX/Sci-Fi/Sci-Fi Meters Refill 003.ogg`,
-            "04": `${p}/ovani-sounds/Player Status SFX/Sci-Fi/Sci-Fi Meters Refill 004.ogg`,
+            "01": `${p}/Soniss/GDC2024/David Dumais/Scanner.ogg`,
           },
+        },
+      },
+      meter_refill: {
+        "01": {
+          "01": `${p}/ovani-sounds/Player Status SFX/Sci-Fi/Sci-Fi Meters Refill 001.ogg`,
+          "02": `${p}/ovani-sounds/Player Status SFX/Sci-Fi/Sci-Fi Meters Refill 002.ogg`,
+          "03": `${p}/ovani-sounds/Player Status SFX/Sci-Fi/Sci-Fi Meters Refill 003.ogg`,
+          "04": `${p}/ovani-sounds/Player Status SFX/Sci-Fi/Sci-Fi Meters Refill 004.ogg`,
         },
       },
       power_up: {
@@ -3865,6 +4140,15 @@ export const database = {
           "02": `${p}/ovani-sounds/Player Status SFX/Sci-Fi/Sci-Fi Power Up-002.ogg`,
           "03": `${p}/ovani-sounds/Player Status SFX/Sci-Fi/Sci-Fi Power Up-003.ogg`,
           "04": `${p}/ovani-sounds/Player Status SFX/Sci-Fi/Sci-Fi Power Up-004.ogg`,
+        },
+        "02": {
+          "01": `${p}/Soniss/GDC2024/BluezoneCorp/Alien Interface 1.ogg`,
+        },
+        "03": {
+          "01": `${p}/Soniss/GDC2024/DoexStudio/Power Up 1.ogg`,
+          "02": `${p}/Soniss/GDC2024/DoexStudio/Power Up 2.ogg`,
+          "03": `${p}/Soniss/GDC2024/DoexStudio/Power Up 3.ogg`,
+          "04": `${p}/Soniss/GDC2024/DoexStudio/Power Up 4.ogg`,
         },
       },
       ready: {
@@ -3897,6 +4181,30 @@ export const database = {
               "04": `${p}/ovani-sounds/Player Status SFX/General/Stimpack 004.ogg`,
             },
           },
+        },
+      },
+    },
+    robot: {
+      deploy: {
+        "01": {
+          "01": `${p}/Soniss/GDC2026/Epic Stock Media/Robot Deploy.ogg`,
+        },
+      },
+      transformation: {
+        "01": {
+          "01": `${p}/Soniss/GDC2024/Unreal SFX/Droid Transformation.ogg`,
+        },
+      },
+      update: {
+        "01": {
+          "01": `${p}/Soniss/GDC2024/Unreal SFX/Droid UI.ogg`,
+        },
+      },
+    },
+    misc: {
+      wispy: {
+        "01": {
+          "01": `${p}/Soniss/GDC2024/DoexStudio/Comedic_006.ogg`,
         },
       },
     },
