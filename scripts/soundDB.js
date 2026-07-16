@@ -530,6 +530,40 @@ export const database = {
             "01": `${p}/TomMusic/FreeFantasySFX/Attacks/Bow Attacks Hits and Blocks/Bow Attack 1.ogg`,
             "02": `${p}/TomMusic/FreeFantasySFX/Attacks/Bow Attacks Hits and Blocks/Bow Attack 2.ogg`,
           },
+          "02": {
+            "01": `${p}/ovani-sounds/Weaponry Ranged Sound FX Pack Vol. 1/Throwables/Arrows/Arrows Throw 001.ogg`,
+            "02": `${p}/ovani-sounds/Weaponry Ranged Sound FX Pack Vol. 1/Throwables/Arrows/Arrows Throw 002.ogg`,
+            "03": `${p}/ovani-sounds/Weaponry Ranged Sound FX Pack Vol. 1/Throwables/Arrows/Arrows Throw 003.ogg`,
+            "04": `${p}/ovani-sounds/Weaponry Ranged Sound FX Pack Vol. 1/Throwables/Arrows/Arrows Throw 004.ogg`,
+            "05": `${p}/ovani-sounds/Weaponry Ranged Sound FX Pack Vol. 1/Throwables/Arrows/Arrows Throw 005.ogg`,
+          },
+        },
+        long_bow: {
+          "01": {
+            "01": `${p}/ovani-sounds/Weaponry Ranged Sound FX Pack Vol. 1/Projectile Weapons/Long Bow/Long Bow Shot 001.ogg`,
+            "02": `${p}/ovani-sounds/Weaponry Ranged Sound FX Pack Vol. 1/Projectile Weapons/Long Bow/Long Bow Shot 002.ogg`,
+            "03": `${p}/ovani-sounds/Weaponry Ranged Sound FX Pack Vol. 1/Projectile Weapons/Long Bow/Long Bow Shot 003.ogg`,
+            "04": `${p}/ovani-sounds/Weaponry Ranged Sound FX Pack Vol. 1/Projectile Weapons/Long Bow/Long Bow Shot 004.ogg`,
+            "05": `${p}/ovani-sounds/Weaponry Ranged Sound FX Pack Vol. 1/Projectile Weapons/Long Bow/Long Bow Shot 005.ogg`,
+          },
+        },
+        short_bow: {
+          "01": {
+            "01": `${p}/ovani-sounds/Weaponry Ranged Sound FX Pack Vol. 1/Projectile Weapons/Small Bow/Small Bow Shot 001.ogg`,
+            "02": `${p}/ovani-sounds/Weaponry Ranged Sound FX Pack Vol. 1/Projectile Weapons/Small Bow/Small Bow Shot 002.ogg`,
+            "03": `${p}/ovani-sounds/Weaponry Ranged Sound FX Pack Vol. 1/Projectile Weapons/Small Bow/Small Bow Shot 003.ogg`,
+            "04": `${p}/ovani-sounds/Weaponry Ranged Sound FX Pack Vol. 1/Projectile Weapons/Small Bow/Small Bow Shot 004.ogg`,
+            "05": `${p}/ovani-sounds/Weaponry Ranged Sound FX Pack Vol. 1/Projectile Weapons/Small Bow/Small Bow Shot 005.ogg`,
+          },
+        },
+      },
+      impact: {
+        "01": {
+          "01": `${p}/ovani-sounds/Weaponry Ranged Sound FX Pack Vol. 1/Throwables/Arrows/Arrows Impact 001.ogg`,
+          "02": `${p}/ovani-sounds/Weaponry Ranged Sound FX Pack Vol. 1/Throwables/Arrows/Arrows Impact 002.ogg`,
+          "03": `${p}/ovani-sounds/Weaponry Ranged Sound FX Pack Vol. 1/Throwables/Arrows/Arrows Impact 003.ogg`,
+          "04": `${p}/ovani-sounds/Weaponry Ranged Sound FX Pack Vol. 1/Throwables/Arrows/Arrows Impact 004.ogg`,
+          "05": `${p}/ovani-sounds/Weaponry Ranged Sound FX Pack Vol. 1/Throwables/Arrows/Arrows Impact 005.ogg`,
         },
       },
     },
@@ -541,15 +575,12 @@ export const database = {
           "03": `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Weapons/Crossbow Shot C.ogg`,
           "04": `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Weapons/Crossbow Shot D.ogg`,
         },
-      },
-    },
-    balista: {
-      strike: {
-        "01": {
-          "01": `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Weapons/Ballista Shoot A.ogg`,
-          "02": `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Weapons/Ballista Shoot B.ogg`,
-          "03": `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Weapons/Ballista Shoot C.ogg`,
-          "04": `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Weapons/Ballista Shoot D.ogg`,
+        "02": {
+          "01": `${p}/ovani-sounds/Weaponry Ranged Sound FX Pack Vol. 1/Projectile Weapons/Crossbow/Crossbow Shot 001.ogg`,
+          "02": `${p}/ovani-sounds/Weaponry Ranged Sound FX Pack Vol. 1/Projectile Weapons/Crossbow/Crossbow Shot 002.ogg`,
+          "03": `${p}/ovani-sounds/Weaponry Ranged Sound FX Pack Vol. 1/Projectile Weapons/Crossbow/Crossbow Shot 003.ogg`,
+          "04": `${p}/ovani-sounds/Weaponry Ranged Sound FX Pack Vol. 1/Projectile Weapons/Crossbow/Crossbow Shot 004.ogg`,
+          "05": `${p}/ovani-sounds/Weaponry Ranged Sound FX Pack Vol. 1/Projectile Weapons/Crossbow/Crossbow Shot 005.ogg`,
         },
       },
     },
@@ -608,6 +639,26 @@ export const database = {
       },
     },
     firearm: {
+      arquebus: {
+        strike: {
+          "01": {
+            "01": `${p}/ovani-sounds/Weaponry Ranged Sound FX Pack Vol. 1/Firearms/Arquebus/Arquebus Shot 001.ogg`,
+            "02": `${p}/ovani-sounds/Weaponry Ranged Sound FX Pack Vol. 1/Firearms/Arquebus/Arquebus Shot 002.ogg`,
+            "03": `${p}/ovani-sounds/Weaponry Ranged Sound FX Pack Vol. 1/Firearms/Arquebus/Arquebus Shot 003.ogg`,
+            "04": `${p}/ovani-sounds/Weaponry Ranged Sound FX Pack Vol. 1/Firearms/Arquebus/Arquebus Shot 004.ogg`,
+            "05": `${p}/ovani-sounds/Weaponry Ranged Sound FX Pack Vol. 1/Firearms/Arquebus/Arquebus Shot 005.ogg`,
+          },
+        },
+        impact: {
+          "01": {
+            "01": `${p}/ovani-sounds/Weaponry Ranged Sound FX Pack Vol. 1/Firearms/Arquebus/Arquebus Impact 001.ogg`,
+            "02": `${p}/ovani-sounds/Weaponry Ranged Sound FX Pack Vol. 1/Firearms/Arquebus/Arquebus Impact 002.ogg`,
+            "03": `${p}/ovani-sounds/Weaponry Ranged Sound FX Pack Vol. 1/Firearms/Arquebus/Arquebus Impact 003.ogg`,
+            "04": `${p}/ovani-sounds/Weaponry Ranged Sound FX Pack Vol. 1/Firearms/Arquebus/Arquebus Impact 004.ogg`,
+            "05": `${p}/ovani-sounds/Weaponry Ranged Sound FX Pack Vol. 1/Firearms/Arquebus/Arquebus Impact 005.ogg`,
+          },
+        },
+      },
       old_timey: {
         strike: {
           "01": {
@@ -623,6 +674,46 @@ export const database = {
         strike: {
           "01": {
             "01": `${p}/Soniss/GDC2024/BluezoneCorp/Steampunk Flare.ogg`,
+          },
+        },
+      },
+      flintlock_pistol: {
+        strike: {
+          "01": {
+            "01": `${p}/ovani-sounds/Weaponry Ranged Sound FX Pack Vol. 1/Firearms/Flintlock Pistol/Flintlock Pistol Shot 001.ogg`,
+            "02": `${p}/ovani-sounds/Weaponry Ranged Sound FX Pack Vol. 1/Firearms/Flintlock Pistol/Flintlock Pistol Shot 002.ogg`,
+            "03": `${p}/ovani-sounds/Weaponry Ranged Sound FX Pack Vol. 1/Firearms/Flintlock Pistol/Flintlock Pistol Shot 003.ogg`,
+            "04": `${p}/ovani-sounds/Weaponry Ranged Sound FX Pack Vol. 1/Firearms/Flintlock Pistol/Flintlock Pistol Shot 004.ogg`,
+            "05": `${p}/ovani-sounds/Weaponry Ranged Sound FX Pack Vol. 1/Firearms/Flintlock Pistol/Flintlock Pistol Shot 005.ogg`,
+          },
+        },
+        impact: {
+          "01": {
+            "01": `${p}/ovani-sounds/Weaponry Ranged Sound FX Pack Vol. 1/Firearms/Flintlock Pistol/Flintlock Pistol Impact 001.ogg`,
+            "02": `${p}/ovani-sounds/Weaponry Ranged Sound FX Pack Vol. 1/Firearms/Flintlock Pistol/Flintlock Pistol Impact 002.ogg`,
+            "03": `${p}/ovani-sounds/Weaponry Ranged Sound FX Pack Vol. 1/Firearms/Flintlock Pistol/Flintlock Pistol Impact 003.ogg`,
+            "04": `${p}/ovani-sounds/Weaponry Ranged Sound FX Pack Vol. 1/Firearms/Flintlock Pistol/Flintlock Pistol Impact 004.ogg`,
+            "05": `${p}/ovani-sounds/Weaponry Ranged Sound FX Pack Vol. 1/Firearms/Flintlock Pistol/Flintlock Pistol Impact 005.ogg`,
+          },
+        },
+      },
+      musket: {
+        strike: {
+          "01": {
+            "01": `${p}/ovani-sounds/Weaponry Ranged Sound FX Pack Vol. 1/Firearms/Musket/Musket Shot 001.ogg`,
+            "02": `${p}/ovani-sounds/Weaponry Ranged Sound FX Pack Vol. 1/Firearms/Musket/Musket Shot 002.ogg`,
+            "03": `${p}/ovani-sounds/Weaponry Ranged Sound FX Pack Vol. 1/Firearms/Musket/Musket Shot 003.ogg`,
+            "04": `${p}/ovani-sounds/Weaponry Ranged Sound FX Pack Vol. 1/Firearms/Musket/Musket Shot 004.ogg`,
+            "05": `${p}/ovani-sounds/Weaponry Ranged Sound FX Pack Vol. 1/Firearms/Musket/Musket Shot 005.ogg`,
+          },
+        },
+        impact: {
+          "01": {
+            "01": `${p}/ovani-sounds/Weaponry Ranged Sound FX Pack Vol. 1/Firearms/Musket/Musket Impact 001.ogg`,
+            "02": `${p}/ovani-sounds/Weaponry Ranged Sound FX Pack Vol. 1/Firearms/Musket/Musket Impact 002.ogg`,
+            "03": `${p}/ovani-sounds/Weaponry Ranged Sound FX Pack Vol. 1/Firearms/Musket/Musket Impact 003.ogg`,
+            "04": `${p}/ovani-sounds/Weaponry Ranged Sound FX Pack Vol. 1/Firearms/Musket/Musket Impact 004.ogg`,
+            "05": `${p}/ovani-sounds/Weaponry Ranged Sound FX Pack Vol. 1/Firearms/Musket/Musket Impact 005.ogg`,
           },
         },
       },
@@ -643,6 +734,26 @@ export const database = {
           "04": `${p}/Soniss/GDC2024/PolePosition/Lynx 50 - 4m - 4.ogg`,
           "05": `${p}/Soniss/GDC2024/PolePosition/Lynx 50 - 4m - 5.ogg`,
           "06": `${p}/Soniss/GDC2024/PolePosition/Lynx 50 - 4m - 6.ogg`,
+        },
+      },
+    },
+    sling: {
+      strike: {
+        "01": {
+          "01": `${p}/ovani-sounds/Weaponry Ranged Sound FX Pack Vol. 1/Projectile Weapons/Sling/Sling Throw 001.ogg`,
+          "02": `${p}/ovani-sounds/Weaponry Ranged Sound FX Pack Vol. 1/Projectile Weapons/Sling/Sling Throw 002.ogg`,
+          "03": `${p}/ovani-sounds/Weaponry Ranged Sound FX Pack Vol. 1/Projectile Weapons/Sling/Sling Throw 003.ogg`,
+          "04": `${p}/ovani-sounds/Weaponry Ranged Sound FX Pack Vol. 1/Projectile Weapons/Sling/Sling Throw 004.ogg`,
+          "05": `${p}/ovani-sounds/Weaponry Ranged Sound FX Pack Vol. 1/Projectile Weapons/Sling/Sling Throw 005.ogg`,
+        },
+      },
+      impact: {
+        "01": {
+          "01": `${p}/ovani-sounds/Weaponry Ranged Sound FX Pack Vol. 1/Projectile Weapons/Sling/Sling Impact 001.ogg`,
+          "02": `${p}/ovani-sounds/Weaponry Ranged Sound FX Pack Vol. 1/Projectile Weapons/Sling/Sling Impact 002.ogg`,
+          "03": `${p}/ovani-sounds/Weaponry Ranged Sound FX Pack Vol. 1/Projectile Weapons/Sling/Sling Impact 003.ogg`,
+          "04": `${p}/ovani-sounds/Weaponry Ranged Sound FX Pack Vol. 1/Projectile Weapons/Sling/Sling Impact 004.ogg`,
+          "05": `${p}/ovani-sounds/Weaponry Ranged Sound FX Pack Vol. 1/Projectile Weapons/Sling/Sling Impact 005.ogg`,
         },
       },
     },
@@ -703,9 +814,57 @@ export const database = {
           },
         },
       },
-      spear: {
-        whoosh: {
+
+      knife: {
+        strike: {
           "01": {
+            "01": `${p}/ovani-sounds/Weaponry Ranged Sound FX Pack Vol. 1/Throwables/Knives/Knives Throw 001.ogg`,
+            "02": `${p}/ovani-sounds/Weaponry Ranged Sound FX Pack Vol. 1/Throwables/Knives/Knives Throw 002.ogg`,
+            "03": `${p}/ovani-sounds/Weaponry Ranged Sound FX Pack Vol. 1/Throwables/Knives/Knives Throw 003.ogg`,
+            "04": `${p}/ovani-sounds/Weaponry Ranged Sound FX Pack Vol. 1/Throwables/Knives/Knives Throw 004.ogg`,
+            "05": `${p}/ovani-sounds/Weaponry Ranged Sound FX Pack Vol. 1/Throwables/Knives/Knives Throw 005.ogg`,
+          },
+        },
+        impact: {
+          "01": {
+            "01": `${p}/ovani-sounds/Weaponry Ranged Sound FX Pack Vol. 1/Throwables/Knives/Knives Impact 001.ogg`,
+            "02": `${p}/ovani-sounds/Weaponry Ranged Sound FX Pack Vol. 1/Throwables/Knives/Knives Impact 002.ogg`,
+            "03": `${p}/ovani-sounds/Weaponry Ranged Sound FX Pack Vol. 1/Throwables/Knives/Knives Impact 003.ogg`,
+            "04": `${p}/ovani-sounds/Weaponry Ranged Sound FX Pack Vol. 1/Throwables/Knives/Knives Impact 004.ogg`,
+            "05": `${p}/ovani-sounds/Weaponry Ranged Sound FX Pack Vol. 1/Throwables/Knives/Knives Impact 005.ogg`,
+          },
+        },
+      },
+      shuriken: {
+        strike: {
+          "01": {
+            "01": `${p}/ovani-sounds/Weaponry Ranged Sound FX Pack Vol. 1/Throwables/Shurikens/Shurikens Throw 001.ogg`,
+            "02": `${p}/ovani-sounds/Weaponry Ranged Sound FX Pack Vol. 1/Throwables/Shurikens/Shurikens Throw 002.ogg`,
+            "03": `${p}/ovani-sounds/Weaponry Ranged Sound FX Pack Vol. 1/Throwables/Shurikens/Shurikens Throw 003.ogg`,
+            "04": `${p}/ovani-sounds/Weaponry Ranged Sound FX Pack Vol. 1/Throwables/Shurikens/Shurikens Throw 004.ogg`,
+            "05": `${p}/ovani-sounds/Weaponry Ranged Sound FX Pack Vol. 1/Throwables/Shurikens/Shurikens Throw 005.ogg`,
+          },
+        },
+        impact: {
+          "01": {
+            "01": `${p}/ovani-sounds/Weaponry Ranged Sound FX Pack Vol. 1/Throwables/Shurikens/Shurikens Impact 001.ogg`,
+            "02": `${p}/ovani-sounds/Weaponry Ranged Sound FX Pack Vol. 1/Throwables/Shurikens/Shurikens Impact 002.ogg`,
+            "03": `${p}/ovani-sounds/Weaponry Ranged Sound FX Pack Vol. 1/Throwables/Shurikens/Shurikens Impact 003.ogg`,
+            "04": `${p}/ovani-sounds/Weaponry Ranged Sound FX Pack Vol. 1/Throwables/Shurikens/Shurikens Impact 004.ogg`,
+            "05": `${p}/ovani-sounds/Weaponry Ranged Sound FX Pack Vol. 1/Throwables/Shurikens/Shurikens Impact 005.ogg`,
+          },
+        },
+      },
+      spear: {
+        strike: {
+          "01": {
+            "01": `${p}/ovani-sounds/Weaponry Ranged Sound FX Pack Vol. 1/Throwables/Spears/Spears Throw 001.ogg`,
+            "02": `${p}/ovani-sounds/Weaponry Ranged Sound FX Pack Vol. 1/Throwables/Spears/Spears Throw 002.ogg`,
+            "03": `${p}/ovani-sounds/Weaponry Ranged Sound FX Pack Vol. 1/Throwables/Spears/Spears Throw 003.ogg`,
+            "04": `${p}/ovani-sounds/Weaponry Ranged Sound FX Pack Vol. 1/Throwables/Spears/Spears Throw 004.ogg`,
+            "05": `${p}/ovani-sounds/Weaponry Ranged Sound FX Pack Vol. 1/Throwables/Spears/Spears Throw 005.ogg`,
+          },
+          "02": {
             "01": `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Whooshes/Spear Whoosh A.ogg`,
             "02": `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Whooshes/Spear Whoosh B.ogg`,
             "03": `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Whooshes/Spear Whoosh C.ogg`,
@@ -714,12 +873,76 @@ export const database = {
             "06": `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Whooshes/Spear Whoosh F.ogg`,
           },
         },
+        impact: {
+          "01": {
+            "01": `${p}/ovani-sounds/Weaponry Ranged Sound FX Pack Vol. 1/Throwables/Spears/Spears Impact 001.ogg`,
+            "02": `${p}/ovani-sounds/Weaponry Ranged Sound FX Pack Vol. 1/Throwables/Spears/Spears Impact 002.ogg`,
+            "03": `${p}/ovani-sounds/Weaponry Ranged Sound FX Pack Vol. 1/Throwables/Spears/Spears Impact 003.ogg`,
+            "04": `${p}/ovani-sounds/Weaponry Ranged Sound FX Pack Vol. 1/Throwables/Spears/Spears Impact 004.ogg`,
+            "05": `${p}/ovani-sounds/Weaponry Ranged Sound FX Pack Vol. 1/Throwables/Spears/Spears Impact 005.ogg`,
+          },
+        },
+      },
+      stone: {
+        strike: {
+          "01": {
+            "01": `${p}/ovani-sounds/Weaponry Ranged Sound FX Pack Vol. 1/Throwables/Stones/Stones Throw 001.ogg`,
+            "02": `${p}/ovani-sounds/Weaponry Ranged Sound FX Pack Vol. 1/Throwables/Stones/Stones Throw 002.ogg`,
+            "03": `${p}/ovani-sounds/Weaponry Ranged Sound FX Pack Vol. 1/Throwables/Stones/Stones Throw 003.ogg`,
+            "04": `${p}/ovani-sounds/Weaponry Ranged Sound FX Pack Vol. 1/Throwables/Stones/Stones Throw 004.ogg`,
+            "05": `${p}/ovani-sounds/Weaponry Ranged Sound FX Pack Vol. 1/Throwables/Stones/Stones Throw 005.ogg`,
+          },
+        },
+        impact: {
+          "01": {
+            "01": `${p}/ovani-sounds/Weaponry Ranged Sound FX Pack Vol. 1/Throwables/Stones/Stones Impact 001.ogg`,
+            "02": `${p}/ovani-sounds/Weaponry Ranged Sound FX Pack Vol. 1/Throwables/Stones/Stones Impact 002.ogg`,
+            "03": `${p}/ovani-sounds/Weaponry Ranged Sound FX Pack Vol. 1/Throwables/Stones/Stones Impact 003.ogg`,
+            "04": `${p}/ovani-sounds/Weaponry Ranged Sound FX Pack Vol. 1/Throwables/Stones/Stones Impact 004.ogg`,
+            "05": `${p}/ovani-sounds/Weaponry Ranged Sound FX Pack Vol. 1/Throwables/Stones/Stones Impact 005.ogg`,
+          },
+        },
       },
     },
-    cannon: {
-      strike: {
-        "01": {
-          "01": `${p}/Soniss/GDC2024/BluezoneCorp/Steampunk Cannon Shot.ogg`,
+    siege_weapons: {
+      balista: {
+        strike: {
+          "01": {
+            "01": `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Weapons/Ballista Shoot A.ogg`,
+            "02": `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Weapons/Ballista Shoot B.ogg`,
+            "03": `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Weapons/Ballista Shoot C.ogg`,
+            "04": `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Weapons/Ballista Shoot D.ogg`,
+          },
+          "02": {
+            "01": `${p}/ovani-sounds/Weaponry Ranged Sound FX Pack Vol. 1/Projectile Weapons/Ballista/Ballista Shot 001.ogg`,
+            "02": `${p}/ovani-sounds/Weaponry Ranged Sound FX Pack Vol. 1/Projectile Weapons/Ballista/Ballista Shot 002.ogg`,
+            "03": `${p}/ovani-sounds/Weaponry Ranged Sound FX Pack Vol. 1/Projectile Weapons/Ballista/Ballista Shot 003.ogg`,
+            "04": `${p}/ovani-sounds/Weaponry Ranged Sound FX Pack Vol. 1/Projectile Weapons/Ballista/Ballista Shot 004.ogg`,
+            "05": `${p}/ovani-sounds/Weaponry Ranged Sound FX Pack Vol. 1/Projectile Weapons/Ballista/Ballista Shot 005.ogg`,
+          },
+        },
+      },
+      cannon: {
+        strike: {
+          "01": {
+            "01": `${p}/ovani-sounds/Weaponry Ranged Sound FX Pack Vol. 1/Firearms/Cannon/Cannon Shot 001.ogg`,
+            "02": `${p}/ovani-sounds/Weaponry Ranged Sound FX Pack Vol. 1/Firearms/Cannon/Cannon Shot 002.ogg`,
+            "03": `${p}/ovani-sounds/Weaponry Ranged Sound FX Pack Vol. 1/Firearms/Cannon/Cannon Shot 003.ogg`,
+            "04": `${p}/ovani-sounds/Weaponry Ranged Sound FX Pack Vol. 1/Firearms/Cannon/Cannon Shot 004.ogg`,
+            "05": `${p}/ovani-sounds/Weaponry Ranged Sound FX Pack Vol. 1/Firearms/Cannon/Cannon Shot 005.ogg`,
+          },
+          "02": {
+            "01": `${p}/Soniss/GDC2024/BluezoneCorp/Steampunk Cannon Shot.ogg`,
+          },
+        },
+        impact: {
+          "01": {
+            "01": `${p}/ovani-sounds/Weaponry Ranged Sound FX Pack Vol. 1/Firearms/Cannon/Cannon Impact 001.ogg`,
+            "02": `${p}/ovani-sounds/Weaponry Ranged Sound FX Pack Vol. 1/Firearms/Cannon/Cannon Impact 002.ogg`,
+            "03": `${p}/ovani-sounds/Weaponry Ranged Sound FX Pack Vol. 1/Firearms/Cannon/Cannon Impact 003.ogg`,
+            "04": `${p}/ovani-sounds/Weaponry Ranged Sound FX Pack Vol. 1/Firearms/Cannon/Cannon Impact 004.ogg`,
+            "05": `${p}/ovani-sounds/Weaponry Ranged Sound FX Pack Vol. 1/Firearms/Cannon/Cannon Impact 005.ogg`,
+          },
         },
       },
     },
@@ -3298,6 +3521,48 @@ export const database = {
         },
       },
       bow: {
+        draw: {
+          long_bow: {
+            fast: {
+              "01": {
+                "01": `${p}/ovani-sounds/Weaponry Ranged Sound FX Pack Vol. 1/Projectile Weapons/Long Bow/Long Bow Draw Fast 001.ogg`,
+                "02": `${p}/ovani-sounds/Weaponry Ranged Sound FX Pack Vol. 1/Projectile Weapons/Long Bow/Long Bow Draw Fast 002.ogg`,
+                "03": `${p}/ovani-sounds/Weaponry Ranged Sound FX Pack Vol. 1/Projectile Weapons/Long Bow/Long Bow Draw Fast 003.ogg`,
+                "04": `${p}/ovani-sounds/Weaponry Ranged Sound FX Pack Vol. 1/Projectile Weapons/Long Bow/Long Bow Draw Fast 004.ogg`,
+                "05": `${p}/ovani-sounds/Weaponry Ranged Sound FX Pack Vol. 1/Projectile Weapons/Long Bow/Long Bow Draw Fast 005.ogg`,
+              },
+            },
+            long: {
+              "01": {
+                "01": `${p}/ovani-sounds/Weaponry Ranged Sound FX Pack Vol. 1/Projectile Weapons/Long Bow/Long Bow Draw Long 001.ogg`,
+                "02": `${p}/ovani-sounds/Weaponry Ranged Sound FX Pack Vol. 1/Projectile Weapons/Long Bow/Long Bow Draw Long 002.ogg`,
+                "03": `${p}/ovani-sounds/Weaponry Ranged Sound FX Pack Vol. 1/Projectile Weapons/Long Bow/Long Bow Draw Long 003.ogg`,
+                "04": `${p}/ovani-sounds/Weaponry Ranged Sound FX Pack Vol. 1/Projectile Weapons/Long Bow/Long Bow Draw Long 004.ogg`,
+                "05": `${p}/ovani-sounds/Weaponry Ranged Sound FX Pack Vol. 1/Projectile Weapons/Long Bow/Long Bow Draw Long 005.ogg`,
+              },
+            },
+          },
+          short_bow: {
+            fast: {
+              "01": {
+                "01": `${p}/ovani-sounds/Weaponry Ranged Sound FX Pack Vol. 1/Projectile Weapons/Small Bow/Small Bow Draw Fast 001.ogg`,
+                "02": `${p}/ovani-sounds/Weaponry Ranged Sound FX Pack Vol. 1/Projectile Weapons/Small Bow/Small Bow Draw Fast 002.ogg`,
+                "03": `${p}/ovani-sounds/Weaponry Ranged Sound FX Pack Vol. 1/Projectile Weapons/Small Bow/Small Bow Draw Fast 003.ogg`,
+                "04": `${p}/ovani-sounds/Weaponry Ranged Sound FX Pack Vol. 1/Projectile Weapons/Small Bow/Small Bow Draw Fast 004.ogg`,
+                "05": `${p}/ovani-sounds/Weaponry Ranged Sound FX Pack Vol. 1/Projectile Weapons/Small Bow/Small Bow Draw Fast 005.ogg`,
+              },
+            },
+            long: {
+              "01": {
+                "01": `${p}/ovani-sounds/Weaponry Ranged Sound FX Pack Vol. 1/Projectile Weapons/Small Bow/Small Bow Draw Long 001.ogg`,
+                "02": `${p}/ovani-sounds/Weaponry Ranged Sound FX Pack Vol. 1/Projectile Weapons/Small Bow/Small Bow Draw Long 002.ogg`,
+                "03": `${p}/ovani-sounds/Weaponry Ranged Sound FX Pack Vol. 1/Projectile Weapons/Small Bow/Small Bow Draw Long 003.ogg`,
+                "04": `${p}/ovani-sounds/Weaponry Ranged Sound FX Pack Vol. 1/Projectile Weapons/Small Bow/Small Bow Draw Long 004.ogg`,
+                "05": `${p}/ovani-sounds/Weaponry Ranged Sound FX Pack Vol. 1/Projectile Weapons/Small Bow/Small Bow Draw Long 005.ogg`,
+              },
+            },
+          },
+        },
         sheathe: {
           "01": {
             "01": `${p}/TomMusic/FreeFantasySFX/Attacks/Bow Attacks Hits and Blocks/Bow Put Away 1.ogg`,
@@ -3319,6 +3584,30 @@ export const database = {
           "01": {
             "01": `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Weapons/Crossbow Load A.ogg`,
             "02": `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Weapons/Crossbow Load B.ogg`,
+          },
+          "02": {
+            fast: {
+              "01": `${p}/ovani-sounds/Weaponry Ranged Sound FX Pack Vol. 1/Projectile Weapons/Crossbow/Crossbow Reload Fast 001.ogg`,
+              "02": `${p}/ovani-sounds/Weaponry Ranged Sound FX Pack Vol. 1/Projectile Weapons/Crossbow/Crossbow Reload Fast 002.ogg`,
+              "03": `${p}/ovani-sounds/Weaponry Ranged Sound FX Pack Vol. 1/Projectile Weapons/Crossbow/Crossbow Reload Fast 003.ogg`,
+              "04": `${p}/ovani-sounds/Weaponry Ranged Sound FX Pack Vol. 1/Projectile Weapons/Crossbow/Crossbow Reload Fast 004.ogg`,
+              "05": `${p}/ovani-sounds/Weaponry Ranged Sound FX Pack Vol. 1/Projectile Weapons/Crossbow/Crossbow Reload Fast 005.ogg`,
+            },
+          },
+          "03": {
+            long: {
+              "01": `${p}/ovani-sounds/Weaponry Ranged Sound FX Pack Vol. 1/Projectile Weapons/Crossbow/Crossbow Reload Long 001.ogg`,
+              "02": `${p}/ovani-sounds/Weaponry Ranged Sound FX Pack Vol. 1/Projectile Weapons/Crossbow/Crossbow Reload Long 002.ogg`,
+              "03": `${p}/ovani-sounds/Weaponry Ranged Sound FX Pack Vol. 1/Projectile Weapons/Crossbow/Crossbow Reload Long 003.ogg`,
+              "04": `${p}/ovani-sounds/Weaponry Ranged Sound FX Pack Vol. 1/Projectile Weapons/Crossbow/Crossbow Reload Long 004.ogg`,
+              "05": `${p}/ovani-sounds/Weaponry Ranged Sound FX Pack Vol. 1/Projectile Weapons/Crossbow/Crossbow Reload Long 005.ogg`,
+            },
+          },
+          "04": {
+            super_fast: {
+              "01": `${p}/ovani-sounds/Weaponry Ranged Sound FX Pack Vol. 1/Projectile Weapons/Crossbow/Crossbow Reload Super Fast 001.ogg`,
+              "02": `${p}/ovani-sounds/Weaponry Ranged Sound FX Pack Vol. 1/Projectile Weapons/Crossbow/Crossbow Reload Super Fast 002.ogg`,
+            },
           },
         },
         equip: {
@@ -3364,6 +3653,39 @@ export const database = {
         },
       },
       firearm: {
+        arquebus: {
+          reload: {
+            "01": {
+              "01": `${p}/ovani-sounds/Weaponry Ranged Sound FX Pack Vol. 1/Firearms/Arquebus/Arquebus Reload 001.ogg`,
+              "02": `${p}/ovani-sounds/Weaponry Ranged Sound FX Pack Vol. 1/Firearms/Arquebus/Arquebus Reload 002.ogg`,
+              "03": `${p}/ovani-sounds/Weaponry Ranged Sound FX Pack Vol. 1/Firearms/Arquebus/Arquebus Reload 003.ogg`,
+              "04": `${p}/ovani-sounds/Weaponry Ranged Sound FX Pack Vol. 1/Firearms/Arquebus/Arquebus Reload 004.ogg`,
+              "05": `${p}/ovani-sounds/Weaponry Ranged Sound FX Pack Vol. 1/Firearms/Arquebus/Arquebus Reload 005.ogg`,
+            },
+          },
+        },
+        flintlock_pistol: {
+          reload: {
+            "01": {
+              "01": `${p}/ovani-sounds/Weaponry Ranged Sound FX Pack Vol. 1/Firearms/Flintlock Pistol/Flintlock Pistol Reload 001.ogg`,
+              "02": `${p}/ovani-sounds/Weaponry Ranged Sound FX Pack Vol. 1/Firearms/Flintlock Pistol/Flintlock Pistol Reload 002.ogg`,
+              "03": `${p}/ovani-sounds/Weaponry Ranged Sound FX Pack Vol. 1/Firearms/Flintlock Pistol/Flintlock Pistol Reload 003.ogg`,
+              "04": `${p}/ovani-sounds/Weaponry Ranged Sound FX Pack Vol. 1/Firearms/Flintlock Pistol/Flintlock Pistol Reload 004.ogg`,
+              "05": `${p}/ovani-sounds/Weaponry Ranged Sound FX Pack Vol. 1/Firearms/Flintlock Pistol/Flintlock Pistol Reload 005.ogg`,
+            },
+          },
+        },
+        musket: {
+          reload: {
+            "01": {
+              "01": `${p}/ovani-sounds/Weaponry Ranged Sound FX Pack Vol. 1/Firearms/Musket/Musket Reload 001.ogg`,
+              "02": `${p}/ovani-sounds/Weaponry Ranged Sound FX Pack Vol. 1/Firearms/Musket/Musket Reload 002.ogg`,
+              "03": `${p}/ovani-sounds/Weaponry Ranged Sound FX Pack Vol. 1/Firearms/Musket/Musket Reload 003.ogg`,
+              "04": `${p}/ovani-sounds/Weaponry Ranged Sound FX Pack Vol. 1/Firearms/Musket/Musket Reload 004.ogg`,
+              "05": `${p}/ovani-sounds/Weaponry Ranged Sound FX Pack Vol. 1/Firearms/Musket/Musket Reload 005.ogg`,
+            },
+          },
+        },
         pistol: {
           draw: {
             "01": {
@@ -3411,6 +3733,38 @@ export const database = {
           reload: {
             "02": {
               "01": `${p}/Soniss/GDC2024/BluezoneCorp/Steampunk Gun Reload.ogg`,
+            },
+          },
+        },
+      },
+      siege_weapons: {
+        cannon: {
+          reload: {
+            normal: {
+              "01": {
+                "01": `${p}/ovani-sounds/Weaponry Ranged Sound FX Pack Vol. 1/Firearms/Cannon/Cannon Reload 001.ogg`,
+                "02": `${p}/ovani-sounds/Weaponry Ranged Sound FX Pack Vol. 1/Firearms/Cannon/Cannon Reload 002.ogg`,
+                "03": `${p}/ovani-sounds/Weaponry Ranged Sound FX Pack Vol. 1/Firearms/Cannon/Cannon Reload 003.ogg`,
+                "04": `${p}/ovani-sounds/Weaponry Ranged Sound FX Pack Vol. 1/Firearms/Cannon/Cannon Reload 004.ogg`,
+                "05": `${p}/ovani-sounds/Weaponry Ranged Sound FX Pack Vol. 1/Firearms/Cannon/Cannon Reload 005.ogg`,
+              },
+            },
+            fast: {
+              "01": {
+                "01": `${p}/ovani-sounds/Weaponry Ranged Sound FX Pack Vol. 1/Firearms/Cannon/Cannon Reload Fast 001.ogg`,
+                "02": `${p}/ovani-sounds/Weaponry Ranged Sound FX Pack Vol. 1/Firearms/Cannon/Cannon Reload Fast 002.ogg`,
+              },
+            },
+          },
+        },
+        ballista: {
+          reload: {
+            "01": {
+              "01": `${p}/ovani-sounds/Weaponry Ranged Sound FX Pack Vol. 1/Projectile Weapons/Ballista/Ballista Reload 001.ogg`,
+              "02": `${p}/ovani-sounds/Weaponry Ranged Sound FX Pack Vol. 1/Projectile Weapons/Ballista/Ballista Reload 002.ogg`,
+              "03": `${p}/ovani-sounds/Weaponry Ranged Sound FX Pack Vol. 1/Projectile Weapons/Ballista/Ballista Reload 003.ogg`,
+              "04": `${p}/ovani-sounds/Weaponry Ranged Sound FX Pack Vol. 1/Projectile Weapons/Ballista/Ballista Reload 004.ogg`,
+              "05": `${p}/ovani-sounds/Weaponry Ranged Sound FX Pack Vol. 1/Projectile Weapons/Ballista/Ballista Reload 005.ogg`,
             },
           },
         },

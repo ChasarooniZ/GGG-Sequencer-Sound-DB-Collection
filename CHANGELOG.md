@@ -1,5 +1,11 @@
 ## Unreleased
 
+## 0.0.17
+
+- **New**
+  - `Ovani SFX`
+    - `Weaponry Ranged Sound FX Pack Vol. 1`
+
 ## 0.0.16
 
 - **New**
