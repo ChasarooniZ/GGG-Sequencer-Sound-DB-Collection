@@ -22,4 +22,7 @@ You can access the changelog [here](/CHANGELOG.md).
 ## Contributors
 You can see everyone else who contributed to the module [here](CONTRIBUTORS.md)
 ## License 
-Sounds are not licensed individually their individual license are lsited in their folders, but the code and the sounds are under separate licenses
+Sounds are not licensed individually their individual license are listed in their folders, but the code and the sounds are under separate licenses
+
+ > [!important]
+> Content inside the `assets` folder may only be distributed as part of the GGG module. Sharing and usage of the files outside of the GGG module is STRICTLY PROHIBITED. Please ensure you only access content in accordance to their licensing as listed above the disclaimer.
