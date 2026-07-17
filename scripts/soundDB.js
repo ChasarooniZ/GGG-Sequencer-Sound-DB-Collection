@@ -957,9 +957,212 @@ export const database = {
           },
         },
       },
+      electric: {
+        rifle: {
+          strike: {
+            single: {
+              "01": {
+                "01": `${p}/ovani-sounds/Sci-Fi/Weapon/Light/Electro Rifle Shot Single A.ogg`,
+                "02": `${p}/ovani-sounds/Sci-Fi/Weapon/Light/Electro Rifle Shot Single B.ogg`,
+                "03": `${p}/ovani-sounds/Sci-Fi/Weapon/Light/Electro Rifle Shot Single C.ogg`,
+              },
+            },
+            semi: {
+              "01": {
+                "01": `${p}/ovani-sounds/Sci-Fi/Weapon/Light/Electro Rifle Shot Semi-Automatic A.ogg`,
+                "02": `${p}/ovani-sounds/Sci-Fi/Weapon/Light/Electro Rifle Shot Semi-Automatic B.ogg`,
+                "03": `${p}/ovani-sounds/Sci-Fi/Weapon/Light/Electro Rifle Shot Semi-Automatic C.ogg`,
+                "04": `${p}/ovani-sounds/Sci-Fi/Weapon/Light/Electro Rifle Shot Semi-Automatic D.ogg`,
+              },
+            },
+            auto: {
+              "01": {
+                "01": `${p}/ovani-sounds/Sci-Fi/Weapon/Light/Electro Rifle Shot Automatic A.ogg`,
+                "02": `${p}/ovani-sounds/Sci-Fi/Weapon/Light/Electro Rifle Shot Automatic B.ogg`,
+                "03": `${p}/ovani-sounds/Sci-Fi/Weapon/Light/Electro Rifle Shot Automatic C.ogg`,
+                "04": `${p}/ovani-sounds/Sci-Fi/Weapon/Light/Electro Rifle Shot Automatic D.ogg`,
+              },
+            },
+          },
+        },
+      },
+      electromagnetic: {
+        rifle: {
+          strike: {
+            single: {
+              "01": {
+                "01": `${p}/ovani-sounds/Sci-Fi/Weapon/Light/Electromagnetic Rifle Shot Single A.ogg`,
+                "02": `${p}/ovani-sounds/Sci-Fi/Weapon/Light/Electromagnetic Rifle Shot Single B.ogg`,
+                "03": `${p}/ovani-sounds/Sci-Fi/Weapon/Light/Electromagnetic Rifle Shot Single C.ogg`,
+              },
+            },
+            semi: {
+              "01": {
+                "01": `${p}/ovani-sounds/Sci-Fi/Weapon/Light/Electromagnetic Rifle Shot Semi-Automatic A.ogg`,
+                "02": `${p}/ovani-sounds/Sci-Fi/Weapon/Light/Electromagnetic Rifle Shot Semi-Automatic B.ogg`,
+                "03": `${p}/ovani-sounds/Sci-Fi/Weapon/Light/Electromagnetic Rifle Shot Semi-Automatic C.ogg`,
+                "04": `${p}/ovani-sounds/Sci-Fi/Weapon/Light/Electromagnetic Rifle Shot Semi-Automatic D.ogg`,
+              },
+            },
+            auto: {
+              "01": {
+                "01": `${p}/ovani-sounds/Sci-Fi/Weapon/Light/Electromagnetic Rifle Shot Automatic A.ogg`,
+                "02": `${p}/ovani-sounds/Sci-Fi/Weapon/Light/Electromagnetic Rifle Shot Automatic B.ogg`,
+                "03": `${p}/ovani-sounds/Sci-Fi/Weapon/Light/Electromagnetic Rifle Shot Automatic C.ogg`,
+                "04": `${p}/ovani-sounds/Sci-Fi/Weapon/Light/Electromagnetic Rifle Shot Automatic D.ogg`,
+              },
+            },
+          },
+        },
+      },
       laser: {
-        "04": {
-          "01": `${p}/Soniss/GDC2024/DoexStudio/Laser_Beam_004.ogg`,
+        beam: {
+          strike: {
+            "04": {
+              "01": `${p}/Soniss/GDC2024/DoexStudio/Laser_Beam_004.ogg`,
+            },
+          },
+        },
+        pistol: {
+          strike: {
+            single: {
+              "01": {
+                "01": `${p}/ovani-sounds/Sci-Fi/Weapon/Light/Laser Pistol Shot Single A.ogg`,
+                "02": `${p}/ovani-sounds/Sci-Fi/Weapon/Light/Laser Pistol Shot Single B.ogg`,
+                "03": `${p}/ovani-sounds/Sci-Fi/Weapon/Light/Laser Pistol Shot Single C.ogg`,
+              },
+            },
+            semi: {
+              "01": {
+                "01": `${p}/ovani-sounds/Sci-Fi/Weapon/Light/Laser Pistol Shot Semi-Automatic A.ogg`,
+                "02": `${p}/ovani-sounds/Sci-Fi/Weapon/Light/Laser Pistol Shot Semi-Automatic B.ogg`,
+                "03": `${p}/ovani-sounds/Sci-Fi/Weapon/Light/Laser Pistol Shot Semi-Automatic C.ogg`,
+                "04": `${p}/ovani-sounds/Sci-Fi/Weapon/Light/Laser Pistol Shot Semi-Automatic D.ogg`,
+              },
+            },
+            auto: {
+              "01": {
+                "01": `${p}/ovani-sounds/Sci-Fi/Weapon/Light/Laser Pistol Shot Automatic A.ogg`,
+                "02": `${p}/ovani-sounds/Sci-Fi/Weapon/Light/Laser Pistol Shot Automatic B.ogg`,
+                "03": `${p}/ovani-sounds/Sci-Fi/Weapon/Light/Laser Pistol Shot Automatic C.ogg`,
+                "04": `${p}/ovani-sounds/Sci-Fi/Weapon/Light/Laser Pistol Shot Automatic D.ogg`,
+              },
+            },
+          },
+        },
+        rifle: {
+          strike: {
+            single: {
+              "01": {
+                "01": `${p}/ovani-sounds/Sci-Fi/Weapon/Light/Laser Rifle Shot Single A.ogg`,
+                "02": `${p}/ovani-sounds/Sci-Fi/Weapon/Light/Laser Rifle Shot Single B.ogg`,
+                "03": `${p}/ovani-sounds/Sci-Fi/Weapon/Light/Laser Rifle Shot Single C.ogg`,
+              },
+            },
+            semi: {
+              "01": {
+                "01": `${p}/ovani-sounds/Sci-Fi/Weapon/Light/Laser Rifle Shot Semi-Automatic A.ogg`,
+                "02": `${p}/ovani-sounds/Sci-Fi/Weapon/Light/Laser Rifle Shot Semi-Automatic B.ogg`,
+                "03": `${p}/ovani-sounds/Sci-Fi/Weapon/Light/Laser Rifle Shot Semi-Automatic C.ogg`,
+                "04": `${p}/ovani-sounds/Sci-Fi/Weapon/Light/Laser Rifle Shot Semi-Automatic D.ogg`,
+              },
+            },
+            auto: {
+              "01": {
+                "01": `${p}/ovani-sounds/Sci-Fi/Weapon/Light/Laser Rifle Shot Automatic A.ogg`,
+                "02": `${p}/ovani-sounds/Sci-Fi/Weapon/Light/Laser Rifle Shot Automatic B.ogg`,
+                "03": `${p}/ovani-sounds/Sci-Fi/Weapon/Light/Laser Rifle Shot Automatic C.ogg`,
+                "04": `${p}/ovani-sounds/Sci-Fi/Weapon/Light/Laser Rifle Shot Automatic D.ogg`,
+              },
+            },
+          },
+        },
+      },
+      missile: {
+        strike: {
+          "01": {
+            "01": `${p}/ovani-sounds/Sci-Fi/Weapon/Heavy/Missile Launch A.ogg`,
+            "02": `${p}/ovani-sounds/Sci-Fi/Weapon/Heavy/Missile Launch B.ogg`,
+            "03": `${p}/ovani-sounds/Sci-Fi/Weapon/Heavy/Missile Launch C.ogg`,
+          },
+        },
+        impact: {
+          explosion: {
+            "01": {
+              "01": `${p}/ovani-sounds/Sci-Fi/Weapon/Heavy/Rocket Explosion A.ogg`,
+              "02": `${p}/ovani-sounds/Sci-Fi/Weapon/Heavy/Rocket Explosion B.ogg`,
+              "03": `${p}/ovani-sounds/Sci-Fi/Weapon/Heavy/Rocket Explosion C.ogg`,
+            },
+          },
+        },
+      },
+      orbital_gun: {
+        strike: {
+          "01": {
+            "01": `${p}/ovani-sounds/Sci-Fi/Weapon/Heavy/Orbital Gun A.ogg`,
+            "02": `${p}/ovani-sounds/Sci-Fi/Weapon/Heavy/Orbital Gun B.ogg`,
+            "03": `${p}/ovani-sounds/Sci-Fi/Weapon/Heavy/Orbital Gun C.ogg`,
+          },
+        },
+      },
+      particle: {
+        gun: {
+          "01": {
+            "01": `${p}/ovani-sounds/Sci-Fi/Weapon/Heavy/Particle Gun A.ogg`,
+            "02": `${p}/ovani-sounds/Sci-Fi/Weapon/Heavy/Particle Gun B.ogg`,
+            "03": `${p}/ovani-sounds/Sci-Fi/Weapon/Heavy/Particle Gun C.ogg`,
+          },
+        },
+      },
+      plasma: {
+        gun: {
+          strike: {
+            "01": {
+              "01": `${p}/ovani-sounds/Sci-Fi/Weapon/Heavy/Plasmagun A.ogg`,
+              "02": `${p}/ovani-sounds/Sci-Fi/Weapon/Heavy/Plasmagun B.ogg`,
+              "03": `${p}/ovani-sounds/Sci-Fi/Weapon/Heavy/Plasmagun C.ogg`,
+            },
+          },
+        },
+      },
+      proton: {
+        heavy_gun: {
+          strike: {
+            "01": {
+              "01": `${p}/ovani-sounds/Sci-Fi/Weapon/Heavy/Proton Heavy Gun A.ogg`,
+              "02": `${p}/ovani-sounds/Sci-Fi/Weapon/Heavy/Proton Heavy Gun B.ogg`,
+              "03": `${p}/ovani-sounds/Sci-Fi/Weapon/Heavy/Proton Heavy Gun C.ogg`,
+            },
+          },
+        },
+      },
+      pulse: {
+        pistol: {
+          strike: {
+            single: {
+              "01": {
+                "01": `${p}/ovani-sounds/Sci-Fi/Weapon/Light/Pulse Shot Single A.ogg`,
+                "02": `${p}/ovani-sounds/Sci-Fi/Weapon/Light/Pulse Shot Single B.ogg`,
+                "03": `${p}/ovani-sounds/Sci-Fi/Weapon/Light/Pulse Shot Single C.ogg`,
+              },
+            },
+            semi: {
+              "01": {
+                "01": `${p}/ovani-sounds/Sci-Fi/Weapon/Light/Pulse Shot Semi-Automatic A.ogg`,
+                "02": `${p}/ovani-sounds/Sci-Fi/Weapon/Light/Pulse Shot Semi-Automatic B.ogg`,
+                "03": `${p}/ovani-sounds/Sci-Fi/Weapon/Light/Pulse Shot Semi-Automatic C.ogg`,
+                "04": `${p}/ovani-sounds/Sci-Fi/Weapon/Light/Pulse Shot Semi-Automatic D.ogg`,
+              },
+            },
+            auto: {
+              "01": {
+                "01": `${p}/ovani-sounds/Sci-Fi/Weapon/Light/Pulse Shot Automatic A.ogg`,
+                "02": `${p}/ovani-sounds/Sci-Fi/Weapon/Light/Pulse Shot Automatic B.ogg`,
+                "03": `${p}/ovani-sounds/Sci-Fi/Weapon/Light/Pulse Shot Automatic C.ogg`,
+                "04": `${p}/ovani-sounds/Sci-Fi/Weapon/Light/Pulse Shot Automatic D.ogg`,
+              },
+            },
+          },
         },
       },
       cannon: {
@@ -4355,6 +4558,14 @@ export const database = {
           "03": `${p}/ovani-sounds/Player Status SFX/General/Abstract Move 003.ogg`,
           "04": `${p}/ovani-sounds/Player Status SFX/General/Abstract Move 004.ogg`,
         },
+        "04": {
+          "01": `${p}/ovani-sounds/Sci-Fi/Transport/Spaceships/Spaceship Simple.ogg`,
+        },
+      },
+      slide: {
+        "01": {
+          "01": `${p}/ovani-sounds/Foley Impacts Vol. 1/Beefy Impacts/Beefy Fall Slide.ogg`,
+        },
       },
     },
     cheer: {
@@ -4434,13 +4645,6 @@ export const database = {
       },
     },
   },
-  movement: {
-    slide: {
-      "01": {
-        "01": `${p}/ovani-sounds/Foley Impacts Vol. 1/Beefy Impacts/Beefy Fall Slide.ogg`,
-      },
-    },
-  },
   scifi: {
     throw: {
       energy: {
@@ -4457,6 +4661,36 @@ export const database = {
         "04": `${p}/ovani-sounds/Motion and Impacts Sound FX Pack Vol. 2/Riser/Riser Jump Pad 004.ogg`,
       },
     },
+    power_up: {
+      general: {
+        "01": {
+          "01": `${p}/ovani-sounds/Sci-Fi/Environment/Power-Ups/Power-Up Artifact Short A.ogg`,
+          "02": `${p}/ovani-sounds/Sci-Fi/Environment/Power-Ups/Power-Up Artifact Short B.ogg`,
+          "03": `${p}/ovani-sounds/Sci-Fi/Environment/Power-Ups/Power-Up Artifact Short C.ogg`,
+          "04": `${p}/ovani-sounds/Sci-Fi/Environment/Power-Ups/Power-Up Artifact Short D.ogg`,
+        },
+        "02": {
+          short: {
+            "01": `${p}/ovani-sounds/Sci-Fi/Environment/Power-Ups/Power-Up Metalic Short A.ogg`,
+            "02": `${p}/ovani-sounds/Sci-Fi/Environment/Power-Ups/Power-Up Metalic Short B.ogg`,
+            "03": `${p}/ovani-sounds/Sci-Fi/Environment/Power-Ups/Power-Up Metalic Short C.ogg`,
+          },
+          long: {
+            "01": `${p}/ovani-sounds/Sci-Fi/Environment/Power-Ups/Power-Up Metalic Long.ogg`,
+          },
+        },
+        "03": {
+          short: {
+            "01": `${p}/ovani-sounds/Sci-Fi/Environment/Power-Ups/Power-Up Weapon Short A.ogg`,
+            "02": `${p}/ovani-sounds/Sci-Fi/Environment/Power-Ups/Power-Up Weapon Short B.ogg`,
+            "03": `${p}/ovani-sounds/Sci-Fi/Environment/Power-Ups/Power-Up Weapon Short C.ogg`,
+          },
+          long: {
+            "01": `${p}/ovani-sounds/Sci-Fi/Environment/Power-Ups/Power-Up Weapon Long.ogg`,
+          },
+        },
+      },
+    },
     equipment: {
       device: {
         use: {
@@ -4470,6 +4704,42 @@ export const database = {
             "01": `${p}/Soniss/GDC2024/BluezoneCorp/Alien Interface 2.ogg`,
             "02": `${p}/Soniss/GDC2024/BluezoneCorp/Alien Interface 3.ogg`,
             "03": `${p}/Soniss/GDC2024/BluezoneCorp/Alien Interface 4.ogg`,
+          },
+        },
+      },
+      weapon: {
+        charge: {
+          "01": {
+            "01": `${p}/ovani-sounds/Sci-Fi/Weapon/Charge-Up/Weapon Charge-Up 001.ogg`,
+            "02": `${p}/ovani-sounds/Sci-Fi/Weapon/Charge-Up/Weapon Charge-Up 002.ogg`,
+            "03": `${p}/ovani-sounds/Sci-Fi/Weapon/Charge-Up/Weapon Charge-Up 003.ogg`,
+            "04": `${p}/ovani-sounds/Sci-Fi/Weapon/Charge-Up/Weapon Charge-Up 004.ogg`,
+            "05": `${p}/ovani-sounds/Sci-Fi/Weapon/Charge-Up/Weapon Charge-Up 005.ogg`,
+            "06": `${p}/ovani-sounds/Sci-Fi/Weapon/Charge-Up/Weapon Charge-Up 006.ogg`,
+          },
+        },
+        reload: {
+          general: {
+            "01": {
+              "01": `${p}/ovani-sounds/Sci-Fi/Weapon/Mechanics/Gun Mechanics 1 A.ogg`,
+              "02": `${p}/ovani-sounds/Sci-Fi/Weapon/Mechanics/Gun Mechanics 1 B.ogg`,
+              "03": `${p}/ovani-sounds/Sci-Fi/Weapon/Mechanics/Gun Mechanics 1 C.ogg`,
+            },
+            "02": {
+              "01": `${p}/ovani-sounds/Sci-Fi/Weapon/Mechanics/Gun Mechanics 2 A.ogg`,
+              "02": `${p}/ovani-sounds/Sci-Fi/Weapon/Mechanics/Gun Mechanics 2 B.ogg`,
+              "03": `${p}/ovani-sounds/Sci-Fi/Weapon/Mechanics/Gun Mechanics 2 C.ogg`,
+            },
+          },
+        },
+        interact: {
+          screen: {
+            "01": {
+              "01": `${p}/ovani-sounds/Sci-Fi/Weapon/Mechanics/Gun Mechanics Bassy Screen A.ogg`,
+              "02": `${p}/ovani-sounds/Sci-Fi/Weapon/Mechanics/Gun Mechanics Bassy Screen B.ogg`,
+              "03": `${p}/ovani-sounds/Sci-Fi/Weapon/Mechanics/Gun Mechanics Bassy Screen C.ogg`,
+              "04": `${p}/ovani-sounds/Sci-Fi/Weapon/Mechanics/Gun Mechanics Bassy Screen D.ogg`,
+            },
           },
         },
       },
@@ -4525,6 +4795,15 @@ export const database = {
           },
         },
       },
+      forcefield: {
+        loop: {
+          "01": {
+            "01": `${p}/ovani-sounds/Sci-Fi/Environment/Force Fields/Force Field Portal.ogg`,
+            "02": `${p}/ovani-sounds/Sci-Fi/Environment/Force Fields/Force Field Secret Experiment.ogg`,
+            "03": `${p}/ovani-sounds/Sci-Fi/Environment/Force Fields/Force Field Waves.ogg`,
+          },
+        },
+      },
       consumables: {
         healing: {
           stimpack: {
@@ -4549,9 +4828,146 @@ export const database = {
           "01": `${p}/Soniss/GDC2024/Unreal SFX/Droid Transformation.ogg`,
         },
       },
+      mechanical: {
+        calibration: {
+          general: {
+            "01": {
+              "01": `${p}/ovani-sounds/Sci-Fi/Environment/Robot Mechanics/Robomech Calibration A.ogg`,
+              "02": `${p}/ovani-sounds/Sci-Fi/Environment/Robot Mechanics/Robomech Calibration B.ogg`,
+              "03": `${p}/ovani-sounds/Sci-Fi/Environment/Robot Mechanics/Robomech Calibration C.ogg`,
+            },
+          },
+          heavy: {
+            "01": {
+              "01": `${p}/ovani-sounds/Sci-Fi/Environment/Robot Mechanics/Robomech Heavy A.ogg`,
+              "02": `${p}/ovani-sounds/Sci-Fi/Environment/Robot Mechanics/Robomech Heavy B.ogg`,
+              "03": `${p}/ovani-sounds/Sci-Fi/Environment/Robot Mechanics/Robomech Heavy C.ogg`,
+              "04": `${p}/ovani-sounds/Sci-Fi/Environment/Robot Mechanics/Robomech Heavy D.ogg`,
+            },
+          },
+        },
+        servo: {
+          general: {
+            "01": {
+              "01": `${p}/ovani-sounds/Sci-Fi/Environment/Robot Mechanics/Robomech Servo A.ogg`,
+              "02": `${p}/ovani-sounds/Sci-Fi/Environment/Robot Mechanics/Robomech Servo B.ogg`,
+            },
+          },
+          heavy: {
+            "01": {
+              "01": `${p}/ovani-sounds/Sci-Fi/Environment/Robot Mechanics/Robomech Servo Heavy A.ogg`,
+              "02": `${p}/ovani-sounds/Sci-Fi/Environment/Robot Mechanics/Robomech Servo Heavy B.ogg`,
+              "03": `${p}/ovani-sounds/Sci-Fi/Environment/Robot Mechanics/Robomech Servo Heavy C.ogg`,
+            },
+          },
+          tank: {
+            calibration: {
+              general: {
+                "01": {
+                  "01": `${p}/ovani-sounds/Sci-Fi/Environment/Robot Mechanics/Robomech Calibration A.ogg`,
+                  "02": `${p}/ovani-sounds/Sci-Fi/Environment/Robot Mechanics/Robomech Calibration B.ogg`,
+                  "03": `${p}/ovani-sounds/Sci-Fi/Environment/Robot Mechanics/Robomech Calibration C.ogg`,
+                },
+              },
+              heavy: {
+                "01": {
+                  "01": `${p}/ovani-sounds/Sci-Fi/Environment/Robot Mechanics/Robomech Tank A.ogg`,
+                  "02": `${p}/ovani-sounds/Sci-Fi/Environment/Robot Mechanics/Robomech Tank B.ogg`,
+                  "03": `${p}/ovani-sounds/Sci-Fi/Environment/Robot Mechanics/Robomech Tank C.ogg`,
+                  "04": `${p}/ovani-sounds/Sci-Fi/Environment/Robot Mechanics/Robomech Tank D.ogg`,
+                },
+              },
+            },
+          },
+        },
+      },
       update: {
         "01": {
           "01": `${p}/Soniss/GDC2024/Unreal SFX/Droid UI.ogg`,
+        },
+      },
+      voice: {
+        "01": {
+          "01": `${p}/ovani-sounds/Sci-Fi/Environment/Droid Voices/Droidvoice 1.ogg`,
+          "02": `${p}/ovani-sounds/Sci-Fi/Environment/Droid Voices/Droidvoice 2.ogg`,
+          "03": `${p}/ovani-sounds/Sci-Fi/Environment/Droid Voices/Droidvoice 3.ogg`,
+        },
+        "02": {
+          funny: `${p}/ovani-sounds/Sci-Fi/Environment/Droid Voices/Automaton Funny.ogg`,
+          question: `${p}/ovani-sounds/Sci-Fi/Environment/Droid Voices/Automaton Question.ogg`,
+          sad: `${p}/ovani-sounds/Sci-Fi/Environment/Droid Voices/Automaton Sad.ogg`,
+          statement: `${p}/ovani-sounds/Sci-Fi/Environment/Droid Voices/Automaton Statement.ogg`,
+        },
+        "03": {
+          funny: `${p}/ovani-sounds/Sci-Fi/Environment/Droid Voices/Metallic Voice Funny.ogg`,
+          question: `${p}/ovani-sounds/Sci-Fi/Environment/Droid Voices/Metallic Voice Question.ogg`,
+          sad: `${p}/ovani-sounds/Sci-Fi/Environment/Droid Voices/Metallic Voice Sad.ogg`,
+          statement: `${p}/ovani-sounds/Sci-Fi/Environment/Droid Voices/Metallic Voice Statement.ogg`,
+        },
+        "04": {
+          happy: `${p}/ovani-sounds/Sci-Fi/Environment/Droid Voices/Radio Droid Happy.ogg`,
+          question: `${p}/ovani-sounds/Sci-Fi/Environment/Droid Voices/Radio Droid Question.ogg`,
+          sad: `${p}/ovani-sounds/Sci-Fi/Environment/Droid Voices/Radio Droid Sad.ogg`,
+          statement: `${p}/ovani-sounds/Sci-Fi/Environment/Droid Voices/Radio Droid Statement.ogg`,
+        },
+      },
+    },
+    vehicles: {
+      copter: {},
+      spaceship: {
+        engine: {
+          general: {
+            "01": {
+              "01": `${p}/ovani-sounds/Sci-Fi/Transport/Spaceships/Spaceship Engine.ogg`,
+            },
+            "02": {
+              "01": `${p}/ovani-sounds/Sci-Fi/Transport/Spaceships/Spaceship Grinding Engines.ogg`,
+            },
+            "03": {
+              "01": `${p}/ovani-sounds/Sci-Fi/Transport/Spaceships/Spaceship Jet-Like.ogg`,
+            },
+          },
+          fighter: {
+            "01": {
+              "01": `${p}/ovani-sounds/Sci-Fi/Transport/Spaceships/Spaceship Fighter A.ogg`,
+              "02": `${p}/ovani-sounds/Sci-Fi/Transport/Spaceships/Spaceship Fighter B.ogg`,
+              "03": `${p}/ovani-sounds/Sci-Fi/Transport/Spaceships/Spaceship Fighter C.ogg`,
+            },
+          },
+          old: {
+            "01": {
+              "01": `${p}/ovani-sounds/Sci-Fi/Transport/Spaceships/Spaceship Old Engine Center.ogg`,
+            },
+          },
+          stealth: {
+            "01": {
+              "01": `${p}/ovani-sounds/Sci-Fi/Transport/Spaceships/Spaceship Stealth Bassy.ogg`,
+            },
+          },
+        },
+        ftl: {
+          "01": {
+            "01": `${p}/ovani-sounds/Sci-Fi/Transport/Spaceships/Spaceship Ftl Center.ogg`,
+          },
+        },
+        shield: {
+          "01": {
+            "01": `${p}/ovani-sounds/Sci-Fi/Transport/Spaceships/Spaceship Phase Field.ogg`,
+          },
+        },
+      },
+      speeder: {
+        swoop: {
+          "01": {
+            "01": `${p}/ovani-sounds/Sci-Fi/Transport/Gliders and Speeders/Single Swoop A.ogg`,
+            "02": `${p}/ovani-sounds/Sci-Fi/Transport/Gliders and Speeders/Single Swoop B.ogg`,
+            "03": `${p}/ovani-sounds/Sci-Fi/Transport/Gliders and Speeders/Single Swoop C.ogg`,
+            "04": `${p}/ovani-sounds/Sci-Fi/Transport/Gliders and Speeders/Single Swoop D.ogg`,
+            "05": `${p}/ovani-sounds/Sci-Fi/Transport/Gliders and Speeders/Single Swoop E.ogg`,
+            "06": `${p}/ovani-sounds/Sci-Fi/Transport/Gliders and Speeders/Single Swoop F.ogg`,
+            "07": `${p}/ovani-sounds/Sci-Fi/Transport/Gliders and Speeders/Single Swoop G.ogg`,
+            "08": `${p}/ovani-sounds/Sci-Fi/Transport/Gliders and Speeders/Single Swoop H.ogg`,
+          },
         },
       },
     },
