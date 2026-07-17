@@ -1,5 +1,10 @@
 ## Unreleased
 
+## 0.0.19
+
+- **Updated**
+  - Cleaned out the DB of any links to non-existent files
+
 ## 0.0.18
 
 - **New**

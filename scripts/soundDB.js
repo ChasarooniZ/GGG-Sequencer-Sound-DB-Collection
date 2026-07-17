@@ -2157,8 +2157,6 @@ export const database = {
             "03": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Dark Magic/Ebon Shatter 003.ogg`,
             "04": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Dark Magic/Ebon Shatter 004.ogg`,
             "05": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Dark Magic/Ebon Shatter 005.ogg`,
-            "06": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Dark Magic/Ebon Shatter 006.ogg`,
-            "07": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Dark Magic/Ebon Shatter 007.ogg`,
           },
         },
         countdown: {
@@ -2408,7 +2406,6 @@ export const database = {
             "01": `${p}/ovani-sounds/Motion and Impacts Sound FX Pack Vol. 2/Whoosh/Whoosh Wind Drum 001.ogg`,
             "02": `${p}/ovani-sounds/Motion and Impacts Sound FX Pack Vol. 2/Whoosh/Whoosh Wind Drum 002.ogg`,
             "03": `${p}/ovani-sounds/Motion and Impacts Sound FX Pack Vol. 2/Whoosh/Whoosh Wind Drum 003.ogg`,
-            "04": `${p}/ovani-sounds/Motion and Impacts Sound FX Pack Vol. 2/Whoosh/Whoosh Wind Drum 004.ogg`,
           },
         },
         turbine: {
@@ -2701,7 +2698,6 @@ export const database = {
           "02": `${p}/ovani-sounds/Motion and Impacts Sound FX Pack Vol. 2/Riser/Riser Stone Plate 002.ogg`,
           "03": `${p}/ovani-sounds/Motion and Impacts Sound FX Pack Vol. 2/Riser/Riser Stone Plate 003.ogg`,
           "04": `${p}/ovani-sounds/Motion and Impacts Sound FX Pack Vol. 2/Riser/Riser Stone Plate 004.ogg`,
-          "05": `${p}/ovani-sounds/Motion and Impacts Sound FX Pack Vol. 2/Riser/Riser Stone Plate 005.ogg`,
         },
       },
       earthquake: {
@@ -2954,8 +2950,6 @@ export const database = {
             "03": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Offensive Spells/Thunderstrike Crash 003.ogg`,
             "04": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Offensive Spells/Thunderstrike Crash 004.ogg`,
             "05": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Offensive Spells/Thunderstrike Crash 005.ogg`,
-            "06": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Offensive Spells/Thunderstrike Crash 006.ogg`,
-            "07": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Offensive Spells/Thunderstrike Crash 007.ogg`,
           },
         },
         burst: {
@@ -3071,13 +3065,7 @@ export const database = {
         },
       },
       surge: {
-        general: {
-          "03": {
-            "01": `${p}/ovani-sounds/Motion and Impacts Sound FX Pack Vol. 2/Whoosh/Whoosh Reactor 001.ogg`,
-            "02": `${p}/ovani-sounds/Motion and Impacts Sound FX Pack Vol. 2/Whoosh/Whoosh Reactor 002.ogg`,
-            "03": `${p}/ovani-sounds/Motion and Impacts Sound FX Pack Vol. 2/Whoosh/Whoosh Reactor 003.ogg`,
-          },
-        },
+        general: {},
         flames: {
           "01": {
             "01": `${p}/TomMusic/FreeFantasySFX/Spells/Firespray 1.ogg`,
@@ -3095,7 +3083,6 @@ export const database = {
           "01": {
             "01": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Fire/Fire Impact A.ogg`,
             "02": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Fire/Fire Impact B.ogg`,
-            "03": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Fire/Fire Impact E.ogg`,
           },
           "02": {
             "01": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Fire/Fire Impact Short A.ogg`,
@@ -3265,7 +3252,6 @@ export const database = {
         whoosh: {
           "01": {
             "01": `${p}/ovani-sounds/Fire SFX/Fire Movement/Fire Quick Whoosh L to R.ogg`,
-            "02": `${p}/ovani-sounds/Fire SFX/Fire Movement/Fire Quick Whoosh R to L.ogg`,
           },
           "02": {
             "01": `${p}/ovani-sounds/Fire SFX/Fire Movement/Fire Low Movement A.ogg`,
@@ -4774,8 +4760,6 @@ export const database = {
             "01": `${p}/ovani-sounds/Science Fiction SFX 2/Misc/Mechanisms/Servo Motor A.ogg`,
             "02": `${p}/ovani-sounds/Science Fiction SFX 2/Misc/Mechanisms/Servo Motor B.ogg`,
             "03": `${p}/ovani-sounds/Science Fiction SFX 2/Misc/Mechanisms/Servo Motor C.ogg`,
-            "04": `${p}/ovani-sounds/Science Fiction SFX 2/Misc/Mechanisms/Servo Motor D.ogg`,
-            "05": `${p}/ovani-sounds/Science Fiction SFX 2/Misc/Mechanisms/Servo Motor E.ogg`,
           },
         },
       },
@@ -5645,7 +5629,6 @@ export const database = {
             "04": `${p}/ovani-sounds/Science Fiction Sound FX Pack Vol. 4/Robots/Worker/Robots Voice Worker 004.ogg`,
             "05": `${p}/ovani-sounds/Science Fiction Sound FX Pack Vol. 4/Robots/Worker/Robots Voice Worker 005.ogg`,
             "06": `${p}/ovani-sounds/Science Fiction Sound FX Pack Vol. 4/Robots/Worker/Robots Voice Worker 006.ogg`,
-            "07": `${p}/ovani-sounds/Science Fiction Sound FX Pack Vol. 4/Robots/Worker/Robots Voice Worker 007.ogg`,
           },
         },
       },
@@ -5732,10 +5715,9 @@ export const database = {
       melee: {
         "01": {
           "01": `${p}/SoundFlakes/diablo-wrath/weapon/tyrael-sword-swoosh-01.ogg`,
-          "02": `${p}/SoundFlakes/diablo-wrath/weapon/tyrael-sword-swoosh-02.ogg`,
-          "03": `${p}/SoundFlakes/diablo-wrath/weapon/tyrael-sword-swoosh-03.ogg`,
-          "04": `${p}/SoundFlakes/diablo-wrath/weapon/tyrael-sword-swoosh-04.ogg`,
-          "05": `${p}/SoundFlakes/diablo-wrath/weapon/tyrael-sword-swoosh-05.ogg`,
+          "02": `${p}/SoundFlakes/diablo-wrath/weapon/tyrael-sword-swoosh-03.ogg`,
+          "03": `${p}/SoundFlakes/diablo-wrath/weapon/tyrael-sword-swoosh-04.ogg`,
+          "04": `${p}/SoundFlakes/diablo-wrath/weapon/tyrael-sword-swoosh-05.ogg`,
         },
         "02": {
           "01": `${p}/SoundFlakes/diablo-wrath/weapon/giant-demon-sword-swoosh.ogg`,
