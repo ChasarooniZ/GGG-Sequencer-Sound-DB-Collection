@@ -1,5 +1,11 @@
 ## Unreleased
 
+## 0.0.21
+
+- **New**
+  - `game-icons.net`
+    - `Reload` Still frame
+
 ## 0.0.20
 
 - **New**

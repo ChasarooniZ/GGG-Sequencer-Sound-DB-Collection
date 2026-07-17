@@ -1,4 +1,5 @@
 import { database as soundDb, DB_PREFIX as soundDbPrefix } from "./soundDB.js";
+import { database as videoDb, DB_PREFIX as videoDbPrefix } from "./videoDB.js";
 //Code lovingly borrowed from PF2e Grphics
 Hooks.once("init", async function () {
   Hooks.once("sequencerReady", () => {
