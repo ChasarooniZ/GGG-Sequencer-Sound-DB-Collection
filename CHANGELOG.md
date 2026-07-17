@@ -3,6 +3,7 @@
 - **New**
   - `Ovani SFX`
     - `Sci-Fi 1`
+    - `Sci-Fi 2`
 
 ## 0.0.17
 
