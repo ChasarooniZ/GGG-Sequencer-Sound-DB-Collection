@@ -584,6 +584,13 @@ export const database = {
         },
       },
     },
+    blowgun: {
+      strike: {
+        "01": {
+          "01": `${p}/ovani-sounds/Air/Whooshes/Air Whoosh Tiny D.ogg`,
+        },
+      },
+    },
     bomb: {
       acid: {
         "01": {
@@ -2144,6 +2151,41 @@ export const database = {
             "05": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Dark Magic/Grave Whisper 005.ogg`,
             "06": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Dark Magic/Grave Whisper 006.ogg`,
           },
+          "02": {
+            "01": `${p}/ovani-sounds/Air/Ghostly/Ghost Breath A.ogg`,
+            "02": `${p}/ovani-sounds/Air/Ghostly/Ghost Breath B.ogg`,
+            "03": `${p}/ovani-sounds/Air/Ghostly/Ghost Breath C.ogg`,
+            "04": `${p}/ovani-sounds/Air/Ghostly/Ghost Breath D.ogg`,
+            "05": `${p}/ovani-sounds/Air/Ghostly/Ghost Breath E.ogg`,
+          },
+        },
+        wind: {
+          "01": {
+            cast: {
+              "01": `${p}/ovani-sounds/Air/Ghostly/Hollow Wind High A.ogg`,
+              "02": `${p}/ovani-sounds/Air/Ghostly/Hollow Wind High B.ogg`,
+              "03": `${p}/ovani-sounds/Air/Ghostly/Hollow Wind High C.ogg`,
+              "04": `${p}/ovani-sounds/Air/Ghostly/Hollow Wind High D.ogg`,
+              "05": `${p}/ovani-sounds/Air/Ghostly/Hollow Wind High E.ogg`,
+              "06": `${p}/ovani-sounds/Air/Ghostly/Hollow Wind High F.ogg`,
+            },
+            loop: {
+              "01": `${p}/ovani-sounds/Air/Ghostly/Hollow Wind High Loop.ogg`,
+            },
+          },
+          "02": {
+            cast: {
+              "01": `${p}/ovani-sounds/Air/Ghostly/Hollow Wind Low A.ogg`,
+              "02": `${p}/ovani-sounds/Air/Ghostly/Hollow Wind Low B.ogg`,
+              "03": `${p}/ovani-sounds/Air/Ghostly/Hollow Wind Low C.ogg`,
+              "04": `${p}/ovani-sounds/Air/Ghostly/Hollow Wind Low D.ogg`,
+              "05": `${p}/ovani-sounds/Air/Ghostly/Hollow Wind Low E.ogg`,
+              "06": `${p}/ovani-sounds/Air/Ghostly/Hollow Wind Low F.ogg`,
+            },
+            loop: {
+              "01": `${p}/ovani-sounds/Air/Ghostly/Hollow Wind Low Loop.ogg`,
+            },
+          },
         },
         laughter: {
           "01": {
@@ -2345,12 +2387,177 @@ export const database = {
     },
     acid: {},
     air: {
+      cast: {
+        general: {
+          "01": {
+            "01": `${p}/ovani-sounds/Air/Magic/Air Missile Spell A.ogg`,
+            "02": `${p}/ovani-sounds/Air/Magic/Air Missile Spell B.ogg`,
+            "03": `${p}/ovani-sounds/Air/Magic/Air Missile Spell C.ogg`,
+            "04": `${p}/ovani-sounds/Air/Magic/Air Missile Spell D.ogg`,
+            "05": `${p}/ovani-sounds/Air/Magic/Air Missile Spell E.ogg`,
+            "06": `${p}/ovani-sounds/Air/Magic/Air Missile Spell F.ogg`,
+            "07": `${p}/ovani-sounds/Air/Magic/Air Missile Spell G.ogg`,
+          },
+          "02": {
+            "01": `${p}/ovani-sounds/Air/Magic/Air Missile Spell Big A.ogg`,
+            "02": `${p}/ovani-sounds/Air/Magic/Air Missile Spell Big B.ogg`,
+            "03": `${p}/ovani-sounds/Air/Magic/Air Missile Spell Big C.ogg`,
+            "04": `${p}/ovani-sounds/Air/Magic/Air Missile Spell Big D.ogg`,
+            "05": `${p}/ovani-sounds/Air/Magic/Air Missile Spell Big E.ogg`,
+          },
+          "03": {
+            "01": `${p}/ovani-sounds/Air/Digital/Cartoon Wind A.ogg`,
+            "02": `${p}/ovani-sounds/Air/Digital/Cartoon Wind B.ogg`,
+            "03": `${p}/ovani-sounds/Air/Digital/Cartoon Wind C.ogg`,
+            "04": `${p}/ovani-sounds/Air/Digital/Cartoon Wind D.ogg`,
+            "05": `${p}/ovani-sounds/Air/Digital/Cartoon Wind E.ogg`,
+          },
+          "04": {
+            "01": `${p}/ovani-sounds/Air/Digital/Retro Game Wind A.ogg`,
+            "02": `${p}/ovani-sounds/Air/Digital/Retro Game Wind B.ogg`,
+            "03": `${p}/ovani-sounds/Air/Digital/Retro Game Wind C.ogg`,
+            "04": `${p}/ovani-sounds/Air/Digital/Retro Game Wind D.ogg`,
+            "05": `${p}/ovani-sounds/Air/Digital/Retro Game Wind E.ogg`,
+            "06": `${p}/ovani-sounds/Air/Digital/Retro Game Wind F.ogg`,
+          },
+        },
+        gust: {
+          "01": {
+            "01": `${p}/ovani-sounds/Air/Whooshes/Gust Fast A.ogg`,
+            "02": `${p}/ovani-sounds/Air/Whooshes/Gust Fast B.ogg`,
+            "03": `${p}/ovani-sounds/Air/Whooshes/Gust Fast C.ogg`,
+            "04": `${p}/ovani-sounds/Air/Whooshes/Gust Fast D.ogg`,
+          },
+          "02": {
+            "01": `${p}/ovani-sounds/Air/Whooshes/Air Whoosh Medium A.ogg`,
+            "02": `${p}/ovani-sounds/Air/Whooshes/Air Whoosh Medium B.ogg`,
+            "03": `${p}/ovani-sounds/Air/Whooshes/Air Whoosh Medium C.ogg`,
+            "04": `${p}/ovani-sounds/Air/Whooshes/Air Whoosh Medium D.ogg`,
+            "05": `${p}/ovani-sounds/Air/Whooshes/Air Whoosh Medium E.ogg`,
+          },
+        },
+        fast: {
+          "01": {
+            "01": `${p}/ovani-sounds/Air/Breath/Reverb_Added/Breathe Out Fast A.ogg`,
+            "02": `${p}/ovani-sounds/Air/Breath/Reverb_Added/Breathe Out Fast B.ogg`,
+            "03": `${p}/ovani-sounds/Air/Breath/Reverb_Added/Breathe Out Fast C.ogg`,
+          },
+          "02": {
+            "01": `${p}/ovani-sounds/Air/Whooshes/Air Whoosh Fast A.ogg`,
+            "02": `${p}/ovani-sounds/Air/Whooshes/Air Whoosh Fast B.ogg`,
+            "03": `${p}/ovani-sounds/Air/Whooshes/Air Whoosh Fast C.ogg`,
+            "04": `${p}/ovani-sounds/Air/Whooshes/Air Whoosh Fast D.ogg`,
+            "05": `${p}/ovani-sounds/Air/Whooshes/Air Whoosh Fast E.ogg`,
+          },
+          "03": {
+            "01": `${p}/ovani-sounds/Air/Whooshes/Air Whoosh Tiny A.ogg`,
+            "02": `${p}/ovani-sounds/Air/Whooshes/Air Whoosh Tiny B.ogg`,
+            "03": `${p}/ovani-sounds/Air/Whooshes/Air Whoosh Tiny C.ogg`,
+            "04": `${p}/ovani-sounds/Air/Whooshes/Air Whoosh Tiny E.ogg`,
+            "05": `${p}/ovani-sounds/Air/Whooshes/Air Whoosh Tiny F.ogg`,
+            "06": `${p}/ovani-sounds/Air/Whooshes/Air Whoosh Tiny G.ogg`,
+            "07": `${p}/ovani-sounds/Air/Whooshes/Air Whoosh Tiny H.ogg`,
+          },
+          "04": {
+            "01": `${p}/ovani-sounds/Air/Misc/Escaping Air Short A.ogg`,
+            "02": `${p}/ovani-sounds/Air/Misc/Escaping Air Short B.ogg`,
+            "03": `${p}/ovani-sounds/Air/Misc/Escaping Air Short C.ogg`,
+            "04": `${p}/ovani-sounds/Air/Misc/Escaping Air Short D.ogg`,
+            "05": `${p}/ovani-sounds/Air/Misc/Escaping Air Short E.ogg`,
+          },
+        },
+        suck: {
+          "01": {
+            "01": `${p}/ovani-sounds/Air/Designed/Air Suck A.ogg`,
+            "02": `${p}/ovani-sounds/Air/Designed/Air Suck B.ogg`,
+            "03": `${p}/ovani-sounds/Air/Designed/Air Suck C.ogg`,
+            "04": `${p}/ovani-sounds/Air/Designed/Air Suck D.ogg`,
+            "05": `${p}/ovani-sounds/Air/Designed/Air Suck E.ogg`,
+          },
+        },
+        roar: {
+          "01": {
+            "01": `${p}/ovani-sounds/Air/Designed/Spinning Wind A.ogg`,
+            "02": `${p}/ovani-sounds/Air/Designed/Spinning Wind B.ogg`,
+            "03": `${p}/ovani-sounds/Air/Designed/Spinning Wind C.ogg`,
+            "04": `${p}/ovani-sounds/Air/Designed/Spinning Wind D.ogg`,
+            "05": `${p}/ovani-sounds/Air/Designed/Spinning Wind E.ogg`,
+            "06": `${p}/ovani-sounds/Air/Designed/Spinning Wind F.ogg`,
+          },
+          "02": {
+            "01": `${p}/ovani-sounds/Air/Designed/Stuttering Wind A.ogg`,
+            "02": `${p}/ovani-sounds/Air/Designed/Stuttering Wind B.ogg`,
+            "03": `${p}/ovani-sounds/Air/Designed/Stuttering Wind C.ogg`,
+            "04": `${p}/ovani-sounds/Air/Designed/Stuttering Wind D.ogg`,
+            "05": `${p}/ovani-sounds/Air/Designed/Stuttering Wind E.ogg`,
+          },
+        },
+        reverse: {
+          "01": {
+            "01": `${p}/ovani-sounds/Air/Designed/Air Reverse Fast A.ogg`,
+            "02": `${p}/ovani-sounds/Air/Designed/Air Reverse Fast B.ogg`,
+            "03": `${p}/ovani-sounds/Air/Designed/Air Reverse Fast C.ogg`,
+            "04": `${p}/ovani-sounds/Air/Designed/Air Reverse Fast D.ogg`,
+            "05": `${p}/ovani-sounds/Air/Designed/Air Reverse Fast E.ogg`,
+            "06": `${p}/ovani-sounds/Air/Designed/Air Reverse Fast F.ogg`,
+          },
+          "02": {
+            charge: {
+              "01": `${p}/ovani-sounds/Air/Designed/Air Reverse Slow A.ogg`,
+              "02": `${p}/ovani-sounds/Air/Designed/Air Reverse Slow B.ogg`,
+              "03": `${p}/ovani-sounds/Air/Designed/Air Reverse Slow C.ogg`,
+              "04": `${p}/ovani-sounds/Air/Designed/Air Reverse Slow D.ogg`,
+              "05": `${p}/ovani-sounds/Air/Designed/Air Reverse Slow E.ogg`,
+              "06": `${p}/ovani-sounds/Air/Designed/Air Reverse Slow F.ogg`,
+            },
+          },
+        },
+        charge: {
+          loop: {
+            "01": {
+              "01": `${p}/ovani-sounds/Air/Magic/Air Ball Spell Loop A.ogg`,
+              "02": `${p}/ovani-sounds/Air/Magic/Air Ball Spell Loop B.ogg`,
+            },
+          },
+        },
+      },
       impact: {
         turbine: {
           "01": {
             "01": `${p}/ovani-sounds/Motion and Impacts Sound FX Pack Vol. 2/Impacts/Impact Turbine 001.ogg`,
             "02": `${p}/ovani-sounds/Motion and Impacts Sound FX Pack Vol. 2/Impacts/Impact Turbine 002.ogg`,
             "03": `${p}/ovani-sounds/Motion and Impacts Sound FX Pack Vol. 2/Impacts/Impact Turbine 003.ogg`,
+          },
+        },
+      },
+      wind: {
+        gust: {
+          long: {
+            "01": {
+              "01": `${p}/ovani-sounds/Air/Whooshes/Big Wind Gust A.ogg`,
+              "02": `${p}/ovani-sounds/Air/Whooshes/Big Wind Gust B.ogg`,
+              "03": `${p}/ovani-sounds/Air/Whooshes/Big Wind Gust C.ogg`,
+              "04": `${p}/ovani-sounds/Air/Whooshes/Big Wind Gust D.ogg`,
+              "05": `${p}/ovani-sounds/Air/Whooshes/Big Wind Gust E.ogg`,
+            },
+          },
+        },
+        whirlwind: {
+          "04": {
+            long: {
+              "01": `${p}/ovani-sounds/Air/Digital/Digital Wind Long A.ogg`,
+              "02": `${p}/ovani-sounds/Air/Digital/Digital Wind Long B.ogg`,
+              "03": `${p}/ovani-sounds/Air/Digital/Digital Wind Long C.ogg`,
+              "04": `${p}/ovani-sounds/Air/Digital/Digital Wind Long D.ogg`,
+              "05": `${p}/ovani-sounds/Air/Digital/Digital Wind Long E.ogg`,
+            },
+            short: {
+              "01": `${p}/ovani-sounds/Air/Digital/Digital Wind Short A.ogg`,
+              "02": `${p}/ovani-sounds/Air/Digital/Digital Wind Short B.ogg`,
+              "03": `${p}/ovani-sounds/Air/Digital/Digital Wind Short C.ogg`,
+              "04": `${p}/ovani-sounds/Air/Digital/Digital Wind Short D.ogg`,
+              "05": `${p}/ovani-sounds/Air/Digital/Digital Wind Short E.ogg`,
+            },
           },
         },
       },
@@ -2386,6 +2593,23 @@ export const database = {
           },
         },
       },
+      breathe: {
+        out: {
+          "01": {
+            "01": `${p}/ovani-sounds/Air/Breath/Breathe Out A.ogg`,
+            "02": `${p}/ovani-sounds/Air/Breath/Breathe Out B.ogg`,
+            "03": `${p}/ovani-sounds/Air/Breath/Breathe Out C.ogg`,
+          },
+        },
+        in: {
+          "01": {
+            "01": `${p}/ovani-sounds/Air/Breath/Breathe In A.ogg`,
+            "02": `${p}/ovani-sounds/Air/Breath/Breathe In B.ogg`,
+            "03": `${p}/ovani-sounds/Air/Breath/Breathe In C.ogg`,
+            "04": `${p}/ovani-sounds/Air/Breath/Breathe In D.ogg`,
+          },
+        },
+      },
       movement: {
         teleportation: {
           "01": {
@@ -2416,24 +2640,65 @@ export const database = {
             "04": `${p}/ovani-sounds/Motion and Impacts Sound FX Pack Vol. 2/Whoosh/Whoosh Topter 004.ogg`,
           },
         },
+        dash: {
+          "01": {
+            "01": `${p}/ovani-sounds/Air/Breath/Reverb_Added/Breathe In Fast A.ogg`,
+            "02": `${p}/ovani-sounds/Air/Breath/Reverb_Added/Breathe In Fast B.ogg`,
+            "03": `${p}/ovani-sounds/Air/Breath/Reverb_Added/Breathe In Fast C.ogg`,
+          },
+          "04": {
+            "01": `${p}/ovani-sounds/Air/Digital/Retro Game Wind Short A.ogg`,
+            "02": `${p}/ovani-sounds/Air/Digital/Retro Game Wind Short B.ogg`,
+            "03": `${p}/ovani-sounds/Air/Digital/Retro Game Wind Short C.ogg`,
+            "04": `${p}/ovani-sounds/Air/Digital/Retro Game Wind Short D.ogg`,
+            "05": `${p}/ovani-sounds/Air/Digital/Retro Game Wind Short E.ogg`,
+            "06": `${p}/ovani-sounds/Air/Digital/Retro Game Wind Short F.ogg`,
+          },
+        },
       },
       surge: {
+        general: {
+          "01": {
+            sky: `${p}/ovani-sounds/Magic/Air/Sky Surge.ogg`,
+            whirlwind_gust: `${p}/ovani-sounds/Magic/Air/Whirlwind Gust.ogg`,
+            embrace: `${p}/ovani-sounds/Magic/Air/Zephyrs Embrace.ogg`,
+            resonance: `${p}/ovani-sounds/Magic/Air/Zephyrs Resonance.ogg`,
+          },
+          "02": {
+            "01": `${p}/ovani-sounds/Motion and Impacts Sound FX Pack Vol. 2/Whoosh/Whoosh Metal Wind 001.ogg`,
+            "02": `${p}/ovani-sounds/Motion and Impacts Sound FX Pack Vol. 2/Whoosh/Whoosh Metal Wind 002.ogg`,
+            "03": `${p}/ovani-sounds/Motion and Impacts Sound FX Pack Vol. 2/Whoosh/Whoosh Metal Wind 003.ogg`,
+          },
+          "05": {
+            "01": `${p}/ovani-sounds/Air/Magic/Air Ball Spell Small A.ogg`,
+            "02": `${p}/ovani-sounds/Air/Magic/Air Ball Spell Small B.ogg`,
+            "03": `${p}/ovani-sounds/Air/Magic/Air Ball Spell Small C.ogg`,
+            "04": `${p}/ovani-sounds/Air/Magic/Air Ball Spell Small D.ogg`,
+          },
+          "06": {
+            "01": `${p}/ovani-sounds/Motion and Impacts Sound FX Pack Vol. 2/Riser/Riser Wind 001.ogg`,
+            "02": `${p}/ovani-sounds/Motion and Impacts Sound FX Pack Vol. 2/Riser/Riser Wind 002.ogg`,
+            "03": `${p}/ovani-sounds/Motion and Impacts Sound FX Pack Vol. 2/Riser/Riser Wind 003.ogg`,
+            "04": `${p}/ovani-sounds/Motion and Impacts Sound FX Pack Vol. 2/Riser/Riser Wind 004.ogg`,
+          },
+        },
+        wind: {
+          "01": {
+            "01": `${p}/ovani-sounds/Air/Whooshes/Air Whoosh Long A.ogg`,
+            "02": `${p}/ovani-sounds/Air/Whooshes/Air Whoosh Long B.ogg`,
+            "03": `${p}/ovani-sounds/Air/Whooshes/Air Whoosh Long C.ogg`,
+            "04": `${p}/ovani-sounds/Air/Whooshes/Air Whoosh Long D.ogg`,
+            "05": `${p}/ovani-sounds/Air/Whooshes/Air Whoosh Long E.ogg`,
+          },
+        },
+      },
+      leak: {
         "01": {
-          sky: `${p}/ovani-sounds/Magic/Air/Sky Surge.ogg`,
-          whirlwind_gust: `${p}/ovani-sounds/Magic/Air/Whirlwind Gust.ogg`,
-          embrace: `${p}/ovani-sounds/Magic/Air/Zephyrs Embrace.ogg`,
-          resonance: `${p}/ovani-sounds/Magic/Air/Zephyrs Resonance.ogg`,
-        },
-        "02": {
-          "01": `${p}/ovani-sounds/Motion and Impacts Sound FX Pack Vol. 2/Whoosh/Whoosh Metal Wind 001.ogg`,
-          "02": `${p}/ovani-sounds/Motion and Impacts Sound FX Pack Vol. 2/Whoosh/Whoosh Metal Wind 002.ogg`,
-          "03": `${p}/ovani-sounds/Motion and Impacts Sound FX Pack Vol. 2/Whoosh/Whoosh Metal Wind 003.ogg`,
-        },
-        "06": {
-          "01": `${p}/ovani-sounds/Motion and Impacts Sound FX Pack Vol. 2/Riser/Riser Wind 001.ogg`,
-          "02": `${p}/ovani-sounds/Motion and Impacts Sound FX Pack Vol. 2/Riser/Riser Wind 002.ogg`,
-          "03": `${p}/ovani-sounds/Motion and Impacts Sound FX Pack Vol. 2/Riser/Riser Wind 003.ogg`,
-          "04": `${p}/ovani-sounds/Motion and Impacts Sound FX Pack Vol. 2/Riser/Riser Wind 004.ogg`,
+          "01": `${p}/ovani-sounds/Air/Misc/Escaping Air A.ogg`,
+          "02": `${p}/ovani-sounds/Air/Misc/Escaping Air B.ogg`,
+          "03": `${p}/ovani-sounds/Air/Misc/Escaping Air E.ogg`,
+          "04": `${p}/ovani-sounds/Air/Misc/Escaping Air F.ogg`,
+          "05": `${p}/ovani-sounds/Air/Misc/Escaping Air G.ogg`,
         },
       },
       mist: {

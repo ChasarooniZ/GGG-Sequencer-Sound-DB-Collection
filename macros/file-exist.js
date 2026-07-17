@@ -52,10 +52,6 @@ function getAllOggFiles(directory) {
       if (extension === ".md" || extension === ".txt") continue;
       if (extension === ".ogg") {
         oggFiles.push(core.toPosixPath(fullPath));
-      } else {
-        core.warning(
-          `An asset file with a not-allowed extension found!\n${fullPath}`,
-        );
       }
     }
   }

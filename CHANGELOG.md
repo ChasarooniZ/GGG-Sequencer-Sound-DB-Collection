@@ -1,5 +1,13 @@
 ## Unreleased
 
+## 0.0.20
+
+- **New**
+  - `Ovani SFX`
+    - `Air`
+- **Updated**
+  - Remapped some sounds in the `Air` section to better match the structure of newer sections
+
 ## 0.0.19
 
 - **Updated**
