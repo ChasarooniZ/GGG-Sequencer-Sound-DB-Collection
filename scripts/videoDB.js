@@ -7,7 +7,7 @@ export const database = {
     reload: {
       still: {
         "01": {
-          "01": `${p}/assets/vfx/game-icons.net/still/reload.webp`,
+          "01": `${p}/game-icons.net/still/reload.webp`,
         },
       },
     },

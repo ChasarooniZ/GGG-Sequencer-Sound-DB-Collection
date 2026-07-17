@@ -1,5 +1,11 @@
 ## Unreleased
 
+- TODO - update the checkign scripts to also include the video assets
+
+## 0.0.22
+
+- Fixed improper path to new icon
+
 ## 0.0.21
 
 - **New**
