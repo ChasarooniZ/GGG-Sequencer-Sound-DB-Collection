@@ -1027,6 +1027,20 @@ export const database = {
           },
         },
       },
+      decimator: {
+        strike: {
+          "01": {
+            "01": `${p}/ovani-sounds/Science Fiction Sound FX Pack Vol. 4/Weapon/Big/Molecular Decimator 001.ogg`,
+            "02": `${p}/ovani-sounds/Science Fiction Sound FX Pack Vol. 4/Weapon/Big/Molecular Decimator 002.ogg`,
+            "03": `${p}/ovani-sounds/Science Fiction Sound FX Pack Vol. 4/Weapon/Big/Molecular Decimator 003.ogg`,
+            "04": `${p}/ovani-sounds/Science Fiction Sound FX Pack Vol. 4/Weapon/Big/Molecular Decimator 004.ogg`,
+            "05": `${p}/ovani-sounds/Science Fiction Sound FX Pack Vol. 4/Weapon/Big/Molecular Decimator 005.ogg`,
+            "06": `${p}/ovani-sounds/Science Fiction Sound FX Pack Vol. 4/Weapon/Big/Molecular Decimator 006.ogg`,
+            "07": `${p}/ovani-sounds/Science Fiction Sound FX Pack Vol. 4/Weapon/Big/Molecular Decimator 007.ogg`,
+            "08": `${p}/ovani-sounds/Science Fiction Sound FX Pack Vol. 4/Weapon/Big/Molecular Decimator 008.ogg`,
+          },
+        },
+      },
       disintegrator: {
         strike: {
           "01": {
@@ -1103,6 +1117,45 @@ export const database = {
           },
         },
       },
+      entropy: {
+        blaster: {
+          strike: {
+            "01": {
+              "01": `${p}/ovani-sounds/Science Fiction Sound FX Pack Vol. 4/Weapon/Medium/Entropy Blaster 001.ogg`,
+              "02": `${p}/ovani-sounds/Science Fiction Sound FX Pack Vol. 4/Weapon/Medium/Entropy Blaster 002.ogg`,
+              "03": `${p}/ovani-sounds/Science Fiction Sound FX Pack Vol. 4/Weapon/Medium/Entropy Blaster 003.ogg`,
+              "04": `${p}/ovani-sounds/Science Fiction Sound FX Pack Vol. 4/Weapon/Medium/Entropy Blaster 004.ogg`,
+              "05": `${p}/ovani-sounds/Science Fiction Sound FX Pack Vol. 4/Weapon/Medium/Entropy Blaster 005.ogg`,
+              "06": `${p}/ovani-sounds/Science Fiction Sound FX Pack Vol. 4/Weapon/Medium/Entropy Blaster 006.ogg`,
+              "07": `${p}/ovani-sounds/Science Fiction Sound FX Pack Vol. 4/Weapon/Medium/Entropy Blaster 007.ogg`,
+              "08": `${p}/ovani-sounds/Science Fiction Sound FX Pack Vol. 4/Weapon/Medium/Entropy Blaster 008.ogg`,
+            },
+          },
+        },
+      },
+      graviton: {
+        hammer: {
+          strike: {
+            burst: {
+              "01": {
+                "01": `${p}/ovani-sounds/Science Fiction Sound FX Pack Vol. 4/Weapon/Bursts/Graviton Hammer Burst 001.ogg`,
+                "02": `${p}/ovani-sounds/Science Fiction Sound FX Pack Vol. 4/Weapon/Bursts/Graviton Hammer Burst 002.ogg`,
+              },
+            },
+            single: {
+              "01": {
+                "01": `${p}/ovani-sounds/Science Fiction Sound FX Pack Vol. 4/Weapon/Medium/Graviton Hammer 001.ogg`,
+                "02": `${p}/ovani-sounds/Science Fiction Sound FX Pack Vol. 4/Weapon/Medium/Graviton Hammer 002.ogg`,
+                "03": `${p}/ovani-sounds/Science Fiction Sound FX Pack Vol. 4/Weapon/Medium/Graviton Hammer 003.ogg`,
+                "04": `${p}/ovani-sounds/Science Fiction Sound FX Pack Vol. 4/Weapon/Medium/Graviton Hammer 004.ogg`,
+                "05": `${p}/ovani-sounds/Science Fiction Sound FX Pack Vol. 4/Weapon/Medium/Graviton Hammer 005.ogg`,
+                "06": `${p}/ovani-sounds/Science Fiction Sound FX Pack Vol. 4/Weapon/Medium/Graviton Hammer 006.ogg`,
+                "07": `${p}/ovani-sounds/Science Fiction Sound FX Pack Vol. 4/Weapon/Medium/Graviton Hammer 007.ogg`,
+              },
+            },
+          },
+        },
+      },
       impulse: {
         charge: {
           strike: {
@@ -1113,7 +1166,7 @@ export const database = {
             },
           },
         },
-        emmiter: {
+        emiter: {
           strike: {
             single: {
               "01": {
@@ -1250,6 +1303,51 @@ export const database = {
           },
         },
       },
+      needler: {
+        strike: {
+          burst: {
+            "01": {
+              "01": `${p}/ovani-sounds/Science Fiction Sound FX Pack Vol. 4/Weapon/Bursts/Kinetic Impaler Burst 001.ogg`,
+              "02": `${p}/ovani-sounds/Science Fiction Sound FX Pack Vol. 4/Weapon/Bursts/Kinetic Impaler Burst 002.ogg`,
+            },
+          },
+          single: {
+            "01": {
+              "01": `${p}/ovani-sounds/Science Fiction Sound FX Pack Vol. 4/Weapon/Small/Kinetic Impaler 001.ogg`,
+              "02": `${p}/ovani-sounds/Science Fiction Sound FX Pack Vol. 4/Weapon/Small/Kinetic Impaler 002.ogg`,
+              "03": `${p}/ovani-sounds/Science Fiction Sound FX Pack Vol. 4/Weapon/Small/Kinetic Impaler 003.ogg`,
+              "04": `${p}/ovani-sounds/Science Fiction Sound FX Pack Vol. 4/Weapon/Small/Kinetic Impaler 004.ogg`,
+              "05": `${p}/ovani-sounds/Science Fiction Sound FX Pack Vol. 4/Weapon/Small/Kinetic Impaler 005.ogg`,
+              "06": `${p}/ovani-sounds/Science Fiction Sound FX Pack Vol. 4/Weapon/Small/Kinetic Impaler 006.ogg`,
+              "07": `${p}/ovani-sounds/Science Fiction Sound FX Pack Vol. 4/Weapon/Small/Kinetic Impaler 007.ogg`,
+              "08": `${p}/ovani-sounds/Science Fiction Sound FX Pack Vol. 4/Weapon/Small/Kinetic Impaler 008.ogg`,
+            },
+          },
+        },
+      },
+      null_ray: {
+        emitter: {
+          strike: {
+            burst: {
+              "01": {
+                "01": `${p}/ovani-sounds/Science Fiction Sound FX Pack Vol. 4/Weapon/Bursts/Null-Ray Emitter Burst 001.ogg`,
+                "02": `${p}/ovani-sounds/Science Fiction Sound FX Pack Vol. 4/Weapon/Bursts/Null-Ray Emitter Burst 002.ogg`,
+              },
+            },
+            single: {
+              "01": {
+                "01": `${p}/ovani-sounds/Science Fiction Sound FX Pack Vol. 4/Weapon/Small/Null-Ray Emitter 001.ogg`,
+                "02": `${p}/ovani-sounds/Science Fiction Sound FX Pack Vol. 4/Weapon/Small/Null-Ray Emitter 002.ogg`,
+                "03": `${p}/ovani-sounds/Science Fiction Sound FX Pack Vol. 4/Weapon/Small/Null-Ray Emitter 003.ogg`,
+                "04": `${p}/ovani-sounds/Science Fiction Sound FX Pack Vol. 4/Weapon/Small/Null-Ray Emitter 004.ogg`,
+                "05": `${p}/ovani-sounds/Science Fiction Sound FX Pack Vol. 4/Weapon/Small/Null-Ray Emitter 005.ogg`,
+                "06": `${p}/ovani-sounds/Science Fiction Sound FX Pack Vol. 4/Weapon/Small/Null-Ray Emitter 006.ogg`,
+                "07": `${p}/ovani-sounds/Science Fiction Sound FX Pack Vol. 4/Weapon/Small/Null-Ray Emitter 007.ogg`,
+              },
+            },
+          },
+        },
+      },
       orbital_gun: {
         strike: {
           "01": {
@@ -1277,6 +1375,22 @@ export const database = {
           },
         },
       },
+      phase: {
+        disruptor: {
+          strike: {
+            "01": {
+              "01": `${p}/ovani-sounds/Science Fiction Sound FX Pack Vol. 4/Weapon/Medium/Phase Disruptor 001.ogg`,
+              "02": `${p}/ovani-sounds/Science Fiction Sound FX Pack Vol. 4/Weapon/Medium/Phase Disruptor 002.ogg`,
+              "03": `${p}/ovani-sounds/Science Fiction Sound FX Pack Vol. 4/Weapon/Medium/Phase Disruptor 003.ogg`,
+              "04": `${p}/ovani-sounds/Science Fiction Sound FX Pack Vol. 4/Weapon/Medium/Phase Disruptor 004.ogg`,
+              "05": `${p}/ovani-sounds/Science Fiction Sound FX Pack Vol. 4/Weapon/Medium/Phase Disruptor 005.ogg`,
+              "06": `${p}/ovani-sounds/Science Fiction Sound FX Pack Vol. 4/Weapon/Medium/Phase Disruptor 006.ogg`,
+              "07": `${p}/ovani-sounds/Science Fiction Sound FX Pack Vol. 4/Weapon/Medium/Phase Disruptor 007.ogg`,
+              "08": `${p}/ovani-sounds/Science Fiction Sound FX Pack Vol. 4/Weapon/Medium/Phase Disruptor 008.ogg`,
+            },
+          },
+        },
+      },
       plasma: {
         gun: {
           strike: {
@@ -1284,6 +1398,19 @@ export const database = {
               "01": `${p}/ovani-sounds/Sci-Fi/Weapon/Heavy/Plasmagun A.ogg`,
               "02": `${p}/ovani-sounds/Sci-Fi/Weapon/Heavy/Plasmagun B.ogg`,
               "03": `${p}/ovani-sounds/Sci-Fi/Weapon/Heavy/Plasmagun C.ogg`,
+            },
+          },
+        },
+        lance: {
+          strike: {
+            "01": {
+              "01": `${p}/ovani-sounds/Science Fiction Sound FX Pack Vol. 4/Weapon/Big/Plasma Lance 001.ogg`,
+              "02": `${p}/ovani-sounds/Science Fiction Sound FX Pack Vol. 4/Weapon/Big/Plasma Lance 002.ogg`,
+              "03": `${p}/ovani-sounds/Science Fiction Sound FX Pack Vol. 4/Weapon/Big/Plasma Lance 003.ogg`,
+              "04": `${p}/ovani-sounds/Science Fiction Sound FX Pack Vol. 4/Weapon/Big/Plasma Lance 004.ogg`,
+              "05": `${p}/ovani-sounds/Science Fiction Sound FX Pack Vol. 4/Weapon/Big/Plasma Lance 005.ogg`,
+              "06": `${p}/ovani-sounds/Science Fiction Sound FX Pack Vol. 4/Weapon/Big/Plasma Lance 006.ogg`,
+              "07": `${p}/ovani-sounds/Science Fiction Sound FX Pack Vol. 4/Weapon/Big/Plasma Lance 007.ogg`,
             },
           },
         },
@@ -1391,6 +1518,27 @@ export const database = {
           },
         },
       },
+      singularity: {
+        pistol: {
+          strike: {
+            burst: {
+              "01": {
+                "01": `${p}/ovani-sounds/Science Fiction Sound FX Pack Vol. 4/Weapon/Small/Singularity Pistol Burst.ogg`,
+              },
+            },
+            single: {
+              "01": {
+                "01": `${p}/ovani-sounds/Science Fiction Sound FX Pack Vol. 4/Weapon/Small/Singularity Pistol 001.ogg`,
+                "02": `${p}/ovani-sounds/Science Fiction Sound FX Pack Vol. 4/Weapon/Small/Singularity Pistol 002.ogg`,
+                "03": `${p}/ovani-sounds/Science Fiction Sound FX Pack Vol. 4/Weapon/Small/Singularity Pistol 003.ogg`,
+                "04": `${p}/ovani-sounds/Science Fiction Sound FX Pack Vol. 4/Weapon/Small/Singularity Pistol 004.ogg`,
+                "05": `${p}/ovani-sounds/Science Fiction Sound FX Pack Vol. 4/Weapon/Small/Singularity Pistol 005.ogg`,
+                "06": `${p}/ovani-sounds/Science Fiction Sound FX Pack Vol. 4/Weapon/Small/Singularity Pistol 006.ogg`,
+              },
+            },
+          },
+        },
+      },
       artillery: {
         strike: {
           "01": {
@@ -1404,6 +1552,19 @@ export const database = {
         strike: {
           "02": {
             "01": `${p}/Soniss/GDC2024/BluezoneCorp/Sci-Fi Cannon Shot.ogg`,
+          },
+        },
+        void: {
+          strike: {
+            "01": {
+              "01": `${p}/ovani-sounds/Science Fiction Sound FX Pack Vol. 4/Weapon/Big/Void Cannon 001.ogg`,
+              "02": `${p}/ovani-sounds/Science Fiction Sound FX Pack Vol. 4/Weapon/Big/Void Cannon 002.ogg`,
+              "03": `${p}/ovani-sounds/Science Fiction Sound FX Pack Vol. 4/Weapon/Big/Void Cannon 003.ogg`,
+              "04": `${p}/ovani-sounds/Science Fiction Sound FX Pack Vol. 4/Weapon/Big/Void Cannon 004.ogg`,
+              "05": `${p}/ovani-sounds/Science Fiction Sound FX Pack Vol. 4/Weapon/Big/Void Cannon 005.ogg`,
+              "06": `${p}/ovani-sounds/Science Fiction Sound FX Pack Vol. 4/Weapon/Big/Void Cannon 006.ogg`,
+              "07": `${p}/ovani-sounds/Science Fiction Sound FX Pack Vol. 4/Weapon/Big/Void Cannon 007.ogg`,
+            },
           },
         },
       },
@@ -4227,10 +4388,70 @@ export const database = {
       scifi: {
         general: {
           reload: {
-            "01": {
-              "01": `${p}/ovani-sounds/Science Fiction SFX 2/Weapons/Misc/Reloading A.ogg`,
-              "02": `${p}/ovani-sounds/Science Fiction SFX 2/Weapons/Misc/Reloading B.ogg`,
-              "03": `${p}/ovani-sounds/Science Fiction SFX 2/Weapons/Misc/Reloading C.ogg`,
+            general: {
+              "01": {
+                "01": `${p}/ovani-sounds/Science Fiction SFX 2/Weapons/Misc/Reloading A.ogg`,
+                "02": `${p}/ovani-sounds/Science Fiction SFX 2/Weapons/Misc/Reloading B.ogg`,
+                "03": `${p}/ovani-sounds/Science Fiction SFX 2/Weapons/Misc/Reloading C.ogg`,
+              },
+              "02": {
+                "01": `${p}/ovani-sounds/Science Fiction Sound FX Pack Vol. 4/Weapon/Reload/Gun Foley Light 001.ogg`,
+                "02": `${p}/ovani-sounds/Science Fiction Sound FX Pack Vol. 4/Weapon/Reload/Gun Foley Light 002.ogg`,
+                "03": `${p}/ovani-sounds/Science Fiction Sound FX Pack Vol. 4/Weapon/Reload/Gun Foley Light 003.ogg`,
+                "04": `${p}/ovani-sounds/Science Fiction Sound FX Pack Vol. 4/Weapon/Reload/Gun Foley Light 004.ogg`,
+              },
+            },
+            charge: {
+              charge: {
+                "01": {
+                  "01": `${p}/ovani-sounds/Science Fiction Sound FX Pack Vol. 4/Weapon/Reload/Reload Charging 001.ogg`,
+                },
+              },
+              discharge: {
+                "01": {
+                  "01": `${p}/ovani-sounds/Science Fiction Sound FX Pack Vol. 4/Weapon/Reload/Reload Charging 002.ogg`,
+                },
+              },
+              fast_charge: {
+                "01": {
+                  "01": `${p}/ovani-sounds/Science Fiction Sound FX Pack Vol. 4/Weapon/Reload/Reload Charging Fast 001.ogg`,
+                  "02": `${p}/ovani-sounds/Science Fiction Sound FX Pack Vol. 4/Weapon/Reload/Reload Charging Fast 002.ogg`,
+                },
+              },
+            },
+            light: {
+              "01": {
+                "01": `${p}/ovani-sounds/Science Fiction Sound FX Pack Vol. 4/Weapon/Reload/Reload Light 001.ogg`,
+                "02": `${p}/ovani-sounds/Science Fiction Sound FX Pack Vol. 4/Weapon/Reload/Reload Light 002.ogg`,
+                "03": `${p}/ovani-sounds/Science Fiction Sound FX Pack Vol. 4/Weapon/Reload/Reload Light 003.ogg`,
+                "04": `${p}/ovani-sounds/Science Fiction Sound FX Pack Vol. 4/Weapon/Reload/Reload Light 004.ogg`,
+              },
+            },
+            medium: {
+              "01": {
+                "01": `${p}/ovani-sounds/Science Fiction Sound FX Pack Vol. 4/Weapon/Reload/Reload Medium 001.ogg`,
+                "02": `${p}/ovani-sounds/Science Fiction Sound FX Pack Vol. 4/Weapon/Reload/Reload Medium 002.ogg`,
+                "03": `${p}/ovani-sounds/Science Fiction Sound FX Pack Vol. 4/Weapon/Reload/Reload Medium 003.ogg`,
+                "04": `${p}/ovani-sounds/Science Fiction Sound FX Pack Vol. 4/Weapon/Reload/Reload Medium 004.ogg`,
+              },
+            },
+            heavy: {
+              "01": {
+                "01": `${p}/ovani-sounds/Science Fiction Sound FX Pack Vol. 4/Weapon/Reload/Reload Heavy 001.ogg`,
+                "02": `${p}/ovani-sounds/Science Fiction Sound FX Pack Vol. 4/Weapon/Reload/Reload Heavy 002.ogg`,
+              },
+              "02": {
+                "01": `${p}/ovani-sounds/Science Fiction Sound FX Pack Vol. 4/Weapon/Reload/Reload Heavy 003.ogg`,
+                "02": `${p}/ovani-sounds/Science Fiction Sound FX Pack Vol. 4/Weapon/Reload/Reload Heavy 004.ogg`,
+                "03": `${p}/ovani-sounds/Science Fiction Sound FX Pack Vol. 4/Weapon/Reload/Reload Heavy 005.ogg`,
+                "04": `${p}/ovani-sounds/Science Fiction Sound FX Pack Vol. 4/Weapon/Reload/Reload Heavy 006.ogg`,
+              },
+              "03": {
+                "01": `${p}/ovani-sounds/Science Fiction Sound FX Pack Vol. 4/Weapon/Reload/Reload Heavy 007.ogg`,
+                "02": `${p}/ovani-sounds/Science Fiction Sound FX Pack Vol. 4/Weapon/Reload/Reload Heavy 008.ogg`,
+                "03": `${p}/ovani-sounds/Science Fiction Sound FX Pack Vol. 4/Weapon/Reload/Reload Heavy 009.ogg`,
+                "04": `${p}/ovani-sounds/Science Fiction Sound FX Pack Vol. 4/Weapon/Reload/Reload Heavy 010.ogg`,
+              },
             },
           },
           disable: {
@@ -4539,6 +4760,13 @@ export const database = {
             "03": `${p}/ovani-sounds/Science Fiction SFX 2/Misc/Mechanisms/Upgrade C.ogg`,
             "04": `${p}/ovani-sounds/Science Fiction SFX 2/Misc/Mechanisms/Upgrade D.ogg`,
             "05": `${p}/ovani-sounds/Science Fiction SFX 2/Misc/Mechanisms/Upgrade E.ogg`,
+          },
+          "03": {
+            "01": `${p}/ovani-sounds/Science Fiction Sound FX Pack Vol. 4/Interactive/Ship/Ship Upgrade 001.ogg`,
+            "02": `${p}/ovani-sounds/Science Fiction Sound FX Pack Vol. 4/Interactive/Ship/Ship Upgrade 002.ogg`,
+            "03": `${p}/ovani-sounds/Science Fiction Sound FX Pack Vol. 4/Interactive/Ship/Ship Upgrade 003.ogg`,
+            "04": `${p}/ovani-sounds/Science Fiction Sound FX Pack Vol. 4/Interactive/Ship/Ship Upgrade 004.ogg`,
+            "05": `${p}/ovani-sounds/Science Fiction Sound FX Pack Vol. 4/Interactive/Ship/Ship Upgrade 005.ogg`,
           },
         },
         servo_motor: {
@@ -5033,6 +5261,47 @@ export const database = {
           },
         },
       },
+      buff: {
+        "01": {
+          "01": `${p}/ovani-sounds/Science Fiction Sound FX Pack Vol. 4/Interactive/UI/Navigation Success.ogg`,
+        },
+        "02": {
+          "01": `${p}/ovani-sounds/Science Fiction Sound FX Pack Vol. 4/Interactive/UI/UI Task Success 001.ogg`,
+          "02": `${p}/ovani-sounds/Science Fiction Sound FX Pack Vol. 4/Interactive/UI/UI Task Success 002.ogg`,
+        },
+        "03": {
+          "01": `${p}/ovani-sounds/Science Fiction Sound FX Pack Vol. 4/Interactive/UI/UI New Task 001.ogg`,
+        },
+        "04": {
+          "01": `${p}/ovani-sounds/Science Fiction Sound FX Pack Vol. 4/Interactive/Inventory/Inventory Management 001.ogg`,
+          "02": `${p}/ovani-sounds/Science Fiction Sound FX Pack Vol. 4/Interactive/Inventory/Inventory Management 004.ogg`,
+        },
+      },
+      debuff: {
+        "01": {
+          "01": `${p}/ovani-sounds/Science Fiction Sound FX Pack Vol. 4/Interactive/UI/Navigation Failed.ogg`,
+        },
+        "02": {
+          "01": `${p}/ovani-sounds/Science Fiction Sound FX Pack Vol. 4/Interactive/UI/Navigation Warning.ogg`,
+        },
+        "03": {
+          "01": `${p}/ovani-sounds/Science Fiction Sound FX Pack Vol. 4/Interactive/UI/UI Task Fail 001.ogg`,
+          "02": `${p}/ovani-sounds/Science Fiction Sound FX Pack Vol. 4/Interactive/UI/UI Task Fail 002.ogg`,
+        },
+        "04": {
+          "01": `${p}/ovani-sounds/Science Fiction Sound FX Pack Vol. 4/Interactive/UI/UI New Task 002.ogg`,
+        },
+        "05": {
+          "01": `${p}/ovani-sounds/Science Fiction Sound FX Pack Vol. 4/Interactive/Ship/Ship Critical 001.ogg`,
+          "02": `${p}/ovani-sounds/Science Fiction Sound FX Pack Vol. 4/Interactive/Ship/Ship Critical 002.ogg`,
+          "03": `${p}/ovani-sounds/Science Fiction Sound FX Pack Vol. 4/Interactive/Ship/Ship Critical 003.ogg`,
+          "04": `${p}/ovani-sounds/Science Fiction Sound FX Pack Vol. 4/Interactive/Ship/Ship Critical 004.ogg`,
+        },
+        "06": {
+          "01": `${p}/ovani-sounds/Science Fiction Sound FX Pack Vol. 4/Interactive/Inventory/Inventory Management 002.ogg`,
+          "02": `${p}/ovani-sounds/Science Fiction Sound FX Pack Vol. 4/Interactive/Inventory/Inventory Management 003.ogg`,
+        },
+      },
     },
     equipment: {
       device: {
@@ -5047,6 +5316,42 @@ export const database = {
             "01": `${p}/Soniss/GDC2024/BluezoneCorp/Alien Interface 2.ogg`,
             "02": `${p}/Soniss/GDC2024/BluezoneCorp/Alien Interface 3.ogg`,
             "03": `${p}/Soniss/GDC2024/BluezoneCorp/Alien Interface 4.ogg`,
+          },
+          "03": {
+            "01": `${p}/ovani-sounds/Science Fiction Sound FX Pack Vol. 4/Interactive/UI/Navigation Unknown.ogg`,
+          },
+          "04": {
+            "01": `${p}/ovani-sounds/Science Fiction Sound FX Pack Vol. 4/Interactive/Ship/Ship Interactions 001.ogg`,
+            "02": `${p}/ovani-sounds/Science Fiction Sound FX Pack Vol. 4/Interactive/Ship/Ship Interactions 002.ogg`,
+            "03": `${p}/ovani-sounds/Science Fiction Sound FX Pack Vol. 4/Interactive/Ship/Ship Interactions 003.ogg`,
+            "04": `${p}/ovani-sounds/Science Fiction Sound FX Pack Vol. 4/Interactive/Ship/Ship Interactions 004.ogg`,
+          },
+        },
+        startup: {
+          "01": {
+            "01": `${p}/ovani-sounds/Science Fiction Sound FX Pack Vol. 4/Interactive/UI/Navigation Startup.ogg`,
+          },
+        },
+        shutdown: {
+          "01": {
+            "01": `${p}/ovani-sounds/Science Fiction Sound FX Pack Vol. 4/Interactive/UI/Navigation Shutdown.ogg`,
+          },
+        },
+      },
+      medical: {
+        analysis: {
+          "01": {
+            "01": `${p}/ovani-sounds/Science Fiction Sound FX Pack Vol. 4/Interactive/Medical/Medical Analysis.ogg`,
+          },
+        },
+        healing: {
+          "01": {
+            "01": `${p}/ovani-sounds/Science Fiction Sound FX Pack Vol. 4/Interactive/Medical/Medical Healing.ogg`,
+          },
+        },
+        medicine: {
+          "01": {
+            "01": `${p}/ovani-sounds/Science Fiction Sound FX Pack Vol. 4/Interactive/Medical/Medical Medicine.ogg`,
           },
         },
       },
@@ -5155,6 +5460,9 @@ export const database = {
               "02": `${p}/ovani-sounds/Player Status SFX/General/Stimpack 002.ogg`,
               "03": `${p}/ovani-sounds/Player Status SFX/General/Stimpack 003.ogg`,
               "04": `${p}/ovani-sounds/Player Status SFX/General/Stimpack 004.ogg`,
+            },
+            "02": {
+              "01": `${p}/ovani-sounds/Science Fiction Sound FX Pack Vol. 4/Interactive/Medical/Medical Stimpack.ogg`,
             },
           },
         },
@@ -5295,6 +5603,50 @@ export const database = {
           "03": `${p}/ovani-sounds/Science Fiction SFX 2/Robots/Voice/Droid III Voice C.ogg`,
           "04": `${p}/ovani-sounds/Science Fiction SFX 2/Robots/Voice/Droid III Voice D.ogg`,
           "05": `${p}/ovani-sounds/Science Fiction SFX 2/Robots/Voice/Droid III Voice E.ogg`,
+        },
+        "07": {
+          archivist: {
+            "01": `${p}/ovani-sounds/Science Fiction Sound FX Pack Vol. 4/Robots/Archivist/Robots Voice Archivist 001.ogg`,
+            "02": `${p}/ovani-sounds/Science Fiction Sound FX Pack Vol. 4/Robots/Archivist/Robots Voice Archivist 002.ogg`,
+            "03": `${p}/ovani-sounds/Science Fiction Sound FX Pack Vol. 4/Robots/Archivist/Robots Voice Archivist 003.ogg`,
+            "04": `${p}/ovani-sounds/Science Fiction Sound FX Pack Vol. 4/Robots/Archivist/Robots Voice Archivist 004.ogg`,
+            "05": `${p}/ovani-sounds/Science Fiction Sound FX Pack Vol. 4/Robots/Archivist/Robots Voice Archivist 005.ogg`,
+          },
+          emperor: {
+            "01": `${p}/ovani-sounds/Science Fiction Sound FX Pack Vol. 4/Robots/Emperor/Robots Voice Emperor 001.ogg`,
+            "02": `${p}/ovani-sounds/Science Fiction Sound FX Pack Vol. 4/Robots/Emperor/Robots Voice Emperor 002.ogg`,
+            "03": `${p}/ovani-sounds/Science Fiction Sound FX Pack Vol. 4/Robots/Emperor/Robots Voice Emperor 003.ogg`,
+            "04": `${p}/ovani-sounds/Science Fiction Sound FX Pack Vol. 4/Robots/Emperor/Robots Voice Emperor 004.ogg`,
+            "05": `${p}/ovani-sounds/Science Fiction Sound FX Pack Vol. 4/Robots/Emperor/Robots Voice Emperor 005.ogg`,
+            "06": `${p}/ovani-sounds/Science Fiction Sound FX Pack Vol. 4/Robots/Emperor/Robots Voice Emperor 006.ogg`,
+          },
+          soldier: {
+            "01": `${p}/ovani-sounds/Science Fiction Sound FX Pack Vol. 4/Robots/Soldier/Robots Voice Soldier 001.ogg`,
+            "02": `${p}/ovani-sounds/Science Fiction Sound FX Pack Vol. 4/Robots/Soldier/Robots Voice Soldier 002.ogg`,
+            "03": `${p}/ovani-sounds/Science Fiction Sound FX Pack Vol. 4/Robots/Soldier/Robots Voice Soldier 003.ogg`,
+            "04": `${p}/ovani-sounds/Science Fiction Sound FX Pack Vol. 4/Robots/Soldier/Robots Voice Soldier 004.ogg`,
+            "05": `${p}/ovani-sounds/Science Fiction Sound FX Pack Vol. 4/Robots/Soldier/Robots Voice Soldier 005.ogg`,
+            "06": `${p}/ovani-sounds/Science Fiction Sound FX Pack Vol. 4/Robots/Soldier/Robots Voice Soldier 006.ogg`,
+            "07": `${p}/ovani-sounds/Science Fiction Sound FX Pack Vol. 4/Robots/Soldier/Robots Voice Soldier 007.ogg`,
+          },
+          trader: {
+            "01": `${p}/ovani-sounds/Science Fiction Sound FX Pack Vol. 4/Robots/Trader/Robots Voice Trader 001.ogg`,
+            "02": `${p}/ovani-sounds/Science Fiction Sound FX Pack Vol. 4/Robots/Trader/Robots Voice Trader 002.ogg`,
+            "03": `${p}/ovani-sounds/Science Fiction Sound FX Pack Vol. 4/Robots/Trader/Robots Voice Trader 003.ogg`,
+            "04": `${p}/ovani-sounds/Science Fiction Sound FX Pack Vol. 4/Robots/Trader/Robots Voice Trader 004.ogg`,
+            "05": `${p}/ovani-sounds/Science Fiction Sound FX Pack Vol. 4/Robots/Trader/Robots Voice Trader 005.ogg`,
+            "06": `${p}/ovani-sounds/Science Fiction Sound FX Pack Vol. 4/Robots/Trader/Robots Voice Trader 006.ogg`,
+            "07": `${p}/ovani-sounds/Science Fiction Sound FX Pack Vol. 4/Robots/Trader/Robots Voice Trader 007.ogg`,
+          },
+          worker: {
+            "01": `${p}/ovani-sounds/Science Fiction Sound FX Pack Vol. 4/Robots/Worker/Robots Voice Worker 001.ogg`,
+            "02": `${p}/ovani-sounds/Science Fiction Sound FX Pack Vol. 4/Robots/Worker/Robots Voice Worker 002.ogg`,
+            "03": `${p}/ovani-sounds/Science Fiction Sound FX Pack Vol. 4/Robots/Worker/Robots Voice Worker 003.ogg`,
+            "04": `${p}/ovani-sounds/Science Fiction Sound FX Pack Vol. 4/Robots/Worker/Robots Voice Worker 004.ogg`,
+            "05": `${p}/ovani-sounds/Science Fiction Sound FX Pack Vol. 4/Robots/Worker/Robots Voice Worker 005.ogg`,
+            "06": `${p}/ovani-sounds/Science Fiction Sound FX Pack Vol. 4/Robots/Worker/Robots Voice Worker 006.ogg`,
+            "07": `${p}/ovani-sounds/Science Fiction Sound FX Pack Vol. 4/Robots/Worker/Robots Voice Worker 007.ogg`,
+          },
         },
       },
     },
