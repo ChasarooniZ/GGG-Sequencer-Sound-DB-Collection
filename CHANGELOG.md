@@ -2,6 +2,10 @@
 
 - TODO - update the checkign scripts to also include the video assets
 
+## 0.1.0
+
+- Re normalized all Sounds to use a `LUFS` of `-16.0`
+
 ## 0.0.22
 
 - Fixed improper path to new icon
