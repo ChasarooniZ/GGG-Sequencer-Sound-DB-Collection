@@ -3333,6 +3333,9 @@ export const database = {
         general: {},
         flames: {
           "01": {
+            _markers: {
+              loop: { start: 488, end: 1292 },
+            },
             "01": `${p}/TomMusic/FreeFantasySFX/Spells/Firespray 1.ogg`,
             "02": `${p}/TomMusic/FreeFantasySFX/Spells/Firespray 2.ogg`,
           },

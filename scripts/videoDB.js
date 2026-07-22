@@ -12,4 +12,13 @@ export const database = {
       },
     },
   },
+  magic: {
+    time: {
+      speed_up: {
+        "01": {
+          "01": `${p}/pioya/clock/speed_up.json`,
+        },
+      },
+    },
+  },
 };
