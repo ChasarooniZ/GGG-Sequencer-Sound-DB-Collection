@@ -8,6 +8,8 @@ function flatten(obj, parentKey = "") {
 
   for (const key in obj) {
     if (Object.prototype.hasOwnProperty.call(obj, key)) {
+      if (key.startsWith("_")) continue;
+
       const newKey = parentKey ? `${parentKey}.${key}` : key;
       const value = obj[key];
 
@@ -16,7 +18,9 @@ function flatten(obj, parentKey = "") {
         value !== null &&
         !Array.isArray(value)
       ) {
-        result = { ...result, ...flatten(value, newKey) };
+        if (Object.keys(value).length > 0) {
+          result = { ...result, ...flatten(value, newKey) };
+        }
       } else {
         result[newKey] = value;
       }

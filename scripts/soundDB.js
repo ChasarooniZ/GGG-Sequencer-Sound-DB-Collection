@@ -1832,6 +1832,13 @@ export const database = {
           },
         },
       },
+      bugs: {
+        general: {
+          "01": {
+            "01": `${p}/ovani-sounds/Crafting Sound FX/UI/Craft Text Sprawl B.ogg`,
+          },
+        },
+      },
       burst: {
         bramble: {
           "01": {
@@ -2221,6 +2228,9 @@ export const database = {
           },
           "03": {
             "01": `${p}/Soniss/GDC2024/Jake Fielding/Boom - Cinematic Horn.ogg`,
+          },
+          "04": {
+            "01": `${p}/ovani-sounds/Crafting Sound FX/UI/Anvil Select.ogg`,
           },
         },
         metal: {
@@ -4098,6 +4108,9 @@ export const database = {
             "03": `${p}/ovani-sounds/Motion and Impacts Sound FX Pack Vol. 2/Impacts/Impact Anvil 003.ogg`,
             "04": `${p}/ovani-sounds/Motion and Impacts Sound FX Pack Vol. 2/Impacts/Impact Anvil 004.ogg`,
           },
+          "02": {
+            "01": `${p}/ovani-sounds/Crafting Sound FX/Tool/Anvil Deny.ogg`,
+          },
         },
         lock: {
           "01": {
@@ -4117,6 +4130,11 @@ export const database = {
             "05": `${p}/ovani-sounds/Motion and Impacts Sound FX Pack Vol. 2/Impacts/Impact Metal Spring 005.ogg`,
           },
         },
+        crash: {
+          "01": {
+            "01": `${p}/ovani-sounds/Crafting Sound FX/Metal/Loud Metal Bang.ogg`,
+          },
+        },
       },
       whoosh: {
         general: {
@@ -4126,6 +4144,17 @@ export const database = {
             "03": `${p}/ovani-sounds/Motion and Impacts Sound FX Pack Vol. 2/Whoosh/Whoosh Glass 003.ogg`,
             "04": `${p}/ovani-sounds/Motion and Impacts Sound FX Pack Vol. 2/Whoosh/Whoosh Glass 004.ogg`,
             "05": `${p}/ovani-sounds/Motion and Impacts Sound FX Pack Vol. 2/Whoosh/Whoosh Glass 005.ogg`,
+          },
+        },
+      },
+      buff: {
+        general: {
+          "01": {
+            "01": `${p}/ovani-sounds/Crafting Sound FX/Metal/Metal Alert A.ogg`,
+            "02": `${p}/ovani-sounds/Crafting Sound FX/Metal/Metal Alert B.ogg`,
+          },
+          "02": {
+            "01": `${p}/ovani-sounds/Crafting Sound FX/Hammer/Hammer Alert.ogg`,
           },
         },
       },
@@ -4937,10 +4966,73 @@ export const database = {
   },
   tasks: {
     crafting: {
+      ui: {
+        craft: {
+          "01": {
+            "01": `${p}/ovani-sounds/Crafting Sound FX/UI/Crafting Countdown.ogg`,
+          },
+          "02": {
+            fade_out: `${p}/ovani-sounds/Crafting Sound FX/UI/Crafting Fade Out Timer.ogg`,
+          },
+        },
+        alert: {
+          "01": {
+            "01": `${p}/ovani-sounds/Crafting Sound FX/UI/Alert Craft.ogg`,
+          },
+          "02": {
+            "01": `${p}/ovani-sounds/Crafting Sound FX/UI/Ambiguous Craft Alert.ogg`,
+          },
+        },
+        success: {
+          "01": {
+            "01": `${p}/ovani-sounds/Crafting Sound FX/UI/Craft Success.ogg`,
+          },
+          "02": {
+            "01": `${p}/ovani-sounds/Crafting Sound FX/UI/Good Craft A.ogg`,
+            "02": `${p}/ovani-sounds/Crafting Sound FX/UI/Good Craft B.ogg`,
+            "03": `${p}/ovani-sounds/Crafting Sound FX/UI/Good Craft C.ogg`,
+            "04": `${p}/ovani-sounds/Crafting Sound FX/UI/Good Craft D.ogg`,
+          },
+        },
+        failure: {
+          "01": {
+            "01": `${p}/ovani-sounds/Crafting Sound FX/UI/Bad Craft.ogg`,
+          },
+          "02": {
+            "01": `${p}/ovani-sounds/Crafting Sound FX/UI/Craft Mistake.ogg`,
+          },
+          "03": {
+            "01": `${p}/ovani-sounds/Crafting Sound FX/UI/Craft Denied A.ogg`,
+            "02": `${p}/ovani-sounds/Crafting Sound FX/UI/Craft Denied B.ogg`,
+            "03": `${p}/ovani-sounds/Crafting Sound FX/UI/Craft Denied C.ogg`,
+          },
+          "04": {
+            "01": `${p}/ovani-sounds/Crafting Sound FX/Misc Craft/Miscraft A.ogg`,
+            "02": `${p}/ovani-sounds/Crafting Sound FX/Misc Craft/Miscraft B.ogg`,
+            "03": `${p}/ovani-sounds/Crafting Sound FX/Misc Craft/Miscraft C.ogg`,
+            "04": `${p}/ovani-sounds/Crafting Sound FX/Misc Craft/Miscraft D.ogg`,
+          },
+        },
+      },
       acquiring_materials: {
         leather: {
           "01": {
             "01": `${p}/ovani-sounds/Wild West Sound FX Pack Vol. 1/Weapons/Skinning Animal A.ogg`,
+          },
+        },
+      },
+      alchemy: {
+        craft: {
+          "01": {
+            "01": `${p}/ovani-sounds/Crafting Sound FX/Magic/Potion Craft A.ogg`,
+            "02": `${p}/ovani-sounds/Crafting Sound FX/Magic/Potion Craft B.ogg`,
+            "03": `${p}/ovani-sounds/Crafting Sound FX/Magic/Potion Craft C.ogg`,
+            "04": `${p}/ovani-sounds/Crafting Sound FX/Magic/Potion Craft D.ogg`,
+          },
+        },
+        sort: {
+          "01": {
+            "01": `${p}/ovani-sounds/Crafting Sound FX/Magic/Potion Sorting.ogg`,
           },
         },
       },
@@ -4971,6 +5063,233 @@ export const database = {
             "02": `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Items & Misc/Carpenter Hammer B.ogg`,
             "03": `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Items & Misc/Carpenter Hammer C.ogg`,
             "04": `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Items & Misc/Carpenter Hammer D.ogg`,
+          },
+          "02": {
+            "01": `${p}/ovani-sounds/Crafting Sound FX/Wood/Hammer Wood A.ogg`,
+            "02": `${p}/ovani-sounds/Crafting Sound FX/Wood/Hammer Wood B.ogg`,
+          },
+          "03": {
+            "01": `${p}/ovani-sounds/Crafting Sound FX/Wood/Light Hammer Wood Craft.ogg`,
+          },
+          "04": {
+            "01": `${p}/ovani-sounds/Crafting Sound FX/Hammer/Hammer Craft Longer.ogg`,
+          },
+          "05": {
+            "01": `${p}/ovani-sounds/Crafting Sound FX/Hammer/Heavy Hammer Craft.ogg`,
+          },
+        },
+        lathe: {
+          "01": {
+            "01": `${p}/ovani-sounds/Crafting Sound FX/Wood/Lathe.ogg`,
+          },
+        },
+        sanding: {
+          success: {
+            "01": {
+              "01": `${p}/ovani-sounds/Crafting Sound FX/UI/Sanding Success.ogg`,
+            },
+          },
+        },
+        saw: {
+          "01": {
+            "01": `${p}/ovani-sounds/Crafting Sound FX/Wood/Wood Saw A.ogg`,
+            "02": `${p}/ovani-sounds/Crafting Sound FX/Wood/Wood Saw B.ogg`,
+          },
+          "02": {
+            single: `${p}/ovani-sounds/Crafting Sound FX/Wood/Wood Saw One-Shot.ogg`,
+          },
+        },
+        shave: {
+          "01": {
+            "01": `${p}/ovani-sounds/Crafting Sound FX/Wood/Wood Shave.ogg`,
+          },
+        },
+        stick: {
+          craft: {
+            "01": {
+              "01": `${p}/ovani-sounds/Crafting Sound FX/Wood/Stick Craft.ogg`,
+            },
+          },
+        },
+        ui: {
+          select: {
+            "01": {
+              "01": `${p}/ovani-sounds/Crafting Sound FX/Wood/Wood Select.ogg`,
+            },
+          },
+          cancel: {
+            "01": {
+              "01": `${p}/ovani-sounds/Crafting Sound FX/Wood/Wood Deny.ogg`,
+            },
+          },
+        },
+      },
+      enchantment: {
+        create: {
+          "01": {
+            "01": `${p}/ovani-sounds/Crafting Sound FX/Magic/Enchantment A.ogg`,
+            "02": `${p}/ovani-sounds/Crafting Sound FX/Magic/Enchantment B.ogg`,
+            "03": `${p}/ovani-sounds/Crafting Sound FX/Magic/Enchantment C.ogg`,
+            "04": `${p}/ovani-sounds/Crafting Sound FX/Magic/Enchantment D.ogg`,
+          },
+          "02": {
+            "01": `${p}/ovani-sounds/Crafting Sound FX/Magic/Create Enchantment.ogg`,
+          },
+          "03": {
+            "01": `${p}/ovani-sounds/Crafting Sound FX/Magic/Create Enchantment Quick.ogg`,
+          },
+        },
+        air: {
+          "01": {
+            "01": `${p}/ovani-sounds/Crafting Sound FX/Misc Craft/Wind Craft.ogg`,
+          },
+        },
+        flame: {
+          "01": {
+            "01": `${p}/ovani-sounds/Crafting Sound FX/Misc Craft/Flame Craft.ogg`,
+          },
+        },
+        nature: {
+          "01": {
+            "01": `${p}/ovani-sounds/Crafting Sound FX/Magic/Nature Craft.ogg`,
+          },
+        },
+      },
+      leatherwork: {
+        craft: {
+          "01": {
+            "01": `${p}/ovani-sounds/Crafting Sound FX/Material/Leather Craft.ogg`,
+          },
+        },
+        strip: {
+          "01": {
+            "01": `${p}/ovani-sounds/Crafting Sound FX/Material/Leather Strip.ogg`,
+          },
+        },
+        tan: {
+          "01": {
+            "01": `${p}/ovani-sounds/Crafting Sound FX/Material/Leather Tan.ogg`,
+          },
+        },
+        treat: {
+          "01": {
+            "01": `${p}/ovani-sounds/Crafting Sound FX/Material/Leather Treat.ogg`,
+          },
+        },
+        whip: {
+          "01": {
+            "01": `${p}/ovani-sounds/Crafting Sound FX/Material/Leather Whip.ogg`,
+          },
+        },
+      },
+      metalwork: {
+        craft: {
+          "01": {
+            "01": `${p}/ovani-sounds/Crafting Sound FX/Metal/Metal Craft A.ogg`,
+            "02": `${p}/ovani-sounds/Crafting Sound FX/Metal/Metal Craft B.ogg`,
+            "03": `${p}/ovani-sounds/Crafting Sound FX/Metal/Metal Craft C.ogg`,
+            "04": `${p}/ovani-sounds/Crafting Sound FX/Metal/Metal Craft D.ogg`,
+          },
+        },
+        grind: {
+          "01": {
+            "01": `${p}/ovani-sounds/Crafting Sound FX/Metal/Metal Grind A.ogg`,
+            "02": `${p}/ovani-sounds/Crafting Sound FX/Metal/Metal Grind B.ogg`,
+          },
+          "02": {
+            "01": `${p}/ovani-sounds/Crafting Sound FX/Tool/Grind One-Shot.ogg`,
+          },
+        },
+        solder: {
+          "01": {
+            "01": `${p}/ovani-sounds/Crafting Sound FX/Tool/Soldering.ogg`,
+            "02": `${p}/ovani-sounds/Crafting Sound FX/Tool/Light Solder Sparks.ogg`,
+          },
+          "02": {
+            "01": `${p}/ovani-sounds/Crafting Sound FX/Tool/Long Solder Craft.ogg`,
+          },
+        },
+        weld: {
+          "01": {
+            "01": `${p}/ovani-sounds/Crafting Sound FX/Tool/Weld Spark.ogg`,
+          },
+          "02": {
+            "01": `${p}/ovani-sounds/Crafting Sound FX/Tool/Quick Weld.ogg`,
+          },
+        },
+      },
+      paperwork: {
+        craft: {
+          "01": {
+            "01": `${p}/ovani-sounds/Crafting Sound FX/Material/Sheet Craft.ogg`,
+            "02": `${p}/ovani-sounds/Crafting Sound FX/Material/Cardboard One-Shot C.ogg`,
+          },
+          "02": {
+            "01": `${p}/ovani-sounds/Crafting Sound FX/Material/Package Crafting.ogg`,
+          },
+          "03": {
+            "01": `${p}/ovani-sounds/Crafting Sound FX/Misc Craft/Sheet Crafting.ogg`,
+          },
+        },
+        tape: {
+          "01": {
+            "01": `${p}/ovani-sounds/Crafting Sound FX/Material/Tape Crack.ogg`,
+          },
+        },
+      },
+      stonework: {
+        chisel: {
+          "01": {
+            "01": `${p}/ovani-sounds/Crafting Sound FX/Metal/Chisel A.ogg`,
+            "02": `${p}/ovani-sounds/Crafting Sound FX/Metal/Chisel B.ogg`,
+            "03": `${p}/ovani-sounds/Crafting Sound FX/Metal/Chisel C.ogg`,
+            "04": `${p}/ovani-sounds/Crafting Sound FX/Metal/Chisel D.ogg`,
+          },
+        },
+        craft: {
+          "01": {
+            "01": `${p}/ovani-sounds/Crafting Sound FX/Metal/Stone Craft A.ogg`,
+            "02": `${p}/ovani-sounds/Crafting Sound FX/Metal/Stone Craft B.ogg`,
+            "03": `${p}/ovani-sounds/Crafting Sound FX/Metal/Stone Craft C.ogg`,
+            "04": `${p}/ovani-sounds/Crafting Sound FX/Metal/Stone Craft D.ogg`,
+            "05": `${p}/ovani-sounds/Crafting Sound FX/Metal/Stone Craft E.ogg`,
+          },
+          "02": {
+            "01": `${p}/ovani-sounds/Crafting Sound FX/Metal/Stone Crafting.ogg`,
+          },
+        },
+        etch: {
+          "01": {
+            "01": `${p}/ovani-sounds/Crafting Sound FX/Metal/Etching.ogg`,
+          },
+        },
+        repair: {
+          "01": {
+            "01": `${p}/ovani-sounds/Crafting Sound FX/Metal/Stone Repair.ogg`,
+          },
+        },
+      },
+      textilework: {
+        fabric: {
+          "01": {
+            "01": `${p}/ovani-sounds/Crafting Sound FX/Material/Fabric One-Shot A.ogg`,
+            "02": `${p}/ovani-sounds/Crafting Sound FX/Material/Fabric One-Shot B.ogg`,
+            "03": `${p}/ovani-sounds/Crafting Sound FX/Material/Fabric One-Shot C.ogg`,
+          },
+          "02": {
+            "01": `${p}/ovani-sounds/Crafting Sound FX/Misc Craft/Fabric Crafting.ogg`,
+          },
+        },
+        felt: {
+          "01": {
+            "01": `${p}/ovani-sounds/Crafting Sound FX/Misc Craft/Felt Crafting.ogg`,
+          },
+        },
+      },
+      weaving: {
+        general: {
+          "01": {
+            "01": `${p}/ovani-sounds/Crafting Sound FX/Material/Weaving.ogg`,
           },
         },
       },
@@ -5439,6 +5758,11 @@ export const database = {
         "04": `${p}/ovani-sounds/Foley Impacts Vol. 1/Misc/High Five D.ogg`,
       },
     },
+    sharpen_weapon: {
+      "01": {
+        "01": `${p}/ovani-sounds/Crafting Sound FX/Tool/Scraping Tool.ogg`,
+      },
+    },
     slam: {
       "01": {
         "01": `${p}/ovani-sounds/Foley Impacts Vol. 1/Beefy Impacts/Beefy Slam A.ogg`,
@@ -5451,6 +5775,24 @@ export const database = {
         "02": `${p}/ovani-sounds/Foley Impacts Vol. 1/Misc/Finger Snap B.ogg`,
         "03": `${p}/ovani-sounds/Foley Impacts Vol. 1/Misc/Finger Snap C.ogg`,
         "04": `${p}/ovani-sounds/Foley Impacts Vol. 1/Misc/Finger Snap D.ogg`,
+      },
+    },
+    write: {
+      "01": {
+        "01": `${p}/ovani-sounds/Crafting Sound FX/Material/Felt Marker Scribble.ogg`,
+      },
+      "02": {
+        "01": `${p}/ovani-sounds/Crafting Sound FX/Material/Felt Marker Squeek.ogg`,
+      },
+    },
+  },
+  creatures: {
+    shriek: {
+      generic: {
+        "01": {
+          "01": `${p}/ovani-sounds/Crafting Sound FX/Tool/Rusty Tool A.ogg`,
+          "02": `${p}/ovani-sounds/Crafting Sound FX/Tool/Rusty Tool B.ogg`,
+        },
       },
     },
   },
@@ -5587,6 +5929,13 @@ export const database = {
         shutdown: {
           "01": {
             "01": `${p}/ovani-sounds/Science Fiction Sound FX Pack Vol. 4/Interactive/UI/Navigation Shutdown.ogg`,
+          },
+        },
+      },
+      chain: {
+        loop: {
+          "01": {
+            "01": `${p}/ovani-sounds/Crafting Sound FX/Loops/Chain Craft Loop.ogg`,
           },
         },
       },
