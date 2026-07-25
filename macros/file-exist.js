@@ -7,6 +7,7 @@ function flatten(obj, parentKey = "") {
   let result = {};
 
   for (const key in obj) {
+    if (key.startsWith("_")) continue;
     if (Object.prototype.hasOwnProperty.call(obj, key)) {
       const newKey = parentKey ? `${parentKey}.${key}` : key;
       const value = obj[key];
@@ -35,7 +36,7 @@ const errors = [];
 
 function getAllOggFiles(directory) {
   let oggFiles = [];
-  
+
   // Read the directory contents
   const files = fs.readdirSync(directory);
 
@@ -55,7 +56,7 @@ function getAllOggFiles(directory) {
       }
     }
   }
-  
+
   return oggFiles;
 }
 
@@ -70,7 +71,9 @@ for (const dbEntry of dbEntries) {
 }
 
 if (errors.length) {
-  core.setFailed("The following database entries do not have corresponding files in the assets directory!");
+  core.setFailed(
+    "The following database entries do not have corresponding files in the assets directory!",
+  );
   core.startGroup(" \x1B[33;40m==== Missing Files ====\x1B[0m ");
   errors
     .map((e) => e.replaceAll("assets/sounds", "${p}"))

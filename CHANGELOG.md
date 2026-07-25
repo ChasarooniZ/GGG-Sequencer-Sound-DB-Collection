@@ -2,6 +2,18 @@
 
 - TODO - update the checkign scripts to also include the video assets
 
+## 0.1.2
+
+- **New**
+  - `Ovani SFX`
+    - `Crafting Sound FX`
+
+## 0.1.1
+
+- **New**
+  - **Pioya**
+    - **Clock Animations**
+
 ## 0.1.0
 
 - Re normalized all Sounds to use a `LUFS` of `-16.0`

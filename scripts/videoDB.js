@@ -12,4 +12,24 @@ export const database = {
       },
     },
   },
+  magic: {
+    time: {
+      dissolve: {
+        "01": `${p}/pioya/clock/dissolve.json`,
+      },
+      freeze: {
+        "01": `${p}/pioya/clock/freeze.json`,
+      },
+      prison: {
+        "01": `${p}/pioya/clock/prison.json`,
+        "02": `${p}/pioya/clock/prison_2.json`,
+      },
+      reverse: {
+        "01": `${p}/pioya/clock/reverse.json`,
+      },
+      speed_up: {
+        "01": `${p}/pioya/clock/speed_up.json`,
+      },
+    },
+  },
 };

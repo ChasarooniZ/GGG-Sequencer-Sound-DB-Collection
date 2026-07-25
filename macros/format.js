@@ -7,7 +7,7 @@ function check(object, lastKey) {
   for (const [key, entry] of Object.entries(object)) {
     if (typeof entry === "string") continue;
 
-    const keys = Object.keys(entry);
+    const keys = Object.keys(entry).filter((key) => !key?.startsWith("_"));
 
     if (
       keys.filter(Number).length !== keys.length &&

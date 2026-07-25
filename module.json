@@ -15,7 +15,17 @@
   ],
   "relationships": {
     "systems": [],
-    "requires": []
+    "requires": [
+      {
+        "id": "sequencer",
+        "type": "module",
+        "manifest": "https://github.com/fantasycalendar/FoundryVTT-Sequencer/releases/latest/download/module.json",
+        "compatibility": {
+          "minimum": "4.0.2",
+          "verified": "4.0.2"
+        }
+      }
+    ]
   },
   "esmodules": ["scripts/module.js"],
   "scripts": ["scripts/lib/lib.js"],
