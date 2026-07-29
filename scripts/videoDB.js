@@ -13,6 +13,28 @@ export const database = {
     },
   },
   magic: {
+    explosion: {
+      bokeh: {
+        "01": `${p}/effekseeker/Effekseeker01/bokeh_explosion.json`,
+      },
+      domain_expansion: {
+        "01": `${p}/effekseeker/AndrewFM01/domain_expansion.json`,
+      },
+    },
+    healing: {
+      general: {
+        "01": {
+          "01": `${p}/Dream Circles/animationpack_support/healing_a.json`,
+        },
+      },
+      regeneration: {
+        "01": {
+          "01": `${p}/Dream Circles/animationpack_support/regeneration_a.json`,
+          "02": `${p}/Dream Circles/animationpack_support/regeneration_b.json`,
+          "03": `${p}/Dream Circles/animationpack_support/regeneration_c.json`,
+        },
+      },
+    },
     time: {
       dissolve: {
         "01": `${p}/pioya/clock/dissolve.json`,
