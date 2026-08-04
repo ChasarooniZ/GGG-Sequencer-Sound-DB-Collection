@@ -7,7 +7,7 @@ function flatten(obj, parentKey = "") {
   let result = {};
 
   for (const key in obj) {
-    if (Object.prototype.hasOwnProperty.call(obj, key)) {
+    if (Object.hasOwn(obj, key)) {
       if (key.startsWith("_")) continue;
 
       const newKey = parentKey ? `${parentKey}.${key}` : key;
@@ -31,9 +31,9 @@ function flatten(obj, parentKey = "") {
 }
 
 const flattened = flatten(database);
-const existingEntries = Object.values(flattened)
+const existingEntries = new Set(Object.values(flattened)
   .map((x) => x.replace("modules/ggg/", ""))
-  .map((x) => core.toPosixPath(x));
+  .map((x) => core.toPosixPath(x)));
 
 const errors = [];
 
@@ -53,7 +53,7 @@ function checkOggFiles(directory) {
       // If it's a file, check if it has a .ogg extension
       if (extension === ".md" || extension === ".txt") continue;
       if (extension === ".ogg") {
-        if (!existingEntries.includes(core.toPosixPath(fullPath)))
+        if (!existingEntries.has(core.toPosixPath(fullPath)))
           errors.push(core.toPosixPath(fullPath));
       } else {
         core.warning(

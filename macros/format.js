@@ -9,10 +9,7 @@ function check(object, lastKey) {
 
     const keys = Object.keys(entry).filter((key) => !key?.startsWith("_"));
 
-    if (
-      keys.filter(Number).length !== keys.length &&
-      keys.filter(Number).length !== 0
-    ) {
+    if (keys.filter(Number).length !== keys.length && keys.some(Number)) {
       errors.push(
         keys.map((x) => `${lastKey}.\x1B[31m${x}\x1B[0m`).join("\n\t"),
       );

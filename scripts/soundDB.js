@@ -2114,6 +2114,11 @@ export const database = {
             "01": `${p}/Soniss/GDC2026/InMotionAudio/Evil Ring.ogg`,
             "02": `${p}/Soniss/GDC2026/InMotionAudio/Evil Bong.ogg`,
           },
+          "06": {
+            "01": `${p}/KhronStudio/Elemental Spell Vol 1/Dark_Spell 1.ogg`,
+            "02": `${p}/KhronStudio/Elemental Spell Vol 1/Dark_Spell 2.ogg`,
+            "03": `${p}/KhronStudio/Elemental Spell Vol 1/Dark_Spell 3.ogg`,
+          },
         },
         beam: {
           "01": {
@@ -2128,6 +2133,11 @@ export const database = {
           },
           "03": {
             "01": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Dark Magic/Shadow Wail 006.ogg`,
+          },
+          "04": {
+            "01": `${p}/KhronStudio/Elemental Spell Vol 1/Dark_Hit 1.ogg`,
+            "02": `${p}/KhronStudio/Elemental Spell Vol 1/Dark_Hit 2.ogg`,
+            "03": `${p}/KhronStudio/Elemental Spell Vol 1/Dark_Hit 3.ogg`,
           },
         },
         blast: {
@@ -2164,6 +2174,12 @@ export const database = {
             "03": `${p}/ovani-sounds/Air/Ghostly/Ghost Breath C.ogg`,
             "04": `${p}/ovani-sounds/Air/Ghostly/Ghost Breath D.ogg`,
             "05": `${p}/ovani-sounds/Air/Ghostly/Ghost Breath E.ogg`,
+          },
+          "03": {
+            "01": `${p}/KhronStudio/Elemental Spell Vol 1/Dark_Spell 3.ogg`,
+          },
+          "04": {
+            "01": `${p}/KhronStudio/Elemental Spell Vol 1/Dark_Spell 4.ogg`,
           },
         },
         wind: {
@@ -2253,6 +2269,14 @@ export const database = {
           },
         },
         whoosh: {
+          general: {
+            "01": {
+              "01": `${p}/KhronStudio/Elemental Spell Vol 1/Dark_Magic_Whoosh 1.ogg`,
+            },
+            "02": {
+              "01": `${p}/KhronStudio/Elemental Spell Vol 1/Dark_Magic_Whoosh 2.ogg`,
+            },
+          },
           gravity: {
             "01": {
               "01": `${p}/ovani-sounds/Motion and Impacts Sound FX Pack Vol. 2/Whoosh/Whoosh Gravity Anchor 001.ogg`,
@@ -2324,7 +2348,21 @@ export const database = {
           "01": `${p}/ovani-sounds/Magic/Dark/Soul Siphon.ogg`,
         },
       },
+      healing: {
+        general: {
+          "01": {
+            "01": `${p}/KhronStudio/Elemental Spell Vol 1/Dark_Resurrection 1.ogg`,
+          },
+        },
+      },
       buff: {
+        general: {
+          "01": {
+            "01": `${p}/KhronStudio/Elemental Spell Vol 1/Dark_Magic_Buff 1.ogg`,
+            "02": `${p}/KhronStudio/Elemental Spell Vol 1/Dark_Magic_Buff 2.ogg`,
+            "03": `${p}/KhronStudio/Elemental Spell Vol 1/Dark_Magic_Buff 3.ogg`,
+          },
+        },
         ghostly: {
           "01": {
             "01": `${p}/ovani-sounds/Motion and Impacts Sound FX Pack Vol. 2/Riser/Riser Cold Charm 001.ogg`,
@@ -2395,7 +2433,38 @@ export const database = {
         },
       },
     },
-    acid: {},
+    acid: {
+      cast: {
+        general: {
+          "01": {
+            "01": `${p}/KhronStudio/Elemental Spell Vol 1/Poison_Spell 2.ogg`,
+            "02": `${p}/KhronStudio/Elemental Spell Vol 1/Poison_Spell 3.ogg`,
+          },
+          "02": {
+            "01": `${p}/KhronStudio/Elemental Spell Vol 1/Poison_Spell 1.ogg`,
+          },
+          "03": {
+            "01": `${p}/KhronStudio/Elemental Spell Vol 1/Poison_Magic_Whoosh 1.ogg`,
+            "02": `${p}/KhronStudio/Elemental Spell Vol 1/Poison_Magic_Whoosh 2.ogg`,
+          },
+        },
+      },
+      impact: {
+        "01": {
+          "01": `${p}/KhronStudio/Elemental Spell Vol 1/Poison_Hit 1.ogg`,
+          "02": `${p}/KhronStudio/Elemental Spell Vol 1/Poison_Hit 2.ogg`,
+          "03": `${p}/KhronStudio/Elemental Spell Vol 1/Poison_Hit 3.ogg`,
+          "04": `${p}/KhronStudio/Elemental Spell Vol 1/Poison_Hit 4.ogg`,
+        },
+      },
+      buff: {
+        "01": {
+          "01": `${p}/KhronStudio/Elemental Spell Vol 1/Poison_Magic_Buff 1.ogg`,
+          "02": `${p}/KhronStudio/Elemental Spell Vol 1/Poison_Magic_Buff 2.ogg`,
+          "03": `${p}/KhronStudio/Elemental Spell Vol 1/Poison_Magic_Buff 3.ogg`,
+        },
+      },
+    },
     air: {
       cast: {
         general: {
@@ -2430,6 +2499,11 @@ export const database = {
             "05": `${p}/ovani-sounds/Air/Digital/Retro Game Wind E.ogg`,
             "06": `${p}/ovani-sounds/Air/Digital/Retro Game Wind F.ogg`,
           },
+          "05": {
+            "01": `${p}/KhronStudio/Elemental Spell Vol 1/Wind_Spell 1.ogg`,
+            "02": `${p}/KhronStudio/Elemental Spell Vol 1/Wind_Spell 2.ogg`,
+            "03": `${p}/KhronStudio/Elemental Spell Vol 1/Wind_Spell 3.ogg`,
+          },
         },
         gust: {
           "01": {
@@ -2444,6 +2518,10 @@ export const database = {
             "03": `${p}/ovani-sounds/Air/Whooshes/Air Whoosh Medium C.ogg`,
             "04": `${p}/ovani-sounds/Air/Whooshes/Air Whoosh Medium D.ogg`,
             "05": `${p}/ovani-sounds/Air/Whooshes/Air Whoosh Medium E.ogg`,
+          },
+          "03": {
+            "01": `${p}/KhronStudio/Elemental Spell Vol 1/Wind_Whoosh 1.ogg`,
+            "02": `${p}/KhronStudio/Elemental Spell Vol 1/Wind_Whoosh 2.ogg`,
           },
         },
         fast: {
@@ -2532,6 +2610,13 @@ export const database = {
         },
       },
       impact: {
+        general: {
+          "01": {
+            "01": `${p}/KhronStudio/Elemental Spell Vol 1/Wind_Hit 1.ogg`,
+            "02": `${p}/KhronStudio/Elemental Spell Vol 1/Wind_Hit 2.ogg`,
+            "03": `${p}/KhronStudio/Elemental Spell Vol 1/Wind_Hit 3.ogg`,
+          },
+        },
         turbine: {
           "01": {
             "01": `${p}/ovani-sounds/Motion and Impacts Sound FX Pack Vol. 2/Impacts/Impact Turbine 001.ogg`,
@@ -2716,6 +2801,15 @@ export const database = {
           "01": `${p}/ovani-sounds/Magic/Air/Mistform.ogg`,
         },
       },
+      buff: {
+        general: {
+          "01": {
+            "01": `${p}/KhronStudio/Elemental Spell Vol 1/Wind_Magic_Buff 1.ogg`,
+            "02": `${p}/KhronStudio/Elemental Spell Vol 1/Wind_Magic_Buff 2.ogg`,
+            "03": `${p}/KhronStudio/Elemental Spell Vol 1/Wind_Magic_Buff 3.ogg`,
+          },
+        },
+      },
       misc: {
         echo: {
           "01": {
@@ -2727,6 +2821,17 @@ export const database = {
     },
     earth: {
       cast: {
+        general: {
+          "01": {
+            "01": `${p}/KhronStudio/Elemental Spell Vol 1/Rocks_Spell 1.ogg`,
+            "02": `${p}/KhronStudio/Elemental Spell Vol 1/Rocks_Spell 2.ogg`,
+            "03": `${p}/KhronStudio/Elemental Spell Vol 1/Rocks_Spell 3.ogg`,
+          },
+          "02": {
+            "01": `${p}/KhronStudio/Elemental Spell Vol 1/Rocks_Magic_Whoosh 1.ogg`,
+            "02": `${p}/KhronStudio/Elemental Spell Vol 1/Rocks_Magic_Whoosh 2.ogg`,
+          },
+        },
         magnetic: {
           "01": {
             "01": `${p}/ovani-sounds/Magic/Earth/Magnetic Burst.ogg`,
@@ -2832,6 +2937,11 @@ export const database = {
               "02": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Earth/Earth Impact Muffled B.ogg`,
               "03": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Earth/Earth Impact Muffled C.ogg`,
             },
+          },
+          "02": {
+            "01": `${p}/KhronStudio/Elemental Spell Vol 1/Rocks_Hit 1.ogg`,
+            "02": `${p}/KhronStudio/Elemental Spell Vol 1/Rocks_Hit 2.ogg`,
+            "03": `${p}/KhronStudio/Elemental Spell Vol 1/Rocks_Hit 3.ogg`,
           },
         },
         stone: {
@@ -3022,6 +3132,13 @@ export const database = {
         },
       },
       buff: {
+        general: {
+          "01": {
+            "01": `${p}/KhronStudio/Elemental Spell Vol 1/Rocks _Magic_Buff 1.ogg`,
+            "02": `${p}/KhronStudio/Elemental Spell Vol 1/Rocks _Magic_Buff 2.ogg`,
+            "03": `${p}/KhronStudio/Elemental Spell Vol 1/Rocks _Magic_Buff 3.ogg`,
+          },
+        },
         armor: {
           "01": {
             "01": `${p}/ovani-sounds/Magic/Earth/Stone Armor.ogg`,
@@ -3188,6 +3305,17 @@ export const database = {
     },
     electricity: {
       cast: {
+        general: {
+          "01": {
+            "01": `${p}/KhronStudio/Elemental Spell Vol 1/Lighting_Spell 1.ogg`,
+            "02": `${p}/KhronStudio/Elemental Spell Vol 1/Lighting_Spell 2.ogg`,
+            "03": `${p}/KhronStudio/Elemental Spell Vol 1/Lighting_Spell 3.ogg`,
+          },
+          "02": {
+            "01": `${p}/KhronStudio/Elemental Spell Vol 1/Lighting_Magic_Whoosh 1.ogg`,
+            "02": `${p}/KhronStudio/Elemental Spell Vol 1/Lighting_Magic_Whoosh 2.ogg`,
+          },
+        },
         charge: {
           "01": {
             "01": `${p}/ovani-sounds/Magic/Shock/Thunderbolt Strike Cast A.ogg`,
@@ -3206,6 +3334,13 @@ export const database = {
         },
       },
       impact: {
+        general: {
+          "01": {
+            "01": `${p}/KhronStudio/Elemental Spell Vol 1/Lighting_Hits 1.ogg`,
+            "02": `${p}/KhronStudio/Elemental Spell Vol 1/Lighting_Hits 2.ogg`,
+            "03": `${p}/KhronStudio/Elemental Spell Vol 1/Lighting_Hits 3.ogg`,
+          },
+        },
         charge: {
           "01": {
             "01": `${p}/ovani-sounds/Magic/Shock/Thunderbolt Impact A.ogg`,
@@ -3253,6 +3388,15 @@ export const database = {
           },
         },
       },
+      buff: {
+        general: {
+          "01": {
+            "01": `${p}/KhronStudio/Elemental Spell Vol 1/Lighting_Buff 1.ogg`,
+            "02": `${p}/KhronStudio/Elemental Spell Vol 1/Lighting_Buff 2.ogg`,
+            "03": `${p}/KhronStudio/Elemental Spell Vol 1/Lighting_Buff 3.ogg`,
+          },
+        },
+      },
     },
     fire: {
       cast: {
@@ -3272,6 +3416,11 @@ export const database = {
           },
           "04": {
             "01": `${p}/Soniss/GDC2026/Epic Stock Media/Fire Whoosh.ogg`,
+          },
+          "05": {
+            "01": `${p}/KhronStudio/Elemental Spell Vol 1/Fire_Spell 1.ogg`,
+            "02": `${p}/KhronStudio/Elemental Spell Vol 1/Fire_Spell 2.ogg`,
+            "03": `${p}/KhronStudio/Elemental Spell Vol 1/Fire_Spell 3.ogg`,
           },
         },
         throw: {
@@ -3368,6 +3517,11 @@ export const database = {
             "03": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Fire/Fire Impact Short C.ogg`,
             "04": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Fire/Fire Impact Short D.ogg`,
             "05": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Fire/Fire Impact Short E.ogg`,
+          },
+          "03": {
+            "01": `${p}/KhronStudio/Elemental Spell Vol 1/Fire_Hit 1.ogg`,
+            "02": `${p}/KhronStudio/Elemental Spell Vol 1/Fire_Hit 2.ogg`,
+            "03": `${p}/KhronStudio/Elemental Spell Vol 1/Fire_Hit 3.ogg`,
           },
         },
         flame: {
@@ -3473,6 +3627,11 @@ export const database = {
           "01": {
             "01": `${p}/ovani-sounds/Magic/Fire/Lava Burst.ogg`,
           },
+          "02": {
+            "01": `${p}/KhronStudio/Elemental Spell Vol 1/Fire_Earthquake_With_Lava.ogg`,
+            "02": `${p}/KhronStudio/Elemental Spell Vol 1/Magic_Fire_Earthquake 2.ogg`,
+            "03": `${p}/KhronStudio/Elemental Spell Vol 1/Magic_Fire_Earthquake_with_Lava 1.ogg`,
+          },
         },
         nuke: {
           "01": {
@@ -3494,6 +3653,11 @@ export const database = {
           },
         },
       },
+      firebreath: {
+        "01": {
+          "01": `${p}/KhronStudio/Elemental Spell Vol 1/Dragon_Fireball 1.ogg`,
+        },
+      },
       burn: {
         "03": {
           "01": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Fire/Fire Rise Long A.ogg`,
@@ -3505,6 +3669,11 @@ export const database = {
           "01": {
             "01": `${p}/TomMusic/FreeFantasySFX/Spells/Firebuff 1.ogg`,
             "02": `${p}/TomMusic/FreeFantasySFX/Spells/Firebuff 2.ogg`,
+          },
+          "02": {
+            "01": `${p}/KhronStudio/Elemental Spell Vol 1/Fire_magic_buff 1.ogg`,
+            "02": `${p}/KhronStudio/Elemental Spell Vol 1/Fire_magic_buff 2.ogg`,
+            "03": `${p}/KhronStudio/Elemental Spell Vol 1/Fire_magic_buff 3.ogg`,
           },
           "03": {
             "01": `${p}/ovani-sounds/Fire SFX/Misc/Flame Short Low End A.ogg`,
@@ -3653,7 +3822,24 @@ export const database = {
       },
     },
     ice: {
-      cast: {},
+      cast: {
+        general: {
+          "01": {
+            "01": `${p}/KhronStudio/Elemental Spell Vol 1/Ice_spell 1.ogg`,
+            "02": `${p}/KhronStudio/Elemental Spell Vol 1/Ice_spell 2.ogg`,
+            "03": `${p}/KhronStudio/Elemental Spell Vol 1/Ice_spell 3.ogg`,
+          },
+          "02": {
+            "01": `${p}/KhronStudio/Elemental Spell Vol 1/Ice_ Magic_whoosh 1.ogg`,
+            "02": `${p}/KhronStudio/Elemental Spell Vol 1/Ice_ Magic_whoosh 2.ogg`,
+          },
+        },
+        conjure: {
+          "01": {
+            "01": `${p}/KhronStudio/Elemental Spell Vol 1/Ice_conjure 1.ogg`,
+          },
+        },
+      },
       strike: {
         icycle: {
           single: {
@@ -3738,6 +3924,15 @@ export const database = {
           "01": `${p}/ovani-sounds/Magic/Ice/Frost Nova.ogg`,
         },
       },
+      impact: {
+        general: {
+          "01": {
+            "01": `${p}/KhronStudio/Elemental Spell Vol 1/Ice_hits 1.ogg`,
+            "02": `${p}/KhronStudio/Elemental Spell Vol 1/Ice_hits 2.ogg`,
+            "03": `${p}/KhronStudio/Elemental Spell Vol 1/Ice_hits 3.ogg`,
+          },
+        },
+      },
       movement: {
         dash: {
           "01": {
@@ -3747,6 +3942,13 @@ export const database = {
         },
       },
       buff: {
+        general: {
+          "01": {
+            "01": `${p}/KhronStudio/Elemental Spell Vol 1/Ice_Magic_Buff 1.ogg`,
+            "02": `${p}/KhronStudio/Elemental Spell Vol 1/Ice_Magic_Buff 2.ogg`,
+            "03": `${p}/KhronStudio/Elemental Spell Vol 1/Ice_Magic_Buff 3.ogg`,
+          },
+        },
         shield: {
           "01": {
             "01": `${p}/ovani-sounds/Magic/Ice/Glacial Shield.ogg`,
@@ -3828,6 +4030,15 @@ export const database = {
     water: {
       cast: {
         general: {
+          "01": {
+            "01": `${p}/KhronStudio/Elemental Spell Vol 1/Water_Spell 1.ogg`,
+            "02": `${p}/KhronStudio/Elemental Spell Vol 1/Water_Spell 2.ogg`,
+            "03": `${p}/KhronStudio/Elemental Spell Vol 1/Water_Spell 3.ogg`,
+          },
+          "02": {
+            "01": `${p}/KhronStudio/Elemental Spell Vol 1/Water_Magic_Whoosh 1.ogg`,
+            "02": `${p}/KhronStudio/Elemental Spell Vol 1/Water_Magic_Whoosh 2.ogg`,
+          },
           "06": {
             "01": `${p}/Soniss/GDC2024/BluezoneCorp/Water Swoosh.ogg`,
           },
@@ -3936,6 +4147,11 @@ export const database = {
             "05": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Water/Water Impact H.ogg`,
             "06": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Water/Water Impact I.ogg`,
             "07": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Water/Water Impact J.ogg`,
+          },
+          "02": {
+            "01": `${p}/KhronStudio/Elemental Spell Vol 1/Water_Hit 1.ogg`,
+            "02": `${p}/KhronStudio/Elemental Spell Vol 1/Water_Hit 2.ogg`,
+            "03": `${p}/KhronStudio/Elemental Spell Vol 1/Water_Hit 3.ogg`,
           },
         },
         bubble: {
@@ -4083,6 +4299,18 @@ export const database = {
         },
       },
       buff: {
+        general: {
+          "01": {
+            "01": `${p}/KhronStudio/Elemental Spell Vol 1/Water_Magic_Buff 1.ogg`,
+            "02": `${p}/KhronStudio/Elemental Spell Vol 1/Water_Magic_Buff 2.ogg`,
+            "03": `${p}/KhronStudio/Elemental Spell Vol 1/Water_Magic_Buff 3.ogg`,
+          },
+        },
+        shield: {
+          "01": {
+            "01": `${p}/KhronStudio/Elemental Spell Vol 1/Water_Shield 1.ogg`,
+          },
+        },
         wave: {
           "01": {
             "01": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Water Magic/Wavecrash Echo 001.ogg`,
