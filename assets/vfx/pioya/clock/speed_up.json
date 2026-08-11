@@ -321,8 +321,8 @@
     ]
   },
   "meta": {
-    "image": "speed_up.webp",
-    "format": "RGBA8888",
+    "image": "speed_up.basis",
+    "format": "BASISU_ETC1S",
     "size": {
       "w": 2400,
       "h": 1440

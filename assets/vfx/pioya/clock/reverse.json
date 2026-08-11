@@ -426,8 +426,8 @@
     ]
   },
   "meta": {
-    "image": "reverse.webp",
-    "format": "RGBA8888",
+    "image": "reverse.basis",
+    "format": "BASISU_ETC1S",
     "size": {
       "w": 2400,
       "h": 1920

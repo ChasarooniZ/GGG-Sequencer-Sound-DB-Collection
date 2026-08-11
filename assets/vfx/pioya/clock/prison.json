@@ -321,8 +321,8 @@
     ]
   },
   "meta": {
-    "image": "prison.webp",
-    "format": "RGBA8888",
+    "image": "prison.basis",
+    "format": "BASISU_ETC1S",
     "size": {
       "w": 2400,
       "h": 1440
