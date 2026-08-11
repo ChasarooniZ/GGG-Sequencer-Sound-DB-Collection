@@ -2,6 +2,12 @@
 
 - TODO - update the checkign scripts to also include the video assets
 
+## 0.1.3
+
+- **New**
+  - `Khron Studio`
+    - `Elemental Spell Vol 1`
+
 ## 0.1.2
 
 - **New**
@@ -9,7 +15,6 @@
     - `Crafting Sound FX`
 
 ## 0.1.1
-
 - **New**
   - **Pioya**
     - **Clock Animations**
