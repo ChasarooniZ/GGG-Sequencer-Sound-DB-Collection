@@ -329,8 +329,8 @@
     ]
   },
   "meta": {
-    "image": "freeze.webp",
-    "format": "RGBA8888",
+    "image": "freeze.basis",
+    "format": "BASISU_ETC1S",
     "size": {
       "w": 2400,
       "h": 1440

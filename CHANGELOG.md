@@ -1,6 +1,21 @@
 ## Unreleased
 
 - TODO - update the checkign scripts to also include the video assets
+- **New**
+  - **VFX**
+    - `Dream Circle - Healing`
+    - `Effekseeker`
+      - `AndrewFM01`
+      - `Effekseeker01`
+    - `Atlas Textures`
+- **Updated**
+  - All Animations converted to `basisu` for better file size
+
+## 0.1.3
+
+- **New**
+  - `Khron Studio`
+    - `Elemental Spell Vol 1`
 
 ## 0.1.3
 
