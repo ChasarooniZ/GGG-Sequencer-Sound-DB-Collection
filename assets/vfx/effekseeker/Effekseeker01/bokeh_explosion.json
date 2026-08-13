@@ -510,8 +510,8 @@
     ]
   },
   "meta": {
-    "image": "Bokeh_Explosion.webp",
-    "format": "RGBA8888",
+    "image": "Bokeh_Explosion.basis",
+    "format": "BASISU_ETC1S",
     "size": {
       "w": 1600,
       "h": 2400
