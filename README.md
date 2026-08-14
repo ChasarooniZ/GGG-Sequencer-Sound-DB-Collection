@@ -11,7 +11,7 @@
 
 # GGG: Sequencer Sound DB Collection
 
-A collection of sounds mapped to the sequencer DB the name comes from Giseigo, Giongo, Gitaigo aka the types of sound effects in manga
+A collection of sounds mapped to the sequencer DB the name comes from Giseigo, Giongo, Gitaigo aka the types of sound effects in manga intende for use with [Trigger Animation Trove](https://github.com/ChasarooniZ/pf2e-trigger-animations-collection)
 
 ## Table of Contents
 - [Changelog](#changelog)
