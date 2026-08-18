@@ -2,6 +2,13 @@
 
 - TODO - update the checkign scripts to also include the video assets
 
+## 0.1.5
+
+- **New**
+  - `Khron Studio`
+    - `Forged in Fury Vol 1`
+    - `Forged in Fury Vol 2`
+
 ## 0.1.4
 
 - **New**

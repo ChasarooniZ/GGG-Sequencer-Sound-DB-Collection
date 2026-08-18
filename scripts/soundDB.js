@@ -11,6 +11,63 @@ export const database = {
           "spin-hit": `${p}/SoundFlakes/diablo-wrath/weapon/axe-throwing-hitting-flesh.ogg`,
         },
       },
+      strike: {
+        heavy: {
+          general: {
+            "01": {
+              "01": `${p}/KhronStudio/Forged In Fury Vol 1/Heavy Axe/Heave Axe Normal Whoosh 01.ogg`,
+              "02": `${p}/KhronStudio/Forged In Fury Vol 1/Heavy Axe/Heave Axe Normal Whoosh 02.ogg`,
+              "03": `${p}/KhronStudio/Forged In Fury Vol 1/Heavy Axe/Heave Axe Normal Whoosh 03.ogg`,
+            },
+            "02": {
+              "01": `${p}/KhronStudio/Forged In Fury Vol 1/Heavy Axe/Heavy Axe Hard Whoosh 01.ogg`,
+              "02": `${p}/KhronStudio/Forged In Fury Vol 1/Heavy Axe/Heavy Axe Hard Whoosh 02.ogg`,
+              "03": `${p}/KhronStudio/Forged In Fury Vol 1/Heavy Axe/Heavy Axe Hard Whoosh 03.ogg`,
+              "04": `${p}/KhronStudio/Forged In Fury Vol 1/Heavy Axe/Heavy Axe Hard Whoosh 04.ogg`,
+            },
+          },
+          blood: {
+            "01": {
+              "01": `${p}/KhronStudio/Forged In Fury Vol 1/Heavy Axe/Heavy Axe Strike 01.ogg`,
+              "02": `${p}/KhronStudio/Forged In Fury Vol 1/Heavy Axe/Heavy Axe Strike 02.ogg`,
+              "03": `${p}/KhronStudio/Forged In Fury Vol 1/Heavy Axe/Heavy Axe Strike 03.ogg`,
+              "04": `${p}/KhronStudio/Forged In Fury Vol 1/Heavy Axe/Heavy Axe Strike 04.ogg`,
+            },
+            "02": {
+              "01": `${p}/KhronStudio/Forged In Fury Vol 1/Heavy Axe/Heavy Axe Hard Strike 01.ogg`,
+              "02": `${p}/KhronStudio/Forged In Fury Vol 1/Heavy Axe/Heavy Axe Hard Strike 02.ogg`,
+              "03": `${p}/KhronStudio/Forged In Fury Vol 1/Heavy Axe/Heavy Axe Hard Strike 03.ogg`,
+              "04": `${p}/KhronStudio/Forged In Fury Vol 1/Heavy Axe/Heavy Axe Hard Strike 04.ogg`,
+            },
+          },
+          lethal: {
+            "01": {
+              "01": `${p}/KhronStudio/Forged In Fury Vol 1/Heavy Axe/Heavy Axe Lethal Attack 01.ogg`,
+              "02": `${p}/KhronStudio/Forged In Fury Vol 1/Heavy Axe/Heavy Axe Lethal Attack 02.ogg`,
+              "03": `${p}/KhronStudio/Forged In Fury Vol 1/Heavy Axe/Heavy Axe Lethal Attack 03.ogg`,
+              "04": `${p}/KhronStudio/Forged In Fury Vol 1/Heavy Axe/Heavy Axe Lethal Attack 04.ogg`,
+              "05": `${p}/KhronStudio/Forged In Fury Vol 1/Heavy Axe/Heavy Axe Lethal Attack 05.ogg`,
+              "06": `${p}/KhronStudio/Forged In Fury Vol 1/Heavy Axe/Heavy Axe Lethal Attack 06.ogg`,
+              "07": `${p}/KhronStudio/Forged In Fury Vol 1/Heavy Axe/Heavy Axe Lethal Attack 07.ogg`,
+              "08": `${p}/KhronStudio/Forged In Fury Vol 1/Heavy Axe/Heavy Axe Lethal Attack 08.ogg`,
+            },
+            "02": {
+              "01": `${p}/KhronStudio/Forged In Fury Vol 1/Heavy Axe/Heavy Axe Lethal Attack Only 01.ogg`,
+              "02": `${p}/KhronStudio/Forged In Fury Vol 1/Heavy Axe/Heavy Axe Lethal Attack Only 02.ogg`,
+              "03": `${p}/KhronStudio/Forged In Fury Vol 1/Heavy Axe/Heavy Axe Lethal Attack Only 03.ogg`,
+              "04": `${p}/KhronStudio/Forged In Fury Vol 1/Heavy Axe/Heavy Axe Lethal Attack Only 04.ogg`,
+              "05": `${p}/KhronStudio/Forged In Fury Vol 1/Heavy Axe/Heavy Axe Lethal Attack Only 05.ogg`,
+            },
+            "03": {
+              metal: {
+                "01": `${p}/KhronStudio/Forged In Fury Vol 1/Heavy Axe/Heavy Axe Lethal Attack Only Metal 01.ogg`,
+                "02": `${p}/KhronStudio/Forged In Fury Vol 1/Heavy Axe/Heavy Axe Lethal Attack Only Metal 02.ogg`,
+                "03": `${p}/KhronStudio/Forged In Fury Vol 1/Heavy Axe/Heavy Axe Lethal Attack Only Metal 03.ogg`,
+              },
+            },
+          },
+        },
+      },
       slash: {
         flesh: {
           "01": {
@@ -34,23 +91,42 @@ export const database = {
             "02": `${p}/TomMusic/FreeFantasySFX/Attacks/Sword Attacks Hits and Blocks/Sword Attack 2.ogg`,
             "03": `${p}/TomMusic/FreeFantasySFX/Attacks/Sword Attacks Hits and Blocks/Sword Attack 3.ogg`,
           },
-        },
-        greatsword: {
-          "01": {
-            "01": `${p}/ovani-sounds/Weaponry Melee Sound FX Pack Vol. 1/Blade/Strike Blade Large 001.ogg`,
-            "02": `${p}/ovani-sounds/Weaponry Melee Sound FX Pack Vol. 1/Blade/Strike Blade Large 002.ogg`,
-            "03": `${p}/ovani-sounds/Weaponry Melee Sound FX Pack Vol. 1/Blade/Strike Blade Large 003.ogg`,
-            "04": `${p}/ovani-sounds/Weaponry Melee Sound FX Pack Vol. 1/Blade/Strike Blade Large 004.ogg`,
-            "05": `${p}/ovani-sounds/Weaponry Melee Sound FX Pack Vol. 1/Blade/Strike Blade Large 005.ogg`,
+          "03": {
+            "01": `${p}/KhronStudio/Forged In Fury Vol 1/Katana/Whoosh Type A Katana 01.ogg`,
+            "02": `${p}/KhronStudio/Forged In Fury Vol 1/Katana/Whoosh Type A Katana 02.ogg`,
+            "03": `${p}/KhronStudio/Forged In Fury Vol 1/Katana/Whoosh Type A Katana 03.ogg`,
+            "04": `${p}/KhronStudio/Forged In Fury Vol 1/Katana/Whoosh Type A Katana 04.ogg`,
+            "05": `${p}/KhronStudio/Forged In Fury Vol 1/Katana/Whoosh Type A Katana 05.ogg`,
+            "06": `${p}/KhronStudio/Forged In Fury Vol 1/Katana/Whoosh Type A Katana 06.ogg`,
+            "07": `${p}/KhronStudio/Forged In Fury Vol 1/Katana/Whoosh Type A Katana 07.ogg`,
+            "08": `${p}/KhronStudio/Forged In Fury Vol 1/Katana/Whoosh Type A Katana 08.ogg`,
+            "09": `${p}/KhronStudio/Forged In Fury Vol 1/Katana/Whoosh Type A Katana 09.ogg`,
+            10: `${p}/KhronStudio/Forged In Fury Vol 1/Katana/Whoosh Type A Katana 10.ogg`,
+            11: `${p}/KhronStudio/Forged In Fury Vol 1/Katana/Whoosh Type A Katana 11.ogg`,
+          },
+          "04": {
+            "01": `${p}/KhronStudio/Forged In Fury Vol 1/Katana/Whoosh Type B Katana 01.ogg`,
+            "02": `${p}/KhronStudio/Forged In Fury Vol 1/Katana/Whoosh Type B Katana 02.ogg`,
+            "03": `${p}/KhronStudio/Forged In Fury Vol 1/Katana/Whoosh Type B Katana 03.ogg`,
+            "04": `${p}/KhronStudio/Forged In Fury Vol 1/Katana/Whoosh Type B Katana 04.ogg`,
+            "05": `${p}/KhronStudio/Forged In Fury Vol 1/Katana/Whoosh Type B Katana 05.ogg`,
+            "06": `${p}/KhronStudio/Forged In Fury Vol 1/Katana/Whoosh Type B Katana 06.ogg`,
+            "07": `${p}/KhronStudio/Forged In Fury Vol 1/Katana/Whoosh Type B Katana 07.ogg`,
+            "08": `${p}/KhronStudio/Forged In Fury Vol 1/Katana/Whoosh Type B Katana 08.ogg`,
+            "09": `${p}/KhronStudio/Forged In Fury Vol 1/Katana/Whoosh Type B Katana 09.ogg`,
+            10: `${p}/KhronStudio/Forged In Fury Vol 1/Katana/Whoosh Type B Katana 10.ogg`,
+            11: `${p}/KhronStudio/Forged In Fury Vol 1/Katana/Whoosh Type B Katana 11.ogg`,
+            12: `${p}/KhronStudio/Forged In Fury Vol 1/Katana/Whoosh Type B Katana 12.ogg`,
+            13: `${p}/KhronStudio/Forged In Fury Vol 1/Katana/Whoosh Type B Katana 13.ogg`,
           },
         },
-        shortsword: {
+        bamboo: {
           "01": {
-            "01": `${p}/ovani-sounds/Weaponry Melee Sound FX Pack Vol. 1/Blade/Strike Blade Medium 001.ogg`,
-            "02": `${p}/ovani-sounds/Weaponry Melee Sound FX Pack Vol. 1/Blade/Strike Blade Medium 002.ogg`,
-            "03": `${p}/ovani-sounds/Weaponry Melee Sound FX Pack Vol. 1/Blade/Strike Blade Medium 003.ogg`,
-            "04": `${p}/ovani-sounds/Weaponry Melee Sound FX Pack Vol. 1/Blade/Strike Blade Medium 004.ogg`,
-            "05": `${p}/ovani-sounds/Weaponry Melee Sound FX Pack Vol. 1/Blade/Strike Blade Medium 005.ogg`,
+            "01": `${p}/ovani-sounds/Motion and Impacts Sound FX Pack Vol. 2/Whoosh/Whoosh Bamboo 001.ogg`,
+            "02": `${p}/ovani-sounds/Motion and Impacts Sound FX Pack Vol. 2/Whoosh/Whoosh Bamboo 002.ogg`,
+            "03": `${p}/ovani-sounds/Motion and Impacts Sound FX Pack Vol. 2/Whoosh/Whoosh Bamboo 003.ogg`,
+            "04": `${p}/ovani-sounds/Motion and Impacts Sound FX Pack Vol. 2/Whoosh/Whoosh Bamboo 004.ogg`,
+            "05": `${p}/ovani-sounds/Motion and Impacts Sound FX Pack Vol. 2/Whoosh/Whoosh Bamboo 005.ogg`,
           },
         },
         dagger: {
@@ -62,6 +138,203 @@ export const database = {
             "05": `${p}/ovani-sounds/Weaponry Melee Sound FX Pack Vol. 1/Blade/Strike Blade Small 005.ogg`,
           },
         },
+        greatsword: {
+          "01": {
+            "01": `${p}/ovani-sounds/Weaponry Melee Sound FX Pack Vol. 1/Blade/Strike Blade Large 001.ogg`,
+            "02": `${p}/ovani-sounds/Weaponry Melee Sound FX Pack Vol. 1/Blade/Strike Blade Large 002.ogg`,
+            "03": `${p}/ovani-sounds/Weaponry Melee Sound FX Pack Vol. 1/Blade/Strike Blade Large 003.ogg`,
+            "04": `${p}/ovani-sounds/Weaponry Melee Sound FX Pack Vol. 1/Blade/Strike Blade Large 004.ogg`,
+            "05": `${p}/ovani-sounds/Weaponry Melee Sound FX Pack Vol. 1/Blade/Strike Blade Large 005.ogg`,
+          },
+          "02": {
+            blood: {
+              "01": `${p}/KhronStudio/Forged In Fury Vol 2/Greatsword/Greatsword Attack Full Type A 01.ogg`,
+              "02": `${p}/KhronStudio/Forged In Fury Vol 2/Greatsword/Greatsword Attack Full Type A 02.ogg`,
+              "03": `${p}/KhronStudio/Forged In Fury Vol 2/Greatsword/Greatsword Attack Full Type A 03.ogg`,
+              "04": `${p}/KhronStudio/Forged In Fury Vol 2/Greatsword/Greatsword Attack Full Type A 04.ogg`,
+              "05": `${p}/KhronStudio/Forged In Fury Vol 2/Greatsword/Greatsword Attack Full Type A 05.ogg`,
+              "06": `${p}/KhronStudio/Forged In Fury Vol 2/Greatsword/Greatsword Attack Full Type A 06.ogg`,
+              "07": `${p}/KhronStudio/Forged In Fury Vol 2/Greatsword/Greatsword Attack Full Type A 07.ogg`,
+              "08": `${p}/KhronStudio/Forged In Fury Vol 2/Greatsword/Greatsword Attack Full Type A 08.ogg`,
+              "09": `${p}/KhronStudio/Forged In Fury Vol 2/Greatsword/Greatsword Attack Full Type A 09.ogg`,
+            },
+            whoosh: {
+              "01": `${p}/KhronStudio/Forged In Fury Vol 2/Greatsword/Greatsword Whoosh Type A 01.ogg`,
+              "02": `${p}/KhronStudio/Forged In Fury Vol 2/Greatsword/Greatsword Whoosh Type A 02.ogg`,
+              "03": `${p}/KhronStudio/Forged In Fury Vol 2/Greatsword/Greatsword Whoosh Type A 03.ogg`,
+              "04": `${p}/KhronStudio/Forged In Fury Vol 2/Greatsword/Greatsword Whoosh Type A 04.ogg`,
+              "05": `${p}/KhronStudio/Forged In Fury Vol 2/Greatsword/Greatsword Whoosh Type A 05.ogg`,
+              "06": `${p}/KhronStudio/Forged In Fury Vol 2/Greatsword/Greatsword Whoosh Type A 06.ogg`,
+              "07": `${p}/KhronStudio/Forged In Fury Vol 2/Greatsword/Greatsword Whoosh Type A 07.ogg`,
+              "08": `${p}/KhronStudio/Forged In Fury Vol 2/Greatsword/Greatsword Whoosh Type A 08.ogg`,
+              "09": `${p}/KhronStudio/Forged In Fury Vol 2/Greatsword/Greatsword Whoosh Type A 09.ogg`,
+            },
+          },
+          "03": {
+            blood: {
+              "01": `${p}/KhronStudio/Forged In Fury Vol 2/Greatsword/Greatsword Attack Full Type B 01.ogg`,
+              "02": `${p}/KhronStudio/Forged In Fury Vol 2/Greatsword/Greatsword Attack Full Type B 02.ogg`,
+              "03": `${p}/KhronStudio/Forged In Fury Vol 2/Greatsword/Greatsword Attack Full Type B 03.ogg`,
+              "04": `${p}/KhronStudio/Forged In Fury Vol 2/Greatsword/Greatsword Attack Full Type B 04.ogg`,
+              "05": `${p}/KhronStudio/Forged In Fury Vol 2/Greatsword/Greatsword Attack Full Type B 05.ogg`,
+              "06": `${p}/KhronStudio/Forged In Fury Vol 2/Greatsword/Greatsword Attack Full Type B 06.ogg`,
+              "07": `${p}/KhronStudio/Forged In Fury Vol 2/Greatsword/Greatsword Attack Full Type B 07.ogg`,
+              "08": `${p}/KhronStudio/Forged In Fury Vol 2/Greatsword/Greatsword Attack Full Type B 08.ogg`,
+              "09": `${p}/KhronStudio/Forged In Fury Vol 2/Greatsword/Greatsword Attack Full Type B 09.ogg`,
+              10: `${p}/KhronStudio/Forged In Fury Vol 2/Greatsword/Greatsword Attack Full Type B 10.ogg`,
+              11: `${p}/KhronStudio/Forged In Fury Vol 2/Greatsword/Greatsword Attack Full Type B 11.ogg`,
+            },
+            whoosh: {
+              "01": `${p}/KhronStudio/Forged In Fury Vol 2/Greatsword/Greatsword Whoosh Type B 01.ogg`,
+              "02": `${p}/KhronStudio/Forged In Fury Vol 2/Greatsword/Greatsword Whoosh Type B 02.ogg`,
+              "03": `${p}/KhronStudio/Forged In Fury Vol 2/Greatsword/Greatsword Whoosh Type B 03.ogg`,
+              "04": `${p}/KhronStudio/Forged In Fury Vol 2/Greatsword/Greatsword Whoosh Type B 04.ogg`,
+              "05": `${p}/KhronStudio/Forged In Fury Vol 2/Greatsword/Greatsword Whoosh Type B 05.ogg`,
+              "06": `${p}/KhronStudio/Forged In Fury Vol 2/Greatsword/Greatsword Whoosh Type B 06.ogg`,
+              "07": `${p}/KhronStudio/Forged In Fury Vol 2/Greatsword/Greatsword Whoosh Type B 07.ogg`,
+              "08": `${p}/KhronStudio/Forged In Fury Vol 2/Greatsword/Greatsword Whoosh Type B 08.ogg`,
+              "09": `${p}/KhronStudio/Forged In Fury Vol 2/Greatsword/Greatsword Whoosh Type B 09.ogg`,
+              10: `${p}/KhronStudio/Forged In Fury Vol 2/Greatsword/Greatsword Whoosh Type B 10.ogg`,
+              11: `${p}/KhronStudio/Forged In Fury Vol 2/Greatsword/Greatsword Whoosh Type B 11.ogg`,
+            },
+          },
+          "04": {
+            blood: {
+              "01": `${p}/KhronStudio/Forged In Fury Vol 2/Greatsword/Greatsword Attack Full Type C 01.ogg`,
+              "02": `${p}/KhronStudio/Forged In Fury Vol 2/Greatsword/Greatsword Attack Full Type C 02.ogg`,
+              "03": `${p}/KhronStudio/Forged In Fury Vol 2/Greatsword/Greatsword Attack Full Type C 03.ogg`,
+              "04": `${p}/KhronStudio/Forged In Fury Vol 2/Greatsword/Greatsword Attack Full Type C 04.ogg`,
+              "05": `${p}/KhronStudio/Forged In Fury Vol 2/Greatsword/Greatsword Attack Full Type C 05.ogg`,
+              "06": `${p}/KhronStudio/Forged In Fury Vol 2/Greatsword/Greatsword Attack Full Type C 06.ogg`,
+              "07": `${p}/KhronStudio/Forged In Fury Vol 2/Greatsword/Greatsword Attack Full Type C 07.ogg`,
+              "08": `${p}/KhronStudio/Forged In Fury Vol 2/Greatsword/Greatsword Attack Full Type C 08.ogg`,
+              "09": `${p}/KhronStudio/Forged In Fury Vol 2/Greatsword/Greatsword Attack Full Type C 09.ogg`,
+              10: `${p}/KhronStudio/Forged In Fury Vol 2/Greatsword/Greatsword Attack Full Type C 10.ogg`,
+              11: `${p}/KhronStudio/Forged In Fury Vol 2/Greatsword/Greatsword Attack Full Type C 11.ogg`,
+            },
+            whoosh: {
+              "01": `${p}/KhronStudio/Forged In Fury Vol 2/Greatsword/Greatsword Whoosh Type C 01.ogg`,
+              "02": `${p}/KhronStudio/Forged In Fury Vol 2/Greatsword/Greatsword Whoosh Type C 02.ogg`,
+              "03": `${p}/KhronStudio/Forged In Fury Vol 2/Greatsword/Greatsword Whoosh Type C 03.ogg`,
+              "04": `${p}/KhronStudio/Forged In Fury Vol 2/Greatsword/Greatsword Whoosh Type C 04.ogg`,
+              "05": `${p}/KhronStudio/Forged In Fury Vol 2/Greatsword/Greatsword Whoosh Type C 05.ogg`,
+              "06": `${p}/KhronStudio/Forged In Fury Vol 2/Greatsword/Greatsword Whoosh Type C 06.ogg`,
+              "07": `${p}/KhronStudio/Forged In Fury Vol 2/Greatsword/Greatsword Whoosh Type C 07.ogg`,
+              "08": `${p}/KhronStudio/Forged In Fury Vol 2/Greatsword/Greatsword Whoosh Type C 08.ogg`,
+              "09": `${p}/KhronStudio/Forged In Fury Vol 2/Greatsword/Greatsword Whoosh Type C 09.ogg`,
+              10: `${p}/KhronStudio/Forged In Fury Vol 2/Greatsword/Greatsword Whoosh Type C 10.ogg`,
+            },
+          },
+        },
+        karambit: {
+          "01": {
+            "01": `${p}/KhronStudio/Forged In Fury Vol 2/Karambit/Karambit Attack Full Type A 01.ogg`,
+            "02": `${p}/KhronStudio/Forged In Fury Vol 2/Karambit/Karambit Attack Full Type A 02.ogg`,
+            "03": `${p}/KhronStudio/Forged In Fury Vol 2/Karambit/Karambit Attack Full Type A 03.ogg`,
+            "04": `${p}/KhronStudio/Forged In Fury Vol 2/Karambit/Karambit Attack Full Type A 04.ogg`,
+            "05": `${p}/KhronStudio/Forged In Fury Vol 2/Karambit/Karambit Attack Full Type A 05.ogg`,
+            "06": `${p}/KhronStudio/Forged In Fury Vol 2/Karambit/Karambit Attack Full Type A 06.ogg`,
+            "07": `${p}/KhronStudio/Forged In Fury Vol 2/Karambit/Karambit Attack Full Type A 07.ogg`,
+            "08": `${p}/KhronStudio/Forged In Fury Vol 2/Karambit/Karambit Attack Full Type A 08.ogg`,
+            "09": `${p}/KhronStudio/Forged In Fury Vol 2/Karambit/Karambit Attack Full Type A 09.ogg`,
+          },
+          "02": {
+            "01": `${p}/KhronStudio/Forged In Fury Vol 2/Karambit/Karambit Attack Full Type B 01.ogg`,
+            "02": `${p}/KhronStudio/Forged In Fury Vol 2/Karambit/Karambit Attack Full Type B 02.ogg`,
+            "03": `${p}/KhronStudio/Forged In Fury Vol 2/Karambit/Karambit Attack Full Type B 03.ogg`,
+            "04": `${p}/KhronStudio/Forged In Fury Vol 2/Karambit/Karambit Attack Full Type B 04.ogg`,
+            "05": `${p}/KhronStudio/Forged In Fury Vol 2/Karambit/Karambit Attack Full Type B 05.ogg`,
+            "06": `${p}/KhronStudio/Forged In Fury Vol 2/Karambit/Karambit Attack Full Type B 06.ogg`,
+            "07": `${p}/KhronStudio/Forged In Fury Vol 2/Karambit/Karambit Attack Full Type B 07.ogg`,
+            "08": `${p}/KhronStudio/Forged In Fury Vol 2/Karambit/Karambit Attack Full Type B 08.ogg`,
+          },
+          "03": {
+            "01": `${p}/KhronStudio/Forged In Fury Vol 2/Karambit/Karambit Attack Full Type C 01.ogg`,
+            "02": `${p}/KhronStudio/Forged In Fury Vol 2/Karambit/Karambit Attack Full Type C 02.ogg`,
+            "03": `${p}/KhronStudio/Forged In Fury Vol 2/Karambit/Karambit Attack Full Type C 03.ogg`,
+            "04": `${p}/KhronStudio/Forged In Fury Vol 2/Karambit/Karambit Attack Full Type C 04.ogg`,
+            "05": `${p}/KhronStudio/Forged In Fury Vol 2/Karambit/Karambit Attack Full Type C 05.ogg`,
+            "06": `${p}/KhronStudio/Forged In Fury Vol 2/Karambit/Karambit Attack Full Type C 06.ogg`,
+            "07": `${p}/KhronStudio/Forged In Fury Vol 2/Karambit/Karambit Attack Full Type C 07.ogg`,
+          },
+        },
+        katana: {
+          general: {
+            "01": {
+              "01": `${p}/KhronStudio/Forged In Fury Vol 1/Katana/Katana Type A Cut Without Blood 01.ogg`,
+              "02": `${p}/KhronStudio/Forged In Fury Vol 1/Katana/Katana Type A Cut Without Blood 02.ogg`,
+              "03": `${p}/KhronStudio/Forged In Fury Vol 1/Katana/Katana Type A Cut Without Blood 03.ogg`,
+              "04": `${p}/KhronStudio/Forged In Fury Vol 1/Katana/Katana Type A Cut Without Blood 04.ogg`,
+              "05": `${p}/KhronStudio/Forged In Fury Vol 1/Katana/Katana Type A Cut Without Blood 05.ogg`,
+              "06": `${p}/KhronStudio/Forged In Fury Vol 1/Katana/Katana Type A Cut Without Blood 06.ogg`,
+              "07": `${p}/KhronStudio/Forged In Fury Vol 1/Katana/Katana Type A Cut Without Blood 07.ogg`,
+              "08": `${p}/KhronStudio/Forged In Fury Vol 1/Katana/Katana Type A Cut Without Blood 08.ogg`,
+              "09": `${p}/KhronStudio/Forged In Fury Vol 1/Katana/Katana Type A Cut Without Blood 09.ogg`,
+              10: `${p}/KhronStudio/Forged In Fury Vol 1/Katana/Katana Type A Cut Without Blood 10.ogg`,
+            },
+            "02": {
+              "01": `${p}/KhronStudio/Forged In Fury Vol 1/Katana/Katana Type B Cut Without Blood 01.ogg`,
+              "02": `${p}/KhronStudio/Forged In Fury Vol 1/Katana/Katana Type B Cut Without Blood 02.ogg`,
+              "03": `${p}/KhronStudio/Forged In Fury Vol 1/Katana/Katana Type B Cut Without Blood 03.ogg`,
+              "04": `${p}/KhronStudio/Forged In Fury Vol 1/Katana/Katana Type B Cut Without Blood 04.ogg`,
+            },
+            "03": {
+              "01": `${p}/KhronStudio/Forged In Fury Vol 1/Katana/Katana Type C Cut Without Blood 01.ogg`,
+              "02": `${p}/KhronStudio/Forged In Fury Vol 1/Katana/Katana Type C Cut Without Blood 02.ogg`,
+            },
+            "04": {
+              "01": `${p}/KhronStudio/Forged In Fury Vol 1/Katana/Katana Type D Cut Without Blood 01.ogg`,
+              "02": `${p}/KhronStudio/Forged In Fury Vol 1/Katana/Katana Type D Cut Without Blood 02.ogg`,
+              "03": `${p}/KhronStudio/Forged In Fury Vol 1/Katana/Katana Type D Cut Without Blood 03.ogg`,
+              "04": `${p}/KhronStudio/Forged In Fury Vol 1/Katana/Katana Type D Cut Without Blood 04.ogg`,
+              "05": `${p}/KhronStudio/Forged In Fury Vol 1/Katana/Katana Type D Cut Without Blood 05.ogg`,
+              "06": `${p}/KhronStudio/Forged In Fury Vol 1/Katana/Katana Type D Cut Without Blood 06.ogg`,
+            },
+          },
+          blood: {
+            "01": {
+              "01": `${p}/KhronStudio/Forged In Fury Vol 1/Katana/Katana Type A Cut And Blood 01.ogg`,
+              "02": `${p}/KhronStudio/Forged In Fury Vol 1/Katana/Katana Type A Cut And Blood 02.ogg`,
+              "03": `${p}/KhronStudio/Forged In Fury Vol 1/Katana/Katana Type A Cut And Blood 03.ogg`,
+              "04": `${p}/KhronStudio/Forged In Fury Vol 1/Katana/Katana Type A Cut And Blood 04.ogg`,
+              "05": `${p}/KhronStudio/Forged In Fury Vol 1/Katana/Katana Type A Cut And Blood 05.ogg`,
+              "06": `${p}/KhronStudio/Forged In Fury Vol 1/Katana/Katana Type A Cut And Blood 06.ogg`,
+              "07": `${p}/KhronStudio/Forged In Fury Vol 1/Katana/Katana Type A Cut And Blood 07.ogg`,
+              "08": `${p}/KhronStudio/Forged In Fury Vol 1/Katana/Katana Type A Cut And Blood 08.ogg`,
+              "09": `${p}/KhronStudio/Forged In Fury Vol 1/Katana/Katana Type A Cut And Blood 09.ogg`,
+              10: `${p}/KhronStudio/Forged In Fury Vol 1/Katana/Katana Type A Cut And Blood 10.ogg`,
+            },
+            "02": {
+              "01": `${p}/KhronStudio/Forged In Fury Vol 1/Katana/Katana Type B Cut And Blood 01.ogg`,
+              "02": `${p}/KhronStudio/Forged In Fury Vol 1/Katana/Katana Type B Cut And Blood 02.ogg`,
+              "03": `${p}/KhronStudio/Forged In Fury Vol 1/Katana/Katana Type B Cut And Blood 03.ogg`,
+              "04": `${p}/KhronStudio/Forged In Fury Vol 1/Katana/Katana Type B Cut And Blood 04.ogg`,
+              "05": `${p}/KhronStudio/Forged In Fury Vol 1/Katana/Katana Type B Cut And Blood 05.ogg`,
+            },
+            "03": {
+              "01": `${p}/KhronStudio/Forged In Fury Vol 1/Katana/Katana Type C Cut And Blood 01.ogg`,
+              "02": `${p}/KhronStudio/Forged In Fury Vol 1/Katana/Katana Type C Cut And Blood 02.ogg`,
+              "03": `${p}/KhronStudio/Forged In Fury Vol 1/Katana/Katana Type C Cut And Blood 03.ogg`,
+            },
+            "04": {
+              "01": `${p}/KhronStudio/Forged In Fury Vol 1/Katana/Katana Type D Cut And Blood 01.ogg`,
+              "02": `${p}/KhronStudio/Forged In Fury Vol 1/Katana/Katana Type D Cut And Blood 02.ogg`,
+              "03": `${p}/KhronStudio/Forged In Fury Vol 1/Katana/Katana Type D Cut And Blood 03.ogg`,
+              "04": `${p}/KhronStudio/Forged In Fury Vol 1/Katana/Katana Type D Cut And Blood 04.ogg`,
+              "05": `${p}/KhronStudio/Forged In Fury Vol 1/Katana/Katana Type D Cut And Blood 05.ogg`,
+              "06": `${p}/KhronStudio/Forged In Fury Vol 1/Katana/Katana Type D Cut And Blood 06.ogg`,
+            },
+          },
+        },
+        shortsword: {
+          "01": {
+            "01": `${p}/ovani-sounds/Weaponry Melee Sound FX Pack Vol. 1/Blade/Strike Blade Medium 001.ogg`,
+            "02": `${p}/ovani-sounds/Weaponry Melee Sound FX Pack Vol. 1/Blade/Strike Blade Medium 002.ogg`,
+            "03": `${p}/ovani-sounds/Weaponry Melee Sound FX Pack Vol. 1/Blade/Strike Blade Medium 003.ogg`,
+            "04": `${p}/ovani-sounds/Weaponry Melee Sound FX Pack Vol. 1/Blade/Strike Blade Medium 004.ogg`,
+            "05": `${p}/ovani-sounds/Weaponry Melee Sound FX Pack Vol. 1/Blade/Strike Blade Medium 005.ogg`,
+          },
+        },
         rapier: {
           "01": {
             "01": `${p}/ovani-sounds/Weaponry Melee Sound FX Pack Vol. 1/Blade/Strike Blade Thin 001.ogg`,
@@ -69,15 +342,6 @@ export const database = {
             "03": `${p}/ovani-sounds/Weaponry Melee Sound FX Pack Vol. 1/Blade/Strike Blade Thin 003.ogg`,
             "04": `${p}/ovani-sounds/Weaponry Melee Sound FX Pack Vol. 1/Blade/Strike Blade Thin 004.ogg`,
             "05": `${p}/ovani-sounds/Weaponry Melee Sound FX Pack Vol. 1/Blade/Strike Blade Thin 005.ogg`,
-          },
-        },
-        bamboo: {
-          "01": {
-            "01": `${p}/ovani-sounds/Motion and Impacts Sound FX Pack Vol. 2/Whoosh/Whoosh Bamboo 001.ogg`,
-            "02": `${p}/ovani-sounds/Motion and Impacts Sound FX Pack Vol. 2/Whoosh/Whoosh Bamboo 002.ogg`,
-            "03": `${p}/ovani-sounds/Motion and Impacts Sound FX Pack Vol. 2/Whoosh/Whoosh Bamboo 003.ogg`,
-            "04": `${p}/ovani-sounds/Motion and Impacts Sound FX Pack Vol. 2/Whoosh/Whoosh Bamboo 004.ogg`,
-            "05": `${p}/ovani-sounds/Motion and Impacts Sound FX Pack Vol. 2/Whoosh/Whoosh Bamboo 005.ogg`,
           },
         },
       },
@@ -171,6 +435,9 @@ export const database = {
           "01": {
             metal_hit: `${p}/Soniss/GDC2026/David Dumais Audio/Swing Metal Hit.ogg`,
           },
+          "02": {
+            iron_staff: `${p}/KhronStudio/Forged In Fury Vol 2/Iron Staff/Iron Staff Spin Final.ogg`,
+          },
         },
         flail: {
           "01": {
@@ -186,6 +453,74 @@ export const database = {
             "04": `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Whooshes/Flail Whoosh D.ogg`,
             "05": `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Whooshes/Flail Whoosh E.ogg`,
             "06": `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Whooshes/Flail Whoosh F.ogg`,
+          },
+        },
+        nanchaku: {
+          "01": {
+            "01": `${p}/KhronStudio/Forged In Fury Vol 2/Nunchakus/Nunchaku Attack Full Type A 01.ogg`,
+            "02": `${p}/KhronStudio/Forged In Fury Vol 2/Nunchakus/Nunchaku Attack Full Type A 02.ogg`,
+            "03": `${p}/KhronStudio/Forged In Fury Vol 2/Nunchakus/Nunchaku Attack Full Type A 03.ogg`,
+            "04": `${p}/KhronStudio/Forged In Fury Vol 2/Nunchakus/Nunchaku Attack Full Type A 04.ogg`,
+            "05": `${p}/KhronStudio/Forged In Fury Vol 2/Nunchakus/Nunchaku Attack Full Type A 05.ogg`,
+            "06": `${p}/KhronStudio/Forged In Fury Vol 2/Nunchakus/Nunchaku Attack Full Type A 06.ogg`,
+            "07": `${p}/KhronStudio/Forged In Fury Vol 2/Nunchakus/Nunchaku Attack Full Type A 07.ogg`,
+            "08": `${p}/KhronStudio/Forged In Fury Vol 2/Nunchakus/Nunchaku Attack Full Type A 08.ogg`,
+            "09": `${p}/KhronStudio/Forged In Fury Vol 2/Nunchakus/Nunchaku Attack Full Type A 09.ogg`,
+          },
+          "02": {
+            "01": `${p}/KhronStudio/Forged In Fury Vol 2/Nunchakus/Nunchaku Attack Full Type B 01.ogg`,
+            "02": `${p}/KhronStudio/Forged In Fury Vol 2/Nunchakus/Nunchaku Attack Full Type B 02.ogg`,
+            "03": `${p}/KhronStudio/Forged In Fury Vol 2/Nunchakus/Nunchaku Attack Full Type B 03.ogg`,
+            "04": `${p}/KhronStudio/Forged In Fury Vol 2/Nunchakus/Nunchaku Attack Full Type B 04.ogg`,
+            "05": `${p}/KhronStudio/Forged In Fury Vol 2/Nunchakus/Nunchaku Attack Full Type B 05.ogg`,
+            "06": `${p}/KhronStudio/Forged In Fury Vol 2/Nunchakus/Nunchaku Attack Full Type B 06.ogg`,
+          },
+          "03": {
+            "01": `${p}/KhronStudio/Forged In Fury Vol 2/Nunchakus/Nunchaku Attack Full Type C 01.ogg`,
+            "02": `${p}/KhronStudio/Forged In Fury Vol 2/Nunchakus/Nunchaku Attack Full Type C 02.ogg`,
+            "03": `${p}/KhronStudio/Forged In Fury Vol 2/Nunchakus/Nunchaku Attack Full Type C 03.ogg`,
+            "04": `${p}/KhronStudio/Forged In Fury Vol 2/Nunchakus/Nunchaku Attack Full Type C 04.ogg`,
+            "05": `${p}/KhronStudio/Forged In Fury Vol 2/Nunchakus/Nunchaku Attack Full Type C 05.ogg`,
+            "06": `${p}/KhronStudio/Forged In Fury Vol 2/Nunchakus/Nunchaku Attack Full Type C 06.ogg`,
+            "07": `${p}/KhronStudio/Forged In Fury Vol 2/Nunchakus/Nunchaku Attack Full Type C 07.ogg`,
+            "08": `${p}/KhronStudio/Forged In Fury Vol 2/Nunchakus/Nunchaku Attack Full Type C 08.ogg`,
+            "09": `${p}/KhronStudio/Forged In Fury Vol 2/Nunchakus/Nunchaku Attack Full Type C 09.ogg`,
+            10: `${p}/KhronStudio/Forged In Fury Vol 2/Nunchakus/Nunchaku Attack Full Type C 10.ogg`,
+            11: `${p}/KhronStudio/Forged In Fury Vol 2/Nunchakus/Nunchaku Attack Full Type C 11.ogg`,
+          },
+        },
+        staff: {
+          iron: {
+            "01": {
+              "01": `${p}/KhronStudio/Forged In Fury Vol 2/Iron Staff/Iron Staff Attack Full Type A 01.ogg`,
+              "02": `${p}/KhronStudio/Forged In Fury Vol 2/Iron Staff/Iron Staff Attack Full Type A 02.ogg`,
+              "03": `${p}/KhronStudio/Forged In Fury Vol 2/Iron Staff/Iron Staff Attack Full Type A 03.ogg`,
+              "04": `${p}/KhronStudio/Forged In Fury Vol 2/Iron Staff/Iron Staff Attack Full Type A 04.ogg`,
+              "05": `${p}/KhronStudio/Forged In Fury Vol 2/Iron Staff/Iron Staff Attack Full Type A 05.ogg`,
+              "06": `${p}/KhronStudio/Forged In Fury Vol 2/Iron Staff/Iron Staff Attack Full Type A 06.ogg`,
+              "07": `${p}/KhronStudio/Forged In Fury Vol 2/Iron Staff/Iron Staff Attack Full Type A 07.ogg`,
+              "08": `${p}/KhronStudio/Forged In Fury Vol 2/Iron Staff/Iron Staff Attack Full Type A 08.ogg`,
+              "09": `${p}/KhronStudio/Forged In Fury Vol 2/Iron Staff/Iron Staff Attack Full Type A 09.ogg`,
+              10: `${p}/KhronStudio/Forged In Fury Vol 2/Iron Staff/Iron Staff Attack Full Type A 10.ogg`,
+              11: `${p}/KhronStudio/Forged In Fury Vol 2/Iron Staff/Iron Staff Attack Full Type A 11.ogg`,
+              12: `${p}/KhronStudio/Forged In Fury Vol 2/Iron Staff/Iron Staff Attack Full Type A 12.ogg`,
+            },
+            "02": {
+              "01": `${p}/KhronStudio/Forged In Fury Vol 2/Iron Staff/Iron Staff Attack Full Type B 01.ogg`,
+              "02": `${p}/KhronStudio/Forged In Fury Vol 2/Iron Staff/Iron Staff Attack Full Type B 02.ogg`,
+              "03": `${p}/KhronStudio/Forged In Fury Vol 2/Iron Staff/Iron Staff Attack Full Type B 03.ogg`,
+              "04": `${p}/KhronStudio/Forged In Fury Vol 2/Iron Staff/Iron Staff Attack Full Type B 04.ogg`,
+              "05": `${p}/KhronStudio/Forged In Fury Vol 2/Iron Staff/Iron Staff Attack Full Type B 05.ogg`,
+              "06": `${p}/KhronStudio/Forged In Fury Vol 2/Iron Staff/Iron Staff Attack Full Type B 06.ogg`,
+            },
+            "03": {
+              "01": `${p}/KhronStudio/Forged In Fury Vol 2/Iron Staff/Iron Staff Attack Full Type C 01.ogg`,
+              "02": `${p}/KhronStudio/Forged In Fury Vol 2/Iron Staff/Iron Staff Attack Full Type C 02.ogg`,
+              "03": `${p}/KhronStudio/Forged In Fury Vol 2/Iron Staff/Iron Staff Attack Full Type C 03.ogg`,
+              "04": `${p}/KhronStudio/Forged In Fury Vol 2/Iron Staff/Iron Staff Attack Full Type C 04.ogg`,
+              "05": `${p}/KhronStudio/Forged In Fury Vol 2/Iron Staff/Iron Staff Attack Full Type C 05.ogg`,
+              "06": `${p}/KhronStudio/Forged In Fury Vol 2/Iron Staff/Iron Staff Attack Full Type C 06.ogg`,
+            },
           },
         },
       },
@@ -222,6 +557,62 @@ export const database = {
         chain: {
           "01": {
             "01": `${p}/SoundFlakes/diablo-wrath/weapon/bludgeon-chain-fly.ogg`,
+          },
+        },
+      },
+      spin: {
+        nanchaku: {
+          "01": {
+            "01": `${p}/KhronStudio/Forged In Fury Vol 2/Nunchakus/Nunchaku Circular Whoosh.ogg`,
+          },
+          "02": {
+            "01": `${p}/KhronStudio/Forged In Fury Vol 2/Nunchakus/Nunchaku Spin Loop Type A.ogg`,
+            "02": `${p}/KhronStudio/Forged In Fury Vol 2/Nunchakus/Nunchaku Spin Loop Type B.ogg`,
+          },
+        },
+        staff: {
+          iron: {
+            "01": {
+              full: `${p}/KhronStudio/Forged In Fury Vol 2/Iron Staff/Iron Staff Spin Full.ogg`,
+            },
+          },
+        },
+      },
+    },
+    claws: {
+      strike: {
+        stab: {
+          "01": {
+            "01": `${p}/KhronStudio/Forged In Fury Vol 1/Metal Claws/Stab Metal Claws 01.ogg`,
+            "02": `${p}/KhronStudio/Forged In Fury Vol 1/Metal Claws/Stab Metal Claws 02.ogg`,
+            "03": `${p}/KhronStudio/Forged In Fury Vol 1/Metal Claws/Stab Metal Claws 03.ogg`,
+            "04": `${p}/KhronStudio/Forged In Fury Vol 1/Metal Claws/Stab Metal Claws 04.ogg`,
+            "05": `${p}/KhronStudio/Forged In Fury Vol 1/Metal Claws/Stab Metal Claws 05.ogg`,
+            "06": `${p}/KhronStudio/Forged In Fury Vol 1/Metal Claws/Stab Metal Claws 06.ogg`,
+            "07": `${p}/KhronStudio/Forged In Fury Vol 1/Metal Claws/Stab Metal Claws 07.ogg`,
+            "08": `${p}/KhronStudio/Forged In Fury Vol 1/Metal Claws/Stab Metal Claws 08.ogg`,
+            "09": `${p}/KhronStudio/Forged In Fury Vol 1/Metal Claws/Stab Metal Claws 09.ogg`,
+            10: `${p}/KhronStudio/Forged In Fury Vol 1/Metal Claws/Stab Metal Claws 10.ogg`,
+            11: `${p}/KhronStudio/Forged In Fury Vol 1/Metal Claws/Stab Metal Claws 11.ogg`,
+            12: `${p}/KhronStudio/Forged In Fury Vol 1/Metal Claws/Stab Metal Claws 12.ogg`,
+            13: `${p}/KhronStudio/Forged In Fury Vol 1/Metal Claws/Stab Metal Claws 13.ogg`,
+            14: `${p}/KhronStudio/Forged In Fury Vol 1/Metal Claws/Stab Metal Claws 14.ogg`,
+            15: `${p}/KhronStudio/Forged In Fury Vol 1/Metal Claws/Stab Metal Claws 15.ogg`,
+            16: `${p}/KhronStudio/Forged In Fury Vol 1/Metal Claws/Stab Metal Claws 16.ogg`,
+            17: `${p}/KhronStudio/Forged In Fury Vol 1/Metal Claws/Stab Metal Claws 17.ogg`,
+            18: `${p}/KhronStudio/Forged In Fury Vol 1/Metal Claws/Stab Metal Claws 18.ogg`,
+            19: `${p}/KhronStudio/Forged In Fury Vol 1/Metal Claws/Stab Metal Claws 19.ogg`,
+          },
+        },
+        slash: {
+          "01": {
+            "01": `${p}/KhronStudio/Forged In Fury Vol 1/Metal Claws/Whoosh Metal Claws 01.ogg`,
+            "02": `${p}/KhronStudio/Forged In Fury Vol 1/Metal Claws/Whoosh Metal Claws 02.ogg`,
+            "03": `${p}/KhronStudio/Forged In Fury Vol 1/Metal Claws/Whoosh Metal Claws 03.ogg`,
+            "04": `${p}/KhronStudio/Forged In Fury Vol 1/Metal Claws/Whoosh Metal Claws 04.ogg`,
+            "05": `${p}/KhronStudio/Forged In Fury Vol 1/Metal Claws/Whoosh Metal Claws 05.ogg`,
+            "06": `${p}/KhronStudio/Forged In Fury Vol 1/Metal Claws/Whoosh Metal Claws 06.ogg`,
+            "07": `${p}/KhronStudio/Forged In Fury Vol 1/Metal Claws/Whoosh Metal Claws 07.ogg`,
           },
         },
       },
@@ -4375,6 +4766,11 @@ export const database = {
           },
         },
       },
+      spinning: {
+        "01": {
+          "01": `${p}/KhronStudio/Forged In Fury Vol 2/Iron Staff/Iron Staff Spinning Fast.ogg`,
+        },
+      },
       buff: {
         general: {
           "01": {
@@ -4474,8 +4870,27 @@ export const database = {
     weapons: {
       axe: {
         equip: {
-          "01": {
-            "01": `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Weapons/Equip Axe.ogg`,
+          general: {
+            "01": {
+              "01": `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Weapons/Equip Axe.ogg`,
+            },
+          },
+          heavy: {
+            "01": {
+              "01": `${p}/KhronStudio/Forged In Fury Vol 1/Heavy Axe/Equip Heavy Axe 01.ogg`,
+              "02": `${p}/KhronStudio/Forged In Fury Vol 1/Heavy Axe/Equip Heavy Axe 02.ogg`,
+              "03": `${p}/KhronStudio/Forged In Fury Vol 1/Heavy Axe/Equip Heavy Axe 03.ogg`,
+            },
+          },
+        },
+        unequip: {
+          heavy: {
+            "01": {
+              "01": `${p}/KhronStudio/Forged In Fury Vol 1/Heavy Axe/Unequip Heavy Axe 01.ogg`,
+              "02": `${p}/KhronStudio/Forged In Fury Vol 1/Heavy Axe/Unequip Heavy Axe 02.ogg`,
+              "03": `${p}/KhronStudio/Forged In Fury Vol 1/Heavy Axe/Unequip Heavy Axe 03.ogg`,
+              "04": `${p}/KhronStudio/Forged In Fury Vol 1/Heavy Axe/Unequip Heavy Axe 04.ogg`,
+            },
           },
         },
       },
@@ -4492,6 +4907,13 @@ export const database = {
               "01": `${p}/ovani-sounds/Weaponry Melee Sound FX Pack Vol. 1/Blade/Sheathe Blade Large 001.ogg`,
               "02": `${p}/ovani-sounds/Weaponry Melee Sound FX Pack Vol. 1/Blade/Sheathe Blade Large 002.ogg`,
               "03": `${p}/ovani-sounds/Weaponry Melee Sound FX Pack Vol. 1/Blade/Sheathe Blade Large 003.ogg`,
+            },
+          },
+          katana: {
+            "01": {
+              "01": `${p}/KhronStudio/Forged In Fury Vol 1/Katana/Sheathing Katana 01.ogg`,
+              "02": `${p}/KhronStudio/Forged In Fury Vol 1/Katana/Sheathing Katana 02.ogg`,
+              "03": `${p}/KhronStudio/Forged In Fury Vol 1/Katana/Sheathing Katana 03.ogg`,
             },
           },
           shortsword: {
@@ -4568,6 +4990,30 @@ export const database = {
 
             "02": {
               "01": `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Weapons/Knife Draw.ogg`,
+            },
+          },
+          karambit: {
+            "01": {
+              "01": `${p}/KhronStudio/Forged In Fury Vol 2/Karambit/Karambit Draw Full Type C 01.ogg`,
+              "02": `${p}/KhronStudio/Forged In Fury Vol 2/Karambit/Karambit Draw Full Type C 02.ogg`,
+              "03": `${p}/KhronStudio/Forged In Fury Vol 2/Karambit/Karambit Draw Full Type C 03.ogg`,
+              "04": `${p}/KhronStudio/Forged In Fury Vol 2/Karambit/Karambit Draw Full Type C 04.ogg`,
+              "05": `${p}/KhronStudio/Forged In Fury Vol 2/Karambit/Karambit Draw Full Type C 05.ogg`,
+            },
+            "02": {
+              "01": `${p}/KhronStudio/Forged In Fury Vol 2/Karambit/Karambit Draw Full Type B 01.ogg`,
+              "02": `${p}/KhronStudio/Forged In Fury Vol 2/Karambit/Karambit Draw Full Type B 02.ogg`,
+              "03": `${p}/KhronStudio/Forged In Fury Vol 2/Karambit/Karambit Draw Full Type B 03.ogg`,
+              "04": `${p}/KhronStudio/Forged In Fury Vol 2/Karambit/Karambit Draw Full Type B 04.ogg`,
+              "05": `${p}/KhronStudio/Forged In Fury Vol 2/Karambit/Karambit Draw Full Type B 05.ogg`,
+              "06": `${p}/KhronStudio/Forged In Fury Vol 2/Karambit/Karambit Draw Full Type B 06.ogg`,
+            },
+            "03": {
+              "01": `${p}/KhronStudio/Forged In Fury Vol 2/Karambit/Karambit Draw Full Type A 01.ogg`,
+              "02": `${p}/KhronStudio/Forged In Fury Vol 2/Karambit/Karambit Draw Full Type A 02.ogg`,
+              "03": `${p}/KhronStudio/Forged In Fury Vol 2/Karambit/Karambit Draw Full Type A 03.ogg`,
+              "04": `${p}/KhronStudio/Forged In Fury Vol 2/Karambit/Karambit Draw Full Type A 04.ogg`,
+              "05": `${p}/KhronStudio/Forged In Fury Vol 2/Karambit/Karambit Draw Full Type A 05.ogg`,
             },
           },
           rapier: {
@@ -4703,6 +5149,23 @@ export const database = {
         equip: {
           "01": {
             wood: `${p}/ovani-sounds/Medieval Fantasy Sound FX Pack Vol. 2/Weapons/Equip General Weapon B.ogg`,
+          },
+        },
+      },
+      claws: {
+        equip: {
+          "01": {
+            "01": `${p}/KhronStudio/Forged In Fury Vol 1/Metal Claws/Open Close Metal Claws 01.ogg`,
+            "02": `${p}/KhronStudio/Forged In Fury Vol 1/Metal Claws/Open Close Metal Claws 02.ogg`,
+            "03": `${p}/KhronStudio/Forged In Fury Vol 1/Metal Claws/Open Close Metal Claws 03.ogg`,
+            "04": `${p}/KhronStudio/Forged In Fury Vol 1/Metal Claws/Open Close Metal Claws 04.ogg`,
+            "05": `${p}/KhronStudio/Forged In Fury Vol 1/Metal Claws/Open Close Metal Claws 05.ogg`,
+            "06": `${p}/KhronStudio/Forged In Fury Vol 1/Metal Claws/Open Close Metal Claws 06.ogg`,
+            "07": `${p}/KhronStudio/Forged In Fury Vol 1/Metal Claws/Open Close Metal Claws 07.ogg`,
+            "08": `${p}/KhronStudio/Forged In Fury Vol 1/Metal Claws/Open Close Metal Claws 08.ogg`,
+            "09": `${p}/KhronStudio/Forged In Fury Vol 1/Metal Claws/Open Close Metal Claws 09.ogg`,
+            10: `${p}/KhronStudio/Forged In Fury Vol 1/Metal Claws/Open Close Metal Claws 10.ogg`,
+            11: `${p}/KhronStudio/Forged In Fury Vol 1/Metal Claws/Open Close Metal Claws 11.ogg`,
           },
         },
       },
@@ -5713,6 +6176,22 @@ export const database = {
     },
   },
   impact: {
+    axe: {
+      flesh: {
+        "01": {
+          "01": `${p}/KhronStudio/Forged In Fury Vol 1/Heavy Axe/Heavy Axe Strike Only 01.ogg`,
+          "02": `${p}/KhronStudio/Forged In Fury Vol 1/Heavy Axe/Heavy Axe Strike Only 02.ogg`,
+          "03": `${p}/KhronStudio/Forged In Fury Vol 1/Heavy Axe/Heavy Axe Strike Only 03.ogg`,
+          "04": `${p}/KhronStudio/Forged In Fury Vol 1/Heavy Axe/Heavy Axe Strike Only 04.ogg`,
+        },
+        "02": {
+          "01": `${p}/KhronStudio/Forged In Fury Vol 1/Heavy Axe/Heavy Axe Hard Strike Only 01.ogg`,
+          "02": `${p}/KhronStudio/Forged In Fury Vol 1/Heavy Axe/Heavy Axe Hard Strike Only 02.ogg`,
+          "03": `${p}/KhronStudio/Forged In Fury Vol 1/Heavy Axe/Heavy Axe Hard Strike Only 03.ogg`,
+          "04": `${p}/KhronStudio/Forged In Fury Vol 1/Heavy Axe/Heavy Axe Hard Strike Only 04.ogg`,
+        },
+      },
+    },
     arrow: {
       blocked: {
         "01": {
@@ -5739,6 +6218,50 @@ export const database = {
           "02": `${p}/TomMusic/FreeFantasySFX/Attacks/Sword Attacks Hits and Blocks/Sword Blocked 2.ogg`,
           "03": `${p}/TomMusic/FreeFantasySFX/Attacks/Sword Attacks Hits and Blocks/Sword Blocked 3.ogg`,
         },
+      },
+    },
+    blood: {
+      "01": {
+        "01": `${p}/KhronStudio/Forged In Fury Vol 1/Katana/Type A Blood Used In Katana 01.ogg`,
+        "02": `${p}/KhronStudio/Forged In Fury Vol 1/Katana/Type A Blood Used In Katana 02.ogg`,
+        "03": `${p}/KhronStudio/Forged In Fury Vol 1/Katana/Type A Blood Used In Katana 03.ogg`,
+        "04": `${p}/KhronStudio/Forged In Fury Vol 1/Katana/Type A Blood Used In Katana 04.ogg`,
+        "05": `${p}/KhronStudio/Forged In Fury Vol 1/Katana/Type A Blood Used In Katana 05.ogg`,
+        "06": `${p}/KhronStudio/Forged In Fury Vol 1/Katana/Type A Blood Used In Katana 06.ogg`,
+        "07": `${p}/KhronStudio/Forged In Fury Vol 1/Katana/Type A Blood Used In Katana 07.ogg`,
+        "08": `${p}/KhronStudio/Forged In Fury Vol 1/Katana/Type A Blood Used In Katana 08.ogg`,
+        "09": `${p}/KhronStudio/Forged In Fury Vol 1/Katana/Type A Blood Used In Katana 09.ogg`,
+        10: `${p}/KhronStudio/Forged In Fury Vol 1/Katana/Type A Blood Used In Katana 10.ogg`,
+        11: `${p}/KhronStudio/Forged In Fury Vol 1/Katana/Type A Blood Used In Katana 11.ogg`,
+        12: `${p}/KhronStudio/Forged In Fury Vol 1/Katana/Type A Blood Used In Katana 12.ogg`,
+        13: `${p}/KhronStudio/Forged In Fury Vol 1/Katana/Type A Blood Used In Katana 13.ogg`,
+        14: `${p}/KhronStudio/Forged In Fury Vol 1/Katana/Type A Blood Used In Katana 14.ogg`,
+        15: `${p}/KhronStudio/Forged In Fury Vol 1/Katana/Type A Blood Used In Katana 15.ogg`,
+        16: `${p}/KhronStudio/Forged In Fury Vol 1/Katana/Type A Blood Used In Katana 16.ogg`,
+        17: `${p}/KhronStudio/Forged In Fury Vol 1/Katana/Type A Blood Used In Katana 17.ogg`,
+        18: `${p}/KhronStudio/Forged In Fury Vol 1/Katana/Type A Blood Used In Katana 18.ogg`,
+        19: `${p}/KhronStudio/Forged In Fury Vol 1/Katana/Type A Blood Used In Katana 19.ogg`,
+        20: `${p}/KhronStudio/Forged In Fury Vol 1/Katana/Type A Blood Used In Katana 20.ogg`,
+        21: `${p}/KhronStudio/Forged In Fury Vol 1/Katana/Type A Blood Used In Katana 21.ogg`,
+        22: `${p}/KhronStudio/Forged In Fury Vol 1/Katana/Type A Blood Used In Katana 22.ogg`,
+      },
+      "02": {
+        "01": `${p}/KhronStudio/Forged In Fury Vol 1/Katana/Type B Blood Used In Katana 01.ogg`,
+        "02": `${p}/KhronStudio/Forged In Fury Vol 1/Katana/Type B Blood Used In Katana 02.ogg`,
+        "03": `${p}/KhronStudio/Forged In Fury Vol 1/Katana/Type B Blood Used In Katana 03.ogg`,
+        "04": `${p}/KhronStudio/Forged In Fury Vol 1/Katana/Type B Blood Used In Katana 04.ogg`,
+        "05": `${p}/KhronStudio/Forged In Fury Vol 1/Katana/Type B Blood Used In Katana 05.ogg`,
+        "06": `${p}/KhronStudio/Forged In Fury Vol 1/Katana/Type B Blood Used In Katana 06.ogg`,
+        "07": `${p}/KhronStudio/Forged In Fury Vol 1/Katana/Type B Blood Used In Katana 07.ogg`,
+        "08": `${p}/KhronStudio/Forged In Fury Vol 1/Katana/Type B Blood Used In Katana 08.ogg`,
+      },
+      "03": {
+        "01": `${p}/KhronStudio/Forged In Fury Vol 1/Katana/Type C Blood Used In Katana 01.ogg`,
+        "02": `${p}/KhronStudio/Forged In Fury Vol 1/Katana/Type C Blood Used In Katana 02.ogg`,
+        "03": `${p}/KhronStudio/Forged In Fury Vol 1/Katana/Type C Blood Used In Katana 03.ogg`,
+        "04": `${p}/KhronStudio/Forged In Fury Vol 1/Katana/Type C Blood Used In Katana 04.ogg`,
+        "05": `${p}/KhronStudio/Forged In Fury Vol 1/Katana/Type C Blood Used In Katana 05.ogg`,
+        "06": `${p}/KhronStudio/Forged In Fury Vol 1/Katana/Type C Blood Used In Katana 06.ogg`,
       },
     },
     debris: {
