@@ -7,6 +7,7 @@ export const database = {
     // Grid size, start point, end point
     ranged_1: [200, 200, 0],
     ranged_2: [100, 83, 83],
+    explosion_1: [170],
   },
   actions: {
     reload: {
@@ -49,6 +50,15 @@ export const database = {
       },
     },
     explosion: {
+      general: {
+        "01": {
+          _template: "explosion_1",
+          "01": `${p}/opengameart/Sinestesia/explosion_1.json`,
+          "02": `${p}/opengameart/Sinestesia/explosion_2.json`,
+          "03": `${p}/opengameart/Sinestesia/explosion_3.json`,
+          "04": `${p}/opengameart/Sinestesia/explosion_4.json`,
+        },
+      },
       bokeh: {
         "01": `${p}/effekseeker/Effekseeker01/bokeh_explosion.json`,
       },
@@ -101,6 +111,28 @@ export const database = {
           red: `${p}/Dream Circles/animationpack_support/revive_a.json`,
           green: `${p}/Dream Circles/animationpack_support/revive_b.json`,
           dark_pink: `${p}/Dream Circles/animationpack_support/revive_d.json`,
+        },
+      },
+    },
+    hit: {
+      general: {
+        "01": {
+          red: `${p}/opengameart/Sinestesia/red_hit.json`,
+          red_and_blood: `${p}/opengameart/Sinestesia/blood_hit.json`,
+        },
+        "02": {
+          yellow_1: `${p}/opengameart/Sinestesia/hit_yellow_a.json`,
+          yellow_2: `${p}/opengameart/Sinestesia/hit_yellow_b.json`,
+        },
+      },
+      blood: {
+        "01": {
+          "01": `${p}/opengameart/Sinestesia/blood.json`,
+        },
+      },
+      coins: {
+        "01": {
+          "01": `${p}/opengameart/Sinestesia/coins.json`,
         },
       },
     },

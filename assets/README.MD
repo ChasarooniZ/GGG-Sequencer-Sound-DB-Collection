@@ -19,9 +19,11 @@ The following directories are named after their creators and are used under thei
 
 - game-icons.net <https://creativecommons.org/licenses/by/3.0/>
 - pipoya <https://pipoya.net/sozai/terms-of-use/>
-- Dream Circle *While these Assets were designed to be used for making games, they can be used without restriction for any other purposes. Cannot be used outside of this module*
+- Dream Circle _While these Assets were designed to be used for making games, they can be used without restriction for any other purposes. Cannot be used outside of this module_
 - Effekseeker <https://creativecommons.org/2008/04/16/cc0-betadiscussion-draft-2/>
 - Atlas Textures <[CC0](https://creativecommons.org/licenses/by/3.0/)>
+- opengameaart
+  - Sinestesia <[CC0](https://creativecommons.org/licenses/by/3.0/)>
 
 > [!important]
 > Content inside this folder may only be distributed as part of the GGG module. Sharing and usage of the files outside of the GGG module is STRICTLY PROHIBITED. Please ensure you only access content in accordance to their licensing as listed above the disclaimer.
