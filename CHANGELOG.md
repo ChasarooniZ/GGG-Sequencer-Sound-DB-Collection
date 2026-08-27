@@ -2,6 +2,13 @@
 
 - TODO - update the checkign scripts to also include the video assets
 
+## 0.1.7
+
+- **New**
+  - `Ovani SFX`
+    - `Magic II`
+    - `Magic III`
+
 ## 0.1.6
 
 - **New**

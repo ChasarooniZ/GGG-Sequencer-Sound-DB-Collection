@@ -2185,6 +2185,42 @@ export const database = {
             "01": `${p}/ovani-sounds/Magic/Nature/Summon Bramble Trap.ogg`,
           },
         },
+        animate_tree: {
+          "01": {
+            "01": `${p}/ovani-sounds/Magic II/Nature/Animate Tree 001.ogg`,
+            "02": `${p}/ovani-sounds/Magic II/Nature/Animate Tree 002.ogg`,
+            "03": `${p}/ovani-sounds/Magic II/Nature/Animate Tree 003.ogg`,
+            "04": `${p}/ovani-sounds/Magic II/Nature/Animate Tree 004.ogg`,
+          },
+        },
+        animal_friend: {
+          "01": {
+            "01": `${p}/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Nature/Animal Friend A.ogg`,
+            "02": `${p}/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Nature/Animal Friend B.ogg`,
+          },
+        },
+        insect_plague: {
+          "01": {
+            "01": `${p}/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Nature/Insect Plague A.ogg`,
+            "02": `${p}/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Nature/Insect Plague B.ogg`,
+          },
+        },
+        iron_wood: {
+          "01": {
+            "01": `${p}/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Nature/Iron Wood A.ogg`,
+            "02": `${p}/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Nature/Iron Wood B.ogg`,
+          },
+        },
+        roots: {
+          deep: {
+            "01": {
+              "01": `${p}/ovani-sounds/Magic II/Nature/Deep Roots 001.ogg`,
+              "02": `${p}/ovani-sounds/Magic II/Nature/Deep Roots 002.ogg`,
+              "03": `${p}/ovani-sounds/Magic II/Nature/Deep Roots 003.ogg`,
+              "04": `${p}/ovani-sounds/Magic II/Nature/Deep Roots 004.ogg`,
+            },
+          },
+        },
         summon: {
           "01": {
             "01": `${p}/ovani-sounds/Magic/Nature/Summon Sapling.ogg`,
@@ -2193,11 +2229,26 @@ export const database = {
       },
       strike: {
         vine: {
-          "01": {
-            "01": `${p}/ovani-sounds/Magic/Nature/Whip Vine A.ogg`,
-            "02": `${p}/ovani-sounds/Magic/Nature/Whip Vine B.ogg`,
-            "03": `${p}/ovani-sounds/Magic/Nature/Whip Vine C.ogg`,
-            "04": `${p}/ovani-sounds/Magic/Nature/Whip Vine D.ogg`,
+          whip: {
+            "01": {
+              "01": `${p}/ovani-sounds/Magic/Nature/Whip Vine A.ogg`,
+              "02": `${p}/ovani-sounds/Magic/Nature/Whip Vine B.ogg`,
+              "03": `${p}/ovani-sounds/Magic/Nature/Whip Vine C.ogg`,
+              "04": `${p}/ovani-sounds/Magic/Nature/Whip Vine D.ogg`,
+            },
+            "02": {
+              "01": `${p}/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Nature/Nature Whip A.ogg`,
+              "02": `${p}/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Nature/Nature Whip B.ogg`,
+              "03": `${p}/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Nature/Nature Whip C.ogg`,
+              "04": `${p}/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Nature/Nature Whip D.ogg`,
+              "05": `${p}/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Nature/Nature Whip E.ogg`,
+            },
+          },
+          whip_and_grab: {
+            "01": {
+              "01": `${p}/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Nature/Grasping Vine A.ogg`,
+              "02": `${p}/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Nature/Grasping Vine B.ogg`,
+            },
           },
         },
         moonbeam: {
@@ -2216,6 +2267,35 @@ export const database = {
           "01": {
             "01": `${p}/ovani-sounds/Magic/Nature/Barkskin.ogg`,
           },
+          "02": {
+            "01": `${p}/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Nature/Bark Skin A.ogg`,
+            "02": `${p}/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Nature/Bark Skin B.ogg`,
+          },
+        },
+        bear_rage: {
+          "01": {
+            "01": `${p}/ovani-sounds/Magic II/Nature/Bear Rage.ogg`,
+          },
+        },
+        bird_flight: {
+          "01": {
+            "01": `${p}/ovani-sounds/Magic II/Nature/Bird Flight.ogg`,
+          },
+        },
+        horse_speed: {
+          "01": {
+            "01": `${p}/ovani-sounds/Magic II/Nature/Horse Speed.ogg`,
+          },
+        },
+        lion_courage: {
+          "01": {
+            "01": `${p}/ovani-sounds/Magic II/Nature/Lion Courage.ogg`,
+          },
+        },
+        owl_wisdom: {
+          "01": {
+            "01": `${p}/ovani-sounds/Magic II/Nature/Owl Wisdom.ogg`,
+          },
         },
         thorns: {
           "02": {
@@ -2227,6 +2307,13 @@ export const database = {
         general: {
           "01": {
             "01": `${p}/ovani-sounds/Crafting Sound FX/UI/Craft Text Sprawl B.ogg`,
+          },
+        },
+        poisonous_swarm: {
+          "01": {
+            "01": `${p}/ovani-sounds/Magic II/Nature/Poisonous Swarm 001.ogg`,
+            "02": `${p}/ovani-sounds/Magic II/Nature/Poisonous Swarm 002.ogg`,
+            "03": `${p}/ovani-sounds/Magic II/Nature/Poisonous Swarm 003.ogg`,
           },
         },
       },
@@ -2247,6 +2334,10 @@ export const database = {
         "01": {
           "01": `${p}/ovani-sounds/Magic/Nature/Natural Healing.ogg`,
         },
+        "02": {
+          "01": `${p}/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Nature/Goodberry Heal A.ogg`,
+          "02": `${p}/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Nature/Goodberry Heal B.ogg`,
+        },
       },
       growth: {
         "01": {
@@ -2254,6 +2345,19 @@ export const database = {
         },
         "02": {
           "01": `${p}/ovani-sounds/Magic/Nature/Root Snare.ogg`,
+        },
+        "03": {
+          "01": `${p}/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Nature/Plant Growth A.ogg`,
+          "02": `${p}/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Nature/Plant Growth B.ogg`,
+        },
+      },
+      structure: {
+        wall: {
+          thorns: {
+            "01": {
+              "01": `${p}/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Nature/Wall of Thorns.ogg`,
+            },
+          },
         },
       },
     },
@@ -2272,6 +2376,13 @@ export const database = {
           },
           "03": {
             "01": `${p}/Soniss/GDC2026/Epic Stock Media/Light Power Up.ogg`,
+          },
+          "04": {
+            "01": `${p}/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Light/Soulflare Cast A.ogg`,
+            "02": `${p}/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Light/Soulflare Cast B.ogg`,
+            "03": `${p}/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Light/Soulflare Cast C.ogg`,
+            "04": `${p}/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Light/Soulflare Cast D.ogg`,
+            "05": `${p}/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Light/Soulflare Cast E.ogg`,
           },
         },
         bolt: {
@@ -2338,6 +2449,45 @@ export const database = {
             "01": `${p}/Soniss/GDC2026/Ivo Vicic/Church Bells.ogg`,
           },
         },
+        dispel: {
+          general: {
+            "01": {
+              "01": `${p}/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Light/Shield Counter A.ogg`,
+              "02": `${p}/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Light/Shield Counter B.ogg`,
+            },
+          },
+        },
+        flame: {
+          "01": {
+            "01": `${p}/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Light/Sacred Flame.ogg`,
+          },
+        },
+        laser: {
+          "01": {
+            "01": `${p}/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Light/Holy Laser A.ogg`,
+            "02": `${p}/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Light/Holy Laser B.ogg`,
+          },
+        },
+        light: {
+          "01": {
+            "01": `${p}/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Light/Lights.ogg`,
+          },
+        },
+        shimmer: {
+          "01": {
+            "01": `${p}/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Light/Magic Shimmer A.ogg`,
+            "02": `${p}/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Light/Magic Shimmer B.ogg`,
+            "03": `${p}/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Light/Magic Shimmer C.ogg`,
+          },
+          "02": {
+            "01": `${p}/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Light/Shimmer Low A.ogg`,
+            "02": `${p}/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Light/Shimmer Low B.ogg`,
+          },
+          "03": {
+            "01": `${p}/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Light/Shimmer Bell A.ogg`,
+            "02": `${p}/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Light/Shimmer Bell B.ogg`,
+          },
+        },
         smite: {
           "01": {
             "01": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Divine Magic/Smite 001.ogg`,
@@ -2347,6 +2497,22 @@ export const database = {
             "05": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Divine Magic/Smite 005.ogg`,
             "06": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Divine Magic/Smite 006.ogg`,
             "07": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Divine Magic/Smite 007.ogg`,
+          },
+          "02": {
+            "01": `${p}/ovani-sounds/Magic II/Light/Smite 001.ogg`,
+            "02": `${p}/ovani-sounds/Magic II/Light/Smite 002.ogg`,
+            "03": `${p}/ovani-sounds/Magic II/Light/Smite 003.ogg`,
+            "04": `${p}/ovani-sounds/Magic II/Light/Smite 004.ogg`,
+          },
+        },
+        spiritual_weapon: {
+          "01": {
+            "01": `${p}/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Light/Spiritual Weapon.ogg`,
+          },
+        },
+        turn_undead: {
+          "01": {
+            "01": `${p}/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Light/Turn Undead.ogg`,
           },
         },
       },
@@ -2426,6 +2592,12 @@ export const database = {
             },
           },
         },
+        "03": {
+          "01": `${p}/ovani-sounds/Magic II/Light/Cure 001.ogg`,
+          "02": `${p}/ovani-sounds/Magic II/Light/Cure 002.ogg`,
+          "03": `${p}/ovani-sounds/Magic II/Light/Cure 003.ogg`,
+          "04": `${p}/ovani-sounds/Magic II/Light/Cure 004.ogg`,
+        },
       },
       light: {
         "01": {
@@ -2433,6 +2605,25 @@ export const database = {
         },
         "02": {
           "01": `${p}/ovani-sounds/Magic/Light/Holy Light.ogg`,
+        },
+      },
+      restoration: {
+        "01": {
+          "01": `${p}/ovani-sounds/Magic II/Light/Divine Restoration 001.ogg`,
+          "02": `${p}/ovani-sounds/Magic II/Light/Divine Restoration 002.ogg`,
+          "03": `${p}/ovani-sounds/Magic II/Light/Divine Restoration 003.ogg`,
+        },
+      },
+      revivify: {
+        "01": {
+          "01": `${p}/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Light/Revivify.ogg`,
+        },
+      },
+      seal: {
+        loop: {
+          "01": {
+            "01": `${p}/ovani-sounds/Magic II/Light/Holy Seal Loop 001 - Shortened.ogg`,
+          },
         },
       },
       buff: {
@@ -2447,6 +2638,19 @@ export const database = {
             "02": `${p}/ovani-sounds/Player Status SFX/Musical/Musical Bless 002.ogg`,
             "03": `${p}/ovani-sounds/Player Status SFX/Musical/Musical Bless 003.ogg`,
             "04": `${p}/ovani-sounds/Player Status SFX/Musical/Musical Bless 004.ogg`,
+          },
+          "02": {
+            "01": `${p}/ovani-sounds/Magic II/Light/Bless 001.ogg`,
+            "02": `${p}/ovani-sounds/Magic II/Light/Bless 002.ogg`,
+            "03": `${p}/ovani-sounds/Magic II/Light/Bless 003.ogg`,
+          },
+        },
+        bliss: {
+          "01": {
+            "01": `${p}/ovani-sounds/Magic II/Light/Eternal Bliss 001.ogg`,
+            "02": `${p}/ovani-sounds/Magic II/Light/Eternal Bliss 002.ogg`,
+            "03": `${p}/ovani-sounds/Magic II/Light/Eternal Bliss 003.ogg`,
+            "04": `${p}/ovani-sounds/Magic II/Light/Eternal Bliss 004.ogg`,
           },
         },
         consecrate: {
@@ -2510,6 +2714,15 @@ export const database = {
             "02": `${p}/KhronStudio/Elemental Spell Vol 1/Dark_Spell 2.ogg`,
             "03": `${p}/KhronStudio/Elemental Spell Vol 1/Dark_Spell 3.ogg`,
           },
+          "07": {
+            "01": `${p}/ovani-sounds/Magic II/Dark/Soul Break 001.ogg`,
+            "02": `${p}/ovani-sounds/Magic II/Dark/Soul Break 002.ogg`,
+          },
+        },
+        bane: {
+          "01": {
+            "01": `${p}/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Dark/Bane.ogg`,
+          },
         },
         beam: {
           "01": {
@@ -2542,7 +2755,33 @@ export const database = {
             "07": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Offensive Spells/Oblivion Strike 007.ogg`,
           },
         },
+        conjure: {
+          "01": {
+            "01": `${p}/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Dark/Dark Conjure A.ogg`,
+            "02": `${p}/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Dark/Dark Conjure B.ogg`,
+            "03": `${p}/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Dark/Dark Conjure C.ogg`,
+            "04": `${p}/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Dark/Dark Conjure D.ogg`,
+            "05": `${p}/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Dark/Dark Conjure E.ogg`,
+          },
+        },
+        countdown: {
+          "01": {
+            "01": `${p}/ovani-sounds/_Free Weekly WAVs/Spooky Countdown.ogg`,
+          },
+        },
+        energy: {
+          "01": {
+            "01": `${p}/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Dark/Dark Magic A.ogg`,
+            "02": `${p}/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Dark/Dark Magic B.ogg`,
+            "03": `${p}/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Dark/Dark Magic C.ogg`,
+            "04": `${p}/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Dark/Dark Magic D.ogg`,
+            "05": `${p}/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Dark/Dark Magic E.ogg`,
+          },
+        },
         fear: {
+          "01": {
+            "01": `${p}/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Dark/Cause Fear.ogg`,
+          },
           "02": {
             "01": `${p}/ovani-sounds/Player Status SFX/Musical/Musical Fear 001.ogg`,
             "02": `${p}/ovani-sounds/Player Status SFX/Musical/Musical Fear 002.ogg`,
@@ -2573,6 +2812,39 @@ export const database = {
             "01": `${p}/KhronStudio/Elemental Spell Vol 1/Dark_Spell 4.ogg`,
           },
         },
+        hex: {
+          "01": {
+            "01": `${p}/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Dark/Hex.ogg`,
+          },
+        },
+        inflict_wounds: {
+          "01": {
+            "01": `${p}/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Dark/Inflict Wounds.ogg`,
+          },
+        },
+        laughter: {
+          "01": {
+            "01": `${p}/ovani-sounds/_Free Weekly WAVs/Mad Maiden Stinger.ogg`,
+          },
+        },
+        missile: {
+          "01": {
+            "01": `${p}/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Dark/Dark Whoosh A.ogg`,
+            "02": `${p}/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Dark/Dark Whoosh B.ogg`,
+            "03": `${p}/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Dark/Dark Whoosh C.ogg`,
+            "04": `${p}/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Dark/Dark Whoosh D.ogg`,
+            "05": `${p}/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Dark/Dark Whoosh E.ogg`,
+          },
+        },
+        shatter: {
+          "01": {
+            "01": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Dark Magic/Ebon Shatter 001.ogg`,
+            "02": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Dark Magic/Ebon Shatter 002.ogg`,
+            "03": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Dark Magic/Ebon Shatter 003.ogg`,
+            "04": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Dark Magic/Ebon Shatter 004.ogg`,
+            "05": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Dark Magic/Ebon Shatter 005.ogg`,
+          },
+        },
         wind: {
           "01": {
             cast: {
@@ -2599,25 +2871,6 @@ export const database = {
             loop: {
               "01": `${p}/ovani-sounds/Air/Ghostly/Hollow Wind Low Loop.ogg`,
             },
-          },
-        },
-        laughter: {
-          "01": {
-            "01": `${p}/ovani-sounds/_Free Weekly WAVs/Mad Maiden Stinger.ogg`,
-          },
-        },
-        shatter: {
-          "01": {
-            "01": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Dark Magic/Ebon Shatter 001.ogg`,
-            "02": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Dark Magic/Ebon Shatter 002.ogg`,
-            "03": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Dark Magic/Ebon Shatter 003.ogg`,
-            "04": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Dark Magic/Ebon Shatter 004.ogg`,
-            "05": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Dark Magic/Ebon Shatter 005.ogg`,
-          },
-        },
-        countdown: {
-          "01": {
-            "01": `${p}/ovani-sounds/_Free Weekly WAVs/Spooky Countdown.ogg`,
           },
         },
       },
@@ -2744,6 +2997,15 @@ export const database = {
           "01": {
             "01": `${p}/KhronStudio/Elemental Spell Vol 1/Dark_Resurrection 1.ogg`,
           },
+          "02": {
+            "01": `${p}/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Dark/Dark Heal A.ogg`,
+            "02": `${p}/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Dark/Dark Heal B.ogg`,
+          },
+        },
+        false_life: {
+          "01": {
+            "01": `${p}/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Dark/False Life.ogg`,
+          },
         },
       },
       buff: {
@@ -2753,6 +3015,11 @@ export const database = {
             "02": `${p}/KhronStudio/Elemental Spell Vol 1/Dark_Magic_Buff 2.ogg`,
             "03": `${p}/KhronStudio/Elemental Spell Vol 1/Dark_Magic_Buff 3.ogg`,
           },
+          "02": {
+            "01": `${p}/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Dark/Dark Sigil A.ogg`,
+            "02": `${p}/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Dark/Dark Sigil B.ogg`,
+            "03": `${p}/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Dark/Dark Sigil C.ogg`,
+          },
         },
         ghostly: {
           "01": {
@@ -2760,6 +3027,11 @@ export const database = {
             "02": `${p}/ovani-sounds/Motion and Impacts Sound FX Pack Vol. 2/Riser/Riser Cold Charm 002.ogg`,
             "03": `${p}/ovani-sounds/Motion and Impacts Sound FX Pack Vol. 2/Riser/Riser Cold Charm 003.ogg`,
             "04": `${p}/ovani-sounds/Motion and Impacts Sound FX Pack Vol. 2/Riser/Riser Cold Charm 004.ogg`,
+          },
+        },
+        shield: {
+          "01": {
+            "01": `${p}/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Dark/Dark Shield.ogg`,
           },
         },
       },
@@ -2788,14 +3060,33 @@ export const database = {
             "05": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Dark Magic/Blight Curse 006.ogg`,
             "06": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Dark Magic/Blight Curse 007.ogg`,
           },
+          "06": {
+            "01": `${p}/ovani-sounds/Magic II/Dark/Curse 001.ogg`,
+            "02": `${p}/ovani-sounds/Magic II/Dark/Curse 002.ogg`,
+            "03": `${p}/ovani-sounds/Magic II/Dark/Curse 003.ogg`,
+          },
         },
-
+        bells: {
+          "01": {
+            "01": `${p}/ovani-sounds/Magic II/Dark/Unholy Bells 001.ogg`,
+            "02": `${p}/ovani-sounds/Magic II/Dark/Unholy Bells 002.ogg`,
+            "03": `${p}/ovani-sounds/Magic II/Dark/Unholy Bells 003.ogg`,
+          },
+        },
         confused: {
           "01": {
             "01": `${p}/ovani-sounds/Player Status SFX/Ailments/Ailments Confuse 001.ogg`,
             "02": `${p}/ovani-sounds/Player Status SFX/Ailments/Ailments Confuse 002.ogg`,
             "03": `${p}/ovani-sounds/Player Status SFX/Ailments/Ailments Confuse 003.ogg`,
             "04": `${p}/ovani-sounds/Player Status SFX/Ailments/Ailments Confuse 004.ogg`,
+          },
+        },
+        hex: {
+          "01": {
+            "01": `${p}/ovani-sounds/Magic II/Dark/Hex 001.ogg`,
+            "02": `${p}/ovani-sounds/Magic II/Dark/Hex 002.ogg`,
+            "03": `${p}/ovani-sounds/Magic II/Dark/Hex 003.ogg`,
+            "04": `${p}/ovani-sounds/Magic II/Dark/Hex 004.ogg`,
           },
         },
         hypnotize: {
@@ -2822,37 +3113,11 @@ export const database = {
             "04": `${p}/ovani-sounds/Player Status SFX/Ailments/Ailments Stun 004.ogg`,
           },
         },
-      },
-    },
-    acid: {
-      cast: {
-        general: {
+        stupefy: {
           "01": {
-            "01": `${p}/KhronStudio/Elemental Spell Vol 1/Poison_Spell 2.ogg`,
-            "02": `${p}/KhronStudio/Elemental Spell Vol 1/Poison_Spell 3.ogg`,
+            "01": `${p}/ovani-sounds/Magic II/Dark/Mana Break 001.ogg`,
+            "02": `${p}/ovani-sounds/Magic II/Dark/Mana Break 002.ogg`,
           },
-          "02": {
-            "01": `${p}/KhronStudio/Elemental Spell Vol 1/Poison_Spell 1.ogg`,
-          },
-          "03": {
-            "01": `${p}/KhronStudio/Elemental Spell Vol 1/Poison_Magic_Whoosh 1.ogg`,
-            "02": `${p}/KhronStudio/Elemental Spell Vol 1/Poison_Magic_Whoosh 2.ogg`,
-          },
-        },
-      },
-      impact: {
-        "01": {
-          "01": `${p}/KhronStudio/Elemental Spell Vol 1/Poison_Hit 1.ogg`,
-          "02": `${p}/KhronStudio/Elemental Spell Vol 1/Poison_Hit 2.ogg`,
-          "03": `${p}/KhronStudio/Elemental Spell Vol 1/Poison_Hit 3.ogg`,
-          "04": `${p}/KhronStudio/Elemental Spell Vol 1/Poison_Hit 4.ogg`,
-        },
-      },
-      buff: {
-        "01": {
-          "01": `${p}/KhronStudio/Elemental Spell Vol 1/Poison_Magic_Buff 1.ogg`,
-          "02": `${p}/KhronStudio/Elemental Spell Vol 1/Poison_Magic_Buff 2.ogg`,
-          "03": `${p}/KhronStudio/Elemental Spell Vol 1/Poison_Magic_Buff 3.ogg`,
         },
       },
     },
@@ -2894,6 +3159,16 @@ export const database = {
             "01": `${p}/KhronStudio/Elemental Spell Vol 1/Wind_Spell 1.ogg`,
             "02": `${p}/KhronStudio/Elemental Spell Vol 1/Wind_Spell 2.ogg`,
             "03": `${p}/KhronStudio/Elemental Spell Vol 1/Wind_Spell 3.ogg`,
+          },
+          "06": {
+            "01": `${p}/ovani-sounds/Magic II/Air and Thunder/Blow 001.ogg`,
+            "02": `${p}/ovani-sounds/Magic II/Air and Thunder/Blow 002.ogg`,
+            "03": `${p}/ovani-sounds/Magic II/Air and Thunder/Blow 003.ogg`,
+          },
+        },
+        blade: {
+          "01": {
+            "01": `${p}/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Air/Air Blade.ogg`,
           },
         },
         gust: {
@@ -2945,30 +3220,13 @@ export const database = {
             "05": `${p}/ovani-sounds/Air/Misc/Escaping Air Short E.ogg`,
           },
         },
-        suck: {
+        push: {
           "01": {
-            "01": `${p}/ovani-sounds/Air/Designed/Air Suck A.ogg`,
-            "02": `${p}/ovani-sounds/Air/Designed/Air Suck B.ogg`,
-            "03": `${p}/ovani-sounds/Air/Designed/Air Suck C.ogg`,
-            "04": `${p}/ovani-sounds/Air/Designed/Air Suck D.ogg`,
-            "05": `${p}/ovani-sounds/Air/Designed/Air Suck E.ogg`,
-          },
-        },
-        roar: {
-          "01": {
-            "01": `${p}/ovani-sounds/Air/Designed/Spinning Wind A.ogg`,
-            "02": `${p}/ovani-sounds/Air/Designed/Spinning Wind B.ogg`,
-            "03": `${p}/ovani-sounds/Air/Designed/Spinning Wind C.ogg`,
-            "04": `${p}/ovani-sounds/Air/Designed/Spinning Wind D.ogg`,
-            "05": `${p}/ovani-sounds/Air/Designed/Spinning Wind E.ogg`,
-            "06": `${p}/ovani-sounds/Air/Designed/Spinning Wind F.ogg`,
-          },
-          "02": {
-            "01": `${p}/ovani-sounds/Air/Designed/Stuttering Wind A.ogg`,
-            "02": `${p}/ovani-sounds/Air/Designed/Stuttering Wind B.ogg`,
-            "03": `${p}/ovani-sounds/Air/Designed/Stuttering Wind C.ogg`,
-            "04": `${p}/ovani-sounds/Air/Designed/Stuttering Wind D.ogg`,
-            "05": `${p}/ovani-sounds/Air/Designed/Stuttering Wind E.ogg`,
+            "01": `${p}/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Air/Air Whoosh Push A.ogg`,
+            "02": `${p}/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Air/Air Whoosh Push B.ogg`,
+            "03": `${p}/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Air/Air Whoosh Push C.ogg`,
+            "04": `${p}/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Air/Air Whoosh Push D.ogg`,
+            "05": `${p}/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Air/Air Whoosh Push E.ogg`,
           },
         },
         reverse: {
@@ -2991,6 +3249,45 @@ export const database = {
             },
           },
         },
+        roar: {
+          "01": {
+            "01": `${p}/ovani-sounds/Air/Designed/Spinning Wind A.ogg`,
+            "02": `${p}/ovani-sounds/Air/Designed/Spinning Wind B.ogg`,
+            "03": `${p}/ovani-sounds/Air/Designed/Spinning Wind C.ogg`,
+            "04": `${p}/ovani-sounds/Air/Designed/Spinning Wind D.ogg`,
+            "05": `${p}/ovani-sounds/Air/Designed/Spinning Wind E.ogg`,
+            "06": `${p}/ovani-sounds/Air/Designed/Spinning Wind F.ogg`,
+          },
+          "02": {
+            "01": `${p}/ovani-sounds/Air/Designed/Stuttering Wind A.ogg`,
+            "02": `${p}/ovani-sounds/Air/Designed/Stuttering Wind B.ogg`,
+            "03": `${p}/ovani-sounds/Air/Designed/Stuttering Wind C.ogg`,
+            "04": `${p}/ovani-sounds/Air/Designed/Stuttering Wind D.ogg`,
+            "05": `${p}/ovani-sounds/Air/Designed/Stuttering Wind E.ogg`,
+          },
+        },
+        slice: {
+          "01": {
+            "01": `${p}/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Air/Air Whoosh Slice A.ogg`,
+            "02": `${p}/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Air/Air Whoosh Slice B.ogg`,
+            "03": `${p}/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Air/Air Whoosh Slice C.ogg`,
+          },
+        },
+        strike: {
+          "01": {
+            "01": `${p}/ovani-sounds/Magic II/Air and Thunder/Wind Strike 001.ogg`,
+            "02": `${p}/ovani-sounds/Magic II/Air and Thunder/Wind Strike 002.ogg`,
+          },
+        },
+        suck: {
+          "01": {
+            "01": `${p}/ovani-sounds/Air/Designed/Air Suck A.ogg`,
+            "02": `${p}/ovani-sounds/Air/Designed/Air Suck B.ogg`,
+            "03": `${p}/ovani-sounds/Air/Designed/Air Suck C.ogg`,
+            "04": `${p}/ovani-sounds/Air/Designed/Air Suck D.ogg`,
+            "05": `${p}/ovani-sounds/Air/Designed/Air Suck E.ogg`,
+          },
+        },
         charge: {
           loop: {
             "01": {
@@ -3006,6 +3303,11 @@ export const database = {
             "01": `${p}/KhronStudio/Elemental Spell Vol 1/Wind_Hit 1.ogg`,
             "02": `${p}/KhronStudio/Elemental Spell Vol 1/Wind_Hit 2.ogg`,
             "03": `${p}/KhronStudio/Elemental Spell Vol 1/Wind_Hit 3.ogg`,
+          },
+          "02": {
+            "01": `${p}/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Air/Air Hits A.ogg`,
+            "02": `${p}/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Air/Air Hits B.ogg`,
+            "03": `${p}/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Air/Air Hits C.ogg`,
           },
         },
         turbine: {
@@ -3044,6 +3346,13 @@ export const database = {
               "04": `${p}/ovani-sounds/Air/Digital/Digital Wind Short D.ogg`,
               "05": `${p}/ovani-sounds/Air/Digital/Digital Wind Short E.ogg`,
             },
+          },
+        },
+      },
+      cyclone: {
+        loop: {
+          "01": {
+            "01": `${p}/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Air/Air Cyclone Loop - Shortened.ogg`,
           },
         },
       },
@@ -3097,6 +3406,11 @@ export const database = {
         },
       },
       movement: {
+        air_walk: {
+          "01": {
+            "01": `${p}/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Air/Air Walk.ogg`,
+          },
+        },
         teleportation: {
           "01": {
             in: `${p}/ovani-sounds/Magic/Air/Aeroportation In.ogg`,
@@ -3199,13 +3513,114 @@ export const database = {
             "02": `${p}/KhronStudio/Elemental Spell Vol 1/Wind_Magic_Buff 2.ogg`,
             "03": `${p}/KhronStudio/Elemental Spell Vol 1/Wind_Magic_Buff 3.ogg`,
           },
+          "02": {
+            "01": `${p}/ovani-sounds/Magic II/Air and Thunder/Air Glyph 001.ogg`,
+            "02": `${p}/ovani-sounds/Magic II/Air and Thunder/Air Glyph 002.ogg`,
+            "03": `${p}/ovani-sounds/Magic II/Air and Thunder/Air Glyph 003.ogg`,
+            "04": `${p}/ovani-sounds/Magic II/Air and Thunder/Air Glyph 004.ogg`,
+          },
+          "03": {
+            "01": `${p}/ovani-sounds/Magic II/Air and Thunder/Wind Clearance 001.ogg`,
+            "02": `${p}/ovani-sounds/Magic II/Air and Thunder/Wind Clearance 002.ogg`,
+            "03": `${p}/ovani-sounds/Magic II/Air and Thunder/Wind Clearance 003.ogg`,
+            "04": `${p}/ovani-sounds/Magic II/Air and Thunder/Wind Clearance 004.ogg`,
+          },
+          "04": {
+            "01": `${p}/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Air/Air Buff A.ogg`,
+            "02": `${p}/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Air/Air Buff B.ogg`,
+          },
+        },
+        misc: {
+          echo: {
+            "01": {
+              cast: `${p}/ovani-sounds/Magic/Air/Echoing Gust Cast.ogg`,
+              impact: `${p}/ovani-sounds/Magic/Air/Echoing Gust Impact.ogg`,
+            },
+          },
         },
       },
-      misc: {
-        echo: {
+      debuff: {
+        general: {
           "01": {
-            cast: `${p}/ovani-sounds/Magic/Air/Echoing Gust Cast.ogg`,
-            impact: `${p}/ovani-sounds/Magic/Air/Echoing Gust Impact.ogg`,
+            "01": `${p}/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Air/Air Curse.ogg`,
+          },
+        },
+      },
+    },
+    acid: {
+      cast: {
+        general: {
+          "01": {
+            "01": `${p}/KhronStudio/Elemental Spell Vol 1/Poison_Spell 2.ogg`,
+            "02": `${p}/KhronStudio/Elemental Spell Vol 1/Poison_Spell 3.ogg`,
+          },
+          "02": {
+            "01": `${p}/KhronStudio/Elemental Spell Vol 1/Poison_Spell 1.ogg`,
+          },
+          "03": {
+            "01": `${p}/KhronStudio/Elemental Spell Vol 1/Poison_Magic_Whoosh 1.ogg`,
+            "02": `${p}/KhronStudio/Elemental Spell Vol 1/Poison_Magic_Whoosh 2.ogg`,
+          },
+        },
+        bubble: {
+          "01": {
+            "01": `${p}/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Acid/Acid Whoosh Bubble.ogg`,
+          },
+        },
+        toss: {
+          throw: {
+            "01": {
+              "01": `${p}/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Acid/Acid Shot A.ogg`,
+              "02": `${p}/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Acid/Acid Shot B.ogg`,
+              "03": `${p}/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Acid/Acid Shot C.ogg`,
+              "04": `${p}/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Acid/Acid Shot D.ogg`,
+              "05": `${p}/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Acid/Acid Shot E.ogg`,
+            },
+            "02": {
+              "01": `${p}/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Acid/Acid Whoosh A.ogg`,
+              "02": `${p}/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Acid/Acid Whoosh B.ogg`,
+              "03": `${p}/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Acid/Acid Whoosh C.ogg`,
+              "04": `${p}/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Acid/Acid Whoosh D.ogg`,
+              "05": `${p}/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Acid/Acid Whoosh E.ogg`,
+            },
+          },
+          impact: {
+            "01": {
+              "01": `${p}/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Acid/Acid Hit A.ogg`,
+              "02": `${p}/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Acid/Acid Hit B.ogg`,
+              "03": `${p}/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Acid/Acid Hit C.ogg`,
+              "04": `${p}/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Acid/Acid Hit D.ogg`,
+              "05": `${p}/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Acid/Acid Hit E.ogg`,
+            },
+          },
+        },
+      },
+      impact: {
+        "01": {
+          "01": `${p}/KhronStudio/Elemental Spell Vol 1/Poison_Hit 1.ogg`,
+          "02": `${p}/KhronStudio/Elemental Spell Vol 1/Poison_Hit 2.ogg`,
+          "03": `${p}/KhronStudio/Elemental Spell Vol 1/Poison_Hit 3.ogg`,
+          "04": `${p}/KhronStudio/Elemental Spell Vol 1/Poison_Hit 4.ogg`,
+        },
+        "02": {
+          "01": `${p}/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Acid/Poison Hit A.ogg`,
+          "02": `${p}/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Acid/Poison Hit B.ogg`,
+          "03": `${p}/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Acid/Poison Hit C.ogg`,
+        },
+      },
+      buff: {
+        "01": {
+          "01": `${p}/KhronStudio/Elemental Spell Vol 1/Poison_Magic_Buff 1.ogg`,
+          "02": `${p}/KhronStudio/Elemental Spell Vol 1/Poison_Magic_Buff 2.ogg`,
+          "03": `${p}/KhronStudio/Elemental Spell Vol 1/Poison_Magic_Buff 3.ogg`,
+        },
+      },
+      debuff: {
+        virulent: {
+          "01": {
+            "01": `${p}/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Acid/Grotesque Acid A.ogg`,
+            "02": `${p}/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Acid/Grotesque Acid B.ogg`,
+            "03": `${p}/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Acid/Grotesque Acid C.ogg`,
           },
         },
       },
@@ -3223,9 +3638,41 @@ export const database = {
             "02": `${p}/KhronStudio/Elemental Spell Vol 1/Rocks_Magic_Whoosh 2.ogg`,
           },
         },
+        grease: {
+          "01": {
+            "01": `${p}/ovani-sounds/Magic II/Earth/Grease Short 001.ogg`,
+            "02": `${p}/ovani-sounds/Magic II/Earth/Grease Short 002.ogg`,
+          },
+        },
         magnetic: {
           "01": {
             "01": `${p}/ovani-sounds/Magic/Earth/Magnetic Burst.ogg`,
+          },
+        },
+        rumble: {
+          "01": {
+            "01": `${p}/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Earth/Earth Low A.ogg`,
+            "02": `${p}/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Earth/Earth Low B.ogg`,
+          },
+        },
+        stone: {
+          throw: {
+            "01": {
+              "01": `${p}/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Earth/Earth Attack A.ogg`,
+              "02": `${p}/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Earth/Earth Attack B.ogg`,
+              "03": `${p}/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Earth/Earth Attack C.ogg`,
+            },
+          },
+        },
+        stonepocalypse: {
+          "01": {
+            "01": `${p}/ovani-sounds/Magic II/Earth/Stonepocalypse.ogg`,
+          },
+        },
+        wind_up: {
+          "01": {
+            "01": `${p}/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Earth/Stone Windup A.ogg`,
+            "02": `${p}/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Earth/Stone Windup B.ogg`,
           },
         },
       },
@@ -3251,6 +3698,11 @@ export const database = {
               "02": `${p}/ovani-sounds/Magic/Earth/Boulder Throw Impact B.ogg`,
               "03": `${p}/ovani-sounds/Magic/Earth/Boulder Throw Impact C.ogg`,
             },
+          },
+          "02": {
+            "01": `${p}/ovani-sounds/Magic II/Earth/Boulder Eruption 001.ogg`,
+            "02": `${p}/ovani-sounds/Magic II/Earth/Boulder Eruption 002.ogg`,
+            "03": `${p}/ovani-sounds/Magic II/Earth/Boulder Eruption 003.ogg`,
           },
         },
         rock: {
@@ -3285,6 +3737,11 @@ export const database = {
             "01": `${p}/TomMusic/FreeFantasySFX/Spells/Rock Meteor Throw 1.ogg`,
             "02": `${p}/TomMusic/FreeFantasySFX/Spells/Rock Meteor Throw 2.ogg`,
           },
+          "05": {
+            "01": `${p}/ovani-sounds/Magic II/Earth/Rocky Missile 001.ogg`,
+            "02": `${p}/ovani-sounds/Magic II/Earth/Rocky Missile 002.ogg`,
+            "03": `${p}/ovani-sounds/Magic II/Earth/Rocky Missile 003.ogg`,
+          },
         },
         stone: {
           "01": {
@@ -3301,6 +3758,12 @@ export const database = {
               "02": `${p}/ovani-sounds/Magic/Earth/Stone Throw Impact B.ogg`,
               "03": `${p}/ovani-sounds/Magic/Earth/Stone Throw Impact C.ogg`,
             },
+          },
+        },
+        throw: {
+          "01": {
+            "01": `${p}/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Earth/Earth Lift Throw A.ogg`,
+            "02": `${p}/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Earth/Earth Lift Throw B.ogg`,
           },
         },
         magnetic: {
@@ -3365,6 +3828,27 @@ export const database = {
             "02": `${p}/ovani-sounds/Motion and Impacts Sound FX Pack Vol. 2/Impacts/Impact Vibro 002.ogg`,
             "03": `${p}/ovani-sounds/Motion and Impacts Sound FX Pack Vol. 2/Impacts/Impact Vibro 003.ogg`,
             "04": `${p}/ovani-sounds/Motion and Impacts Sound FX Pack Vol. 2/Impacts/Impact Vibro 004.ogg`,
+          },
+        },
+        multiple: {
+          "01": {
+            "01": `${p}/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Earth/Earth Hits Multiple A.ogg`,
+            "02": `${p}/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Earth/Earth Hits Multiple B.ogg`,
+            "03": `${p}/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Earth/Earth Hits Multiple C.ogg`,
+          },
+        },
+      },
+      dig: {
+        burrow: {
+          "01": {
+            "01": `${p}/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Earth/Earth Dig A.ogg`,
+            "02": `${p}/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Earth/Earth Dig B.ogg`,
+          },
+        },
+        erupt: {
+          "01": {
+            "01": `${p}/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Earth/Earth Erupt A.ogg`,
+            "02": `${p}/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Earth/Earth Erupt B.ogg`,
           },
         },
       },
@@ -3438,11 +3922,18 @@ export const database = {
         },
       },
       loop: {
-        "01": {
-          "01": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Earth/Loops/Earth Loop Layer A.ogg`,
-          "02": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Earth/Loops/Earth Loop Layer B.ogg`,
-          "03": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Earth/Loops/Earth Loop Layer C.ogg`,
-          "04": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Earth/Loops/Earth Loop Layer D.ogg`,
+        general: {
+          "01": {
+            "01": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Earth/Loops/Earth Loop Layer A.ogg`,
+            "02": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Earth/Loops/Earth Loop Layer B.ogg`,
+            "03": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Earth/Loops/Earth Loop Layer C.ogg`,
+            "04": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Earth/Loops/Earth Loop Layer D.ogg`,
+          },
+        },
+        geokinesis: {
+          "01": {
+            "01": `${p}/ovani-sounds/Magic II/Earth/Geokinesis Loop 001 - Shortened.ogg`,
+          },
         },
       },
       crumble: {
@@ -3533,6 +4024,25 @@ export const database = {
         armor: {
           "01": {
             "01": `${p}/ovani-sounds/Magic/Earth/Stone Armor.ogg`,
+          },
+          "02": {
+            "01": `${p}/ovani-sounds/Magic II/Earth/Stoneskin 001.ogg`,
+            "02": `${p}/ovani-sounds/Magic II/Earth/Stoneskin 002.ogg`,
+            "03": `${p}/ovani-sounds/Magic II/Earth/Stoneskin 003.ogg`,
+            "04": `${p}/ovani-sounds/Magic II/Earth/Stoneskin 004.ogg`,
+          },
+        },
+        shield: {
+          "01": {
+            "01": `${p}/ovani-sounds/Magic II/Earth/Stone Ward 001.ogg`,
+            "02": `${p}/ovani-sounds/Magic II/Earth/Stone Ward 002.ogg`,
+            "03": `${p}/ovani-sounds/Magic II/Earth/Stone Ward 003.ogg`,
+            "04": `${p}/ovani-sounds/Magic II/Earth/Stone Ward 004.ogg`,
+          },
+        },
+        rune: {
+          "01": {
+            "01": `${p}/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Earth/Rune Place.ogg`,
           },
         },
       },
@@ -3706,6 +4216,14 @@ export const database = {
             "01": `${p}/KhronStudio/Elemental Spell Vol 1/Lighting_Magic_Whoosh 1.ogg`,
             "02": `${p}/KhronStudio/Elemental Spell Vol 1/Lighting_Magic_Whoosh 2.ogg`,
           },
+          "03": {
+            "01": `${p}/ovani-sounds/Magic II/Air and Thunder/Electro Strike 001.ogg`,
+            "02": `${p}/ovani-sounds/Magic II/Air and Thunder/Electro Strike 002.ogg`,
+            "03": `${p}/ovani-sounds/Magic II/Air and Thunder/Electro Strike 003.ogg`,
+            "04": `${p}/ovani-sounds/Magic II/Air and Thunder/Electro Strike 004.ogg`,
+            "05": `${p}/ovani-sounds/Magic II/Air and Thunder/Electro Strike 005.ogg`,
+            "06": `${p}/ovani-sounds/Magic II/Air and Thunder/Electro Strike 006.ogg`,
+          },
         },
         charge: {
           "01": {
@@ -3714,13 +4232,39 @@ export const database = {
             "03": `${p}/ovani-sounds/Magic/Shock/Thunderbolt Strike Cast C.ogg`,
           },
         },
-      },
-      strike: {
+        match: {
+          "01": {
+            "01": `${p}/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Electric/Electric Match A.ogg`,
+            "02": `${p}/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Electric/Electric Match B.ogg`,
+          },
+        },
+        shot: {
+          "01": {
+            "01": `${p}/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Electric/Electric Shot A.ogg`,
+            "02": `${p}/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Electric/Electric Shot B.ogg`,
+            "03": `${p}/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Electric/Electric Shot C.ogg`,
+            "04": `${p}/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Electric/Electric Shot D.ogg`,
+            "05": `${p}/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Electric/Electric Shot E.ogg`,
+          },
+        },
+        storm: {
+          "01": {
+            "01": `${p}/ovani-sounds/Magic II/Air and Thunder/Storm Cast 001.ogg`,
+            "02": `${p}/ovani-sounds/Magic II/Air and Thunder/Storm Cast 002.ogg`,
+          },
+        },
         whip: {
           "01": {
             "01": `${p}/ovani-sounds/Magic/Shock/Lightning Whip A.ogg`,
             "02": `${p}/ovani-sounds/Magic/Shock/Lightning Whip B.ogg`,
             "03": `${p}/ovani-sounds/Magic/Shock/Lightning Whip C.ogg`,
+          },
+          "02": {
+            "01": `${p}/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Electric/Electric Whip A.ogg`,
+            "02": `${p}/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Electric/Electric Whip B.ogg`,
+            "03": `${p}/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Electric/Electric Whip C.ogg`,
+            "04": `${p}/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Electric/Electric Whip D.ogg`,
+            "05": `${p}/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Electric/Electric Whip E.ogg`,
           },
         },
       },
@@ -3779,6 +4323,21 @@ export const database = {
           },
         },
       },
+      thunder: {
+        strike: {
+          "01": {
+            "01": `${p}/ovani-sounds/Magic II/Air and Thunder/Thunder Strike 001.ogg`,
+            "02": `${p}/ovani-sounds/Magic II/Air and Thunder/Thunder Strike 002.ogg`,
+            "03": `${p}/ovani-sounds/Magic II/Air and Thunder/Thunder Strike 003.ogg`,
+            "04": `${p}/ovani-sounds/Magic II/Air and Thunder/Thunder Strike 004.ogg`,
+          },
+        },
+      },
+      zap: {
+        "01": {
+          "01": `${p}/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Electric/Electric Zap.ogg`,
+        },
+      },
       buff: {
         general: {
           "01": {
@@ -3814,6 +4373,16 @@ export const database = {
             "03": `${p}/KhronStudio/Elemental Spell Vol 1/Fire_Spell 3.ogg`,
           },
         },
+        ball: {
+          "01": {
+            "01": `${p}/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Fire/Fire Ball.ogg`,
+          },
+        },
+        blast: {
+          "01": {
+            "01": `${p}/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Fire/Back Blast.ogg`,
+          },
+        },
         throw: {
           "01": {
             "01": `${p}/ovani-sounds/Fire SFX/Fire Magic/Fire Cast and Tail A.ogg`,
@@ -3847,6 +4416,19 @@ export const database = {
             "04": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Fire/Fire Tail Whip D.ogg`,
           },
         },
+        erupt: {
+          "01": {
+            "01": `${p}/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Fire/Erupt A.ogg`,
+            "02": `${p}/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Fire/Erupt B.ogg`,
+          },
+        },
+        gust: {
+          "01": {
+            "01": `${p}/ovani-sounds/Magic II/Fire/Fire Gust 001.ogg`,
+            "02": `${p}/ovani-sounds/Magic II/Fire/Fire Gust 002.ogg`,
+            "03": `${p}/ovani-sounds/Magic II/Fire/Fire Gust 003.ogg`,
+          },
+        },
         hit: {
           "01": {
             "01": `${p}/ovani-sounds/Fire SFX/Fire Magic/Fire Cast Then Hit A.ogg`,
@@ -3854,9 +4436,38 @@ export const database = {
             "03": `${p}/ovani-sounds/Fire SFX/Fire Magic/Fire Cast Then Hit C.ogg`,
           },
         },
+        miasma: {
+          "01": {
+            "01": `${p}/ovani-sounds/Magic II/Fire/Miasma 001.ogg`,
+            "02": `${p}/ovani-sounds/Magic II/Fire/Miasma 002.ogg`,
+            "03": `${p}/ovani-sounds/Magic II/Fire/Miasma 003.ogg`,
+          },
+        },
         rapid: {
           "01": {
             "01": `${p}/ovani-sounds/Fire SFX/Fire Magic/Fire Rapid Fire.ogg`,
+          },
+        },
+        spray: {
+          "01": {
+            "01": `${p}/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Fire/Burning Spray.ogg`,
+          },
+        },
+        summon: {
+          coal: {
+            "01": {
+              "01": `${p}/ovani-sounds/Magic II/Fire/Summon Coal Spirit.ogg`,
+            },
+          },
+          fire: {
+            "01": {
+              "01": `${p}/ovani-sounds/Magic II/Fire/Summon Fire Spawn.ogg`,
+            },
+          },
+          sparkle: {
+            "01": {
+              "01": `${p}/ovani-sounds/Magic II/Fire/Summon Sparkle.ogg`,
+            },
           },
         },
         torch: {
@@ -3864,18 +4475,39 @@ export const database = {
             "01": `${p}/ovani-sounds/Fire SFX/Fire Tools/Blow Torch On_Off.ogg`,
           },
         },
-      },
-      strike: {
-        chains: {
-          "01": {
-            "01": `${p}/ovani-sounds/Magic/Fire/Flame Chain A.ogg`,
-            "02": `${p}/ovani-sounds/Magic/Fire/Flame Chain B.ogg`,
-            "03": `${p}/ovani-sounds/Magic/Fire/Flame Chain C.ogg`,
+        strike: {
+          general: {
+            "01": {
+              "01": `${p}/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Fire/Fire Attack A.ogg`,
+              "02": `${p}/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Fire/Fire Attack B.ogg`,
+              "03": `${p}/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Fire/Fire Attack C.ogg`,
+              "04": `${p}/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Fire/Fire Attack D.ogg`,
+              "05": `${p}/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Fire/Fire Attack E.ogg`,
+            },
           },
-        },
-        whip: {
-          "01": {
-            "01": `${p}/ovani-sounds/Magic/Fire/Fire Whip.ogg`,
+          chains: {
+            "01": {
+              "01": `${p}/ovani-sounds/Magic/Fire/Flame Chain A.ogg`,
+              "02": `${p}/ovani-sounds/Magic/Fire/Flame Chain B.ogg`,
+              "03": `${p}/ovani-sounds/Magic/Fire/Flame Chain C.ogg`,
+            },
+          },
+          smoke: {
+            "01": {
+              "01": `${p}/ovani-sounds/Magic II/Fire/Smoke Strike 001.ogg`,
+              "02": `${p}/ovani-sounds/Magic II/Fire/Smoke Strike 002.ogg`,
+              "03": `${p}/ovani-sounds/Magic II/Fire/Smoke Strike 003.ogg`,
+            },
+          },
+          shuriken: {
+            "01": {
+              "01": `${p}/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Fire/Fire Shuriken.ogg`,
+            },
+          },
+          whip: {
+            "01": {
+              "01": `${p}/ovani-sounds/Magic/Fire/Fire Whip.ogg`,
+            },
           },
         },
       },
@@ -3913,6 +4545,13 @@ export const database = {
             "01": `${p}/KhronStudio/Elemental Spell Vol 1/Fire_Hit 1.ogg`,
             "02": `${p}/KhronStudio/Elemental Spell Vol 1/Fire_Hit 2.ogg`,
             "03": `${p}/KhronStudio/Elemental Spell Vol 1/Fire_Hit 3.ogg`,
+          },
+          "04": {
+            "01": `${p}/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Fire/Fire Hit A.ogg`,
+            "02": `${p}/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Fire/Fire Hit B.ogg`,
+            "03": `${p}/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Fire/Fire Hit C.ogg`,
+            "04": `${p}/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Fire/Fire Hit D.ogg`,
+            "05": `${p}/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Fire/Fire Hit E.ogg`,
           },
         },
         flame: {
@@ -4031,6 +4670,11 @@ export const database = {
         },
       },
       loop: {
+        lava: {
+          "01": {
+            "01": `${p}/ovani-sounds/Magic II/Fire/Lava Enchantment Loop 001.ogg`,
+          },
+        },
         storm: {
           "01": {
             "01": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Fire/Loops/Fire Loop Layer A.ogg`,
@@ -4078,6 +4722,23 @@ export const database = {
         armor: {
           "01": {
             "01": `${p}/ovani-sounds/Magic/Fire/Flame Armor.ogg`,
+          },
+        },
+        flames: {
+          "01": {
+            "01": `${p}/ovani-sounds/Magic II/Fire/Warm Buff 001.ogg`,
+            "02": `${p}/ovani-sounds/Magic II/Fire/Warm Buff 002.ogg`,
+            "03": `${p}/ovani-sounds/Magic II/Fire/Warm Buff 003.ogg`,
+            "04": `${p}/ovani-sounds/Magic II/Fire/Warm Buff 004.ogg`,
+          },
+        },
+        shield: {
+          flames: {
+            "01": {
+              "01": `${p}/ovani-sounds/Magic II/Fire/Fire Ward 001.ogg`,
+              "02": `${p}/ovani-sounds/Magic II/Fire/Fire Ward 002.ogg`,
+              "03": `${p}/ovani-sounds/Magic II/Fire/Fire Ward 003.ogg`,
+            },
           },
         },
       },
@@ -4224,10 +4885,75 @@ export const database = {
             "01": `${p}/KhronStudio/Elemental Spell Vol 1/Ice_ Magic_whoosh 1.ogg`,
             "02": `${p}/KhronStudio/Elemental Spell Vol 1/Ice_ Magic_whoosh 2.ogg`,
           },
+
+          "03": {
+            "01": `${p}/ovani-sounds/Magic II/Water and Ice/Frostbourne 001.ogg`,
+            "02": `${p}/ovani-sounds/Magic II/Water and Ice/Frostbourne 002.ogg`,
+            "03": `${p}/ovani-sounds/Magic II/Water and Ice/Frostbourne 003.ogg`,
+            "04": `${p}/ovani-sounds/Magic II/Water and Ice/Frostbourne 004.ogg`,
+          },
+          "04": {
+            "01": `${p}/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Ice/Ice Weapon A.ogg`,
+            "02": `${p}/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Ice/Ice Weapon B.ogg`,
+          },
         },
         conjure: {
           "01": {
             "01": `${p}/KhronStudio/Elemental Spell Vol 1/Ice_conjure 1.ogg`,
+          },
+        },
+        dispel: {
+          "01": {
+            "01": `${p}/ovani-sounds/Magic II/Water and Ice/Ice Strike Dispel 001.ogg`,
+            "02": `${p}/ovani-sounds/Magic II/Water and Ice/Ice Strike Dispel 002.ogg`,
+            "03": `${p}/ovani-sounds/Magic II/Water and Ice/Ice Strike Dispel 003.ogg`,
+          },
+          "05": {
+            "01": `${p}/ovani-sounds/Magic II/Water and Ice/Dispel Iceberg.ogg`,
+          },
+        },
+        icycle: {
+          "01": {
+            "01": `${p}/ovani-sounds/Magic II/Water and Ice/Ice Strike Cast 001.ogg`,
+            "02": `${p}/ovani-sounds/Magic II/Water and Ice/Ice Strike Cast 002.ogg`,
+            "03": `${p}/ovani-sounds/Magic II/Water and Ice/Ice Strike Cast 003.ogg`,
+          },
+        },
+        shot: {
+          "01": {
+            "01": `${p}/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Ice/Ice Shoot A.ogg`,
+            "02": `${p}/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Ice/Ice Shoot B.ogg`,
+            "03": `${p}/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Ice/Ice Shoot C.ogg`,
+          },
+        },
+        snow: {
+          "01": {
+            "01": `${p}/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Ice/Ice Snow A.ogg`,
+            "02": `${p}/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Ice/Ice Snow B.ogg`,
+          },
+        },
+        summon: {
+          iceberg: {
+            "01": {
+              "01": `${p}/ovani-sounds/Magic II/Water and Ice/Summon Iceberg 001.ogg`,
+              "02": `${p}/ovani-sounds/Magic II/Water and Ice/Summon Iceberg 002.ogg`,
+            },
+          },
+          water_elemental: {
+            "01": {
+              "01": `${p}/ovani-sounds/Magic II/Water and Ice/Summon Water Elemental 001.ogg`,
+              "02": `${p}/ovani-sounds/Magic II/Water and Ice/Summon Water Elemental 002.ogg`,
+              "03": `${p}/ovani-sounds/Magic II/Water and Ice/Summon Water Elemental 003.ogg`,
+            },
+          },
+        },
+        whoosh: {
+          "01": {
+            "01": `${p}/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Ice/Ice Whoosh A.ogg`,
+            "02": `${p}/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Ice/Ice Whoosh B.ogg`,
+            "03": `${p}/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Ice/Ice Whoosh C.ogg`,
+            "04": `${p}/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Ice/Ice Whoosh D.ogg`,
+            "05": `${p}/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Ice/Ice Whoosh E.ogg`,
           },
         },
       },
@@ -4306,6 +5032,12 @@ export const database = {
           "03": `${p}/ovani-sounds/Player Status SFX/Ailments/Ailments Freeze 003.ogg`,
           "04": `${p}/ovani-sounds/Player Status SFX/Ailments/Ailments Freeze 004.ogg`,
         },
+
+        "05": {
+          "01": `${p}/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Ice/Ice Freeze A.ogg`,
+          "02": `${p}/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Ice/Ice Freeze B.ogg`,
+          "03": `${p}/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Ice/Ice Freeze C.ogg`,
+        },
       },
       gale: {
         "01": {
@@ -4321,6 +5053,12 @@ export const database = {
             "01": `${p}/KhronStudio/Elemental Spell Vol 1/Ice_hits 1.ogg`,
             "02": `${p}/KhronStudio/Elemental Spell Vol 1/Ice_hits 2.ogg`,
             "03": `${p}/KhronStudio/Elemental Spell Vol 1/Ice_hits 3.ogg`,
+          },
+
+          "02": {
+            "01": `${p}/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Ice/Ice Hits A.ogg`,
+            "02": `${p}/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Ice/Ice Hits B.ogg`,
+            "03": `${p}/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Ice/Ice Hits C.ogg`,
           },
         },
       },
@@ -4338,6 +5076,10 @@ export const database = {
             "01": `${p}/KhronStudio/Elemental Spell Vol 1/Ice_Magic_Buff 1.ogg`,
             "02": `${p}/KhronStudio/Elemental Spell Vol 1/Ice_Magic_Buff 2.ogg`,
             "03": `${p}/KhronStudio/Elemental Spell Vol 1/Ice_Magic_Buff 3.ogg`,
+          },
+          "02": {
+            "01": `${p}/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Ice/Ice Buff A.ogg`,
+            "02": `${p}/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Ice/Ice Buff B.ogg`,
           },
         },
         shield: {
@@ -4361,6 +5103,12 @@ export const database = {
           "01": {
             "01": `${p}/TomMusic/FreeFantasySFX/Spells/Ice Wall 1.ogg`,
             "02": `${p}/TomMusic/FreeFantasySFX/Spells/Ice Wall 2.ogg`,
+          },
+
+          "02": {
+            "01": `${p}/ovani-sounds/Magic II/Water and Ice/Frost Wall 001.ogg`,
+            "02": `${p}/ovani-sounds/Magic II/Water and Ice/Frost Wall 002.ogg`,
+            "03": `${p}/ovani-sounds/Magic II/Water and Ice/Frost Wall 003.ogg`,
           },
         },
       },
@@ -4430,6 +5178,11 @@ export const database = {
             "01": `${p}/KhronStudio/Elemental Spell Vol 1/Water_Magic_Whoosh 1.ogg`,
             "02": `${p}/KhronStudio/Elemental Spell Vol 1/Water_Magic_Whoosh 2.ogg`,
           },
+          "03": {
+            "01": `${p}/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Water/Water Cast A.ogg`,
+            "02": `${p}/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Water/Water Cast B.ogg`,
+            "03": `${p}/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Water/Water Cast C.ogg`,
+          },
           "06": {
             "01": `${p}/Soniss/GDC2024/BluezoneCorp/Water Swoosh.ogg`,
           },
@@ -4471,6 +5224,16 @@ export const database = {
           "01": {
             "01": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Water/Water Rise High.ogg`,
           },
+          "02": {
+            "01": `${p}/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Water/Water Attack A.ogg`,
+            "02": `${p}/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Water/Water Attack B.ogg`,
+            "03": `${p}/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Water/Water Attack C.ogg`,
+          },
+        },
+        call_of_the_deep: {
+          "01": {
+            "01": `${p}/ovani-sounds/Magic II/Water and Ice/Call Of The Deep.ogg`,
+          },
         },
         current: {
           "01": {
@@ -4506,6 +5269,15 @@ export const database = {
             "07": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Water Magic/Maelstrom Roar 007.ogg`,
           },
         },
+        rain: {
+          general: {},
+          eerie: {
+            "01": {
+              "01": `${p}/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Water/Eerie Rain A.ogg`,
+              "02": `${p}/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Water/Eerie Rain B.ogg`,
+            },
+          },
+        },
         spray: {
           "01": {
             "01": `${p}/TomMusic/FreeFantasySFX/Spells/Waterspray 1.ogg`,
@@ -4518,6 +5290,15 @@ export const database = {
             "02": `${p}/ovani-sounds/Player Status SFX/Ailments/Ailments Poison 002.ogg`,
             "03": `${p}/ovani-sounds/Player Status SFX/Ailments/Ailments Poison 003.ogg`,
             "04": `${p}/ovani-sounds/Player Status SFX/Ailments/Ailments Poison 004.ogg`,
+          },
+          "02": {
+            "01": `${p}/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Water/Water Bubble Spell A.ogg`,
+            "02": `${p}/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Water/Water Bubble Spell B.ogg`,
+            "03": `${p}/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Water/Water Bubble Spell C.ogg`,
+          },
+          "03": {
+            "01": `${p}/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Water/Water Whoosh A.ogg`,
+            "02": `${p}/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Water/Water Whoosh B.ogg`,
           },
         },
         time: {
@@ -4623,13 +5404,22 @@ export const database = {
         },
       },
       loop: {
-        "02": {
-          "01": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Water/Loops/Water Loop Layer A.ogg`,
-          "02": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Water/Loops/Water Loop Layer D.ogg`,
-          "03": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Water/Loops/Water Loop Layer E.ogg`,
+        general: {
+          "02": {
+            "01": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Water/Loops/Water Loop Layer A.ogg`,
+            "02": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Water/Loops/Water Loop Layer D.ogg`,
+            "03": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Water/Loops/Water Loop Layer E.ogg`,
+          },
         },
-        "03": {
-          bubble: `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Water/Loops/Water Loop Layer B.ogg`,
+        bubble: {
+          "01": {
+            "01": `${p}/ovani-sounds/Modular Magic Sound FX Pack Vol. 1/Water/Loops/Water Loop Layer B.ogg`,
+          },
+        },
+        tides: {
+          "01": {
+            "01": `${p}/ovani-sounds/Magic II/Water and Ice/Enchantment Of Tides Loop - Shortened.ogg`,
+          },
         },
       },
       movement: {
@@ -4672,8 +5462,16 @@ export const database = {
         "02": {
           "01": `${p}/ovani-sounds/Magic/Water/Purify.ogg`,
         },
+        "03": {
+          "01": `${p}/ovani-sounds/Magic II/Water and Ice/River Blessing.ogg`,
+        },
       },
       imprison: {
+        general: {
+          "01": {
+            "01": `${p}/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Water/Water Trap.ogg`,
+          },
+        },
         bubble: {
           "01": {
             "01": `${p}/ovani-sounds/Magic/Water/Bubble Prison.ogg`,
@@ -4688,6 +5486,11 @@ export const database = {
             "05": `${p}/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Water Magic/Geyser Shackle 005.ogg`,
           },
         },
+        seal: {
+          "01": {
+            "01": `${p}/ovani-sounds/Magic II/Water and Ice/Seal Of The Ocean Loop.ogg`,
+          },
+        },
       },
       buff: {
         general: {
@@ -4696,10 +5499,24 @@ export const database = {
             "02": `${p}/KhronStudio/Elemental Spell Vol 1/Water_Magic_Buff 2.ogg`,
             "03": `${p}/KhronStudio/Elemental Spell Vol 1/Water_Magic_Buff 3.ogg`,
           },
+          "02": {
+            "01": `${p}/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Water/Water Switch Up.ogg`,
+          },
+        },
+        mermaid_charm: {
+          "01": {
+            "01": `${p}/ovani-sounds/Magic II/Water and Ice/Mermaid Charm 001.ogg`,
+            "02": `${p}/ovani-sounds/Magic II/Water and Ice/Mermaid Charm 002.ogg`,
+          },
         },
         shield: {
           "01": {
             "01": `${p}/KhronStudio/Elemental Spell Vol 1/Water_Shield 1.ogg`,
+          },
+        },
+        ward: {
+          "01": {
+            "01": `${p}/ovani-sounds/Magic II/Water and Ice/Wave Ward.ogg`,
           },
         },
         wave: {
@@ -4779,6 +5596,70 @@ export const database = {
           },
           "02": {
             "01": `${p}/ovani-sounds/Crafting Sound FX/Hammer/Hammer Alert.ogg`,
+          },
+        },
+      },
+    },
+    tech: {
+      animate: {
+        "01": {
+          "01": `${p}/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Mech/Mech Animate A.ogg`,
+          "02": `${p}/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Mech/Mech Animate B.ogg`,
+        },
+      },
+      fabricate: {
+        "01": {
+          "01": `${p}/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Mech/Mech Fabricate A.ogg`,
+          "02": `${p}/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Mech/Mech Fabricate B.ogg`,
+          "03": `${p}/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Mech/Mech Fabricate C.ogg`,
+        },
+        "02": {
+          "01": `${p}/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Mech/Mech Creation A.ogg`,
+          "02": `${p}/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Mech/Mech Creation B.ogg`,
+        },
+      },
+      fail: {
+        "01": {
+          "01": `${p}/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Mech/Mech Fail A.ogg`,
+          "02": `${p}/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Mech/Mech Fail B.ogg`,
+          "03": `${p}/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Mech/Mech Fail C.ogg`,
+        },
+      },
+      healing: {
+        "01": {
+          "01": `${p}/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Mech/Mech Mending A.ogg`,
+          "02": `${p}/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Mech/Mech Mending B.ogg`,
+          "03": `${p}/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Mech/Mech Mending C.ogg`,
+        },
+      },
+      lock: {
+        lock: {
+          "01": {
+            "01": `${p}/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Mech/Mech Arcane Lock.ogg`,
+          },
+        },
+        unlock: {
+          "01": {
+            "01": `${p}/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Mech/Mech Arcane Unlock.ogg`,
+          },
+        },
+      },
+      summon: {
+        servant: {
+          "01": {
+            "01": `${p}/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Mech/Mech Servant A.ogg`,
+            "02": `${p}/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Mech/Mech Servant B.ogg`,
+          },
+        },
+      },
+      buff: {
+        general: {
+          "01": {
+            "01": `${p}/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Mech/Mech Buff.ogg`,
+          },
+          "02": {
+            tiny: `${p}/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Mech/Mech Tiny.ogg`,
+            whoosh: `${p}/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Mech/Mech Whoosh.ogg`,
           },
         },
       },
