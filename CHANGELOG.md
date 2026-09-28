@@ -2,6 +2,12 @@
 
 - TODO - update the checkign scripts to also include the video assets
 
+## 0.1.8
+
+- **New**
+  - `Ovani SFX`
+    - `Horror & Suspense II`
+
 ## 0.1.7
 
 - **New**

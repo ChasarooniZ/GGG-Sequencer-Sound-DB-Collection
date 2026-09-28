@@ -2723,9 +2723,34 @@ var database = {
             "02": "".concat(p, "/ovani-sounds/Magic II/Dark/Soul Break 002.ogg")
           }
         },
+        astral_singing: {
+          "01": {
+            "01": "".concat(p, "/ovani-sounds/Horror Suspense 2/Musical/Astral Singing 001.ogg"),
+            "02": "".concat(p, "/ovani-sounds/Horror Suspense 2/Musical/Astral Singing 002.ogg"),
+            "03": "".concat(p, "/ovani-sounds/Horror Suspense 2/Musical/Astral Singing 003.ogg")
+          }
+        },
         bane: {
           "01": {
             "01": "".concat(p, "/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Dark/Bane.ogg")
+          }
+        },
+        bad_vibes: {
+          "01": {
+            "01": "".concat(p, "/ovani-sounds/Horror Suspense 2/Musical/Dead Light 001.ogg"),
+            "02": "".concat(p, "/ovani-sounds/Horror Suspense 2/Musical/Dead Light 002.ogg")
+          },
+          "02": {
+            "01": "".concat(p, "/ovani-sounds/Horror Suspense 2/Musical/Unholy Choir 001.ogg"),
+            "02": "".concat(p, "/ovani-sounds/Horror Suspense 2/Musical/Unholy Choir 002.ogg"),
+            "03": "".concat(p, "/ovani-sounds/Horror Suspense 2/Musical/Unholy Choir 003.ogg")
+          },
+          "03": {
+            "01": "".concat(p, "/ovani-sounds/Horror Suspense 2/Musical/Bleak Reflection 003.ogg"),
+            "02": "".concat(p, "/ovani-sounds/Horror Suspense 2/Musical/Bleak Reflection 004.ogg")
+          },
+          "04": {
+            "01": "".concat(p, "/ovani-sounds/Horror Suspense 2/Musical/Broken Doll.ogg")
           }
         },
         beam: {
@@ -2791,6 +2816,12 @@ var database = {
             "02": "".concat(p, "/ovani-sounds/Player Status SFX/Musical/Musical Fear 002.ogg"),
             "03": "".concat(p, "/ovani-sounds/Player Status SFX/Musical/Musical Fear 003.ogg"),
             "04": "".concat(p, "/ovani-sounds/Player Status SFX/Musical/Musical Fear 004.ogg")
+          },
+          "03": {
+            "01": "".concat(p, "/ovani-sounds/Horror Suspense 2/Impacts And Swooshes/Misc/Well Of Nightmares 001.ogg"),
+            "02": "".concat(p, "/ovani-sounds/Horror Suspense 2/Impacts And Swooshes/Misc/Well Of Nightmares 002.ogg"),
+            "03": "".concat(p, "/ovani-sounds/Horror Suspense 2/Impacts And Swooshes/Misc/Well Of Nightmares 003.ogg"),
+            "04": "".concat(p, "/ovani-sounds/Horror Suspense 2/Impacts And Swooshes/Misc/Well Of Nightmares 004.ogg")
           }
         },
         ghostly: {
@@ -2840,6 +2871,25 @@ var database = {
             "05": "".concat(p, "/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Dark/Dark Whoosh E.ogg")
           }
         },
+        orchestra: {
+          "01": {
+            "01": "".concat(p, "/ovani-sounds/Horror Suspense 2/Musical/Haunting Orchestra 001.ogg"),
+            "02": "".concat(p, "/ovani-sounds/Horror Suspense 2/Musical/Haunting Orchestra 003.ogg")
+          }
+        },
+        piano: {
+          "01": {
+            "01": "".concat(p, "/ovani-sounds/Horror Suspense 2/Musical/Mystic Piano 001.ogg"),
+            "02": "".concat(p, "/ovani-sounds/Horror Suspense 2/Musical/Mystic Piano 002.ogg")
+          }
+        },
+        portal: {
+          "01": {
+            "01": "".concat(p, "/ovani-sounds/Horror Suspense 2/Impacts And Swooshes/Risers/Wormhole 001.ogg"),
+            "02": "".concat(p, "/ovani-sounds/Horror Suspense 2/Impacts And Swooshes/Risers/Wormhole 002.ogg"),
+            "03": "".concat(p, "/ovani-sounds/Horror Suspense 2/Impacts And Swooshes/Risers/Wormhole 003.ogg")
+          }
+        },
         shatter: {
           "01": {
             "01": "".concat(p, "/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Dark Magic/Ebon Shatter 001.ogg"),
@@ -2847,6 +2897,22 @@ var database = {
             "03": "".concat(p, "/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Dark Magic/Ebon Shatter 003.ogg"),
             "04": "".concat(p, "/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Dark Magic/Ebon Shatter 004.ogg"),
             "05": "".concat(p, "/ovani-sounds/Modern Magic Sound FX Pack Vol. 1/Dark Magic/Ebon Shatter 005.ogg")
+          }
+        },
+        wave: {
+          "01": {
+            "01": "".concat(p, "/ovani-sounds/Horror Suspense 2/Impacts And Swooshes/Risers/Warp Wave 003.ogg")
+          }
+        },
+        whispers: {
+          "01": {
+            "01": "".concat(p, "/ovani-sounds/Horror Suspense 2/Whispers And Ghosts/Whisper From Behind 001.ogg"),
+            "02": "".concat(p, "/ovani-sounds/Horror Suspense 2/Whispers And Ghosts/Whisper From Behind 002.ogg")
+          },
+          "02": {
+            "01": "".concat(p, "/ovani-sounds/Horror Suspense 2/Whispers And Ghosts/Whisper Out Of Nowhere 001.ogg"),
+            "02": "".concat(p, "/ovani-sounds/Horror Suspense 2/Whispers And Ghosts/Whisper Out Of Nowhere 002.ogg"),
+            "03": "".concat(p, "/ovani-sounds/Horror Suspense 2/Whispers And Ghosts/Whisper Out Of Nowhere 003.ogg")
           }
         },
         wind: {
@@ -2895,6 +2961,13 @@ var database = {
           },
           "04": {
             "01": "".concat(p, "/ovani-sounds/Crafting Sound FX/UI/Anvil Select.ogg")
+          }
+        },
+        crunching: {
+          "03": {
+            "01": "".concat(p, "/ovani-sounds/Horror Suspense 2/Impacts And Swooshes/Impacts/Cabin In Woods 001.ogg"),
+            "02": "".concat(p, "/ovani-sounds/Horror Suspense 2/Impacts And Swooshes/Impacts/Cabin In Woods 002.ogg"),
+            "03": "".concat(p, "/ovani-sounds/Horror Suspense 2/Impacts And Swooshes/Impacts/Cabin In Woods 003.ogg")
           }
         },
         metal: {
@@ -2989,6 +3062,28 @@ var database = {
             "03": "".concat(p, "/ovani-sounds/Player Status SFX/Musical/Musical Suspense 003.ogg"),
             "04": "".concat(p, "/ovani-sounds/Player Status SFX/Musical/Musical Suspense 004.ogg")
           }
+        },
+        orchestra: {
+          "01": {
+            "01": "".concat(p, "/ovani-sounds/Horror Suspense 2/Musical/Haunting Orchestra 002.ogg")
+          }
+        },
+        tremolo: {
+          "01": {
+            fall: "".concat(p, "/ovani-sounds/Horror Suspense 2/Musical/Devil Tremolo 001.ogg"),
+            rise: "".concat(p, "/ovani-sounds/Horror Suspense 2/Musical/Devil Tremolo 002.ogg")
+          }
+        },
+        soul_torment: {
+          "01": {
+            a: "".concat(p, "/ovani-sounds/Horror Suspense 2/Impacts And Swooshes/Misc/Tormented Souls 001.ogg"),
+            b: "".concat(p, "/ovani-sounds/Horror Suspense 2/Impacts And Swooshes/Misc/Tormented Souls 004.ogg")
+          }
+        },
+        wind: {
+          "01": {
+            "01": "".concat(p, "/ovani-sounds/Horror Suspense 2/Impacts And Swooshes/Misc/Wind Of Horror 001.ogg")
+          }
         }
       },
       siphon: {
@@ -3023,6 +3118,14 @@ var database = {
             "01": "".concat(p, "/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Dark/Dark Sigil A.ogg"),
             "02": "".concat(p, "/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Dark/Dark Sigil B.ogg"),
             "03": "".concat(p, "/ovani-sounds/Simple Magic Sound FX Pack Vol. 3/Dark/Dark Sigil C.ogg")
+          },
+          "03": {
+            "01": "".concat(p, "/ovani-sounds/Horror Suspense 2/Impacts And Swooshes/Impacts/Something On Ceiling 001.ogg"),
+            "02": "".concat(p, "/ovani-sounds/Horror Suspense 2/Impacts And Swooshes/Impacts/Something On Ceiling 003.ogg")
+          },
+          "04": {
+            "01": "".concat(p, "/ovani-sounds/Horror Suspense 2/Impacts And Swooshes/Impacts/Something On Ceiling 002.ogg"),
+            "02": "".concat(p, "/ovani-sounds/Horror Suspense 2/Impacts And Swooshes/Impacts/Something On Ceiling 004.ogg")
           }
         },
         ghostly: {
@@ -3031,6 +3134,11 @@ var database = {
             "02": "".concat(p, "/ovani-sounds/Motion and Impacts Sound FX Pack Vol. 2/Riser/Riser Cold Charm 002.ogg"),
             "03": "".concat(p, "/ovani-sounds/Motion and Impacts Sound FX Pack Vol. 2/Riser/Riser Cold Charm 003.ogg"),
             "04": "".concat(p, "/ovani-sounds/Motion and Impacts Sound FX Pack Vol. 2/Riser/Riser Cold Charm 004.ogg")
+          }
+        },
+        "long": {
+          "01": {
+            "01": "".concat(p, "/ovani-sounds/Horror Suspense 2/Musical/Glass Bells.ogg")
           }
         },
         shield: {
@@ -3068,6 +3176,13 @@ var database = {
             "01": "".concat(p, "/ovani-sounds/Magic II/Dark/Curse 001.ogg"),
             "02": "".concat(p, "/ovani-sounds/Magic II/Dark/Curse 002.ogg"),
             "03": "".concat(p, "/ovani-sounds/Magic II/Dark/Curse 003.ogg")
+          },
+          "07": {
+            "01": "".concat(p, "/ovani-sounds/Horror Suspense 2/Musical/Bleak Reflection 001.ogg"),
+            "02": "".concat(p, "/ovani-sounds/Horror Suspense 2/Musical/Bleak Reflection 002.ogg")
+          },
+          "08": {
+            "01": "".concat(p, "/ovani-sounds/Horror Suspense 2/Musical/Bleak Reflection 005.ogg")
           }
         },
         bells: {
@@ -5538,6 +5653,17 @@ var database = {
       }
     },
     metal: {
+      cast: {
+        hit: {
+          "01": {
+            "01": "".concat(p, "/ovani-sounds/Horror Suspense 2/Impacts And Swooshes/Impacts/Metal Strike 001.ogg"),
+            "02": "".concat(p, "/ovani-sounds/Horror Suspense 2/Impacts And Swooshes/Impacts/Metal Strike 002.ogg"),
+            "03": "".concat(p, "/ovani-sounds/Horror Suspense 2/Impacts And Swooshes/Impacts/Metal Strike 003.ogg"),
+            "04": "".concat(p, "/ovani-sounds/Horror Suspense 2/Impacts And Swooshes/Impacts/Metal Strike 004.ogg"),
+            "05": "".concat(p, "/ovani-sounds/Horror Suspense 2/Impacts And Swooshes/Impacts/Metal Strike 005.ogg")
+          }
+        }
+      },
       impact: {
         anvil: {
           "01": {
@@ -7015,6 +7141,15 @@ var database = {
         }
       }
     },
+    ranger: {
+      set_a_trap: {
+        "01": {
+          "01": "".concat(p, "/ovani-sounds/Horror Suspense 2/Impacts And Swooshes/Impacts/It's A Trap 001.ogg"),
+          "02": "".concat(p, "/ovani-sounds/Horror Suspense 2/Impacts And Swooshes/Impacts/It's A Trap 002.ogg"),
+          "03": "".concat(p, "/ovani-sounds/Horror Suspense 2/Impacts And Swooshes/Impacts/It's A Trap 003.ogg")
+        }
+      }
+    },
     rogue: {
       sneak_attack: {
         "01": {
@@ -7334,6 +7469,11 @@ var database = {
     laugh: {
       "01": {
         "01": "".concat(p, "/ovani-sounds/Crowd Sound FX Pack/Non-Verbal/Laugh B.ogg")
+      },
+      "02": {
+        "01": "".concat(p, "/ovani-sounds/Horror Suspense 2/Voice/Designed/Mad Witch 001.ogg"),
+        "02": "".concat(p, "/ovani-sounds/Horror Suspense 2/Voice/Designed/Mad Witch 002.ogg"),
+        "03": "".concat(p, "/ovani-sounds/Horror Suspense 2/Voice/Designed/Mad Witch 003.ogg")
       }
     },
     drop_object: {
@@ -7417,11 +7557,25 @@ var database = {
     }
   },
   creatures: {
+    chittering: {
+      "01": {
+        "01": "".concat(p, "/ovani-sounds/Horror Suspense 2/Impacts And Swooshes/Impacts/Predator Branch 001.ogg"),
+        "02": "".concat(p, "/ovani-sounds/Horror Suspense 2/Impacts And Swooshes/Impacts/Predator Branch 002.ogg"),
+        "03": "".concat(p, "/ovani-sounds/Horror Suspense 2/Impacts And Swooshes/Impacts/Predator Branch 003.ogg")
+      }
+    },
     shriek: {
       generic: {
         "01": {
           "01": "".concat(p, "/ovani-sounds/Crafting Sound FX/Tool/Rusty Tool A.ogg"),
           "02": "".concat(p, "/ovani-sounds/Crafting Sound FX/Tool/Rusty Tool B.ogg")
+        }
+      },
+      "void": {
+        "01": {
+          "01": "".concat(p, "/ovani-sounds/Horror Suspense 2/Impacts And Swooshes/Misc/Void Scream 001.ogg"),
+          "02": "".concat(p, "/ovani-sounds/Horror Suspense 2/Impacts And Swooshes/Misc/Void Scream 002.ogg"),
+          "03": "".concat(p, "/ovani-sounds/Horror Suspense 2/Impacts And Swooshes/Misc/Void Scream 003.ogg")
         }
       }
     }
