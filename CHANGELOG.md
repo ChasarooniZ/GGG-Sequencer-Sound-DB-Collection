@@ -2,6 +2,10 @@
 
 - TODO - update the checkign scripts to also include the video assets
 
+## 0.1.9
+
+- Fixed Naming issue on an entry
+
 ## 0.1.8
 
 - **New**

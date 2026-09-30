@@ -5237,7 +5237,7 @@ export const database = {
     mental: {},
     sonic: {
       choir: {
-        neutraL: {
+        neutral: {
           "01": {
             "01": `${p}/ovani-sounds/Motion and Impacts Sound FX Pack Vol. 2/Riser/Riser Choir 001.ogg`,
             "02": `${p}/ovani-sounds/Motion and Impacts Sound FX Pack Vol. 2/Riser/Riser Choir 002.ogg`,
