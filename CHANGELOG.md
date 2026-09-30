@@ -2,6 +2,10 @@
 
 - TODO - update the checkign scripts to also include the video assets
 
+## 0.2.0
+
+- Publishing releases to fvtt addons list so that forge users can download this
+
 ## 0.1.9
 
 - Fixed Naming issue on an entry
