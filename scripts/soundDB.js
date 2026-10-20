@@ -7539,7 +7539,7 @@ export const database = {
     recall_knowledge: {
       general: {
         "01": {
-          "01": `${p}/sounds/SkySpeira/mysterious-sparkle-flourish.ogg`
+          "01": `${p}/SkySpeira/mysterious-sparkle-flourish.ogg`
         }
       }
     },
