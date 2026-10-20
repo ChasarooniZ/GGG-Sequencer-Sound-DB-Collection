@@ -7536,6 +7536,13 @@ export const database = {
         "04": `${p}/ovani-sounds/Foley Impacts Vol. 1/Misc/High Five D.ogg`,
       },
     },
+    recall_knowledge: {
+      general: {
+        "01": {
+          "01": `${p}/sounds/SkySpeira/mysterious-sparkle-flourish.ogg`
+        }
+      }
+    },
     sharpen_weapon: {
       "01": {
         "01": `${p}/ovani-sounds/Crafting Sound FX/Tool/Scraping Tool.ogg`,

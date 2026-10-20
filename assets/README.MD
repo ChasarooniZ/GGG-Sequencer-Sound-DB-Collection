@@ -24,6 +24,7 @@ The following directories are named after their creators and are used under thei
 - Atlas Textures <[CC0](https://creativecommons.org/licenses/by/3.0/)>
 - opengameaart
   - Sinestesia <[CC0](https://creativecommons.org/licenses/by/3.0/)>
+- SkySpeira <[CC0]>
 
 > [!important]
 > Content inside this folder may only be distributed as part of the GGG module. Sharing and usage of the files outside of the GGG module is STRICTLY PROHIBITED. Please ensure you only access content in accordance to their licensing as listed above the disclaimer.

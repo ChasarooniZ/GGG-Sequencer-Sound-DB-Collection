@@ -1,6 +1,10 @@
 ## Unreleased
 
-- TODO - update the checkign scripts to also include the video assets
+- TODO - update the checkign scripts to als4o include the video assets
+
+## 0.2.2
+
+- Added `Recall Knowledge` sfx
 
 ## 0.2.1
 
