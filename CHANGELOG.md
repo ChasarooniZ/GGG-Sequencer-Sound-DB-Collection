@@ -2,6 +2,10 @@
 
 - TODO - update the checkign scripts to als4o include the video assets
 
+## 0.2.4
+
+- Added Discovery Bells Jingle
+
 ## 0.2.3
 
 - Added `Strategic Strike` sfx

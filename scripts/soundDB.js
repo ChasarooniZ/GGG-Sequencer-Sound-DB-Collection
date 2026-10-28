@@ -7056,6 +7056,15 @@ export const database = {
       },
     },
     cooking: {},
+    exploration: {
+      discovery: {
+        bells: {
+          "01": {
+            "01": `${p}/ovani-sounds/Jingles & Stingers SFX 2/Bells/Bells Discover.ogg`,
+          },
+        },
+      },
+    },
     medicine: {
       heartbeat: {
         "01": {
