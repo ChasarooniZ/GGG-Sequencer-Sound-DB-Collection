@@ -7136,6 +7136,14 @@ export const database = {
         },
       },
     },
+    investigator: {
+      strategic_strike: {
+        "01": {
+          "01": `${p}/Chasarooni/Design Combined Sounds/strategic-strike-a.ogg`,
+          "02": `${p}/Chasarooni/Design Combined Sounds/strategic-strike-b.ogg`,
+        },
+      },
+    },
     monk: {
       qi_blast: {
         "01": {
@@ -7539,9 +7547,9 @@ export const database = {
     recall_knowledge: {
       general: {
         "01": {
-          "01": `${p}/SkySpeira/mysterious-sparkle-flourish.ogg`
-        }
-      }
+          "01": `${p}/SkySpeira/mysterious-sparkle-flourish.ogg`,
+        },
+      },
     },
     sharpen_weapon: {
       "01": {
