@@ -14,6 +14,9 @@ The following directories are named after their creators and are used under thei
 - Sonnis: <https://sonniss.com/gameaudiogdc/>
 - Soundflakes: <https://creativecommons.org/licenses/by/4.0/> (see the sounds/Soundflakes folder for individual track attribution)
 - TomMusic: <https://tommusic.itch.io/free-fantasy-200-sfx-pack> (Royalty-free! You can use this in your projects, commercial or otherwise, credit is not mandatory but appreciated. The asset is not to be up for resale or redistribution. )
+- Frostnox
+  - Bandage Wrap Heal 1 by Frostnox -- https://freesound.org/s/796014/ -- License: Attribution 4.0
+  - Bandage Wrap Heal 2 by Frostnox -- https://freesound.org/s/796015/ -- License: Attribution 4.0
 
 **Animations**
 
