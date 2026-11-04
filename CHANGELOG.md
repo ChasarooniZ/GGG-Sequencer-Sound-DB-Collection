@@ -2,6 +2,10 @@
 
 - TODO - update the checkign scripts to als4o include the video assets
 
+## 0.2.6
+
+- Fixed previous release
+
 ## 0.2.5
 
 - Added `Frostnox` bandage sfx
