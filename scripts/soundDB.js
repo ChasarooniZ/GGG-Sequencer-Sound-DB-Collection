@@ -7066,6 +7066,12 @@ export const database = {
       },
     },
     medicine: {
+      bandage: {
+        "01": {
+          "01": `${p}/Frostnox/bandage-wrap-heal-1.ogg`,
+          "02": `${p}/Frostnox/bandage-wrap-heal-2.ogg`,
+        },
+      },
       heartbeat: {
         "01": {
           slow: `${p}/ovani-sounds/Player Status SFX/General/Low HP Heartbeat Slow Loop.ogg`,
